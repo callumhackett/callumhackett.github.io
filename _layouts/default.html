@@ -8,7 +8,7 @@
   <body>
     
     <header class="page-header" role="banner">
-      <h1 class="site-title">{{ default: site.title | default: site.github.repository_name }}</h1>
+      <h1 class="site-title">{{ site.title | default: site.github.repository_name }}</h1>
       <h2 class="site-description">{{ site.description | default: site.github.project_tagline }}</h2>
     </header>
 
