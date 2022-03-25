@@ -1,6 +1,6 @@
 h1 {
-    float: center;
     font-family: JuliaMono, Roboto, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-style: italic;
+    text-align: center;
 }
