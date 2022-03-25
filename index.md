@@ -3,4 +3,24 @@ layout: page
 ---
 # !Hello world?
 
-With Syntactic Structures (1957) and Aspects of the Theory of Syntax (1965), Chomsky spear-headed two revolutions in the study of language. In SS, his main innovation was to treat linguistic expressions as strings produced by a system of generative rules, for which he provided a formalism and evaluation procedures. In Aspects, he went far beyond string generation to propose a fundamentally cognitive model of sentence generation and understanding. Linguists are right to point to the later work as the real founding document of modern theory but I will argue that syntactic and pragmatic frameworks of the past fifteen years have been quietly breaking with the Aspects revolution and that this is because of certain assumptions we have inherited from Aspects that are neither necessary nor tenable.
+Leptons interact only with photons, and with
+The intermediate bosons that presumably me-
+diate weak interactions. What could be more
+natural than to unite these spin-one bosons
+into a multiplet of gauge fields? Standing in
+the way of this synthesis are the obvious dif-
+ferences in the masses of the photon and inter-
+mediate meson, and in their couplings.  We
+might hope to understand these differences
+by imagining that the symmetries relating the
+weak and electromagnetic interactions are ex-
+act symmetries of the Lagrangian but are bro-
+ken by the vacuum. However, this raises the
+specter of unwanted massless Goldstone bosons.
+This note will describe a model in which the
+symmetry between the electromagnetic and
+weak interactions is spontaneously broken,
+but in which the Goldstone bosons are avoided
+by introducing the photon and the intermediate-
+boson fields as gauge fields. The model may
+be renormalizable.
