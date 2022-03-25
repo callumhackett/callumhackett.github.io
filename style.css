@@ -1,32 +1,32 @@
 @font-face {
-    font-family: 'tex_gyre_scholabold';
+    font-family: 'tex_gyre_schola';
     src: url('fonts/texgyreschola-bold-webfont.woff2') format('woff2'),
          url('fonts/texgyreschola-bold-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'tex_gyre_scholabold_italic';
+    font-family: 'tex_gyre_schola';
     src: url('fonts/texgyreschola-bolditalic-webfont.woff2') format('woff2'),
          url('fonts/texgyreschola-bolditalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-weight: bold;
+    font-style: italic;
 
 }
 
 @font-face {
-    font-family: 'tex_gyre_scholaitalic';
+    font-family: 'tex_gyre_schola';
     src: url('fonts/texgyreschola-italic-webfont.woff2') format('woff2'),
          url('fonts/texgyreschola-italic-webfont.woff') format('woff');
     font-weight: normal;
-    font-style: normal;
+    font-style: italic;
 
 }
 
 @font-face {
-    font-family: 'tex_gyre_scholaregular';
+    font-family: 'tex_gyre_schola';
     src: url('fonts/texgyreschola-regular-webfont.woff2') format('woff2'),
          url('fonts/texgyreschola-regular-webfont.woff') format('woff');
     font-weight: normal;
@@ -37,5 +37,7 @@
 h1 {
     font-family: 'tex_gyre_scholaregular', serif;
     font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 4px;
     text-align: center;
 }
