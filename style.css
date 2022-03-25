@@ -1,6 +1,41 @@
+@font-face {
+    font-family: 'tex_gyre_scholabold';
+    src: url('fonts/texgyreschola-bold-webfont.woff2') format('woff2'),
+         url('fonts/texgyreschola-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'tex_gyre_scholabold_italic';
+    src: url('fonts/texgyreschola-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/texgyreschola-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'tex_gyre_scholaitalic';
+    src: url('fonts/texgyreschola-italic-webfont.woff2') format('woff2'),
+         url('fonts/texgyreschola-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'tex_gyre_scholaregular';
+    src: url('fonts/texgyreschola-regular-webfont.woff2') format('woff2'),
+         url('fonts/texgyreschola-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 h1 {
-    font-family: JuliaMono, Roboto, sans-serif;
-    font-size: 16px;
-    font-style: italic;
+    font-family: 'tex_gyre_scholaregular', serif;
+    font-size: 18px;
     text-align: center;
 }
