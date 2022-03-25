@@ -1,5 +1,29 @@
 @font-face {
-    font-family: 'tex_gyre_schola';
+    font-family: 'spartan';
+    src: url('fonts/spartanmb-extra-bold-webfont.woff2') format('woff2'),
+         url('fonts/spartanmb-extra-bold-webfont.woff') format('woff');
+    font-weight: bolder;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'spartan';
+    src: url('fonts/spartanmb-regular-webfont.woff2') format('woff2'),
+         url('fonts/spartanmb-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'spartan';
+    src: url('fonts/spartanmb-semibold-webfont.woff2') format('woff2'),
+         url('fonts/spartanmb-semibold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'schola';
     src: url('fonts/texgyreschola-bold-webfont.woff2') format('woff2'),
          url('fonts/texgyreschola-bold-webfont.woff') format('woff');
     font-weight: bold;
@@ -8,7 +32,7 @@
 }
 
 @font-face {
-    font-family: 'tex_gyre_schola';
+    font-family: 'schola';
     src: url('fonts/texgyreschola-bolditalic-webfont.woff2') format('woff2'),
          url('fonts/texgyreschola-bolditalic-webfont.woff') format('woff');
     font-weight: bold;
@@ -17,7 +41,7 @@
 }
 
 @font-face {
-    font-family: 'tex_gyre_schola';
+    font-family: 'schola';
     src: url('fonts/texgyreschola-italic-webfont.woff2') format('woff2'),
          url('fonts/texgyreschola-italic-webfont.woff') format('woff');
     font-weight: normal;
@@ -26,7 +50,7 @@
 }
 
 @font-face {
-    font-family: 'tex_gyre_schola';
+    font-family: 'schola';
     src: url('fonts/texgyreschola-regular-webfont.woff2') format('woff2'),
          url('fonts/texgyreschola-regular-webfont.woff') format('woff');
     font-weight: normal;
@@ -35,18 +59,19 @@
 }
 
 html {
-    background-color: rgb(22, 28, 55);
+    background-color: rgb(15, 18, 33);
 }
 
 h1 {
-    font-family: 'tex_gyre_schola', serif;
+    color: #fff;
+    font-family: spartan, futura, sans-serif;
     font-size: 24px;
-    letter-spacing: 1px;
+    font-weight: bolder;
 }
 
 body {
     color: #fff;
-    font-family: 'tex_gyre_schola', serif;
+    font-family: schola, serif;
     font-size: 16px;
     letter-spacing: 0.25px;
     line-height: 1.2;
