@@ -1,2 +1,5 @@
+---
+layout: default
+---
 # Hello world
-What will render now?
+What will render now??
