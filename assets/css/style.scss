@@ -3,6 +3,7 @@
 
 @import "{{ site.theme }}";
 
-body {
+h1 {
+  float: center;
   font-family: "Arial";
 }
