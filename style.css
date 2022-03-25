@@ -37,7 +37,12 @@
 h1 {
     font-family: 'tex_gyre_schola', serif;
     font-size: 24px;
-    font-weight: bold;
     letter-spacing: 1px;
-    text-align: center;
+}
+
+body {
+    font-family: 'tex_gyre_schola', serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-align: left;
 }
