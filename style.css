@@ -96,6 +96,7 @@ h1 {
     display: grid;
     grid-template-columns: 520px 520px;
     margin: auto;
+    justify-items: center;
 }
 
 .front-table h2 {
@@ -119,16 +120,19 @@ h1 {
 .logic-block {
     background-color: rgb(220, 205, 185);
     color: #000;
+    padding: 12px;
 }
 
 .music-block {
     background-color: rgb(175, 55, 100);
     color: #000;
+    padding: 12px;
 }
 
 .natural-block {
     background-color: rgb(28, 40, 85);
     color: #fff;
+    padding: 12px;
 }
 
 h2 {
