@@ -72,11 +72,11 @@ h1 {
 
 body {
     color: #fff;
-    float: center;
     font-family: schola, serif;
     font-size: 16px;
     letter-spacing: 0.25px;
     line-height: 1.2;
+    margin: auto;
+    max-width: 360px;
     text-align: center;
-    width: 360px;
 }
