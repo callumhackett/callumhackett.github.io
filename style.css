@@ -169,6 +169,10 @@ h1 {
     line-height: 1.25 !important;
 }
 
+.pound {
+    color: rgb(0, 180, 90) !important;
+}
+
 .logic-block {
     background-color: rgb(220, 205, 185);
     color: #000;
