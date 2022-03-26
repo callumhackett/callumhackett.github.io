@@ -95,12 +95,7 @@ h1 {
 .front-table {
     display: grid;
     grid-template-columns: 520px 520px;
-    left: 50%;
     margin: auto;
-    padding: 12px;
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .front-table h2 {
@@ -112,6 +107,7 @@ h1 {
 .code-block {
     background-color: rgb(25, 25, 25);
     color: #fff;
+    padding: 12px;
 }
 
 .code-block p {
