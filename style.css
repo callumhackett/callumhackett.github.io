@@ -175,13 +175,13 @@ h1 {
 }
 
 .logic-block {
-    background-color: rgb(142, 150, 134);
+    background-color: rgb(148, 133, 120);
     color: #fff;
     padding: 6px 14px 0 14px;
 }
 
 .music-block {
-    background-color: rgb(215, 65, 95);
+    background-color: rgb(202, 49, 87);
     color: #fff;
     padding: 6px 14px 0 14px;
 }
@@ -193,7 +193,7 @@ h1 {
 }
 
 .natural-block {
-    background-color: rgb(28, 40, 85);
+    background-color: rgb(35, 27, 86);
     color: #fff;
     padding: 6px 14px 0 14px;
 }
