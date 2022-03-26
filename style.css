@@ -70,11 +70,16 @@ h1 {
     text-align: center;
 }
 
-h2, h3 {
+h2 {
     font-family: spartan, futura, sans-serif;
     font-size: 22px;
     font-weight: bolder;
 }
+
+h4 {
+    font-family: spartan, futura, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
 
 body {
     color: #fff;
