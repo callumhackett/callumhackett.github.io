@@ -70,24 +70,48 @@
 
 @font-face {
     font-family: 'xcharter';
-    src: url('xcharter-bold-webfont.woff2') format('woff2'),
-         url('xcharter-bold-webfont.woff') format('woff');
+    src: url('fonts/xcharter-bold-webfont.woff2') format('woff2'),
+         url('fonts/xcharter-bold-webfont.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'xcharter';
-    src: url('xcharter-italic-webfont.woff2') format('woff2'),
-         url('xcharter-italic-webfont.woff') format('woff');
+    src: url('fonts/xcharter-italic-webfont.woff2') format('woff2'),
+         url('fonts/xcharter-italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'xcharter';
-    src: url('xcharter-roman-webfont.woff2') format('woff2'),
-         url('xcharter-roman-webfont.woff') format('woff');
+    src: url('fonts/xcharter-roman-webfont.woff2') format('woff2'),
+         url('fonts/xcharter-roman-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'heros';
+    src: url('fonts/texgyreheros-bold-webfont.woff2') format('woff2'),
+         url('fonts/texgyreheros-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'heros';
+    src: url('fonts/texgyreheros-italic-webfont.woff2') format('woff2'),
+         url('fonts/texgyreheros-italic-webfont.woff') format('woff');
+    font-weight: italic;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'heros';
+    src: url('fonts/texgyreheros-regular-webfont.woff2') format('woff2'),
+         url('fonts/texgyreheros-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -139,7 +163,7 @@ h1 {
 }
 
 .code-block h2 {
-    margin-bottom: 18px !important;
+    margin-bottom: 14px !important;
 }
 
 .code-block p {
@@ -162,7 +186,7 @@ h1 {
 }
 
 .music-block p {
-    font-family: Arial, sans-serif;
+    font-family: heros, Helvetica, Arial, sans-serif;
 }
 
 .natural-block {
