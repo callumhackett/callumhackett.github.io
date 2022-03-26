@@ -108,7 +108,7 @@ h1 {
 .code-block {
     background-color: rgb(25, 25, 25);
     color: #fff;
-    padding: 4px 12px 0 12px;
+    padding: 4px 14px 0 14px;
 }
 
 .code-block p {
@@ -121,7 +121,7 @@ h1 {
 .logic-block {
     background-color: rgb(220, 205, 185);
     color: #000;
-    padding: 4px 12px 0 12px;
+    padding: 4px 14px 0 14px;
 }
 
 .logic-block p {
@@ -133,17 +133,22 @@ h1 {
 .music-block {
     background-color: rgb(175, 55, 100);
     color: #000;
-    padding: 4px 12px 0 12px;
+    padding: 4px 14px 0 14px;
 }
 
 .natural-block {
     background-color: rgb(28, 40, 85);
     color: #fff;
-    padding: 4px 12px 0 12px;
+    padding: 4px 14px 0 14px;
 }
 
 h2 {
     font-family: spartan, futura, sans-serif;
     font-size: 22px;
     font-weight: 700;
+}
+
+p {
+    margin-block-start: 16px !important;
+    margin-block-end: 16px !important;
 }
