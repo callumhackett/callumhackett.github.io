@@ -93,7 +93,12 @@ h1 {
 }
 
 .front-table{
+    left: 50%;
+    margin: auto;
     max-width: 75%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .code-block {
