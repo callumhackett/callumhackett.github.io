@@ -63,6 +63,10 @@ html {
     background-repeat: repeat;
 }
 
+body {
+    margin: auto;
+}
+
 .row {
     display: flex;
 }
@@ -72,11 +76,23 @@ html {
 }
 
 h1 {
-    color: #fff;
+    color: #000;
     font-family: spartan, futura, sans-serif;
     font-size: 26px;
     font-weight: bolder;
     text-align: center;
+}
+
+.description {
+    color: #000;
+    font-family: spartan, futura, serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.code-block {
+    background-color: #000;
+    color: #fff;
 }
 
 h2 {
@@ -89,15 +105,4 @@ h4 {
     font-family: spartan, futura, sans-serif;
     font-size: 18px;
     font-weight: normal;
-}
-
-body {
-    color: #fff;
-    font-family: schola, serif;
-    font-size: 16px;
-    letter-spacing: 0.25px;
-    line-height: 1.2;
-    margin: auto;
-    max-width: 360px;
-    text-align: center;
 }
