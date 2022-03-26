@@ -97,6 +97,7 @@ h1 {
     grid-template-columns: 520px 520px;
     left: 50%;
     margin: auto;
+    padding: 12px;
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
