@@ -121,20 +121,14 @@ h1 {
 .code-block p {
     font-family: juliamono, sans-serif !important;
     font-feature-settings: "zero", "ss08", "ss12";
-    font-size: 15px;
+    font-size: 15px !important;
     line-height: 1.25 !important;
 }
 
 .logic-block {
-    background-color: rgb(220, 205, 185);
+    background-color: rgb(225, 210, 195);
     color: #000;
     padding: 6px 14px 0 14px;
-}
-
-.logic-block p {
-    font-family: schola, serif;
-    font-size: 17px;
-    line-height: 1.15;
 }
 
 .music-block {
@@ -156,6 +150,9 @@ h2 {
 }
 
 p {
+    font-family: schola, serif;
+    font-size: 17px;
+    line-height: 1.15;
     margin-block-start: 16px !important;
     margin-block-end: 16px !important;
 }
