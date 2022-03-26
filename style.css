@@ -114,11 +114,15 @@ h1 {
     padding: 6px 14px 0 14px;
 }
 
+.code-block h2 {
+    margin-bottom: 8px;
+}
+
 .code-block p {
     font-family: juliamono, sans-serif !important;
     font-feature-settings: "zero", "ss08", "ss12";
     font-size: 15px;
-    line-height: 1.2 !important;
+    line-height: 1.25 !important;
 }
 
 .logic-block {
