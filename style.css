@@ -96,10 +96,9 @@ h1 {
 
 .front-table {
     display: grid;
-    grid-template-columns: 560px 560px;
+    grid-template-columns: 400px 400px;
     left: 50%;
     margin: auto;
-    max-width: 75%;
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
