@@ -62,8 +62,8 @@
 
 @font-face {
     font-family: 'juliamono';
-    src: url('fonts/juliamono-regularlatin-webfont.woff2') format('woff2'),
-         url('fonts/juliamono-regularlatin-webfont.woff') format('woff');
+    src: url('fonts/juliamono-regular-webfont.woff2') format('woff2'),
+         url('fonts/juliamono-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -86,7 +86,7 @@ h1 {
 }
 
 .description {
-    margin-bottom: 40px;
+    margin-bottom: 34px;
 }
 
 .description p {
@@ -115,7 +115,7 @@ h1 {
 }
 
 .code-block h2 {
-    margin-bottom: 8px;
+    margin-bottom: 8px !important;
 }
 
 .code-block p {
@@ -132,7 +132,7 @@ h1 {
 }
 
 .music-block {
-    background-color: rgb(210, 45, 95);
+    background-color: rgb(180, 60, 85);
     color: #000;
     padding: 6px 14px 0 14px;
 }
