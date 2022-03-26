@@ -68,6 +68,30 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'xcharter';
+    src: url('xcharter-bold-webfont.woff2') format('woff2'),
+         url('xcharter-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'xcharter';
+    src: url('xcharter-italic-webfont.woff2') format('woff2'),
+         url('xcharter-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'xcharter';
+    src: url('xcharter-roman-webfont.woff2') format('woff2'),
+         url('xcharter-roman-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
     background-image: url('images/bg_tile2.png');
     background-repeat: repeat;
@@ -115,7 +139,7 @@ h1 {
 }
 
 .code-block h2 {
-    margin-bottom: 8px !important;
+    margin-bottom: 14px !important;
 }
 
 .code-block p {
@@ -141,6 +165,10 @@ h1 {
     background-color: rgb(28, 40, 85);
     color: #fff;
     padding: 6px 14px 0 14px;
+}
+
+.natural-block p {
+    font-family: xcharter, 'Times New Roman', serif;
 }
 
 h2 {
