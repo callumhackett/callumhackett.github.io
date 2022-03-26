@@ -95,6 +95,8 @@ h1 {
 }
 
 .front-table {
+    display: grid;
+    grid-template-columns: 560px 560px;
     left: 50%;
     margin: auto;
     max-width: 75%;
