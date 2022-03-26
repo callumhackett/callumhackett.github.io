@@ -8,7 +8,7 @@
     font-family: 'spartan';
     src: url('fonts/spartanmb-extra-bold-webfont.woff2') format('woff2'),
          url('fonts/spartanmb-extra-bold-webfont.woff') format('woff');
-    font-weight: 700;
+    font-weight: bolder;
     font-style: normal;
 }
 
@@ -16,7 +16,7 @@
     font-family: 'spartan';
     src: url('fonts/spartanmb-regular-webfont.woff2') format('woff2'),
          url('fonts/spartanmb-regular-webfont.woff') format('woff');
-    font-weight: 400;
+    font-weight: normal;
     font-style: normal;
 }
 
@@ -24,7 +24,7 @@
     font-family: 'spartan';
     src: url('fonts/spartanmb-semibold-webfont.woff2') format('woff2'),
          url('fonts/spartanmb-semibold-webfont.woff') format('woff');
-    font-weight: 500;
+    font-weight: bold;
     font-style: normal;
 }
 
@@ -81,15 +81,15 @@ h1 {
     color: #000;
     font-family: spartan, futura, sans-serif;
     font-size: 26px;
-    font-weight: 700;
+    font-weight: bolder;
     text-align: center;
 }
 
-.description {
+.description p {
     color: #000;
     font-family: spartan, futura, serif;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: bold;
     margin-bottom: 24px;
     text-align: center;
 }
@@ -139,10 +139,4 @@ h2 {
     font-family: spartan, futura, sans-serif;
     font-size: 22px;
     font-weight: bolder;
-}
-
-h4 {
-    font-family: spartan, futura, sans-serif;
-    font-size: 18px;
-    font-weight: normal;
 }
