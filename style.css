@@ -94,9 +94,7 @@ h1 {
 
 .front-table {
     display: grid;
-    grid-template-columns: 520px 520px;
-    margin: auto;
-    justify-items: center;
+    grid-template-columns: 25% 25% 25% 25%;
 }
 
 .front-table h2 {
