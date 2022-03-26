@@ -70,6 +70,12 @@ h1 {
     text-align: center;
 }
 
+h2, h3 {
+    font-family: spartan, futura, sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
 body {
     color: #fff;
     font-family: schola, serif;
