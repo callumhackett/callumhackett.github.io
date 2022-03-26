@@ -59,14 +59,15 @@
 }
 
 html {
-    background-color: rgb(23, 28, 45);
+    background-color: rgb(20, 20, 35);
 }
 
 h1 {
     color: #fff;
     font-family: spartan, futura, sans-serif;
-    font-size: 24px;
+    font-size: 26px;
     font-weight: bolder;
+    text-align: center;
 }
 
 body {
