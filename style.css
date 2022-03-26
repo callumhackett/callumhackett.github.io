@@ -75,7 +75,7 @@ body {
   
 .column {
     flex: 50%;
-    width: 33%;
+    width: 560px;
 }
 
 h1 {
@@ -105,6 +105,10 @@ h1 {
 .code-block {
     background-color: #000;
     color: #fff;
+}
+
+.code-block h2 {
+    font-size: 28px !important;
 }
 
 h2 {
