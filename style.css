@@ -60,6 +60,14 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'juliamono';
+    src: url('fonts/juliamono-regularlatin-webfont.woff2') format('woff2'),
+         url('fonts/juliamono-regularlatin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
     background-image: url('images/bg_tile2.png');
     background-repeat: repeat;
@@ -103,6 +111,10 @@ h1 {
 .code-block {
     background-color: rgb(25, 25, 25);
     color: #fff;
+}
+
+.code-block p {
+    font-family: juliamono, sans-serif !important;
 }
 
 .logic-block {
