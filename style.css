@@ -8,7 +8,7 @@
     font-family: 'spartan';
     src: url('fonts/spartanmb-extra-bold-webfont.woff2') format('woff2'),
          url('fonts/spartanmb-extra-bold-webfont.woff') format('woff');
-    font-weight: bolder;
+    font-weight: 700;
     font-style: normal;
 }
 
@@ -16,7 +16,7 @@
     font-family: 'spartan';
     src: url('fonts/spartanmb-regular-webfont.woff2') format('woff2'),
          url('fonts/spartanmb-regular-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -24,7 +24,7 @@
     font-family: 'spartan';
     src: url('fonts/spartanmb-semibold-webfont.woff2') format('woff2'),
          url('fonts/spartanmb-semibold-webfont.woff') format('woff');
-    font-weight: bold;
+    font-weight: 500;
     font-style: normal;
 }
 
@@ -81,7 +81,7 @@ h1 {
     color: #000;
     font-family: spartan, futura, sans-serif;
     font-size: 26px;
-    font-weight: bolder;
+    font-weight: 700;
     text-align: center;
 }
 
@@ -89,8 +89,8 @@ h1 {
     color: #000;
     font-family: spartan, futura, serif;
     font-size: 22px;
-    font-weight: bold;
-    margin-bottom: 48px;
+    font-weight: 500;
+    margin-bottom: 40px;
     text-align: center;
 }
 
@@ -108,7 +108,7 @@ h1 {
 .code-block {
     background-color: rgb(25, 25, 25);
     color: #fff;
-    padding: 12px;
+    padding: 0 12px 0 12px;
 }
 
 .code-block p {
@@ -120,23 +120,23 @@ h1 {
 .logic-block {
     background-color: rgb(220, 205, 185);
     color: #000;
-    padding: 12px;
+    padding: 0 12px 0 12px;
 }
 
 .music-block {
     background-color: rgb(175, 55, 100);
     color: #000;
-    padding: 12px;
+    padding: 0 12px 0 12px;
 }
 
 .natural-block {
     background-color: rgb(28, 40, 85);
     color: #fff;
-    padding: 12px;
+    padding: 0 12px 0 12px;
 }
 
 h2 {
     font-family: spartan, futura, sans-serif;
     font-size: 22px;
-    font-weight: bolder;
+    font-weight: 700;
 }
