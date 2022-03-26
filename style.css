@@ -96,6 +96,8 @@ h1 {
 
 .front-table h2 {
     font-size: 28px !important;
+    margin-block-start: 0.2em !important;
+    margin-block-end: 0.2em !important;
 }
 
 .code-block {
