@@ -118,9 +118,11 @@ h1 {
     line-height: 1.15 !important;
 }
 
-.logic-block {
+.logic-block p {
     background-color: rgb(220, 205, 185);
     color: #000;
+    font-family: schola, serif;
+    font-size: 16px;
     padding: 4px 12px 0 12px;
 }
 
