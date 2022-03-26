@@ -116,6 +116,7 @@ h1 {
 
 .code-block p {
     font-family: juliamono, sans-serif !important;
+    line-height: 1.15 !important;
 }
 
 .logic-block {
@@ -129,7 +130,7 @@ h1 {
 }
 
 .natural-block {
-    background-color: rgb(40, 40, 90);
+    background-color: rgb(28, 40, 85);
     color: #fff;
 }
 
