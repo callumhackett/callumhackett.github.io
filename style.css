@@ -76,6 +76,7 @@ body {
 .column {
     flex: 50%;
     width: 560px;
+    margin: 0 8px 0 8px;
 }
 
 h1 {
@@ -93,7 +94,7 @@ h1 {
     text-align: center;
 }
 
-.front-table{
+.front-table {
     left: 50%;
     margin: auto;
     max-width: 75%;
@@ -102,13 +103,28 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
+.front-table h2 {
+    font-size: 28px !important;
+}
+
 .code-block {
     background-color: #000;
     color: #fff;
 }
 
-.code-block h2 {
-    font-size: 28px !important;
+.logic-block {
+    background-color: #fff;
+    color: #000;
+}
+
+.music-block {
+    background-color: #fff;
+    color: #000;
+}
+
+.natural-block {
+    background-color: #000;
+    color: #fff;
 }
 
 h2 {
