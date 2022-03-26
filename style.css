@@ -112,6 +112,7 @@ h1 {
 
 .code-block p {
     font-family: juliamono, sans-serif !important;
+    font-size: 15px;
     line-height: 1.15 !important;
 }
 
