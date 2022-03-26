@@ -63,6 +63,14 @@ html {
     background-repeat: repeat;
 }
 
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 50%;
+}
+
 h1 {
     color: #fff;
     font-family: spartan, futura, sans-serif;
