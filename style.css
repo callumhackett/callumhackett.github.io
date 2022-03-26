@@ -64,7 +64,6 @@
     font-family: 'juliamono';
     src: url('fonts/juliamono-regularlatin-webfont.woff2') format('woff2'),
          url('fonts/juliamono-regularlatin-webfont.woff') format('woff');
-    font-feature-settings: 'zero', 'ss08', 'ss12';
     font-weight: normal;
     font-style: normal;
 }
@@ -109,11 +108,12 @@ h1 {
 .code-block {
     background-color: rgb(25, 25, 25);
     color: #fff;
-    padding: 0 12px 0 12px;
+    padding: 4px 12px 0 12px;
 }
 
 .code-block p {
     font-family: juliamono, sans-serif !important;
+    font-feature-settings: 'zero', 'ss08', 'ss12';
     font-size: 15px;
     line-height: 1.15 !important;
 }
@@ -121,19 +121,19 @@ h1 {
 .logic-block {
     background-color: rgb(220, 205, 185);
     color: #000;
-    padding: 0 12px 0 12px;
+    padding: 4px 12px 0 12px;
 }
 
 .music-block {
     background-color: rgb(175, 55, 100);
     color: #000;
-    padding: 0 12px 0 12px;
+    padding: 4px 12px 0 12px;
 }
 
 .natural-block {
     background-color: rgb(28, 40, 85);
     color: #fff;
-    padding: 0 12px 0 12px;
+    padding: 4px 12px 0 12px;
 }
 
 h2 {
