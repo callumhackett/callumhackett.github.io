@@ -1,6 +1,7 @@
 @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
+    .front-table {
+        display: grid;
+        grid-template-columns: 100%;
     }
 }
 
@@ -117,7 +118,7 @@
 }
 
 html {
-    background-image: url('images/bg_tile2.png');
+    background-image: url('images/bg_tile.png');
     background-repeat: repeat;
 }
 
