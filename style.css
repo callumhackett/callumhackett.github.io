@@ -59,7 +59,8 @@
 }
 
 html {
-    background-color: rgb(16, 18, 35);
+    background-image: url('images/bg_tile.png');
+    background-repeat: repeat;
 }
 
 h1 {
@@ -80,6 +81,7 @@ h4 {
     font-family: spartan, futura, sans-serif;
     font-size: 18px;
     font-weight: normal;
+}
 
 body {
     color: #fff;
