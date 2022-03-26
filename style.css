@@ -69,16 +69,6 @@ body {
     margin: auto;
 }
 
-.row {
-    display: flex;
-}
-  
-.column {
-    flex: 50%;
-    width: 560px;
-    margin: 0 8px 0 8px;
-}
-
 h1 {
     color: #000;
     font-family: spartan, futura, sans-serif;
@@ -96,7 +86,7 @@ h1 {
 
 .front-table {
     display: grid;
-    grid-template-columns: 400px 400px;
+    grid-template-columns: 520px 520px;
     left: 50%;
     margin: auto;
     position: absolute;
@@ -109,22 +99,22 @@ h1 {
 }
 
 .code-block {
-    background-color: #000;
+    background-color: rgb(25, 25, 25);
     color: #fff;
 }
 
 .logic-block {
-    background-color: #fff;
+    background-color: rgb(230, 205, 185);
     color: #000;
 }
 
 .music-block {
-    background-color: #fff;
+    background-color: rgb(170, 40, 85);
     color: #000;
 }
 
 .natural-block {
-    background-color: #000;
+    background-color: rgb(40, 40, 90);
     color: #fff;
 }
 
