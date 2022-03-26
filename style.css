@@ -59,7 +59,7 @@
 }
 
 html {
-    background-color: rgb(20, 22, 35);
+    background-color: rgb(16, 18, 35);
 }
 
 h1 {
@@ -72,9 +72,11 @@ h1 {
 
 body {
     color: #fff;
+    float: center;
     font-family: schola, serif;
     font-size: 16px;
     letter-spacing: 0.25px;
     line-height: 1.2;
-    text-align: left;
+    text-align: center;
+    width: 360px;
 }
