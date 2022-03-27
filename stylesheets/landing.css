@@ -168,6 +168,7 @@ footer p {
 
 .natural-block p:first-of-type {
     text-indent: 0px !important;
+    margin-block-start: 16px !important;
 }
 
 .musical-block p {
