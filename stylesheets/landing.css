@@ -7,70 +7,70 @@
 
 @font-face {
     font-family: 'spartan';
-    src: url('fonts/spartanmb-regular-webfont.woff2') format('woff2'),
-         url('fonts/spartanmb-regular-webfont.woff') format('woff');
+    src: url('/fonts/spartanmb-regular-webfont.woff2') format('woff2'),
+         url('/fonts/spartanmb-regular-webfont.woff') format('woff');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'spartan';
-    src: url('fonts/spartanmb-semibold-webfont.woff2') format('woff2'),
-         url('fonts/spartanmb-semibold-webfont.woff') format('woff');
+    src: url('/fonts/spartanmb-semibold-webfont.woff2') format('woff2'),
+         url('/fonts/spartanmb-semibold-webfont.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'spartan';
-    src: url('fonts/spartanmb-extra-bold-webfont.woff2') format('woff2'),
-         url('fonts/spartanmb-extra-bold-webfont.woff') format('woff');
+    src: url('/fonts/spartanmb-extra-bold-webfont.woff2') format('woff2'),
+         url('/fonts/spartanmb-extra-bold-webfont.woff') format('woff');
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'schola';
-    src: url('fonts/texgyreschola-regular-webfont.woff2') format('woff2'),
-         url('fonts/texgyreschola-regular-webfont.woff') format('woff');
+    src: url('/fonts/texgyreschola-regular-webfont.woff2') format('woff2'),
+         url('/fonts/texgyreschola-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'schola';
-    src: url('fonts/texgyreschola-italic-webfont.woff2') format('woff2'),
-         url('fonts/texgyreschola-italic-webfont.woff') format('woff');
+    src: url('/fonts/texgyreschola-italic-webfont.woff2') format('woff2'),
+         url('/fonts/texgyreschola-italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'schola';
-    src: url('fonts/texgyreschola-bold-webfont.woff2') format('woff2'),
-         url('fonts/texgyreschola-bold-webfont.woff') format('woff');
+    src: url('/fonts/texgyreschola-bold-webfont.woff2') format('woff2'),
+         url('/fonts/texgyreschola-bold-webfont.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'schola';
-    src: url('fonts/texgyreschola-bolditalic-webfont.woff2') format('woff2'),
-         url('fonts/texgyreschola-bolditalic-webfont.woff') format('woff');
+    src: url('/fonts/texgyreschola-bolditalic-webfont.woff2') format('woff2'),
+         url('/fonts/texgyreschola-bolditalic-webfont.woff') format('woff');
     font-weight: bold;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'juliamono';
-    src: url('fonts/juliamono-regular-webfont.woff2') format('woff2'),
-         url('fonts/juliamono-regular-webfont.woff') format('woff');
+    src: url('/fonts/juliamono-regular-webfont.woff2') format('woff2'),
+         url('/fonts/juliamono-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 html {
-    background-image: url('images/bg_tile.png');
+    background-image: url('/images/bg_tile.png');
     background-repeat: repeat;
 }
 
