@@ -136,6 +136,7 @@ p {
     background-color: rgb(20, 20, 20);
     color: rgb(0, 200, 60);
     padding: 6px 14px 0 14px;
+    text-shadow: 1.5px 0px 2px rgb(0, 200, 60, 0.6);
 }
 
 .natural-block p {
