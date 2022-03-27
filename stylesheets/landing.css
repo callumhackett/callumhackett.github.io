@@ -105,6 +105,15 @@ p {
     margin-block-end: 16px !important;
 }
 
+.footer {
+    color: #ccc;
+    font-family: schola, 'Century Schoolbook', serif;
+    font-style: italic;
+    position: absolute;
+    bottom: 24px;
+    right: 12px;
+}
+
 .description {
     margin-bottom: 32px;
 }
