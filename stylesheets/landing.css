@@ -77,7 +77,6 @@
     }
 
     .table-container {
-        display: table;
         height: 100%;
     }
 
@@ -85,7 +84,9 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 1fr;
-        vertical-align: middle;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
     }
 }
 
