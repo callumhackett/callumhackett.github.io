@@ -111,7 +111,6 @@ p {
     font-size: 16px;
     font-style: italic;
     position: absolute;
-    bottom: 16px;
     right: 16px;
 }
 
@@ -122,6 +121,7 @@ p {
 .front-table {
     display: grid;
     grid-template-columns: auto auto auto;
+    margin-bottom: 24px;
 }
 
 .front-table h2 {
