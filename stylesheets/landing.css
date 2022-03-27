@@ -110,9 +110,10 @@ p {
     font-family: schola, 'Century Schoolbook', serif;
     font-size: 16px;
     font-style: italic;
-    margin: auto;
     position: absolute;
     bottom: 0px;
+    left: auto;
+    right: auto;
 }
 
 .description {
