@@ -84,7 +84,7 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 1fr;
-        margin: auto 0;
+        vertical-align: middle;
     }
 }
 
