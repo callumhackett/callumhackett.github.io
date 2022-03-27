@@ -94,10 +94,6 @@ h2 {
 }
 
 p {
-    color: #000;
-    font-family: schola, 'Century Schoolbook', serif;
-    font-size: 17px;
-    line-height: 1.15;
     margin-block-start: 16px !important;
     margin-block-end: 16px !important;
 }
@@ -125,19 +121,16 @@ p {
 
 .natural-block {
     background-color: rgb(33, 27, 80);
-    color: #fff !important;
     padding: 6px 14px 0 14px;
 }
 
 .musical-block {
     background-color: rgb(195, 35, 85);
-    color: #fff !important;
     padding: 6px 14px 0 14px;
 }
 
 .logical-block {
     background-color: rgb(25, 25, 25);
-    color: #fff !important;
     padding: 6px 14px 0 14px;
 }
 
