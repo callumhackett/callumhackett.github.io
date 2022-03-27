@@ -155,7 +155,7 @@ p {
     font-feature-settings: "zero", "ss08", "ss12";
     font-size: 15px !important;
     line-height: 1.25;
-    text-shadow: 1px 0px 3px rgb(0, 200, 60, 5);
+    text-shadow: 1px 0px 2.5px rgb(0, 200, 60, 5);
 }
 
 .footer {
@@ -163,7 +163,6 @@ p {
     font-family: schola, 'Century Schoolbook', serif;
     font-size: 16px;
     font-style: italic;
-    position: absolute;
     bottom: 0px;
     margin: auto !important;
     text-align: center;
