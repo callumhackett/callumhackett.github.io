@@ -166,7 +166,7 @@ p {
     font-family: schola, 'Century Schoolbook', serif;
     font-size: 16px;
     font-style: italic;
-    position: fixed;
+    position: absolute;
     bottom: 0px;
     padding: 16px 0 8px 0;
     text-align: center;
