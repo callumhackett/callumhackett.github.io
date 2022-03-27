@@ -74,6 +74,10 @@ html {
     background-repeat: repeat;
 }
 
+body {
+    margin: auto;
+}
+
 h1 {
     color: #000;
     font-family: spartan, futura, sans-serif;
@@ -120,20 +124,20 @@ p {
 }
 
 .natural-block {
-    background-color: rgb(35, 25, 80);
-    color: #fff;
+    background-color: rgb(33, 27, 80);
+    color: #fff !important;
     padding: 6px 14px 0 14px;
 }
 
 .musical-block {
     background-color: rgb(195, 35, 85);
-    color: #fff;
+    color: #fff !important;
     padding: 6px 14px 0 14px;
 }
 
 .logical-block {
     background-color: rgb(25, 25, 25);
-    color: #fff;
+    color: #fff !important;
     padding: 6px 14px 0 14px;
 }
 
