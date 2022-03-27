@@ -63,34 +63,22 @@
 }
 
 @media screen and (min-width: 1200px) {
-    html, body {
-        height: 100%
-    }
-
-    body {
-        display: table;
-        width: 100%;
-    }
-
-    div {
-        display: table-row;
-    }
-
-    .table-container {
-        height: 100%;
+    .description {
+        margin-bottom: 240px;
     }
 
     .front-table {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 1fr;
-        position: relative;
-        top: 33%;
-        transform: translateY(-33%);
     }
 }
 
 @media screen and (max-width: 1199px) {
+    .description {
+        margin-bottom: 32px;
+    }
+    
     .front-table {
         display: grid;
         grid-template-columns: 1fr !important;
@@ -149,10 +137,6 @@ footer {
 footer p {
     margin-block-start: 0 !important;
     margin-block-end: 0 !important;
-}
-
-.description {
-    margin-bottom: 32px;
 }
 
 .front-table h2 {
