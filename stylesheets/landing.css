@@ -72,10 +72,13 @@
 html {
     background-image: url('/images/bg_tile.png');
     background-repeat: repeat;
+    height: 100%;
 }
 
 body {
     margin: auto;
+    min-height: 100%;
+    position: relative;
 }
 
 h1 {
@@ -163,8 +166,9 @@ p {
     font-family: schola, 'Century Schoolbook', serif;
     font-size: 16px;
     font-style: italic;
-    position: fixed;
+    position: absolute;
     bottom: 0px;
     margin: auto !important;
     text-align: center;
+    width: 100%;
 }
