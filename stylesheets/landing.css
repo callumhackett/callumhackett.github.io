@@ -1,4 +1,29 @@
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1200px) {
+    html, body {
+        height: 100%
+    }
+
+    body {
+        display: table;
+        width: 100%;
+    }
+
+    div {
+        display: table-row;
+    }
+
+    .front-table {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+    }
+}
+
+@media screen and (max-width: 1199px) {
     .front-table {
         display: grid;
         grid-template-columns: 1fr !important;
@@ -69,22 +94,13 @@
     font-style: normal;
 }
 
-html, body {
-    height: 100%;
-}
-
 html {
     background-image: url('/images/bg_tile.png');
     background-repeat: repeat;
 }
 
 body {
-    display: table;
-    width: 100%;
-}
-
-div {
-    display: table-row;
+    margin: 0 !important;
 }
 
 h1 {
@@ -137,16 +153,6 @@ footer p {
 
 .table-container {
     height: 100%;
-}
-
-.front-table {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
 }
 
 .front-table h2 {
