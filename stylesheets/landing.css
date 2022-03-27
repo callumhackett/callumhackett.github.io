@@ -80,7 +80,7 @@ html {
 
 body {
     display: table;
-    margin: auto;
+    width: 100%;
 }
 
 div {
@@ -115,7 +115,7 @@ p {
 }
 
 footer {
-    color: #666;
+    color: #5e5e5e;
     font-family: schola, 'Century Schoolbook', serif;
     font-size: 16px;
     font-style: italic;
