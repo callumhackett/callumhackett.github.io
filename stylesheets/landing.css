@@ -129,9 +129,7 @@ footer p {
 .front-table {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-    display: flex;
-    align-items: center;
+    grid-template-rows: 1fr;=
 }
 
 .front-table h2 {
