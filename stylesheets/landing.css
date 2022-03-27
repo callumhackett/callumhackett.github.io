@@ -7,14 +7,6 @@
 
 @font-face {
     font-family: 'spartan';
-    src: url('fonts/spartanmb-extra-bold-webfont.woff2') format('woff2'),
-         url('fonts/spartanmb-extra-bold-webfont.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'spartan';
     src: url('fonts/spartanmb-regular-webfont.woff2') format('woff2'),
          url('fonts/spartanmb-regular-webfont.woff') format('woff');
     font-weight: 400;
@@ -27,6 +19,30 @@
          url('fonts/spartanmb-semibold-webfont.woff') format('woff');
     font-weight: 500;
     font-style: normal;
+}
+
+@font-face {
+    font-family: 'spartan';
+    src: url('fonts/spartanmb-extra-bold-webfont.woff2') format('woff2'),
+         url('fonts/spartanmb-extra-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'schola';
+    src: url('fonts/texgyreschola-regular-webfont.woff2') format('woff2'),
+         url('fonts/texgyreschola-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'schola';
+    src: url('fonts/texgyreschola-italic-webfont.woff2') format('woff2'),
+         url('fonts/texgyreschola-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
 }
 
 @font-face {
@@ -43,22 +59,6 @@
          url('fonts/texgyreschola-bolditalic-webfont.woff') format('woff');
     font-weight: bold;
     font-style: italic;
-}
-
-@font-face {
-    font-family: 'schola';
-    src: url('fonts/texgyreschola-italic-webfont.woff2') format('woff2'),
-         url('fonts/texgyreschola-italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'schola';
-    src: url('fonts/texgyreschola-regular-webfont.woff2') format('woff2'),
-         url('fonts/texgyreschola-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 }
 
 @font-face {
@@ -87,10 +87,18 @@ h1 {
 }
 
 h2 {
-    color: #000;
+    color: #fff;
     font-family: spartan, futura, sans-serif;
     font-size: 28px;
     font-weight: 700;
+}
+
+h3 {
+    color: #000;
+    font-family: spartan, futura, serif;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
 }
 
 p {
@@ -101,14 +109,6 @@ p {
 
 .description {
     margin-bottom: 32px;
-}
-
-.description p {
-    color: #000 !important;
-    font-family: spartan, futura, serif;
-    font-size: 22px;
-    font-weight: 500;
-    text-align: center;
 }
 
 .front-table {
@@ -122,7 +122,7 @@ p {
 }
 
 .natural-block {
-    background-color: rgb(33, 27, 80);
+    background-color: rgb(32, 25, 80);
     padding: 6px 14px 0 14px;
 }
 
@@ -136,17 +136,23 @@ p {
     padding: 6px 14px 0 14px;
 }
 
+.natural-block p {
+    font-family: schola, 'Century Schoolbook', serif;
+    font-size: 17px;
+    line-height: 1.15;
+}
+
 .musical-block p {
     font-family: spartan, futura, sans-serif;
     font-size: 15px;
-    line-height: 1.25 !important;
+    line-height: 1.25;
 }
 
 .logical-block p {
     font-family: juliamono, sans-serif !important;
     font-feature-settings: "zero", "ss08", "ss12";
     font-size: 15px !important;
-    line-height: 1.25 !important;
+    line-height: 1.25;
 }
 
 .pound {
