@@ -1,7 +1,8 @@
 @media screen and (max-width: 1200px) {
     .front-table {
         display: grid;
-        grid-template-columns: 1fr !important;
+        grid-template-columns: 100% !important;
+        grid-template-rows: repeat(3, 1fr) !important;
     }
 }
 
@@ -123,7 +124,7 @@ p {
 .front-table {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
+    grid-template-rows: 100%;
     margin-bottom: 24px;
 }
 
