@@ -140,6 +140,10 @@ footer p {
 }
 
 .front-table {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
