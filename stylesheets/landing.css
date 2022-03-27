@@ -2,7 +2,6 @@
     .front-table {
         display: grid;
         grid-template-columns: 100% !important;
-        grid-template-rows: repeat(3, 1fr) !important;
     }
 }
 
@@ -112,9 +111,10 @@ p {
     font-size: 16px;
     font-style: italic;
     position: absolute;
-    display: flex;
-    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
     bottom: 0px;
+    margin-top: 24px;
 }
 
 .description {
@@ -125,7 +125,7 @@ p {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 100%;
-    margin-bottom: 24px;
+    margin: auto 0 auto;
 }
 
 .front-table h2 {
