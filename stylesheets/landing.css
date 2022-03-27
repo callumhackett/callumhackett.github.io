@@ -69,13 +69,22 @@
     font-style: normal;
 }
 
+html, body {
+    height: 100%
+}
+
 html {
     background-image: url('/images/bg_tile.png');
     background-repeat: repeat;
 }
 
 body {
+    display: table;
     margin: auto;
+}
+
+div {
+    display: table-row;
 }
 
 h1 {
@@ -127,6 +136,7 @@ footer p {
 }
 
 .front-table {
+    height: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
@@ -154,7 +164,7 @@ footer p {
     background: radial-gradient(circle, rgba(20, 20, 20) 75%, rgba(22, 22, 22) 100%);
     color: rgb(0, 200, 60);
     padding: 6px 14px 0 14px;
-    text-shadow: 1px 0px 2px rgb(0, 200, 60, 0.4);
+    text-shadow: 1px 0px 3px rgb(0, 200, 60, 0.33);
 }
 
 .natural-block p {
