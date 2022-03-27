@@ -155,7 +155,7 @@ p {
     font-feature-settings: "zero", "ss08", "ss12";
     font-size: 15px !important;
     line-height: 1.25;
-    text-shadow: 1.5px 0px 2px rgb(0, 200, 60, 0.75);
+    text-shadow: 1.5px 0px 2px rgb(0, 200, 60, 0.67);
 }
 
 .footer {
