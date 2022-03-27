@@ -84,7 +84,7 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 1fr;
-        margin: 0 auto;
+        margin: auto 0;
     }
 }
 
