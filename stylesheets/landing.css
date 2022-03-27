@@ -130,6 +130,9 @@ footer p {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
+    position: absolute;
+    top: 0;
+    bottom: 0;
 }
 
 .front-table h2 {
