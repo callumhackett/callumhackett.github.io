@@ -72,13 +72,10 @@
 html {
     background-image: url('/images/bg_tile.png');
     background-repeat: repeat;
-    height: 100%;
 }
 
 body {
     margin: auto;
-    min-height: 99%;
-    position: relative;
 }
 
 h1 {
