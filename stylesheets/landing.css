@@ -63,7 +63,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-    .description {
+    .headline {
         margin-bottom: 240px;
     }
 
@@ -75,10 +75,10 @@
 }
 
 @media screen and (max-width: 1199px) {
-    .description {
+    .headline {
         margin-bottom: 32px;
     }
-    
+
     .front-table {
         display: grid;
         grid-template-columns: 1fr !important;
