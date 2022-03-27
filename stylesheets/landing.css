@@ -163,6 +163,7 @@ p {
     font-family: schola, 'Century Schoolbook', serif;
     font-size: 16px;
     font-style: italic;
+    position: fixed;
     bottom: 0px;
     margin: auto !important;
     text-align: center;
