@@ -85,8 +85,8 @@
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 1fr;
         position: relative;
-        top: 25%;
-        transform: translateY(-25%);
+        top: 33%;
+        transform: translateY(-33%);
     }
 }
 
