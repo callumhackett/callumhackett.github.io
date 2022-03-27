@@ -148,7 +148,7 @@ h1 {
 
 .front-table {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .front-table h2 {
