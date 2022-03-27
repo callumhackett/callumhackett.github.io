@@ -133,6 +133,7 @@ p {
 
 .logical-block {
     background-color: rgb(25, 25, 25);
+    color: rgb(0, 200, 60);
     padding: 6px 14px 0 14px;
 }
 
@@ -148,18 +149,9 @@ p {
     line-height: 1.25;
 }
 
-.logical-block h2{
-    color: rgb(0, 180, 50);
-}
-
 .logical-block p {
-    color: #fff;
     font-family: juliamono, sans-serif !important;
     font-feature-settings: "zero", "ss08", "ss12";
     font-size: 15px !important;
     line-height: 1.25;
-}
-
-.pound {
-    color: rgb(0, 180, 50) !important;
 }
