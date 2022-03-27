@@ -148,6 +148,10 @@ p {
     text-indent: 16px;
 }
 
+.natural-block p:first-of-type {
+    text-indent: 0px !important;
+}
+
 .musical-block p {
     font-family: spartan, futura, sans-serif;
     font-size: 15px;
