@@ -62,7 +62,7 @@
     font-style: normal;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 960px) {
     .headline {
         margin-bottom: 240px;
     }
@@ -74,7 +74,7 @@
     }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 959px) {
     .headline {
         margin-bottom: 32px;
     }
