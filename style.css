@@ -1,7 +1,7 @@
 @media screen and (max-width: 1200px) {
     .front-table {
         display: grid;
-        grid-template-columns: 100%;
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
