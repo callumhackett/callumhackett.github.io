@@ -114,6 +114,10 @@ p {
     margin-block-end: 16px !important;
 }
 
+audio {
+    width: 100%;
+}
+
 footer {
     color: #5a5a5a;
     font-family: schola, 'Century Schoolbook', serif;
@@ -130,7 +134,7 @@ footer p {
 }
 
 .description {
-    margin-bottom: 48px;
+    margin-bottom: 40px;
 }
 
 .front-table h2 {
