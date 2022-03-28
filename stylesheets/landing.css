@@ -91,7 +91,7 @@
 
     .front-table {
         display: grid;
-        grid-template-columns: 30% 40% 30%;
+        grid-template-columns: 31.5% 37% 31.5%;
         grid-template-rows: 1fr;
         position: relative;
         top: 33%;
@@ -148,7 +148,7 @@ p {
 }
 
 footer {
-    color: #5e5e5e;
+    color: #5a5a5a;
     font-family: schola, 'Century Schoolbook', serif;
     font-size: 16px;
     font-style: italic;
