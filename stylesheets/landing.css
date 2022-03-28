@@ -76,6 +76,11 @@
         display: table-row;
     }
 
+    footer {
+        position: absolute;
+        bottom: 0px;
+    }
+
     .description {
         margin-bottom: 0;
     }
@@ -147,8 +152,6 @@ footer {
     font-family: schola, 'Century Schoolbook', serif;
     font-size: 16px;
     font-style: italic;
-    position: absolute;
-    bottom: 0px;
     padding: 16px 0 8px 0;
     text-align: center;
     width: 100%;
