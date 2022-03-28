@@ -207,6 +207,15 @@ footer p {
     line-height: 1.25;
 }
 
+.soundcloud .widget{
+    border-radius: 0px !important;
+}
+
+.soundcloud .g-background-default {
+    background-image: url('/images/bg_tile.png');
+    background-repeat: repeat;
+}
+
 .logical-block p {
     font-family: juliamono, sans-serif !important;
     font-feature-settings: "zero", "ss08", "ss12";
