@@ -207,6 +207,10 @@ footer p {
     line-height: 1.25;
 }
 
+.soundcloud {
+    margin-bottom: 12px;
+}
+
 .logical-block p {
     font-family: juliamono, sans-serif !important;
     font-feature-settings: "zero", "ss08", "ss12";
