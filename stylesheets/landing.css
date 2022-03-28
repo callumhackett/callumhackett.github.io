@@ -63,47 +63,14 @@
 }
 
 @media screen and (min-width: 960px) {
-    html, body {
-        height: 100%
-    }
-
-    body {
-        display: table;
-        width: 100%;
-    }
-
-    div {
-        display: table-row;
-    }
-
-    footer {
-        position: absolute;
-        bottom: 0px;
-    }
-
-    .description {
-        margin-bottom: 0;
-    }
-
-    .table-container {
-        height: 100%;
-    }
-
     .front-table {
         display: grid;
         grid-template-columns: 30% 40% 30%;
         grid-template-rows: 1fr;
-        position: relative;
-        top: 33%;
-        transform: translateY(-33%);
     }
 }
 
 @media screen and (max-width: 959px) {
-    .description {
-        margin-bottom: 32px;
-    }
-
     .front-table {
         display: grid;
         grid-template-columns: 1fr !important;
@@ -160,6 +127,10 @@ footer {
 footer p {
     margin-block-start: 0 !important;
     margin-block-end: 0 !important;
+}
+
+.description {
+    margin-bottom: 48px;
 }
 
 .front-table h2 {
