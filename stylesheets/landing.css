@@ -159,7 +159,7 @@ footer p {
     background: radial-gradient(circle, rgba(20, 20, 20) 75%, rgba(24, 24, 24) 100%);
     color: rgb(0, 200, 60);
     padding: 6px 14px 0 14px;
-    text-shadow: 1px 0px 3px rgb(0, 200, 60, 0.6);
+    text-shadow: 1px 0px 2px rgb(0, 200, 60, 0.6);
 }
 
 .natural-block p {
