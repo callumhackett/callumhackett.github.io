@@ -62,7 +62,7 @@
     font-style: normal;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 1200px) {
     .front-table {
         display: grid;
         grid-template-columns: 30% 40% 30%;
@@ -70,7 +70,7 @@
     }
 }
 
-@media screen and (max-width: 959px) {
+@media screen and (max-width: 1159px) {
     .front-table {
         display: grid;
         grid-template-columns: 1fr !important;
