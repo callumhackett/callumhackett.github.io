@@ -63,19 +63,39 @@
 }
 
 @media screen and (min-width: 960px) {
-    .headline {
-        margin-bottom: 240px;
+    html, body {
+        height: 100%
+    }
+
+    body {
+        display: table;
+        width: 100%;
+    }
+
+    div {
+        display: table-row;
+    }
+
+    .description {
+        margin-bottom: 0;
+    }
+
+    .table-container {
+        height: 100%;
     }
 
     .front-table {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 1fr;
+        position: relative;
+        top: 33%;
+        transform: translateY(-33%);
     }
 }
 
 @media screen and (max-width: 959px) {
-    .headline {
+    .description {
         margin-bottom: 32px;
     }
 
