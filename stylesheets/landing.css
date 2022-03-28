@@ -207,13 +207,6 @@ footer p {
     line-height: 1.25;
 }
 
-.soundcloud a {
-    color: #fff;
-    font-family: spartan, futura, sans-serif;
-    font-size: 12px;
-    text-decoration: none;
-}
-
 .logical-block p {
     font-family: juliamono, sans-serif !important;
     font-feature-settings: "zero", "ss08", "ss12";
