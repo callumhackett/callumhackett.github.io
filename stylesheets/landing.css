@@ -55,11 +55,19 @@
 }
 
 @font-face {
-    font-family: 'juliamono';
-    src: url('/fonts/juliamono-regular-webfont.woff2') format('woff2'),
-         url('/fonts/juliamono-regular-webfont.woff') format('woff');
+    font-family: 'robotomono';
+    src: url('/fonts/robotomono-regular-webfont.woff2') format('woff2'),
+         url('/fonts/robotomono-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotomono';
+    src: url('/fonts/robotomono-italic-webfont.woff2') format('woff2'),
+         url('/fonts/robotomono-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
 }
 
 @media screen and (min-width: 1200px) {
@@ -163,10 +171,17 @@ footer p {
 
 .logical-block {
     background-color: rgb(20, 20, 20);
-    background: radial-gradient(circle, rgba(20, 20, 20) 85%, rgba(15, 15, 15) 100%);
+    background: radial-gradient(circle, rgba(22, 22, 22) 90%, rgba(12, 12, 12) 100%);
     color: rgb(0, 200, 60);
     padding: 6px 14px 0 14px;
-    text-shadow: 1.75px 0.5px 2.5px rgb(0, 200, 60, 0.35);
+}
+
+.logical-block h2 {
+    text-shadow: 1.75px 0.5px 2.5px rgb(0, 200, 60, 0.4);
+}
+
+.logical-block p {
+    text-shadow: 1.75px 0.5px 2.5px rgb(0, 200, 60, 0.25);
 }
 
 .natural-block p {
@@ -192,7 +207,6 @@ footer p {
 }
 
 .logical-block p {
-    font-family: juliamono, sans-serif !important;
-    font-feature-settings: "zero", "ss08", "ss12";
+    font-family: robotomono, sans-serif !important;
     font-size: 15px !important;
 }
