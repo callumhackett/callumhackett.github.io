@@ -136,6 +136,7 @@ footer p {
 
 .natural-block {
     background-color: rgb(230, 225, 210);
+    background: linear-gradient(90deg, rgb(205, 195, 170) 0%, rgb(220, 210, 190) 2.5%, rgb(225, 220, 200) 15%, rgb(230, 225, 210) 25%, rgb(230, 225, 210) 40%, rgb(229, 224, 208) 100%);
     color: #000;
     padding: 6px 14px 16px 14px;
 }
