@@ -1,47 +1,47 @@
 @font-face {
     font-family: 'Spartan';
-    src: url('/fonts/Spartan-Medium.woff2') format('woff2'),
-         url('/fonts/Spartan-Medium.woff') format('woff');
+    src: url('/assets/fonts/Spartan-Medium.woff2') format('woff2'),
+         url('/assets/fonts/Spartan-Medium.woff') format('woff');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Spartan';
-    src: url('/fonts/Spartan-Black.woff2') format('woff2'),
-         url('/fonts/Spartan-Black.woff') format('woff');
+    src: url('/assets/fonts/Spartan-Black.woff2') format('woff2'),
+         url('/assets/fonts/Spartan-Black.woff') format('woff');
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'TeX Gyre Schola';
-    src: url('/fonts/TeXGyreSchola-Regular.woff2') format('woff2'),
-         url('/fonts/TeXGyreSchola-Regular.woff') format('woff');
+    src: url('/assets/fonts/TeXGyreSchola-Regular.woff2') format('woff2'),
+         url('/assets/fonts/TeXGyreSchola-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'TeX Gyre Schola';
-    src: url('/fonts/TeXGyreSchola-Italic.woff2') format('woff2'),
-         url('/fonts/TeXGyreSchola-Italic.woff') format('woff');
+    src: url('/assets/fonts/TeXGyreSchola-Italic.woff2') format('woff2'),
+         url('/assets/fonts/TeXGyreSchola-Italic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'TeX Gyre Schola';
-    src: url('/fonts/TeXGyreSchola-Bold.woff2') format('woff2'),
-         url('/fonts/TeXGyreSchola-Bold.woff') format('woff');
+    src: url('/assets/fonts/TeXGyreSchola-Bold.woff2') format('woff2'),
+         url('/assets/fonts/TeXGyreSchola-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Overpass Mono';
-    src: url('/fonts/OverpassMono-Regular.woff2') format('woff2'),
-         url('/fonts/OverpassMono-Regular.woff') format('woff');
+    src: url('/assets/fonts/OverpassMono-Regular.woff2') format('woff2'),
+         url('/assets/fonts/OverpassMono-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -119,7 +119,7 @@ a {
 
 #natural-bg {
     content: "";
-    background-image: url('/images/cave.jpg');
+    background-image: url('/assets/images/cave.jpg');
     background-position: left top;
     grid-area: 1 / 1 / 3 / 1;
     position: relative;
@@ -143,7 +143,7 @@ a {
 
 #musical-bg {
     content: "";
-    background-image: url('/images/pads.jpg');
+    background-image: url('/assets/images/pads.jpg');
     background-position: center top;
     grid-area: 1 / 2 / 3 / 2;
     position: relative;
@@ -167,7 +167,7 @@ a {
 
 #logical-bg {
     content: "";
-    background-image: url('/images/board.jpg');
+    background-image: url('/assets/images/board.jpg');
     background-position: left top;
     grid-area: 1 / 3 / 3 / 3;
     position: relative;

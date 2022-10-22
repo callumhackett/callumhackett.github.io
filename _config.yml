@@ -1,2 +1,7 @@
+repository: callumhackett/callumhackett.github.io
+site.author: Callum Hackett
 site.title: Callum Hackett
-site.description: Description
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag

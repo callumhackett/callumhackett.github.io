@@ -1,11 +1,9 @@
 <!DOCTYPE html>
-<html lang="en-GB">
+<html lang="en">
     <head>
-        <meta charset="utf-8">
+        {% include html_meta.html %}
+        <meta name="description" content={{ page.description }}>
         <link rel="stylesheet" href="style.css">
-        <meta name="author" content={{ site.title }}>
-        <meta name="description" content={{ site.description }}>
-        <title>Callum Hackett</title>
     </head>
     <body>
         {{ content }}
