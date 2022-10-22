@@ -1,6 +1,16 @@
 repository: callumhackett/callumhackett.github.io
 site.author: Callum Hackett
 site.title: Callum Hackett
+site.tagline: Composer etc.
+site.description: Composer etc.
+site.url: callumhackett.com
+twitter:
+  username: callumjhackett
+  card: summary
+social:
+  name: Callum Hackett
+  links:
+    - https://twitter.com/callumjhackett
 plugins:
   - jekyll-feed
   - jekyll-sitemap
