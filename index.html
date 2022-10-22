@@ -1,12 +1,11 @@
 ---
+# unique to the index page because it doesn't use a pre-defined layout
+css: /assets/css/landing.css
+title: Composer etc. # displayed in the tab title after the site name
 ---
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        {% include html_meta.html %}
-        <meta name="description" content="Composer etc.">
-        <link rel="stylesheet" href="assets/css/landing.css">
-    </head>
+    {% include html_head.html %}
     <body>
         <div id="landing-table">
             <div id="bg-overlay"></div>

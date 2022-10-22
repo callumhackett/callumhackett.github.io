@@ -1,17 +1,20 @@
+# necessary to use Jekyll with GitHub pages
 repository: callumhackett/callumhackett.github.io
+
+# the following are invariant across the site
 author: Callum Hackett
-title: Callum Hackett
-byline: Composer etc.
-description: Composer etc.
-url: callumhackett.com
-twitter:
-  username: callumjhackett
-  card: summary
-social:
-  name: Callum Hackett
-  links:
-    - https://twitter.com/callumjhackett
+site_name: Callum Hackett
+favicon: /assets/images/hand.jpg
+twitter: >-
+  @callumjhackett
+
+# the following are defaults that can be overridden on individual pages
+type: website
+description: I work with languages, some organic 🧬 and some artificial 🤖
+social_image: /assets/images/hand.jpg
+social_image_alt: Callum Hackett
+
+# these third party plugins enable an ATOM feed and a sitemap
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-seo-tag

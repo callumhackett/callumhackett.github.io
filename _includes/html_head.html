@@ -1,0 +1,26 @@
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="{{ site.author }}" />
+    <link rel="icon" type="image/jpg" href="{{ site.favicon}}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{ page.css }}">
+
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:site_name" content="{{ site.site_name }}" />
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:description" content="{{ page.description }}" />
+    <meta name="description" content="{{ page.description }}" />
+    <meta property="og:url" content="https://callumhackett.com{{ page.url }}" />
+    <link rel="canonical" href="https://callumhackett.com{{ page.url }}" />
+    <meta property="og:type" content="{{ page.type }}" />
+    <meta property="og:image" content="{{ page.social_image }}" />
+    <meta property="og:image:alt" content="{{ page.social_image_alt }}" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="{{ site.twitter }}" />
+    <meta name="twitter:creator" content="{{ site.twitter }}" />
+
+    <title>{{ site.site_name }} | {{ page.title }}</title>
+
+    {% feed_meta %}
+</head>
