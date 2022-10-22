@@ -1,9 +1,9 @@
 repository: callumhackett/callumhackett.github.io
-site.author: Callum Hackett
-site.title: Callum Hackett
-site.tagline: Composer etc.
-site.description: Composer etc.
-site.url: callumhackett.com
+author: Callum Hackett
+title: Callum Hackett
+byline: Composer etc.
+description: Composer etc.
+url: callumhackett.com
 twitter:
   username: callumjhackett
   card: summary
