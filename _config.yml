@@ -5,14 +5,20 @@ repository: callumhackett/callumhackett.github.io
 author: Callum Hackett
 site_name: Callum Hackett
 favicon: /assets/images/hand.jpg
+cname: www.callumhackett.com
 twitter: >-
   @callumjhackett
 
-# the following are defaults that can be overridden on individual pages
-type: website
-description: I work with languages, some organic 🧬 and some artificial 🤖
-social_image: /assets/images/hand.jpg
-social_image_alt: Callum Hackett
+# the following are defaults that can be overridden on individual pages (they are always called with page.VARIABLE)
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      type: website
+      description: I work with languages, some organic 🧬 and some artificial 🤖
+      social_image: /assets/images/hand.jpg
+      social_image_alt: Callum Hackett
 
 # these third party plugins enable an ATOM feed and a sitemap
 plugins:
