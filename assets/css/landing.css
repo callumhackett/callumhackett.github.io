@@ -3,15 +3,15 @@
     font-family: FONT;
     src: url('/assets/fonts/FONT.woff2') format('woff2'),
          url('/assets/fonts/FONT.woff') format('woff');
-    font-weight: 400;
+    font-weight: normal;
     font-style: normal;
 }
 */
 
 @font-face {
-    font-family: 'railroad gothic';
-    src: url('/assets/fonts/railroad-gothic.woff2') format('woff2'),
-         url('/assets/fonts/railroad-gothic.woff') format('woff');
+    font-family: 'bahnschrift';
+    src: url('/assets/fonts/bahnschrift.woff2') format('woff2'),
+         url('/assets/fonts/bahnschrift.woff') format('woff');
 }
 
 @font-face {
@@ -35,32 +35,35 @@
     font-weight: bold;
 }
 
+/* The intent for the element dimensions is to have cells at 16:9 and the container at 1.85:1 aided by grid gap size */
 @media screen and (min-width: 1366px) {
-    #header, #footer {
-        display: flex;
+    #header {
+        display: grid;
+        grid: 100% / 100%;
         position: relative;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
         height: 7.5vh;
     }
 
-    #table-container {
+    #main-table-container {
         position: relative;
-        width: 100%;
-        height: 85vh;
+        height: 92.5vh;
     }
 
-    #landing-table {
+    #main-table {
         display: grid;
         grid: 243px 243px / 432px 432px 432px;
         gap: 35px;
         margin: 0;
         position: absolute;
-        /* This figure negates the space taken up by the social buttons for better visual balance */
-        top: 42.5%;
+        /* This figure negates the space taken up by the header for better visual balance */
+        top: 46.25%;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+
+    .video-cell iframe {
+        height: 243px;
+        width: 432px;
     }
 
     #composition {
@@ -77,36 +80,28 @@
         grid-column: 2;
         grid-row: 2;
     }
-    
-    #daw-stop {
-        grid-column: 3;
-        grid-row: 2;
-    }
 
     #latest {
         grid-column: 3;
         grid-row: 1;
     }
+
+    #daw-stop {
+        grid-column: 3;
+        grid-row: 2;
+        cursor: pointer;
+    }
 }
 
-@media screen and (max-width: 899px) {
-    #landing-table {
-        display: grid;
-        grid-template-columns: 1fr !important;
-        grid-row-gap: 1.5%;
+@media screen and (max-width: 1365) {
+    #main-table {
     }
 }
 
 /* Fonts */
 
-h1 {
-    font-family: 'railroad gothic', bahnschrift, 'FF Din', Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    font-size: 36px;
-}
-
-h2 {
-    font-family: 'railroad gothic', bahnschrift, 'FF Din', Helvetica, Arial, sans-serif;
+h2, #narration:before, #latest:before {
+    font-family: bahnschrift, 'FF Din', Helvetica, Arial, sans-serif;
     font-weight: bold;
     font-size: 26px;
 }
@@ -119,77 +114,78 @@ p {
 
 /* Colours */
 
-#header {
-    background: #f0f3f5;
-}
-
-body {
+#header, body {
     background: #fff;
 }
 
-h1 {
-    color: #212121;
-}
-
-h2 {
-    color: #000;
-}
-
-p {
-    color: #000;
-}
-
-.cell {
-    border: 2px solid #212121;
-}
-
-a {
+h2, #narration:before, #latest:before, p, a {
     color: #000;
 }
 
 #daw-stop {
-    background: #212121;
-    border: 2px solid #212121;
-    color: #fff;
+    background: rgb(37, 40, 43);
 }
 
 #daw-stop h2, #daw-stop p, #daw-stop a {
     color: #fff;
 }
 
-#footer {
-    background: #fff;
+.text-cell a {
+    border-bottom: 2px solid #fff;
 }
 
-/* Other Styles */
+/* Element Styles */
 
 body {
     margin: 0;
 }
 
-p {
-    margin-bottom: 16px !important;
-    margin-block-start: 0;
-    margin-block-end: 0;
+#header {
+    align-items: center;
+    text-align: right;
+    width: 100%;
 }
 
-a {
-    text-decoration: none;
+#social-links {
+    /* This value should be the same as the padding between icons */
+    margin-right: 10px;
 }
 
-h1 {
-    margin: 0;
+#main-table-container {
+    width: 100%;
+}
+
+#narration:before {
+    content: "CALLUM HACKETT";
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -125%);
+}
+
+#latest:before {
+    content: "LATEST";
+    position: absolute;
+    right: 0;
+    transform: translate(0%, -125%);
 }
 
 h2 {
     margin: 0 0 6px 0;
 }
 
-.cell {
-    border-radius: 4px;
-    padding: 12px;
+p {
+    margin-block-start: 0;
+    margin-block-end: 16px;
 }
 
-.feature, .feature img {
+a {
+    text-decoration: none;
+}
+
+.img-cell img, .video-cell iframe, .text-cell {
     border-radius: 4px;
+}
+
+.text-cell {
+    padding: 12px;
 }

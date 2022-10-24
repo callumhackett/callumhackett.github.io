@@ -7,31 +7,26 @@ title: Composer etc. # displayed in the tab title after the site name
     {% include html_head.html %}
     <body>
         <div id="header">
-            <img src="/assets/images/profile_pic2.png" style="border-radius: 50%; margin-right: 14px;" /><a href="{{ site.url }}"><h1>Callum Hackett</h1></a>
-        </div>
-        <div id="footer">
-            <div id="social-footer">
-                {% include social_links.html %}
+            <div id="social-links">
+            {% include social_links.html %}
             </div>
         </div>
-        <div id="table-container">
-            <div id="landing-table">
-                <div class="cell" id="composition">
-                    <h2>In Development</h2>
+        <div id="main-table-container">
+            <div id="main-table">
+                <div id="composition">
                 </div>
-                <div class="feature" id="narration">
+                <div id="narration" class="img-cell">
                     <a href="{{ site.url }}"><img src="/assets/images/raven_small.png" alt="The Raven" /></a>
                 </div>
-                <div class="cell" id="podcast">
-                    <h2>In Development</h2>
+                <div id="podcast">
                 </div>
-                <div class="feature" id="latest">
-                    <iframe width="432" height="243" style="border-radius: 4px;" src="https://www.youtube.com/embed/FJYFJPE384I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div id="latest" class="video-cell">
+                    {% include youtube_embed.html link="https://www.youtube.com/embed/FJYFJPE384I" %}
                 </div>
-                <div class="cell" id="daw-stop">
-                    <a href="https://dawstop.substack.com/"><h2>DAW Stop ↗</h2></a>
+                <div id="daw-stop" class="text-cell" onclick="location.href='https://dawstop.substack.com';">
+                    <h2>DAW Stop ↗</h2>
                     <p>A Substack newsletter with notes on audio production and the creative process, with a focus on instrumental music, narration, plugin reviews and working with Cubase.</p>
-                    <p><a href="https://dawstop.substack.com" style="border-bottom: 2px solid #fff;">Read</a> or <a href="https://dawstop.substack.com/subscribe" style="border-bottom: 2px solid #fff;">one-click subscribe.</a></p>
+                    <p><a href="https://dawstop.substack.com">Read</a> or <a href="https://dawstop.substack.com/subscribe">one-click subscribe.</a></p>
                 </div>
             </div>
         </div>
