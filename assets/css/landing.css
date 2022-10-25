@@ -9,9 +9,17 @@
 */
 
 @font-face {
-    font-family: 'bahnschrift';
-    src: url('/assets/fonts/bahnschrift.woff2') format('woff2'),
-         url('/assets/fonts/bahnschrift.woff') format('woff');
+    font-family: rubik;
+    src: url('/assets/fonts/rubik.woff2') format('woff2'),
+         url('/assets/fonts/rubik.woff') format('woff');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: rubik;
+    src: url('/assets/fonts/rubik-italic.woff2') format('woff2'),
+         url('/assets/fonts/rubik-italic.woff') format('woff');
+    font-style: italic;
 }
 
 @font-face {
@@ -37,7 +45,7 @@
 
 /* The intent for the element dimensions is to have cells at 16:9 and the container at 1.85:1 aided by grid gap size */
 @media screen and (min-width: 1366px) {
-    #header {
+    #header-container {
         display: grid;
         grid: 100% / 100%;
         position: relative;
@@ -100,11 +108,20 @@
 
 /* Fonts */
 
-h2, #narration:before, #latest:before {
-    font-family: bahnschrift, 'FF Din', Helvetica, Arial, sans-serif;
+/* This is the main title */
+
+h1 {
+    font-family: rubik, Helvetica, Arial, sans-serif;
     font-weight: bold;
-    font-size: 28px;
-    letter-spacing: -0.5px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+h2 {
+    font-family: rubik, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 0.5px;
 }
 
 p {
@@ -116,7 +133,7 @@ p {
 /* Colours */
 
 html {
-    background: radial-gradient(circle at center, rgb(255, 255, 255) 0, rgb(240, 240, 240) 66.67%,rgb(225, 225, 225) 100%)
+    background-image: linear-gradient(to left bottom, #ffffff 0%, #f5f5f5 25%, #f5f5f5 75%, #fffcfc);
 }
 
 #background {
@@ -129,14 +146,13 @@ html {
     height: 200vh;
     background: transparent url('/assets/images/grain.png') repeat 0 0;
     background-repeat: repeat;
-    animation: bg-animation .2s infinite;
+    animation: bg-animation 1s linear infinite;
     opacity: 0.67;
 }
   
 @keyframes bg-animation {
-    0% { transform: translate(-15%,-15%) }
-    50% { transform: translate(15%,15%) }
-    100% { transform: translate(-15%,-15%) }
+    0% { transform: translate(-25%, -25%) }
+    100% { transform: translate(25%, 25%) }
 }
 
 h2, #narration:before, #latest:before, p, a {
@@ -161,26 +177,25 @@ body {
     margin: 0;
 }
 
-#header {
-    align-items: center;
+#header-container {
     text-align: right;
     width: 100%;
 }
 
-#social-links {
+h1 {
+    /* These values should be the same as the padding between icons */
+    margin: 8px 8px 8px !important;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+#header {
     /* This value should be the same as the padding between icons */
-    margin-right: 10px;
+    margin-right: 8px;
 }
 
 #main-table-container {
     width: 100%;
-}
-
-#narration:before {
-    content: "Callum Hackett";
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -125%);
 }
 
 h2 {
