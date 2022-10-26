@@ -13,11 +13,11 @@ twitter: >-
 defaults:
   -
     scope:
-      path: ""
+      path: "" # applies everywhere
     values:
       type: website
-      description: I work with languages, some organic 🧬 and some artificial 🤖
-      social_image: /assets/images/hand.jpg
+      description: TBC
+      social_image: TBC
       social_image_alt: Callum Hackett
 
 # these third party plugins enable an ATOM feed and a sitemap
