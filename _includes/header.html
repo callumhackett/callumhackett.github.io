@@ -1,11 +1,13 @@
 <div id="header-container">
     <div id="header">
         <div id="title">
-        <h1><a href="{{ site.url }}">CALLUM HACKETT</a></h1>
-        {% include social_links.html %}
+            <h1><a href="{{ site.url }}">CALLUM HACKETT</a></h1>
+            {% for item in site.data.social_links %}
+            <a href="{{ item.link }}"><img src="{{ item.image }}" title="{{ item.name }}" style="padding: 0px 5px; opacity: 0.8; height: 24px;" /></a>
+            {% endfor %}
         </div>
         <div id="profile-pic">
-        <img src="/assets/images/profile_pic.png" title="Callum Hackett" style="vertical-align: top !important;" />
+            <img src="/assets/images/profile_pic.png" title="Callum Hackett" style="vertical-align: top !important;" />
         </div>
     </div>
     <div id="navigation">
