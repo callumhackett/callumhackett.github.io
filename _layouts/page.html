@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Each layout file should specify its stylesheet here -->
+    {% include html_head.html css="/assets/css/landing.css" %}
+    <body>
+        {% include header.html %}
+        {{ content | smartify }}
+    </body>
+</html>

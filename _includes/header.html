@@ -1,9 +1,12 @@
+<div id="background-colour"></div>
+<div id="background-grain"></div>
+<div id="background-lines"></div>
 <div id="header-container">
     <div id="header">
         <div id="title">
             <h1><a href="{{ site.url }}">CALLUM HACKETT</a></h1>
             {% for item in site.data.social_links %}
-            <a href="{{ item.link }}"><img src="{{ item.image }}" title="{{ item.name }}" style="padding: 0px 5px; opacity: 0.8; height: 24px;" /></a>
+            <a href="{{ item.link }}"><img src="{{ item.image }}" title="{{ item.name }}" /></a>
             {% endfor %}
         </div>
         <div id="profile-pic">
@@ -11,6 +14,9 @@
         </div>
     </div>
     <div id="navigation">
-        <a href="{{ site.url }}">HOME</a>|<a>BIO</a>|<a>CONTACT</a>
+        <a href="{{ site.url }}">Home</a>
+        {% for item in site.data.page_links %}
+        |<a href="{{ item.link }}">{{ item.name }}</a>
+        {% endfor %}
     </div>
 </div>
