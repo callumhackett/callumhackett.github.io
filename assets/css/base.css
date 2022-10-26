@@ -125,7 +125,7 @@
 
 /* Fonts */
 
-h1, h1 a, #navigation {
+#header h1, #navigation {
     font-family: rubik, Helvetica, Arial, sans-serif;
     font-weight: bold;
     font-size: 16px;
@@ -140,6 +140,13 @@ h2 {
     font-family: rubik, Helvetica, Arial, sans-serif;
     font-weight: bold;
     font-size: 22px;
+    letter-spacing: 0.5px;
+}
+
+#metadata {
+    font-family: rubik, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
     letter-spacing: 0.5px;
 }
 

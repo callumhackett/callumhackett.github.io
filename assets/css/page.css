@@ -1,0 +1,71 @@
+/* Dynamic Layout */
+
+/* The intent for the grid dimensions is to imitate the landing layout with less complexity */
+@media screen and (min-width: 1366px) {
+    #main-table {
+        display: grid;
+        grid: auto / 432px 899px;
+        gap: 35px;
+        margin: 0;
+        position: absolute;
+        top: 0; /* this negates half the space taken up by the header for better visual balance */
+        left: 50%;
+        transform: translate(-50%, 15vh);
+    }
+
+    #content {
+        grid-column: 2;
+        grid-row: 1;
+        min-height: 243px;
+    }
+
+    #metadata {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    #metadata:after {
+        content: "▶";
+        position: absolute;
+        transform: translate(calc(17.5px - 50%));
+    }
+}
+
+@media screen and (max-width: 1365px) {
+    #main-table {
+        margin: 7.5vh auto;
+        width: 85%;
+    }
+
+    #metadata {
+        margin-bottom: 8px;
+    }
+}
+
+/* Backgrounds */
+
+#metadata {
+    text-align: right;
+}
+
+#content {
+    background: #fff;
+    border-radius: 4px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+/* Fonts */
+
+#main-table h1 {
+    font-family: rubik, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.5px;
+}
+
+/* Element Styles */
+
+#main-table h1 {
+    margin: 0 0 6px 0 !important;
+}

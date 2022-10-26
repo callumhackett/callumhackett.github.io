@@ -2,20 +2,15 @@
 
 /* The intent for the grid dimensions is to have cells at 16:9 and the container at 1.85:1 aided by gap size */
 @media screen and (min-width: 1366px) {
-    #main-table-container {
-        position: relative;
-        height: 92.5vh;
-    }
-
     #main-table {
         display: grid;
         grid: 243px 243px / 432px 432px 432px;
         gap: 35px;
         margin: 0;
         position: absolute;
-        top: 46.25%; /* this negates half the space taken up by the header for better visual balance */
+        top: 0; /* this negates half the space taken up by the header for better visual balance */
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, 15vh);
     }
 
     .video-cell iframe {
