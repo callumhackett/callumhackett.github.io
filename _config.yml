@@ -4,7 +4,7 @@ repository: callumhackett/callumhackett.github.io
 # the following are invariant across the site
 author: Callum Hackett
 site_name: Callum Hackett
-favicon: /assets/images/favicon.ico
+favicon: /favicon.ico
 cname: www.callumhackett.com
 twitter: >-
   @callumjhackett
@@ -15,6 +15,7 @@ defaults:
     scope:
       path: "" # applies everywhere
     values:
+      title: Composer etc. # displayed in the tab title after the site name
       type: website
       description: TBC
       social_image: TBC

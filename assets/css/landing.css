@@ -10,7 +10,7 @@
         position: absolute;
         top: 0; /* this negates half the space taken up by the header for better visual balance */
         left: 50%;
-        transform: translate(-50%, 15vh);
+        transform: translate(-50%, 20vh);
     }
 
     .video-cell iframe {
