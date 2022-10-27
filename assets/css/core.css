@@ -1,0 +1,170 @@
+/* This stylesheet applies universally across site */
+
+/* Font Imports */
+@font-face {
+    font-family: rubik;
+    src: url('/assets/fonts/rubik.woff2') format('woff2'),
+         url('/assets/fonts/rubik.woff') format('woff');
+    font-style: normal;
+}
+@font-face {
+    font-family: rubik;
+    src: url('/assets/fonts/rubik-italic.woff2') format('woff2'),
+         url('/assets/fonts/rubik-italic.woff') format('woff');
+    font-style: italic;
+}
+@font-face {
+    font-family: besley;
+    src: url('/assets/fonts/besley-book.woff2') format('woff2'),
+         url('/assets/fonts/besley-book.woff') format('woff');
+    font-weight: normal;
+}
+@font-face {
+    font-family: besley;
+    src: url('/assets/fonts/besley-bookitalic.woff2') format('woff2'),
+         url('/assets/fonts/besley-bookitalic.woff') format('woff');
+    font-style: italic;
+}
+@font-face {
+    font-family: besley;
+    src: url('/assets/fonts/besley-bold.woff2') format('woff2'),
+         url('/assets/fonts/besley-bold.woff') format('woff');
+    font-weight: bold;
+}
+
+/* Fonts */
+#navigation, h1, h2, #metadata {
+    font-family: rubik, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+#header h1, #navigation, #metadata {
+    font-size: 1em;
+    text-transform: uppercase;
+}
+#main-table h1, #main-table h2 {
+    font-size: 1.33em;
+}
+p {
+    font-family: besley, georgia, serif;
+    font-size: 1em;
+    line-height: 1.2em;
+}
+
+/* Base Layout */
+body {
+    margin: 0;
+}
+#header-container {
+    text-align: right;
+    width: 100%;
+    align-items: center;
+}
+#title, #profile-pic {
+    display: inline-block;
+}
+#title h1 {
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+    margin-inline-start: 0 !important;
+    margin-inline-end: 0 !important;
+    margin-bottom: 10px !important; /* this should be twice the padding of the icons */
+    line-height: 1em;
+}
+#title h1, #title img {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#profile-pic {
+    padding: 0px 1% 0 5px; /* the left padding should be equal to the title image side padding */
+    vertical-align: top !important;
+}
+#navigation a {
+    margin: 0 0.75em;
+}
+#main-table h1, #main-table h2 {
+    margin: 0 0 0.25em 0;
+}
+p {
+    margin-block-start: 0;
+    margin-block-end: 1em;
+}
+
+/* Dynamic Layout */
+@media screen and (min-width: 1366px) {
+    #header-container {
+        display: grid;
+        grid: 100% / auto auto;
+        position: relative;
+        height: 8vh;
+    }
+    #header {
+        grid-column: 2;
+    }
+    #navigation {
+        grid-column: 1 / 3;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+}
+@media screen and (max-width: 1365px) {
+    #header {
+        text-align: center;
+        padding: 2.5vh 0 0 0;
+    }
+    #profile-pic {
+        display: none !important;
+    }
+    #navigation {
+        text-align: center;
+        padding: 2.5vh 7.5% 2.5vh 7.5%;
+    }
+    #header-container {
+        margin-bottom: 2.5vh;
+    }
+}
+
+/* Backgrounds */
+html {
+    background-image:
+        repeating-linear-gradient(rgba(0,0,0,0.05) 0,transparent 1px,transparent 2px,rgba(0,0,0,0.05) 3px),
+        url('/assets/images/core/noise.png'),
+        linear-gradient(
+            25deg,
+            hsl(189deg 32% 92%) 0%,
+            hsl(169deg 25% 93%) 37%,
+            hsl(139deg 18% 95%) 54%,
+            hsl(83deg 14% 96%) 61%,
+            hsl(65deg 14% 97%) 64%,
+            hsl(75deg 17% 96%) 68%,
+            hsl(85deg 19% 96%) 76%,
+            hsl(96deg 20% 95%) 100%
+        );
+        background-attachment: fixed; /* this prevents the colour gradient from repeating */
+}
+#header-container {
+    background: #fff;
+}
+
+/* Colours */
+h1, h1 a, #navigation, a {
+    color: rgb(37, 40, 43);
+}
+#title img {
+    opacity: 0.8;
+}
+h2, p {
+    color: #000;
+}
+
+/* Element Styles */
+#title img {
+    height: 24px;
+}
+#profile-pic {
+    border-radius: 4px;
+}
+a {
+    text-decoration: none;
+}

@@ -2,14 +2,9 @@
 repository: callumhackett/callumhackett.github.io
 
 # the following are invariant across the site
-author: Callum Hackett
-site_name: Callum Hackett
-favicon: /favicon.ico
 cname: www.callumhackett.com
-twitter: >-
-  @callumjhackett
 
-# the following are defaults that can be overridden on individual pages (they are always called with page.VARIABLE)
+# the following are defaults that can be overridden on individual pages
 defaults:
   -
     scope:
@@ -21,7 +16,6 @@ defaults:
       social_image: TBC
       social_image_alt: Callum Hackett
 
-# these third party plugins enable an ATOM feed and a sitemap
 plugins:
   - jekyll-feed
   - jekyll-sitemap

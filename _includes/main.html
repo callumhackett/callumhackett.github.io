@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="Callum Hackett" />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/assets/css/core.css"> <!-- universal css -->
+        <link rel="stylesheet" href="{{ include.css }}"> <!-- layout-specific css -->
+    
+        <meta property="og:locale" content="en_GB" />
+        <meta property="og:site_name" content="Callum Hackett" />
+        <meta property="og:title" content="{{ page.title }}" />
+        <meta property="og:description" content="{{ page.description }}" />
+        <meta name="description" content="{{ page.description }}" />
+        <meta property="og:url" content="{{ site.cname }}{{ page.url }}" />
+        <link rel="canonical" href="{{ site.cname }}{{ page.url }}" />
+        <meta property="og:type" content="{{ page.type }}" />
+        <meta property="og:image" content="{{ page.social_image }}" />
+        <meta property="og:image:alt" content="{{ page.social_image_alt }}" />
+    
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@callumjhackett" />
+        <meta name="twitter:creator" content="@callumjhackett" />
+    
+        <title>Callum Hackett | {{ page.title }}</title>
+    
+        {% feed_meta %}
+    </head>
+    <body>
+        <div id="header-container">
+            <div id="header">
+                <div id="title">
+                    <h1><a href="{{ site.url }}">Callum Hackett</a></h1>
+                    {% for item in site.data.social_links %}
+                    <a href="{{ item.link }}"><img src="{{ item.image }}" title="{{ item.name }}" /></a>
+                    {% endfor %}
+                </div>
+                <div id="profile-pic">
+                    <!-- the vertical-align here is necessary to stop display:inline from adding extra height -->
+                    <img src="/assets/images/core/profile_pic.png" title="Callum Hackett" style="vertical-align: top !important;" />
+                </div>
+            </div>
+            <div id="navigation">
+                <a href="{{ site.url }}">Home</a>
+                {% for item in site.data.page_links %}
+                |<a href="{{ site.url }}/{{ item.page }}">{{ item.name }}</a>
+                {% endfor %}
+            </div>
+        </div>
+        <div id="main-table-container">
+            <div id="main-table">
+                <!-- the main content is derived from a layout file, which itself passes variables from pages -->
+                {{ include.table-content }}
+            </div>
+        </div>
+    </body>
+</html>

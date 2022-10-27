@@ -1,18 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-    <!-- each layout file should specify its stylesheet here -->
-    {% include html_head.html css="/assets/css/page.css" %}
-    <body>
-        {% include header.html %}
-        <div id="main-table-container">
-            <div id="main-table">
-                <div id="metadata">
-                    {{ page.metadata | smartify }}
-                </div>
-                <div id="content">
-                    {{ content | smartify }}
-                </div>
-            </div>
-        </div>
-    </body>
-</html>
+<!-- page.css expects the following cell ids: "metadata", "content" -->
+{% capture table-content %}
+<div id="metadata">
+    {{ page.metadata | smartify }}
+</div>
+<div id="content">
+    {{ content | smartify }} <!-- this is the main content picked up from the markdown file -->
+</div>
+{% endcapture %}
+
+<!-- each layout should specify its related css stylesheet here -->
+{% include main.html css="/assets/css/page.css" table-content=table-content %}
