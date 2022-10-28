@@ -1,5 +1,6 @@
 ---
 ---
+<!-- each layout file should specify its related css stylesheet in the inclusion at bottom -->
 <!-- index.css expects the following cell ids: "composition", "narration", "podcast", "spotlight", "newsletter" -->
 {% capture table-content %}
 <div id="composition" class="cell text-cell">
@@ -19,5 +20,4 @@
 </div>
 {% endcapture %}
 
-<!-- each layout should specify its related css stylesheet here -->
 {% include main.html css="/assets/css/index.css" table-content=table-content %}

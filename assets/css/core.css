@@ -123,6 +123,9 @@ p {
     #header-container {
         margin-bottom: 2.5vh;
     }
+    body {
+        margin-bottom: 5vh;
+    }
 }
 
 /* Backgrounds */
@@ -152,7 +155,7 @@ h1, h1 a, #navigation, a {
     color: rgb(37, 40, 43);
 }
 #title img {
-    opacity: 0.8;
+    opacity: 0.84;
 }
 h2, p {
     color: #000;

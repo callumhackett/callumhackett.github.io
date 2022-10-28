@@ -1,12 +1,12 @@
+<!-- each layout file should specify its related css stylesheet in the inclusion at bottom -->
 <!-- page.css expects the following cell ids: "metadata", "content" -->
 {% capture table-content %}
 <div id="metadata">
-    {{ page.metadata | smartify }}
+    {{ page.metadata | smartify }} <!-- this appears to the left of the main content in a sidebar -->
 </div>
 <div id="content">
     {{ content | smartify }} <!-- this is the main content picked up from the markdown file -->
 </div>
 {% endcapture %}
 
-<!-- each layout should specify its related css stylesheet here -->
 {% include main.html css="/assets/css/page.css" table-content=table-content %}

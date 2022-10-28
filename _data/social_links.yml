@@ -1,6 +1,6 @@
 # Populates social media icons in the title bar
 # Use "name", "link" and "image" for each item, where "name" is the text to be displayed in a tooltip on hover, "link"
-# is the URL of the related external profile and "image" is a (preferably .svg) icon
+# is the URL of the related external profile and "image" is an icon
 
 - name: YouTube
   link: https://www.youtube.com/channel/UC-Dgr7MkfzNjQ8xXBqEqbaQ/featured

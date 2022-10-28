@@ -1,13 +1,14 @@
+<!-- this file should be used via an inclusion in a layout file with a 'table.content' parameter for the body -->
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <meta name="author" content="Callum Hackett" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="/assets/css/core.css"> <!-- universal css -->
         <link rel="stylesheet" href="{{ include.css }}"> <!-- layout-specific css -->
-    
+
+        <meta name="author" content="Callum Hackett" />
         <meta property="og:locale" content="en_GB" />
         <meta property="og:site_name" content="Callum Hackett" />
         <meta property="og:title" content="{{ page.title }}" />
@@ -18,14 +19,14 @@
         <meta property="og:type" content="{{ page.type }}" />
         <meta property="og:image" content="{{ page.social_image }}" />
         <meta property="og:image:alt" content="{{ page.social_image_alt }}" />
-    
+
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@callumjhackett" />
         <meta name="twitter:creator" content="@callumjhackett" />
-    
-        <title>Callum Hackett | {{ page.title }}</title>
-    
+
         {% feed_meta %}
+
+        <title>Callum Hackett | {{ page.title }}</title>
     </head>
     <body>
         <div id="header-container">
@@ -38,7 +39,9 @@
                 </div>
                 <div id="profile-pic">
                     <!-- the vertical-align here is necessary to stop display:inline from adding extra height -->
-                    <img src="/assets/images/core/profile_pic.png" title="Callum Hackett" style="vertical-align: top !important;" />
+                    <a href="{{ site.url }}">
+                        <img src="/assets/images/core/profile_pic.png" title="Callum Hackett" style="vertical-align: top !important;" />
+                    </a>
                 </div>
             </div>
             <div id="navigation">
@@ -50,8 +53,7 @@
         </div>
         <div id="main-table-container">
             <div id="main-table">
-                <!-- the main content is derived from a layout file, which itself passes variables from pages -->
-                {{ include.table-content }}
+                {{ include.table-content }} <!-- layout-specific body content -->
             </div>
         </div>
     </body>
