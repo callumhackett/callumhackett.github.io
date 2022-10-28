@@ -3,7 +3,8 @@
 <!-- each layout file should specify its related css stylesheet in the inclusion at bottom -->
 <!-- index.css expects the following cell ids: "composition", "narration", "podcast", "spotlight", "newsletter" -->
 {% capture table-content %}
-<div id="composition" class="cell text-cell">
+<div id="composition" class="cell music-cell">
+    {% include soundcloud.html embed="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1416610810" %}
 </div>
 <div id="narration" class="cell img-cell">
     <a href="{{ site.url }}"><img src="/assets/images/raven_small.png" alt="The Raven" /></a>
@@ -11,7 +12,7 @@
 <div id="podcast" class="cell text-cell">
 </div>
 <div id="spotlight" class="cell video-cell">
-    {% include youtube_embed.html link="https://www.youtube.com/embed/FJYFJPE384I" %}
+    {% include youtube.html embed="https://www.youtube.com/embed/FJYFJPE384I" %}
 </div>
 <div id="newsletter" class="cell text-cell" onclick="location.href='https://dawstop.substack.com';">
     <h2><a href="https://dawstop.substack.com">DAW Stop ↗</a></h2>

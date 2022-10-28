@@ -44,6 +44,12 @@
     .cell {
         margin-bottom: 2.5vh !important;
     }
+    .music-cell {
+        position: relative;
+        width: 85%;
+        height: 50vh;
+        margin: auto;
+    }
     .img-cell, .text-cell {
         margin: auto;
         width: 85%
@@ -69,7 +75,7 @@
 
 /* Backgrounds */
 #composition {
-    background: #fff;
+    background: rgba(0,0,0,0);
 }
 #podcast {
     background: #fff;
@@ -87,7 +93,7 @@
 }
 
 /* Element Styles */
-.img-cell img, .video-cell iframe, .text-cell {
+.music-cell, .img-cell img, .video-cell iframe, .text-cell {
     border-radius: 4px;
 }
 .text-cell {
