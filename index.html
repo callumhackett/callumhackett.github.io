@@ -1,7 +1,18 @@
 ---
+title: Composer etc. # in HTML meta and tab title
 ---
 <!-- each layout file should specify its related css stylesheet in the inclusion at bottom -->
 <!-- index.css expects the following cell ids: "composition", "narration", "podcast", "spotlight", "newsletter" -->
+
+<!-- these captures are used so that the text can be filtered by smartify -->
+{% capture podcast-description %}
+<em>Music in Pieces</em> is a limited series podcast about the <em>je ne sais quoi</em> of classical music. Currently in production, each episode will focus on a different aspects of musical structure, explored through plentiful musical examples and interviews with experts. Newcomers will find out what the genre does uniquely well, and aficionados will hear something fresh in the familiar.
+{% endcapture %}
+
+{% capture newsletter-description %}
+A Substack newsletter with notes on audio production and the creative process, with a focus on instrumental music, narration, plugin reviews and working with Cubase.
+{% endcapture %}
+
 {% capture table-content %}
 <div id="composition" class="cell music-cell">
     {% include soundcloud.html embed="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1416610810" %}
@@ -10,13 +21,15 @@
     <a href="{{ site.url }}"><img src="/assets/images/raven_small.png" alt="The Raven" /></a>
 </div>
 <div id="podcast" class="cell text-cell">
+    <h2>Music in Pieces</h2>
+    <p>{{ podcast-description | smartify }}</p>
 </div>
 <div id="spotlight" class="cell video-cell">
     {% include youtube.html embed="https://www.youtube.com/embed/FJYFJPE384I" %}
 </div>
 <div id="newsletter" class="cell text-cell" onclick="location.href='https://dawstop.substack.com';">
     <h2><a href="https://dawstop.substack.com">DAW Stop ↗</a></h2>
-    <p>A Substack newsletter with notes on audio production and the creative process, with a focus on instrumental music, narration, plugin reviews and working with Cubase.</p>
+    <p>{{ newsletter-description | smartify }}</p>
     <p><a href="https://dawstop.substack.com">Read</a> or <a href="https://dawstop.substack.com/subscribe">one-click subscribe.</a></p>
 </div>
 {% endcapture %}

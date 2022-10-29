@@ -1,8 +1,4 @@
 /* Base Layout */
-#content {
-    padding: 14px;
-    box-sizing: border-box;
-}
 #metadata {
     text-align: right;
 }
@@ -25,7 +21,7 @@
     #metadata {
         grid-column: 1;
         grid-row: 1;
-        padding: 14px;
+        padding: 1em;
     }
     #metadata:after {
         content: "▶";
@@ -40,7 +36,7 @@
         width: 85%;
     }
     #metadata {
-        padding: 0 0 14px 0; /* this should be equal to the content padding */
+        padding: 0 0 1em 0; /* this should be equal to the content padding */
     }
 }
 
@@ -52,4 +48,6 @@
 /* Element Styles */
 #content {
     border-radius: 4px;
+    padding: 1em;
+    box-sizing: border-box;
 }

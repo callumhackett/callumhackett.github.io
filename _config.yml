@@ -10,7 +10,6 @@ defaults:
     scope:
       path: "" # applies everywhere
     values:
-      title: Composer etc. # displayed in the tab title after the site name
       type: website
       description: TBC
       social_image: TBC

@@ -7,7 +7,7 @@
 @media screen and (min-width: 1366px) {
     #main-table {
         display: grid;
-        grid: 243px 243px / 432px 432px 432px; /* the dimensions are based on cells at 16:9 with a container 1366px wide */
+        grid: 243px minmax(243px, auto) / 432px 432px 432px; /* the dimensions are based on cells at 16:9 with a container 1366px wide */
         gap: 35px;
         position: absolute;
         top: 0;
@@ -44,24 +44,19 @@
     .cell {
         margin-bottom: 2.5vh !important;
     }
-    .music-cell {
+    .music-cell, .img-cell, .video-cell, .text-cell {
         position: relative;
         width: 85%;
-        height: 50vh;
         margin: auto;
     }
-    .img-cell, .text-cell {
-        margin: auto;
-        width: 85%
+    .music-cell {
+        height: 50vh;
     }
     .img-cell img {
         width: 100%;
     }
     .video-cell {
-        position: relative;
-        width: 85%;
-        padding-bottom: 47.81%; /* for 16:9 aspect ratio */
-        margin: auto;
+        padding-bottom: 47.81%; /* ensures 16:9 aspect ratio when width is 85% */
     }
     .video-cell iframe {
         position: absolute;
@@ -89,7 +84,7 @@
     color: #fff;
 }
 #newsletter p a {
-    border-bottom: 2px solid #fff;
+    border-bottom: 1px solid #fff;
 }
 
 /* Element Styles */
@@ -98,7 +93,7 @@
 }
 .text-cell {
     box-sizing: border-box;
-    padding: 14px;
+    padding: 1em;
 }
 #newsletter {
     cursor: pointer;

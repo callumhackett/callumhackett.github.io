@@ -1,4 +1,4 @@
-# Populates links in the navbar (note: Home is accounted for separately)
+# Populates links in the navbar (note: 'Home' is accounted for separately because of the vertical bars)
 # Use "name" and "page" for each item, where "name" is the text to be displayed and "page" is the filename (without
 # extension) of a page stored in the root directory.
 
