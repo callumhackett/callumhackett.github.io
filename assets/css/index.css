@@ -76,15 +76,15 @@
     background: #fff;
 }
 #newsletter {
-    background: rgb(37, 40, 43);
+    background: rgba(80, 199, 199, 0.75);
 }
 
 /* Colours */
 #newsletter h2, #newsletter p, #newsletter a {
-    color: #fff;
+    color: #000;
 }
 #newsletter p a {
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #000;
 }
 
 /* Element Styles */
