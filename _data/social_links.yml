@@ -2,15 +2,15 @@
 # Use "name", "link" and "image" for each item, where "name" is the text to be displayed in a tooltip on hover, "link"
 # is the URL of the related external profile and "image" is an icon
 
-- name: YouTube
-  link: https://www.youtube.com/channel/UC-Dgr7MkfzNjQ8xXBqEqbaQ/featured
-  image: /assets/images/icons/youtube-bw.svg
 - name: Bandcamp
   link: https://bandcamp.com/callumjhackett
   image: /assets/images/icons/bandcamp-bw.svg
 - name: Soundcloud
   link: https://soundcloud.com/callumhackett
   image: /assets/images/icons/soundcloud-bw.svg
+- name: YouTube
+  link: https://www.youtube.com/channel/UC-Dgr7MkfzNjQ8xXBqEqbaQ/featured
+  image: /assets/images/icons/youtube-bw.svg
 - name: Instagram
   link: https://www.instagram.com/callumjhackett/
   image: /assets/images/icons/instagram-bw.svg

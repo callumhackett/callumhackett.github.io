@@ -11,8 +11,8 @@ defaults:
       path: "" # applies everywhere
     values:
       type: website
-      description: TBC
-      social_image: TBC
+      description: Composer etc.
+      social_image: /assets/images/core/default_social.png
       social_image_alt: Callum Hackett
 
 plugins:
