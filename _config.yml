@@ -1,9 +1,6 @@
 # necessary to use Jekyll with GitHub pages
 repository: callumhackett/callumhackett.github.io
 
-# the following are invariant across the site
-cname: www.callumhackett.com
-
 # the following are defaults that can be overridden on individual pages
 defaults:
   -
