@@ -12,7 +12,7 @@ defaults:
     values:
       type: website
       description: Composer etc.
-      social_image: https://www.callumhackett.com/assets/images/core/default_social.png
+      social_image: www.callumhackett.com/assets/images/core/default_social.png
       social_image_alt: Callum Hackett
 
 plugins:
