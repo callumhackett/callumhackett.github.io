@@ -2,54 +2,44 @@
 
 /* Font Imports */
 @font-face {
-    font-family: rubik;
-    src: url('/assets/fonts/rubik-regular.woff2') format('woff2');
+    font-family: 'space mono';
+    src: url('/assets/fonts/spacemono-regular.woff2') format('woff2');
     font-style: normal;
 }
 @font-face {
-    font-family: rubik;
-    src: url('/assets/fonts/rubik-italic.woff2') format('woff2');
+    font-family: 'space mono';
+    src: url('/assets/fonts/spacemono-italic.woff2') format('woff2');
     font-style: italic;
 }
 @font-face {
-    font-family: besley;
-    src: url('/assets/fonts/besley-book.woff2') format('woff2'),
-         url('/assets/fonts/besley-book.woff') format('woff');
+    font-family: 'roboto mono';
+    src: url('/assets/fonts/robotomono-regular.woff2') format('woff2');
     font-weight: normal;
 }
 @font-face {
-    font-family: besley;
-    src: url('/assets/fonts/besley-bookitalic.woff2') format('woff2'),
-         url('/assets/fonts/besley-bookitalic.woff') format('woff');
+    font-family: 'roboto mono';
+    src: url('/assets/fonts/robotomono-italic.woff2') format('woff2');
     font-style: italic;
-}
-@font-face {
-    font-family: besley;
-    src: url('/assets/fonts/besley-bold.woff2') format('woff2'),
-         url('/assets/fonts/besley-bold.woff') format('woff');
-    font-weight: bold;
 }
 
 /* Fonts */
-#navigation, h1, h2, #metadata {
-    font-family: rubik, Helvetica, Arial, sans-serif;
+#header, #navigation, #metadata, h1, h2, h3, h4 {
+    font-family: 'space mono', 'roboto mono', monospace, sans-serif;
     font-weight: normal;
     line-height: 1em;
-    letter-spacing: 0.25px;
 }
 #header h1, #navigation, #metadata {
     font-size: 1em;
+}
+#header h1, #navigation {
     text-transform: uppercase;
 }
-#main-table h1, #main-table h2 {
-    font-size: 1.25em;
-    margin: 0 0 0.25em 0;
-}
 p {
-    font-family: besley, georgia, serif;
-    font-size: 1em;
+    font-family: 'roboto mono', monospace, sans-serif;
+    letter-spacing: -0.5px;
+    word-spacing: -2px;
+    font-size: 0.96em;
     line-height: 1.25em;
-    letter-spacing: -0.25px;
     margin-block-start: 0;
     margin-block-end: 1em;
 }
@@ -71,12 +61,12 @@ body {
     margin-block-end: 0 !important;
     margin-inline-start: 0 !important;
     margin-inline-end: 0 !important;
-    margin-bottom: 10px !important; /* this should be twice the padding of the icons in #title img */
+    margin-bottom: 10px !important;
     line-height: 1em;
 }
 #title h1, #title img {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 #profile-pic {
     padding: 0px 1% 0 5px; /* the left padding should be equal to the #title img side padding */
@@ -164,6 +154,6 @@ h2, p {
 #profile-pic {
     border-radius: 4px;
 }
-a {
+#title a, #navigation a {
     text-decoration: none;
 }
