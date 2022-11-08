@@ -1,12 +1,6 @@
 /* Fonts */
-#content h1, #content h2 {
-    letter-spacing: -0.5px;
-}
-#content h1 {
-    font-size: 1.5em;
-}
-#content h2 {
-    font-size: 1.25em;
+#content p {
+    text-align: justify;
 }
 
 /* Base Layout */
@@ -14,7 +8,7 @@
     text-align: right;
 }
 #content h1 {
-    margin: 0 0 0.25em 0;
+    margin: 0 0 0.75em 0;
 }
 #content h2 {
     margin: 1.5em 0 0.25em 0;
@@ -69,15 +63,10 @@
 /* Element Styles */
 #content {
     border-radius: 4px;
-    padding: 1em 1em 0 1em; /* the bottom padding should be supplied by the final content element */
+    padding: 1.25em 2em 1em 2em; /* half the bottom padding should be supplied by the final content element */
     box-sizing: border-box;
     margin-bottom: 2.5vh;
 }
-#content p {
-    text-align: justify;
-}
 iframe {
-    width: 899px; /* this should be the same as the large cell width */
-    height: 506px; /* this maintains a 16:9 aspect ratio with a width of 899px */
-    margin: 0em 0 1em -1em;
+    margin: 0em 0 1em -2em;
 }

@@ -46,10 +46,7 @@
                 </div>
             </div>
             <div id="navigation">
-                <a href="{{ site.url }}">Home</a>
-                {% for item in site.data.page_links %}
-                |<a href="{{ site.url }}/{{ item.page }}">{{ item.name }}</a>
-                {% endfor %}
+                <a href="{{ site.url }}">Home</a>{% for item in site.data.page_links %}|<a href="{{ site.url }}/{{ item.page }}">{{ item.name }}</a>{% endfor %}
             </div>
         </div>
         <div id="main-table-container">
