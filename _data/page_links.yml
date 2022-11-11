@@ -3,6 +3,4 @@
 # extension) of a page stored in the root directory.
 
 - name: Bio
-  page: under_construction
-- name: Contact
-  page: under_construction
+  page: bio

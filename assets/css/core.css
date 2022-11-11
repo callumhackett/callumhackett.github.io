@@ -45,9 +45,10 @@ p, ul, li {
     font-family: 'writer duo', 'roboto mono', monospace, sans-serif;
     font-size: 0.95em;
     line-height: 1.33em;
-    letter-spacing: -0.3px;
+    letter-spacing: -0.5px;
     word-spacing: -1px;
     margin-block-start: 0;
+    font-variant: slashed-zero;
 }
 p, ul, audio {
     margin-block-end: 0.95em;
