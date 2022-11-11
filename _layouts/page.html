@@ -1,8 +1,12 @@
-<!-- each layout file should specify its related css stylesheet in the inclusion at bottom -->
+<!-- each layout file should specify its related css stylesheet in the inclusion at the bottom -->
 <!-- page.css expects the following cell ids: "metadata", "content" -->
 {% capture table-content %}
-<div id="metadata">
-    {{ page.metadata | smartify }} <!-- this appears to the left of the main content in a sidebar -->
+<div id="metadata"> <!-- this appears to the left of the main content -->
+    {% if page.date %}
+    {{ page.date | date: "%d.%b.%y" }} <!-- dates for blog posts -->
+    {% else %}
+    {{ page.title | smartify }} <!-- custom metadata for pages -->
+    {% endif %}
 </div>
 <div id="content">
     {{ content | smartify }} <!-- this is the main content picked up from the markdown file -->

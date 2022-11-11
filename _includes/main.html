@@ -1,4 +1,4 @@
-<!-- this file should be used via an inclusion in a layout file with a 'table.content' parameter for the body -->
+<!-- this file should be called via an inclusion in a layout file with a 'table-content' parameter for the body -->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -34,9 +34,7 @@
             <div id="header">
                 <div id="title">
                     <h1><a href="{{ site.url }}">Callum Hackett</a></h1>
-                    {% for item in site.data.social_links %}
-                    <a href="{{ item.link }}"><img src="{{ item.image }}" title="{{ item.name }}"/></a>
-                    {% endfor %}
+                    {% for item in site.data.social_links %}<a href="{{ item.link }}"><img src="{{ item.image }}" title="{{ item.name }}"/></a>{% endfor %}
                 </div>
                 <div id="profile-pic">
                     <!-- the vertical-align here is necessary to stop display:inline from adding extra height -->

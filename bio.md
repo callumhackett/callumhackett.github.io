@@ -5,12 +5,11 @@ title: Biography # in HTML meta and tab title
 
 # optional, no defaults
 permalink: /bio # custom page URL, begin with /
-metadata: Biography
 
 # optional, overrides defaults
-type: profile # defaults to website, otherwise one of: article, music, video
-# description: # in HTML meta and social media snippets
-# og_image: # path to an image for social media shares, AR 1.9:1, typically 1200x630
+# type: # defaults to website, otherwise one of: article, music, video
+description: Biography for Callum Hackett, a composer, pianist and storyteller who works across several different media. # in HTML meta and social media snippets
+og_image: /assets/images/core/bio_pic.png # path to an image for social media shares, AR 1.9:1, typically 1200x630
 # twitter_image: # path to an image for twitter shares, AR 1:1
 # social_image_alt: # description of the social image
 ---
