@@ -1,4 +1,3 @@
-<!-- this file should be called via an inclusion in a layout file with a 'table-content' parameter for the body -->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -20,10 +19,9 @@
         <meta property="og:image" content="{{ site.url }}{{ page.og_image }}" />
         <meta property="og:image:alt" content="{{ page.social_image_alt }}" />
 
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:image" content="{{ site.url }}{{ page.twitter_image }}" />
-        <meta name="twitter:site" content="@callumjhackett" />
-        <meta name="twitter:creator" content="@callumjhackett" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@callumhackett_" />
+        <meta name="twitter:creator" content="@callumhackett_" />
 
         {% feed_meta %}
 
@@ -49,7 +47,7 @@
         </div>
         <div id="main-table-container">
             <div id="main-table">
-                {{ include.table-content }} <!-- layout-specific body content -->
+                {{ include.table-content }}
             </div>
         </div>
     </body>

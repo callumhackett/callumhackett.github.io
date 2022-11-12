@@ -8,9 +8,8 @@ defaults:
       path: "" # applies everywhere
     values:
       type: website
-      description: Arrangements of classical music for synthesizers. Readings of classic literature with original soundtracks. Pods and vods to learn about the craft. Callum Hackett is a composer, narrator and writer. Poe's 'The Raven' coming December 2022.
-      og_image: /assets/images/core/default_social.png
-      twitter_image: /assets/images/core/default_social.png
+      description: Callum Hackett is a composer, pianist and narrator. He's making arrangements of classical music for synthesizers, readings of classic literature with original soundtracks, and pods and vods to learn about the craft.
+      og_image: /assets/images/core/bio_pic.jpg
       social_image_alt: Callum Hackett
 
 plugins:

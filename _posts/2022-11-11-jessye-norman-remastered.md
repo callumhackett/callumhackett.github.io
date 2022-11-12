@@ -8,12 +8,11 @@ permalink: /remastering-jessye-norman # custom page URL, begin with /
 
 # optional, overrides defaults
 type: article # defaults to website, otherwise one of: article, music, video
-description: In 1984, Jessye Norman gave an incredible performance of a song by Poulenc in front of a live TV audience. A celebration of Norman's astouding abilities, the only video currently available is very poor quality. I sought to remaster the audio to preserve this fantastic performance, and share my thoughts on the remastering process and Norman's approach. # in HTML meta and social media snippets
-og_image: /assets/images/social/jessye-large.jpg # path to an image for social media shares, AR 1.9:1, typically 1200x630
-twitter_image: /assets/images/social/jessye-small.jpg # path to an image for twitter shares, AR 1:1
+description: In 1984, Jessye Norman gave an unforgettable live performance of a Poulenc song, though only poor audio survives. Here, I discuss the performance and offer a remastering with notes on my processing setup. # in blog index, HTML meta and social media snippets
+og_image: /assets/images/social/jessye-norman.jpg # path to an image for social media shares, AR 1.9:1, typically 1200x630, begin with /
 social_image_alt: Jessye Norman # description of the social image
 ---
-<h1>{{ page.title }}</h1>
+# Remastering Jessye Norman
 
 There's a song by Poulenc called *Les chemins de l'amour*, which sets a poem about an attempt to remember an act of love in the face of waning memory. The music and text are charming and I often return to them, though "charming" is perhaps all they are --- together, they make touching, memorable salon music but they don't penetrate quite as deeply as other pieces in a similar vein, like Richard Strauss's *Morgen*.
 
