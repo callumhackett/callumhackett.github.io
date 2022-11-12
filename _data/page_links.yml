@@ -4,3 +4,7 @@
 
 - name: Bio
   page: bio
+- name: Blog
+  page: studio-notes
+- name: Contact
+  page: contact

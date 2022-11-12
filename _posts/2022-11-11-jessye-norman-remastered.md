@@ -13,7 +13,7 @@ og_image: /assets/images/social/jessye-large.jpg # path to an image for social m
 twitter_image: /assets/images/social/jessye-small.jpg # path to an image for twitter shares, AR 1:1
 social_image_alt: Jessye Norman # description of the social image
 ---
-# Remastering Jessye Norman
+<h1>{{ page.title }}</h1>
 
 There's a song by Poulenc called *Les chemins de l'amour*, which sets a poem about an attempt to remember an act of love in the face of waning memory. The music and text are charming and I often return to them, though "charming" is perhaps all they are --- together, they make touching, memorable salon music but they don't penetrate quite as deeply as other pieces in a similar vein, like Richard Strauss's *Morgen*.
 

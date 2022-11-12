@@ -37,7 +37,7 @@
         grid-column: 3;
         grid-row: 1;
     }
-    #newsletter {
+    #blog {
         grid-column: 3;
         grid-row: 2;
     }
@@ -78,15 +78,15 @@
 #podcast {
     background: #fff;
 }
-#newsletter {
+#blog {
     background: rgb(30, 89, 153);
 }
 
 /* Colours */
-#newsletter h2, #newsletter p, #newsletter a {
+#blog h2, #blog p, #blog a {
     color: #fff;
 }
-#newsletter p a {
+#blog p a {
     border-bottom: 1px solid #fff;
 }
 
@@ -98,7 +98,7 @@
     box-sizing: border-box;
     padding: 1em;
 }
-#newsletter {
+#blog {
     cursor: pointer;
 }
 a {

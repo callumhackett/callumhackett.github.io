@@ -8,7 +8,7 @@
 <em>Music in Pieces</em> is a limited series podcast about the <em>je ne sais quoi</em> of classical music. Currently in production, each episode will focus on a different aspects of musical structure, explored through musical examples and interviews with experts. Newcomers will find out what the genre does uniquely well, and aficionados will hear something fresh in the familiar.
 {% endcapture %}
 
-{% capture newsletter-description %}
+{% capture blog-description %}
 A newsletter with notes on audio production and the creative process, with a focus on instrumental music, narration, plugin reviews and working with Cubase.
 {% endcapture %}
 
@@ -26,10 +26,9 @@ A newsletter with notes on audio production and the creative process, with a foc
 <div id="spotlight" class="cell video-cell">
     {% include youtube.html embed="https://www.youtube.com/embed/_oO_DxpWKtw" %}
 </div>
-<div id="newsletter" class="cell text-cell" onclick="location.href='https://dawstop.substack.com';">
-    <h2><a href="https://dawstop.substack.com">DAW Stop ↗</a></h2>
-    <p>{{ newsletter-description | smartify }}</p>
-    <p><a href="https://dawstop.substack.com">Read</a> or <a href="https://dawstop.substack.com/subscribe">one-click subscribe.</a></p>
+<div id="blog" class="cell text-cell" onclick="location.href='{{ site.url }}/studio-notes';">
+    <h2><a href="{{ site.url }}/studio-notes">Studio Notes</a></h2>
+    <p>{{ blog-description | smartify }}</p>
 </div>
 {% endcapture %}
 
