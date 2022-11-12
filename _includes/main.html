@@ -27,7 +27,7 @@
 
         {% feed_meta %}
 
-        <title>Callum Hackett | {{ page.title }}</title>
+        <title>Callum Hackett{% if page.title %} | {{ page.title }}{% endif %}</title>
     </head>
     <body>
         <div id="header-container">

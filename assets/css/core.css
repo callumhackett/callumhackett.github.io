@@ -41,12 +41,12 @@
 #main-table h2, #content h1, #content h2 {
     font-size: 1.2em;
 }
-p, ul, li {
-    font-family: 'writer duo', 'roboto mono', monospace, sans-serif;
-    font-size: 0.95em;
+p, li {
+    font-family: 'writer duo', 'inconsolata', monospace, sans-serif;
+    font-size: 0.9em;
     line-height: 1.33em;
-    letter-spacing: -0.5px;
-    word-spacing: -1px;
+    letter-spacing: -0.3px;
+    word-spacing: -0.5px;
     margin-block-start: 0;
     font-variant: slashed-zero;
 }
@@ -54,6 +54,7 @@ p, ul, audio {
     margin-block-end: 0.95em;
 }
 ul {
+    margin-block-start: 0;
     padding-left: 2em;
 }
 li {
