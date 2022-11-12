@@ -1,7 +1,4 @@
 /* Fonts */
-#content p {
-    text-align: justify;
-}
 
 /* Base Layout */
 #metadata {
@@ -29,6 +26,9 @@
         grid-column: 2;
         grid-row: 1;
     }
+    #content p {
+        text-align: justify;
+    }
     #metadata {
         grid-column: 1;
         grid-row: 1;
@@ -42,6 +42,7 @@
     iframe {
         width: 899px; /* this should be the same as the large cell width */
         height: 506px; /* this maintains a 16:9 aspect ratio with a width of 899px */
+        margin: 0em 0 1em -2em;
     }
 }
 
@@ -52,6 +53,13 @@
     }
     #metadata {
         padding: 0 0 1em 0; /* this should be equal to the content padding */
+    }
+    iframe {
+        width: 100%; /* this should be the same as the large cell width */
+        margin: 0 0 1em 0;
+    }
+    audio {
+        width: 100%;
     }
 }
 
@@ -66,7 +74,4 @@
     padding: 1.25em 2em 1em 2em; /* half the bottom padding should be supplied by the final content element */
     box-sizing: border-box;
     margin-bottom: 2.5vh;
-}
-iframe {
-    margin: 0em 0 1em -2em;
 }
