@@ -1,13 +1,8 @@
 ---
 title: Home # in HTML meta and tab title
 ---
-<!-- these captures are used so that the text can be filtered by smartify -->
 {% capture podcast-description %}
-<em>Music in Pieces</em> is a limited series podcast about the <em>je ne sais quoi</em> of classical music. Currently in production, each episode will focus on a different aspect of musical structure, explored through musical examples and interviews with experts. Newcomers will find out what the genre does uniquely well, and aficionados will hear something fresh in the familiar.
-{% endcapture %}
-
-{% capture blog-description %}
-While working on composition and voiceover projects, I often take notes on the creative process and audio production techniques, typically as a reminder of my decision-making process to help with future projects. Here, you can <a href="{{ site.url }}/studio-notes">click-through</a> to a section of the site where I share some notes as blog posts.
+<em>Music in Pieces</em> is a limited series podcast about the <em>je ne sais quoi</em> of classical music. Currently in production, each episode will focus on a different aspect of musical structure, explored through musical examples and interviews with experts. Newcomers will find out what the genre does uniquely well, and aficionados will hear something fresh in the familiar. Check back soon for the first release.
 {% endcapture %}
 
 {% capture table-content %}
@@ -25,8 +20,7 @@ While working on composition and voiceover projects, I often take notes on the c
     {% include youtube.html embed="https://www.youtube.com/embed/_oO_DxpWKtw" %}
 </div>
 <div id="blog" class="cell text-cell" onclick="location.href='{{ site.url }}/studio-notes';">
-    <h2><a href="{{ site.url }}/studio-notes">Studio Notes</a></h2>
-    <p>{{ blog-description | smartify }}</p>
+    <div id="blog-title"><a href="{{ site.url }}/studio-notes">Studio Notes:<br/>A Blog</a></div>
 </div>
 {% endcapture %}
 

@@ -48,13 +48,18 @@ html {
 }
 
 /* Font Groups */
-#header, #navigation, #metadata, h1, h2, h3 {
+#header, #navigation, #metadata, h1, h2, h3, #blog-title {
     font-family: 'space mono', 'roboto mono', monospace, sans-serif;
     font-weight: normal;
     text-transform: uppercase;
+    word-spacing: -3px;
 }
 p, li {
     font-family: 'spline sans mono', 'inconsolata', monospace, sans-serif;
+    color: #282828;
+    line-height: 1.35em;
+    letter-spacing: -0.5px;
+    word-spacing: -0.5px;
 }
 
 /* Font Sizes */
@@ -65,12 +70,12 @@ p, li {
 #main-table h2, #main-table h1, #main-table h2 {
     font-size: 1.2em;
 }
+#blog-title {
+    font-size: 2em;
+    text-align: center;
+}
 p, li {
-    color: #282828;
     font-size: 0.9em;
-    line-height: 1.35em;
-    letter-spacing: -0.5px;
-    word-spacing: -0.5px;
 }
 
 /* Font Margins */
@@ -107,13 +112,19 @@ li {
 }
 
 /* Link Styles */
-#title a, #navigation a {
+a {
+    outline: none;
+}
+#title a, #navigation a, #blog-title a {
     text-decoration: none;
 }
 #title a, #navigation a, #metadata, h1, h2, h3 {
     color: #000;
 }
-p a, p a:hover, p a:active, p a:visited {
+h1 a, h1 a:active, h1 a:visited, h1 a:hover {
+    color: rgb(0, 60, 255);
+}
+p a, p a:active, p a:visited, p a:hover {
     color: rgb(0, 60, 255);
 }
 

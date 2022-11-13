@@ -13,15 +13,15 @@
 #main-table h2 {
     margin: 0 0 0.25em 0;
 }
+#podcast p {
+    margin-block-end: 0em;
+}
 
 /* Link Styles */
 #blog a {
     color: #fff;
 }
-#blog p a {
-    border-bottom: 1px solid #fff;
-}
-a {
+#blog h2 a {
     text-decoration: none;
 }
 
@@ -31,10 +31,16 @@ a {
 }
 .text-cell {
     box-sizing: border-box;
-    padding: 1em 1.35em 1.35em 1.35em;
+    padding: 1em 1.35em;
+}
+#podcast {
+    box-shadow: 1px 1px 3px rgb(225, 225, 225);
 }
 #blog {
+    display: flex;
     cursor: pointer;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Base Layout */

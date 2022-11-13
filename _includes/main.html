@@ -16,7 +16,7 @@
         <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
         <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
         <meta property="og:type" content="{{ page.type }}" />
-        <meta property="og:image" content="{{ site.url }}{{ page.og_image }}" />
+        <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
         <meta property="og:image:alt" content="{{ page.social_image_alt }}" />
 
         <meta name="twitter:card" content="summary_large_image" />
@@ -24,7 +24,7 @@
         <meta name="twitter:creator" content="@callumhackett_" />
         <meta name="twitter:title" content="{{ page.title }}" />
         <meta name="twitter:description" content="{{ page.description }}" />
-        <meta name="twitter:image" content="{{ site.url }}{{ page.og_image }}" />
+        <meta name="twitter:image" content="{{ site.url }}{{ page.image }}" />
         <meta name="twitter:image:alt" content="{{ page.social_image_alt }}" />
 
         {% feed_meta %}
@@ -53,5 +53,6 @@
                 {{ include.table-content }}
             </div>
         </div>
+        <script id="dsq-count-scr" src="//callum-hackett.disqus.com/count.js" async></script>
     </body>
 </html>

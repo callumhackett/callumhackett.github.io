@@ -19,17 +19,19 @@
     #metadata {
         grid-column: 1;
         grid-row: 1;
-        padding: 1.8em 0 0 0;
+        padding: 1.8em 18px 0 0;
     }
     #metadata:after {
         content: "▶";
         position: absolute;
         transform: translate(calc(18px - 50%)); /* half the grid gap size minus half the character size */
     }
+    .youtube {
+        margin: 0em 0 1em -1.8em;
+    }
     iframe {
         width: 899px; /* this should be the same as the large cell width */
         height: 506px; /* this maintains a 16:9 aspect ratio with a width of 899px */
-        margin: 0em 0 1em -1.8em;
     }
     #blog-index img {
         float: left;
