@@ -5,9 +5,6 @@
 #podcast {
     background: #fff;
 }
-#blog {
-    background: rgb(30, 89, 153);
-}
 
 /* Font Margins */
 #main-table h2 {
@@ -17,30 +14,13 @@
     margin-block-end: 0em;
 }
 
-/* Link Styles */
-#blog a {
-    color: #fff;
-}
-#blog h2 a {
-    text-decoration: none;
-}
-
 /* Element Styles */
-#blog h2, #blog p {
-    color: #fff;
-}
 .text-cell {
     box-sizing: border-box;
     padding: 1em 1.35em;
 }
 #podcast {
     box-shadow: 1px 1px 3px rgb(225, 225, 225);
-}
-#blog {
-    display: flex;
-    cursor: pointer;
-    justify-content: center;
-    align-items: center;
 }
 
 /* Base Layout */
@@ -60,6 +40,10 @@
         transform: translate(-50%, 20vh);
     }
     .video-cell iframe {
+        height: 243px;
+        width: 432px;
+    }
+    .img-cell img {
         height: 243px;
         width: 432px;
     }
