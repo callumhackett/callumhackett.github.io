@@ -1,9 +1,45 @@
+/* Backgrounds */
+#composition {
+    background: rgba(0,0,0,0);
+}
+#podcast {
+    background: #fff;
+}
+#blog {
+    background: rgb(30, 89, 153);
+}
+
+/* Font Margins */
+#main-table h2 {
+    margin: 0 0 0.25em 0;
+}
+
+/* Link Styles */
+#blog a {
+    color: #fff;
+}
+#blog p a {
+    border-bottom: 1px solid #fff;
+}
+a {
+    text-decoration: none;
+}
+
+/* Element Styles */
+#blog h2, #blog p {
+    color: #fff;
+}
+.text-cell {
+    box-sizing: border-box;
+    padding: 1em 1.35em 1.35em 1.35em;
+}
+#blog {
+    cursor: pointer;
+}
+
 /* Base Layout */
 #main-table-container {
     width: 100%;
-}
-#main-table h2 {
-    margin: 0 0 0.25em 0;
 }
 
 /* Dynamic Layout */
@@ -69,38 +105,4 @@
         height: 100%;
         border: 0;
     }
-}
-
-/* Backgrounds */
-#composition {
-    background: rgba(0,0,0,0);
-}
-#podcast {
-    background: #fff;
-}
-#blog {
-    background: rgb(30, 89, 153);
-}
-
-/* Colours */
-#blog h2, #blog p, #blog a {
-    color: #fff;
-}
-#blog p a {
-    border-bottom: 1px solid #fff;
-}
-
-/* Element Styles */
-.music-cell, .img-cell img, .video-cell iframe, .text-cell {
-    border-radius: 4px;
-}
-.text-cell {
-    box-sizing: border-box;
-    padding: 1em;
-}
-#blog {
-    cursor: pointer;
-}
-a {
-    text-decoration: none;
 }

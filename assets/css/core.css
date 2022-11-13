@@ -1,3 +1,25 @@
+/* Backgrounds */
+html {
+    background-image:
+        repeating-linear-gradient(rgba(0,0,0,0.05) 0,transparent 1px,transparent 2px,rgba(0,0,0,0.05) 3px),
+        url('/assets/images/core/noise.png'),
+        linear-gradient(
+            25deg,
+            hsl(189deg 32% 92%) 0%,
+            hsl(169deg 25% 93%) 37%,
+            hsl(139deg 18% 95%) 54%,
+            hsl(83deg 14% 96%) 61%,
+            hsl(65deg 14% 97%) 64%,
+            hsl(75deg 17% 96%) 68%,
+            hsl(85deg 19% 96%) 76%,
+            hsl(96deg 20% 95%) 100%
+        );
+        background-attachment: fixed; /* this stops the colour gradient from repeating */
+}
+#header-container, #content {
+    background: #fff;
+}
+
 /* Font Imports */
 @font-face {
     font-family: 'space mono';
@@ -25,39 +47,79 @@
     font-weight: bold;
 }
 
-/* Fonts */
+/* Font Groups */
 #header, #navigation, #metadata, h1, h2, h3 {
-    font-family: 'space mono', 'spline sans mono', 'inconsolata', monospace, sans-serif;
+    font-family: 'space mono', 'roboto mono', monospace, sans-serif;
     font-weight: normal;
-    line-height: 1em;
     text-transform: uppercase;
-}
-#header h1, #navigation, #metadata {
-    font-size: 1em;
-}
-#title a, #navigation a {
-    text-decoration: none;
-}
-#main-table h2, #content h1, #content h2 {
-    font-size: 1.2em;
 }
 p, li {
     font-family: 'spline sans mono', 'inconsolata', monospace, sans-serif;
+}
+
+/* Font Sizes */
+#header, #header h1, #title, #navigation, #metadata {
+    font-size: 1em;
+    line-height: 1em;
+}
+#main-table h2, #main-table h1, #main-table h2 {
+    font-size: 1.2em;
+}
+p, li {
+    color: #282828;
     font-size: 0.9em;
-    line-height: 1.3em;
+    line-height: 1.35em;
     letter-spacing: -0.5px;
     word-spacing: -0.5px;
+}
+
+/* Font Margins */
+#title h1 {
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+    margin-inline-start: 0 !important;
+    margin-inline-end: 0 !important;
+}
+#navigation a {
+    margin: 0 0.75em;
+}
+#metadata {
+    text-align: right;
+}
+#content h1 {
+    margin: 0 0 0.75em 0;
+    line-height: 1em;
+}
+#content h2 {
+    margin: 1.5em 0 0.25em 0;
+}
+p, ul, li {
     margin-block-start: 0;
 }
 p, ul, audio {
     margin-block-end: 0.9em; /* this should equal the main font size */
 }
 ul {
-    margin-block-start: 0;
     padding-left: 2em;
 }
 li {
     margin-block-end: 0.25em;
+}
+
+/* Link Styles */
+#title a, #navigation a {
+    text-decoration: none;
+}
+#title a, #navigation a, #metadata, h1, h2, h3 {
+    color: #000;
+}
+p a, p a:hover, p a:active, p a:visited {
+    color: rgb(0, 60, 255);
+}
+
+/* Element Styles */
+#profile-pic, .music-cell, .img-cell img, .video-cell iframe, .text-cell, #content, #blog-index img, audio {
+    border-radius: 4px;
 }
 
 /* Base Layout */
@@ -73,23 +135,17 @@ body {
     display: inline-block;
 }
 #title h1 {
-    margin-block-start: 0 !important;
-    margin-block-end: 0 !important;
-    margin-inline-start: 0 !important;
-    margin-inline-end: 0 !important;
-    margin-bottom: 10px !important;
-    line-height: 1em;
+    padding-right: 5px; /* this should be equal to the social icon spacing */
+    margin-bottom: 10px !important; /* this should be twice the social icon spacing */
 }
 #title img {
     height: 24px;
-    padding: 0px 0px 0px 10px;
+    padding: 0px 5px 0px 5px;
+    opacity: 0.84;
 }
 #profile-pic {
-    padding: 0px 1% 0 5px;
-    vertical-align: top !important;
-}
-#navigation a {
-    margin: 0 0.75em;
+    padding: 0px 1% 0 0px;
+    vertical-align: top !important; /* this stops the display:inline from adding extra height */
 }
 
 /* Dynamic Layout */
@@ -128,45 +184,4 @@ body {
     body {
         margin-bottom: 3.75vh;
     }
-}
-
-/* Backgrounds */
-html {
-    background-image:
-        repeating-linear-gradient(rgba(0,0,0,0.05) 0,transparent 1px,transparent 2px,rgba(0,0,0,0.05) 3px),
-        url('/assets/images/core/noise.png'),
-        linear-gradient(
-            25deg,
-            hsl(189deg 32% 92%) 0%,
-            hsl(169deg 25% 93%) 37%,
-            hsl(139deg 18% 95%) 54%,
-            hsl(83deg 14% 96%) 61%,
-            hsl(65deg 14% 97%) 64%,
-            hsl(75deg 17% 96%) 68%,
-            hsl(85deg 19% 96%) 76%,
-            hsl(96deg 20% 95%) 100%
-        );
-        background-attachment: fixed; /* this prevents the colour gradient from repeating */
-}
-#header-container {
-    background: #fff;
-}
-
-/* Colours */
-#title a, #navigation a, #metadata, h1, h2, h3 {
-    color: #000;
-}
-#title img {
-    opacity: 0.84;
-}
-p, ul, li {
-    color: #282828;
-}
-a, a:hover, a:active, a:visited {
-    color: rgb(0, 60, 255);
-}
-
-/* Element Styles */
-#profile-pic, audio {
-    border-radius: 4px;
 }
