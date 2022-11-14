@@ -8,7 +8,7 @@
     ▶
 </div>
 <div id="content">
-    {{ content | smartify }} <!-- this is the main body picked up from the markdown file -->
+    <div>{{ content | smartify }}</div> <!-- this is the main body picked up from the markdown file -->
     {% if page.comments %} <!-- adds a Disqus thread at bottom -->
     <div id="disqus_thread"></div>
     <script>
