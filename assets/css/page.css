@@ -1,3 +1,11 @@
+/* Font Sizes */
+#main-table h1 {
+    font-size: 1.5em;
+}
+#post-date {
+    letter-spacing: 1.5px;
+}
+
 /* Font Margins */
 #metadata {
     text-align: right;
@@ -27,12 +35,8 @@
     #metadata {
         grid-column: 1;
         grid-row: 1;
-        padding: 1.8em 18px 0 0;
-    }
-    #metadata:after {
-        content: "▶";
-        position: absolute;
-        transform: translate(calc(18px - 50%)); /* half the grid gap size minus half the character size */
+        padding: 1.8em 0 0 0;
+        margin-right: -12px;
     }
     .youtube {
         margin: 0em 0 1em -1.8em;

@@ -1,10 +1,11 @@
 {% capture table-content %}
 <div id="metadata"> <!-- this appears to the left of the main body -->
     {% if page.date %}
-    {{ page.date | date: "%d.%b.%y" }} <!-- prints dates for blog posts -->
+    {% include post_date.html %} <!-- prints dates for blog posts -->
     {% else %}
     {{ page.title | smartify }} <!-- prints title for main pages -->
     {% endif %}
+    ▶
 </div>
 <div id="content">
     {{ content | smartify }} <!-- this is the main body picked up from the markdown file -->

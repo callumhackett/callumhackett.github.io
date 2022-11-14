@@ -10,7 +10,7 @@
 }
 #main-table img, .video-cell iframe {
     display: block;
-    box-shadow: 1px 1px 3px #bbb;
+    box-shadow: 1px 1px 3px #b0b0b0;
 }
 
 /* Font Margins */

@@ -25,13 +25,13 @@ html {
 
 /* Font Imports */
 @font-face {
-    font-family: 'space mono';
-    src: url('/assets/fonts/spacemono-regular.woff2') format('woff2');
+    font-family: 'rubik';
+    src: url('/assets/fonts/rubik-regular.woff2') format('woff2');
     font-style: normal;
 }
 @font-face {
-    font-family: 'space mono';
-    src: url('/assets/fonts/spacemono-italic.woff2') format('woff2');
+    font-family: 'rubik';
+    src: url('/assets/fonts/rubik-italic.woff2') format('woff2');
     font-style: italic;
 }
 @font-face {
@@ -52,10 +52,11 @@ html {
 
 /* Font Groups */
 #header, #navigation, #metadata, h1, h2, h3 {
-    font-family: 'space mono', 'roboto mono', monospace, sans-serif;
+    font-family: 'rubik', sans-serif;
     font-weight: normal;
     text-transform: uppercase;
-    word-spacing: -3px;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
 }
 p, li {
     font-family: 'spline sans mono', 'inconsolata', monospace, sans-serif;
@@ -70,8 +71,8 @@ p, li {
     font-size: 1em;
     line-height: 1em;
 }
-#main-table h2, #main-table h1, #main-table h2 {
-    font-size: 1.2em;
+#main-table h2 {
+    font-size: 1.25em;
 }
 p, li {
     font-size: 0.9em;

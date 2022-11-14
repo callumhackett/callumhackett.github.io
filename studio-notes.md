@@ -19,7 +19,7 @@ social_image_alt: Studio Notes by Callum Hackett # description of the social ima
     {% for post in site.posts %}
     <div id="blog-entry">
         <img src="{{ post.image }}"/>
-        <h1><a href="{{ post.url }}">{{ post.title }} — {{ post.date | date: "%d.%b.%y" }}</a></h1>
+        <h1><a href="{{ post.url }}">{{ post.title }} — {% include post_date.html %}</a></h1>
         <p>{{ post.description | smartify }}</p>
     </div>
     {% endfor %}
