@@ -1,14 +1,14 @@
 {% capture table-content %}
 <div id="metadata"> <!-- this appears to the left of the main body -->
     {% if page.date %}
-    {{ page.date | date: "%d.%b.%y" }} <!-- dates for blog posts -->
+    {{ page.date | date: "%d.%b.%y" }} <!-- prints dates for blog posts -->
     {% else %}
-    {{ page.title | smartify }} <!-- custom metadata for main pages -->
+    {{ page.title | smartify }} <!-- prints title for main pages -->
     {% endif %}
 </div>
 <div id="content">
     {{ content | smartify }} <!-- this is the main body picked up from the markdown file -->
-    {% if page.comments %}
+    {% if page.comments %} <!-- adds a Disqus thread at bottom -->
     <div id="disqus_thread"></div>
     <script>
         (function() {

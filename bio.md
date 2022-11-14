@@ -9,7 +9,7 @@ permalink: /bio # custom page URL, begin with /
 # optional, overrides defaults
 # type: # defaults to website, otherwise one of: article, music, video
 # description: # blog index, HTML meta and social media snippets
-image: /assets/images/core/bio_pic.png # path to an image for social media shares, AR 1.9:1, typically 1200x630
+image: /assets/images/social/bio_pic.png # path to an image for social media shares, AR 1.9:1, typically 1200x630
 social_image_alt: Callum Hackett # description of the social image
 # comments: true # uncomment for a Disqus thread
 ---

@@ -1,3 +1,11 @@
+/* Font Margins */
+#metadata {
+    text-align: right;
+}
+#main-table h2 {
+    margin: 1.5em 0 0.25em 0;
+}
+
 /* Dynamic Layout */
 @media screen and (min-width: 1366px) {
     #main-table {

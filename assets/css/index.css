@@ -5,6 +5,12 @@
 #podcast {
     background: #fff;
 }
+#composition, #podcast {
+    box-shadow: 1px 1px 3px rgb(225, 225, 225);
+}
+#main-table img, .video-cell iframe {
+    box-shadow: 1px 1px 2px #aaa;
+}
 
 /* Font Margins */
 #main-table h2 {
@@ -14,18 +20,13 @@
     margin-block-end: 0em;
 }
 
-/* Element Styles */
-.text-cell {
-    box-sizing: border-box;
-    padding: 1em 1.35em;
-}
-#podcast {
-    box-shadow: 1px 1px 3px rgb(225, 225, 225);
-}
-
 /* Base Layout */
 #main-table-container {
     width: 100%;
+}
+.text-cell {
+    box-sizing: border-box;
+    padding: 1em 1.35em;
 }
 
 /* Dynamic Layout */
