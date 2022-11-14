@@ -71,8 +71,8 @@ p, li {
     font-size: 1em;
     line-height: 1em;
 }
-#main-table h2 {
-    font-size: 1.25em;
+#main-table h2, #blog-entry h1 {
+    font-size: 1.25em !important;
 }
 p, li {
     font-size: 0.9em;
