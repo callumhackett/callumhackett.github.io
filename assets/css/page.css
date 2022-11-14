@@ -10,6 +10,9 @@
 #metadata {
     text-align: right;
 }
+#blog-entry h1 {
+    margin-bottom: 0.25em;
+}
 #main-table h2 {
     margin: 1.5em 0 0.25em 0;
 }
