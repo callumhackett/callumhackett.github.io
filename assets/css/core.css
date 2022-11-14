@@ -140,7 +140,6 @@ body {
     display: inline-block;
 }
 #title h1 {
-    padding-right: 5px; /* this should be equal to the social icon spacing */
     margin-bottom: 10px !important; /* this should be twice the social icon spacing */
 }
 #title img {
@@ -163,6 +162,9 @@ body {
     }
     #header {
         grid-column: 2;
+    }
+    #title h1 {
+        padding-right: 5px; /* this should be equal to the social icon spacing */
     }
     #navigation {
         grid-column: 1 / 3;
