@@ -16,11 +16,11 @@ social_image_alt: Studio Notes by Callum Hackett # description of the social ima
 *<a href="https://www.callumhackett.com/feed.xml">Link to posts feed</a> (for your reader of choice)*
 
 <div id="blog-index">
-    {% for post in site.posts %}
+    {%- for post in site.posts -%}
     <div id="blog-entry">
         <a href="{{ post.url }}"><img src="{{ post.image }}"/></a>
         <h1><a href="{{ post.url }}">{{ post.title }} — {% include post_date.html %}</a></h1>
         <p>{{ post.description | smartify }}</p>
     </div>
-    {% endfor %}
+    {%- endfor -%}
 </div>
