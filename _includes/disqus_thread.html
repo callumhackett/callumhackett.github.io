@@ -1,4 +1,4 @@
-<!-- IMPORTANT: the code for thread_ids assumes there will be no more than one blog post per day -->
+<!-- the code for thread_IDs assumes there will be no more than one blog post per day, as IDs are dates -->
 {% capture thread_id %}{% if page.date %}{{ page.date | date: "%Y-%m-%d" }}{% else %}{{ page.url | remove: "/" }}{% endif %}{% endcapture %}
 
 <div id="disqus_thread"></div>
