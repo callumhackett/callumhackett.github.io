@@ -46,13 +46,13 @@ html {
 
 /* Font Imports */
 @font-face {
-    font-family: 'rubik';
-    src: url('/assets/fonts/rubik-regular.woff2') format('woff2');
+    font-family: 'barlow';
+    src: url('/assets/fonts/barlow-medium.woff2') format('woff2');
     font-style: normal;
 }
 @font-face {
-    font-family: 'rubik';
-    src: url('/assets/fonts/rubik-italic.woff2') format('woff2');
+    font-family: 'barlow';
+    src: url('/assets/fonts/barlow-mediumitalic.woff2') format('woff2');
     font-style: italic;
 }
 @font-face {
@@ -73,7 +73,7 @@ html {
 
 /* Font Groups */
 #header, #navigation, #metadata, h1, h2, h3, #comments-count p {
-    font-family: 'rubik', sans-serif;
+    font-family: 'barlow', sans-serif;
     font-weight: normal;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -88,21 +88,18 @@ p, li {
 }
 
 /* Font Sizes */
-#header, #header h1, #title, #navigation, #metadata {
+#header, #header h1, #title, #comments-count p {
     font-size: 1em;
     line-height: 1em;
 }
-#main-table h2, #blog-entry h1 {
-    font-size: 1.25em !important;
+#navigation, #metadata, #main-table h1, #main-table h2, #blog-entry h1 {
+    font-size: 1.3em !important;
 }
 p, li {
     font-size: 0.9em;
 }
-#comments-count p {
-    font-size: 0.85em;
-}
 
-/* Font Margins */
+/* Font Layout */
 #title h1 {
     margin-block-start: 0 !important;
     margin-block-end: 0 !important;
@@ -111,10 +108,6 @@ p, li {
 }
 #navigation a {
     margin: 0 0.75em;
-}
-#main-table h1 {
-    margin: 0 0 0.75em 0;
-    line-height: 1em;
 }
 p, ul, li {
     margin-block-start: 0;

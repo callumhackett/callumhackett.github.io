@@ -1,19 +1,22 @@
 /* Font Sizes */
-#main-table h1 {
-    font-size: 1.5em;
-}
 #post-date {
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
 }
 
-/* Font Margins */
+/* Font Layout */
 #metadata {
     text-align: right;
+    line-height: 1em;
+}
+#content h1 {
+    margin: 0 0 1em 0;
+    line-height: 1em;
 }
 #blog-entry h1 {
     margin-bottom: 0.25em;
+    line-height: 1em;
 }
-#main-table h2 {
+h2 {
     margin: 1.5em 0 0.25em 0;
 }
 
@@ -38,13 +41,13 @@
     #metadata {
         grid-column: 1;
         grid-row: 1;
-        padding: 1.8em 0 0 0;
+        padding: 1.5em 0 0 0;
         margin-right: -12px;
     }
     .youtube {
-        margin: 0em 0 1em -1.8em;
+        margin: 0em 0 1em -2em;
     }
-    iframe {
+    .youtube iframe {
         width: 899px; /* this should be the same as the large cell width */
         height: 506px; /* this maintains a 16:9 aspect ratio with a width of 899px */
     }
@@ -61,14 +64,14 @@
         width: 90%;
     }
     #metadata {
-        padding: 1em 0 1em 0; /* this should be equal to the content padding */
+        padding: 2em 0 2em 0; /* this should be equal to the content padding */
     }
     .youtube {
         position: relative;
         width: 100%;
         height: 0;
         padding-bottom: 56.25%;
-        margin: 0 0 0.9em 0;
+        margin: 0 0 1em 0;
     }
     .youtube iframe {
         position: absolute;
@@ -76,20 +79,20 @@
         left: 0;
         width: 100%;
         height: 100%;
-        border-radius: 3px;
+        border-radius: 3px; /* this should be the same as the main border radius in core.css */
     }
     audio {
         width: 100%;
     }
     #blog-index img {
-        margin: 0 0 1.35em;
+        margin: 0 0 1.35em; /* this should be the same as the main body line height */
         width: 100%;
     }
 }
 
 /* Element Styles */
 #content {
-    padding: 1.7em 1.8em 0.9em 1.8em; /* half the bottom padding should be supplied by the final content element */
+    padding: 2em 2em 1em 2em; /* half the bottom padding should be supplied by the final content element */
     box-sizing: border-box;
     margin-bottom: 2.5vh;
 }
