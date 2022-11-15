@@ -37,6 +37,9 @@ html {
 #content {
     box-shadow: 0px 1px 3px rgb(225, 225, 225);
 }
+#content img {
+    box-shadow: 0px 1px 3px #eee;
+}
 #main-table img, .video-cell iframe {
     display: block;
 }
