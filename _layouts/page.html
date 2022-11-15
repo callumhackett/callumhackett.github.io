@@ -1,9 +1,12 @@
 {% capture table-content %}
 <div id="metadata"> <!-- this appears to the left of the main body -->
-    {%- if page.date -%}
+    <div>{%- if page.date -%}
     {% include post_date.html %}
     {%- else -%}
     {{ page.title | smartify }}
+    {%- endif -%}
+    {%- if page.feed-link -%}</div>
+    <div><a href="https://www.callumhackett.com/feed.xml">Feed</a></div>
     {%- endif -%}
 </div>
 <div id="page-content">
