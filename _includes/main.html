@@ -45,7 +45,12 @@
                 </div>
             </div>
             <div id="navigation">
-                <a href="{{ site.url }}">Home</a>{% for item in site.data.page_links %} <a href="{{ site.url }}{{ item.permalink }}">{{ item.name }}</a>{% endfor %}
+                <a href="{{ site.url }}">Home</a>
+                {%- for link in site.data.navbar -%}
+                {%- for page in site.pages -%}
+                {% if link.name == page.navbar %} <a href="{{ site.url }}{{ page.permalink }}">{{ page.navbar }}</a>{% endif %}
+                {%- endfor -%}
+                {%- endfor -%}
             </div>
         </div>
         <div id="main-table-container">
