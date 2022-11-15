@@ -4,19 +4,19 @@
 
 - name: Bandcamp
   link: https://bandcamp.com/callumhackett
-  image: /assets/images/icons/bandcamp-bw.svg
+  image: /assets/images/core/bandcamp-bw.svg
 - name: Soundcloud
   link: https://soundcloud.com/callumhackett
-  image: /assets/images/icons/soundcloud-bw.svg
+  image: /assets/images/core/soundcloud-bw.svg
 - name: YouTube
   link: https://www.youtube.com/@callumhackett
-  image: /assets/images/icons/youtube-bw.svg
+  image: /assets/images/core/youtube-bw.svg
 - name: Instagram
   link: https://www.instagram.com/callum.hackett/
-  image: /assets/images/icons/instagram-bw.svg
+  image: /assets/images/core/instagram-bw.svg
 - name: Twitter
   link: https://www.twitter.com/callumhackett_
-  image: /assets/images/icons/twitter-bw.svg
+  image: /assets/images/core/twitter-bw.svg
 - name: Patreon
   link: https://www.patreon.com/callumhackett
-  image: /assets/images/icons/patreon-bw.svg
+  image: /assets/images/core/patreon-bw.svg
