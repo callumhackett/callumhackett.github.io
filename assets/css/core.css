@@ -49,7 +49,7 @@ html {
 }
 
 /* Font Groups */
-#title, #navigation, #metadata, h1, h2, h3 {
+#title, #navigation, #metadata, #post-date, h1, h2, h3 {
     font-family: 'barlow', 'futura', sans-serif;
     font-weight: normal;
     text-transform: uppercase;
@@ -58,14 +58,14 @@ html {
 }
 p, li {
     font-family: 'spline sans mono', 'inconsolata', monospace, sans-serif;
-    color: #282828;
     line-height: 1.35em;
+    color: #282828;
     letter-spacing: -0.5px;
     word-spacing: -0.5px;
 }
 
 /* Font Sizes */
-#title h1 {
+#title h1, #post-date {
     font-size: 1em;
     line-height: 1em;
 }
