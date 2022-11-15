@@ -5,13 +5,6 @@
 #podcast {
     background: #fff;
 }
-#composition, #podcast {
-    box-shadow: 1px 1px 3px rgb(225, 225, 225);
-}
-#main-table img, .video-cell iframe {
-    display: block;
-    box-shadow: 1px 1px 3px #b0b0b0;
-}
 
 /* Font Margins */
 #main-table h2 {
@@ -25,7 +18,7 @@
 #main-table-container {
     width: 100%;
 }
-.text-cell {
+.bottom-text-cell {
     box-sizing: border-box;
     padding: 1em 1.35em;
 }
@@ -75,7 +68,7 @@
     .cell {
         margin-bottom: 2.5vh !important;
     }
-    .music-cell, .img-cell, .video-cell, .text-cell {
+    .music-cell, .img-cell, .video-cell, .bottom-text-cell {
         position: relative;
         width: 90%;
         margin: auto;
