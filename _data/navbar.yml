@@ -1,4 +1,4 @@
-# Populates links in the navbar (except for Home).
+# Populates page links in the navbar (except for Home).
 # Each page config should state the link name to appear. This lists those names in preferred L-to-R order.
 
 - name: Bio
