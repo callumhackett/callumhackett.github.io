@@ -1,17 +1,10 @@
 {% capture table-content %}
 <div id="metadata"> <!-- this appears to the left of the main body -->
-    {% if page.date %}
-    {% include post_date.html %} <!-- prints dates for blog posts -->
-    {% else %}
-    {{ page.title | smartify }} <!-- prints title for main pages -->
-    {% endif %}
-    ▶
+    {% if page.date %}{% include post_date.html %}{% else %}{{ page.title | smartify }}{% endif %} ▶
 </div>
 <div id="content">
     <div>{{ content | smartify }}</div> <!-- this is the main body picked up from the markdown file -->
-    {% if page.comments %}
-    {% include disqus_thread.html %}
-    {% endif %}
+    {% if page.comments %}{% include disqus_thread.html %}{% endif %}
 </div>
 {% endcapture %}
 

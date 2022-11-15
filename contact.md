@@ -13,4 +13,4 @@ permalink: /contact # custom page URL, begin with /
 # social_image_alt: # description of the social image
 comments: true # uncomment for a Disqus thread; post dates and page titles should be unique and unchanged
 ---
-You're welcome to send queries and messages [via email](mailto:callumjhackett@gmail.com), or you can just leave a comment below. You can also find me at the various social media destinations listed in the title bar, though they're not the best way to get a reply.
+You're welcome to send queries and messages [via email](mailto:callumjhackett@gmail.com), or you can just leave a comment below. You can also find me at the various social media destinations listed in the title bar.

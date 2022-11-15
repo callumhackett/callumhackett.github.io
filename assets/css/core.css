@@ -72,11 +72,11 @@ html {
 }
 
 /* Font Groups */
-#header, #navigation, #metadata, h1, h2, h3, #comments-count p {
+#header, #navigation, #metadata, h1, h2, h3, #comments-count h3 {
     font-family: 'barlow', sans-serif;
     font-weight: normal;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
     word-spacing: 2px;
 }
 p, li {
@@ -88,7 +88,7 @@ p, li {
 }
 
 /* Font Sizes */
-#header, #header h1, #title, #comments-count p {
+#header, #header h1, #title, #comments-count h3 {
     font-size: 1em;
     line-height: 1em;
 }
@@ -125,18 +125,19 @@ li {
 /* Link Styles */
 a {
     outline: none;
-}
-#title a, #navigation a {
     text-decoration: none;
 }
 #title a, #navigation a, #metadata, h1, h2, h3 {
     color: #000;
 }
-h1 a, h1 a:active, h1 a:visited, h1 a:hover {
-    color: rgb(0, 60, 255);
+h1 a, h1 a:active, h1 a:visited, h1 a:hover, h3 a, h3 a:active, h3 a:visited, h3 a:hover {
+    color: rgb(0, 0, 255);
 }
 p a, p a:active, p a:visited, p a:hover {
-    color: rgb(0, 60, 255);
+    color: rgb(0, 0, 255);
+}
+#content p a {
+    text-decoration: underline;
 }
 
 /* Element Styles */
@@ -203,7 +204,7 @@ body {
         padding: 2.5vh 7.5%;
     }
     #header-container {
-        margin-bottom: 2.5vh;
+        margin-bottom: 5vh;
     }
     body {
         margin-bottom: 3.75vh;
