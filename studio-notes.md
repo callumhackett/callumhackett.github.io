@@ -21,7 +21,7 @@ social_image_alt: Studio Notes by Callum Hackett # description of the social ima
         <a href="{{ post.url }}"><img src="{{ post.image }}"/></a>
         <h1><a href="{{ post.url }}">{{ post.title }} — {% include post_date.html %}</a></h1>
         <div id="comments-count">
-            <h3><a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.date | date: "%Y-%m-%d" }}"></a> 💬</h3>
+            <h3><a href="{{ post.url }}/#disqus_thread" data-disqus-identifier="{{ post.date | date: "%Y-%m-%d" }}"></a> 💬</h3>
         </div>
         <p>{{ post.description | smartify }}</p>
     </div>
