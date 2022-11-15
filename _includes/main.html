@@ -29,32 +29,30 @@
 
         {% feed_meta %}
 
-        <title>Callum Hackett | {{ page.title }}</title>
+        <title>Callum Hackett | {{ page.title | smartify }}</title>
     </head>
     <body>
-        <div id="header-container">
+        <div id="title-bar">
             <div id="header">
                 <div id="title">
                     <h1><a href="{{ site.url }}">Callum Hackett</a></h1>
                     {% for item in site.data.social_links %}<a href="{{ item.link }}"><img src="{{ item.image }}" title="{{ item.name }}"/></a>{% endfor %}
                 </div>
                 <div id="profile-pic">
-                    <a href="{{ site.url }}">
-                        <img src="/assets/images/core/profile_pic.png" title="Callum Hackett" />
-                    </a>
+                    <a href="{{ site.url }}"><img src="/assets/images/core/profile_pic.png" title="Callum Hackett" /></a>
                 </div>
             </div>
             <div id="navigation">
                 <a href="{{ site.url }}">Home</a>
                 {%- for link in site.data.navbar -%}
                 {%- for page in site.pages -%}
-                {% if link.name == page.navbar %} <a href="{{ site.url }}{{ page.permalink }}">{{ page.navbar }}</a>{% endif %}
+                {% if link.name == page.navbar %} <a href="{{ site.url }}{{ page.permalink }}">{{ page.navbar | smartify }}</a>{% endif %}
                 {%- endfor -%}
                 {%- endfor -%}
             </div>
         </div>
-        <div id="main-table-container">
-            <div id="main-table">
+        <div id="body-container">
+            <div id="body-table">
                 {{ include.table-content }}
             </div>
         </div>

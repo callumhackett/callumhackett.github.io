@@ -1,14 +1,9 @@
-/* Font Sizes */
-#post-date {
-    letter-spacing: 1px;
-}
-
 /* Font Layout */
 #metadata {
     text-align: right;
     line-height: 1em;
 }
-#content h1 {
+#page-content h1 {
     margin: 0 0 0.5em 0;
     line-height: 1em;
 }
@@ -24,9 +19,16 @@ h2 {
     line-height: 1em;
 }
 
+/* Element Styles */
+#page-content {
+    padding: 2em 2em 1em 2em; /* half the bottom padding should be supplied by the final page-content element */
+    box-sizing: border-box;
+    margin-bottom: 2.5vh;
+}
+
 /* Dynamic Layout */
 @media screen and (min-width: 1366px) {
-    #main-table {
+    #body-table {
         display: grid;
         grid: minmax(243px, auto) / 432px 899px; /* these dimensions should merge the last two columns of the landing.css table */
         gap: 35px;
@@ -35,18 +37,17 @@ h2 {
         left: 50%;
         transform: translate(-50%, 20vh);
     }
-    #content {
+    #page-content {
         grid-column: 2;
         grid-row: 1;
     }
-    #content p {
+    #page-content p {
         text-align: justify;
     }
     #metadata {
         grid-column: 1;
         grid-row: 1;
         padding: 1.5em 0 0 0;
-        margin-right: -12px;
     }
     .youtube {
         margin: 0em 0 1em -2em;
@@ -63,12 +64,12 @@ h2 {
 }
 
 @media screen and (max-width: 1365px) {
-    #main-table {
+    #body-table {
         margin: auto;
         width: 90%;
     }
     #metadata {
-        padding: 0 0 2.5vh 0; /* this should be equal to the content padding */
+        padding: 0 0 2.5vh 0; /* this should be equal to the page-content padding */
     }
     .youtube {
         position: relative;
@@ -92,11 +93,4 @@ h2 {
         margin: 0 0 1.35em; /* this should be the same as the main body line height */
         width: 100%;
     }
-}
-
-/* Element Styles */
-#content {
-    padding: 2em 2em 1em 2em; /* half the bottom padding should be supplied by the final content element */
-    box-sizing: border-box;
-    margin-bottom: 2.5vh;
 }

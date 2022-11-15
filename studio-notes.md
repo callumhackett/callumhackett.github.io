@@ -13,14 +13,6 @@ navbar: Blog # label to appear in navbar; reference in _data/navbar.yml
 image: /assets/images/social/studio_notes.jpg # path to an image for social media shares, AR 1.9:1, typically 1200x630, begin with /
 social_image_alt: Studio Notes by Callum Hackett # description of the social image
 ---
-*<a href="https://www.callumhackett.com/feed.xml">Link to posts feed</a> (for your reader of choice)*
+*[Link to posts feed](https://www.callumhackett.com/feed.xml) (for your reader of choice)*
 
-<div id="blog-index">
-    {%- for post in site.posts -%}
-    <div id="blog-entry">
-        <a href="{{ post.url }}"><img src="{{ post.image }}"/></a>
-        <h1><a href="{{ post.url }}">{{ post.title }} — {% include post_date.html %}</a></h1>
-        <p>{{ post.description | smartify }}</p>
-    </div>
-    {%- endfor -%}
-</div>
+{% include blog_index.html %}

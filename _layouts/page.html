@@ -6,8 +6,8 @@
     {{ page.title | smartify }}
     {%- endif -%}
 </div>
-<div id="content">
-    <div>{{ content | smartify }}</div> <!-- this is the main body picked up from the markdown file -->
+<div id="page-content">
+    {{ content | smartify }} <!-- this is the main body picked up from the markdown file -->
 </div>
 {% endcapture %}
 

@@ -1,4 +1,4 @@
-/* Backgrounds */
+/* Backgrounds & Shadows */
 #composition {
     background: rgba(0,0,0,0);
 }
@@ -7,7 +7,7 @@
 }
 
 /* Font Margins */
-#main-table h2 {
+h2 {
     margin: 0 0 0.25em 0;
 }
 #podcast p {
@@ -15,7 +15,7 @@
 }
 
 /* Base Layout */
-#main-table-container {
+#body-container {
     width: 100%;
 }
 .bottom-text-cell {
@@ -25,7 +25,7 @@
 
 /* Dynamic Layout */
 @media screen and (min-width: 1366px) {
-    #main-table {
+    #body-table {
         display: grid;
         grid: 243px minmax(243px, auto) / 432px 432px 432px; /* the dimensions are based on cells at 16:9 with a container 1366px wide */
         gap: 35px;
