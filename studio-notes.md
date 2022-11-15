@@ -20,7 +20,11 @@ social_image_alt: Studio Notes by Callum Hackett # description of the social ima
     <div id="blog-entry">
         <img src="{{ post.image }}"/>
         <h1><a href="{{ post.url }}">{{ post.title }} — {% include post_date.html %}</a></h1>
+        <div id="comments-count">
+            <p><a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.date | date: "%Y-%m-%d" }}"></a> 💬</p>
+        </div>
         <p>{{ post.description | smartify }}</p>
     </div>
     {% endfor %}
 </div>
+<script id="dsq-count-scr" src="//callum-hackett.disqus.com/count.js" async></script>
