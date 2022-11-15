@@ -60,7 +60,7 @@ html {
 }
 
 /* Font Groups */
-#header, #navigation, #metadata, h1, h2, h3, #comments-count h3 {
+#header, #navigation, #metadata, h1, h2, h3 {
     font-family: 'barlow', sans-serif;
     font-weight: normal;
     text-transform: uppercase;
@@ -76,7 +76,7 @@ p, li {
 }
 
 /* Font Sizes */
-#header, #header h1, #title, #comments-count h3 {
+#header, #header h1, #title {
     font-size: 1em;
     line-height: 1em;
 }

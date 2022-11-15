@@ -1,16 +1,10 @@
 {% capture table-content %}
 <div id="metadata"> <!-- this appears to the left of the main body -->
-    {% if page.date %}{% include post_date.html %}
-    {% if page.comments %}
-    <br/><a href="{{ page.url }}/#disqus_thread" data-disqus-identifier="{{ page.date | date: "%Y-%m-%d" }}"></a>
-    {% endif %}
-    {% else %}{{ page.title | smartify }} ▶{% endif %}
+    {% if page.date %}{% include post_date.html %}{% else %}{{ page.title | smartify }} ▶{% endif %}
 </div>
 <div id="content">
     <div>{{ content | smartify }}</div> <!-- this is the main body picked up from the markdown file -->
-    {% if page.comments %}{% include disqus_thread.html %}{% endif %}
 </div>
-<script id="dsq-count-scr" src="//callum-hackett.disqus.com/count.js" async></script>
 {% endcapture %}
 
 {% include main.html css="/assets/css/page.css" table-content=table-content %}
