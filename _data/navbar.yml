@@ -1,7 +1,6 @@
 # Populates links in the navbar.
-# If specified with "link", "name" will be used as the label for the given link.
-# If not specified with "link", "name" will be matched against a page with the same label given in config as "navbar".
-# Each page config should state the link name to appear. This lists those names in preferred L-to-R order.
+# If specified with "link", "nav_label" will be used as the text for the given link.
+# If not specified with "link", "nav_label" will be matched against a page with the same nav label in its front matter.
 
 - nav_label: Home
   link: https://www.callumhackett.com
