@@ -25,6 +25,14 @@ h2 {
     box-sizing: border-box;
     margin-bottom: 2.5vh;
 }
+#blog-entry {
+    display: inline-block;
+    clear: both;
+    padding-bottom: 2em;
+}
+#blog-entry p {
+    margin-block-end: 0;
+}
 
 /* Dynamic Layout */
 @media screen and (min-width: 1366px) {
