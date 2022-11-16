@@ -4,8 +4,9 @@
         <meta charset="utf-8" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="/assets/css/core.css"> <!-- universal css -->
-        <link rel="stylesheet" href="{{ include.css }}"> <!-- layout-specific css -->
+        <link rel="stylesheet" href="/assets/css/fonts.css"> <!-- font styles -->
+        <link rel="stylesheet" href="/assets/css/core.css"> <!-- universal styles -->
+        <link rel="stylesheet" href="{{ include.css }}"> <!-- layout-specific styles -->
 
         <meta name="author" content="Callum Hackett" />
         <meta property="og:locale" content="en_GB" />
@@ -31,22 +32,13 @@
 
         <title>Callum Hackett | {{ page.title | smartify }}</title>
     </head>
+
     <body>
         <div id="title-bar">
-            <div id="header">
-                <div id="title">
-                    <h1><a href="{{ site.url }}">Callum Hackett</a></h1>
-                    {% for item in site.data.social_links %}<a href="{{ item.link }}"><img src="{{ item.image }}" title="{{ item.name }}"/></a>{% endfor %}
-                </div>
-                <div id="profile-pic">
-                    <a href="{{ site.url }}"><img src="/assets/images/core/profile_pic.png" title="Callum Hackett" /></a>
-                </div>
-            </div>
             <div id="navigation">
-                {%- for entry in site.data.navbar -%}
-                {%- if entry.nav_label == 'Home' -%}
                 <a href="{{ site.url }}">Home</a>
-                {%- elsif entry.link -%}
+                {%- for entry in site.data.navbar -%}
+                {%- if entry.link -%}
                 <a href="{{ entry.link }}">{{ entry.nav_label | smartify }}</a>
                 {%- else -%}
                 {%- for page in site.pages -%}
@@ -57,10 +49,18 @@
                 {%- endif -%}
                 {%- endfor -%}
             </div>
+            <div id="header">
+                <div id="title-name"><a href="{{ site.url }}">Callum Hackett</a></div>
+                <div id="social-links">
+                    {%- for entry in site.data.social_links -%}
+                    <a href="{{ entry.link }}"><img src="{{ entry.image }}" title="{{ entry.name }}"/></a>
+                    {%- endfor -%}
+                </div>
+            </div>
         </div>
         <div id="body-container">
             <div id="body-table">
-                {{ include.table-content }}
+                {{ include.body-content }}
             </div>
         </div>
     </body>

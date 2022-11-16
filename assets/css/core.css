@@ -1,4 +1,4 @@
-/* Backgrounds & Shadows */
+/* Background Colours */
 html {
     background-image:
         repeating-linear-gradient(rgba(0,0,0,0.05) 0,transparent 1px,transparent 2px,rgba(0,0,0,0.05) 3px),
@@ -18,85 +18,14 @@ html {
 }
 #title-bar, #page-content, #page-content img {
     background: #fff;
+}
+
+/* Box Shadows */
+#title-bar, #page-content, #page-content img {
     box-shadow: 0px 1px 3px rgb(235, 235, 235);
 }
 
-/* Font Imports */
-@font-face {
-    font-family: 'barlow';
-    src: url('/assets/fonts/barlow-medium.woff2') format('woff2');
-    font-style: normal;
-}
-@font-face {
-    font-family: 'barlow';
-    src: url('/assets/fonts/barlow-mediumitalic.woff2') format('woff2');
-    font-style: italic;
-}
-@font-face {
-    font-family: 'spline sans mono';
-    src: url('/assets/fonts/splinesansmono-regular.woff2') format('woff2');
-    font-weight: normal;
-}
-@font-face {
-    font-family: 'spline sans mono';
-    src: url('/assets/fonts/splinesansmono-italic.woff2') format('woff2');
-    font-style: italic;
-}
-@font-face {
-    font-family: 'spline sans mono';
-    src: url('/assets/fonts/splinesansmono-bold.woff2') format('woff2');
-    font-weight: bold;
-}
-
-/* Font Groups */
-#title, #navigation, #metadata, #post-date, h1, h2, h3 {
-    font-family: 'barlow', 'futura', sans-serif;
-    font-weight: normal;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    word-spacing: 2px;
-}
-p, li {
-    font-family: 'spline sans mono', 'inconsolata', monospace, sans-serif;
-    line-height: 1.35em;
-    color: #282828;
-    letter-spacing: -0.5px;
-    word-spacing: -0.5px;
-}
-
-/* Font Sizes */
-#title h1, #post-date {
-    font-size: 1em;
-    line-height: 1em;
-}
-#navigation, #metadata, #body-table h1, #body-table h2 {
-    font-size: 1.3em !important;
-}
-p, li {
-    font-size: 0.9em;
-}
-
-/* Font Layout */
-#title h1 {
-    margin-block-start: 0 !important;
-    margin-block-end: 0 !important;
-    margin-inline-start: 0 !important;
-    margin-inline-end: 0 !important;
-}
-#navigation a {
-    margin: 0 0.5em;
-}
-p, ul, li {
-    margin-block-start: 0;
-}
-p, ul, audio {
-    margin-block-end: 0.9em; /* this should equal the main font size */
-}
-li {
-    margin-block-end: 0.25em;
-}
-
-/* Link Styles */
+/* Links */
 a, a:active, a:visited, a:hover {
     color: rgb(0, 0, 255);
     outline: none;
@@ -123,9 +52,6 @@ body {
     width: 100%;
     align-items: center;
 }
-#title, #profile-pic {
-    display: inline-block;
-}
 #title h1 {
     margin-bottom: 10px !important; /* this should be twice the social icon spacing */
 }
@@ -133,10 +59,6 @@ body {
     height: 24px;
     padding: 0px 5px 0px 5px;
     opacity: 0.84;
-}
-#profile-pic {
-    padding: 0px 1% 0 0px;
-    vertical-align: top !important; /* this stops the display:inline from adding extra height */
 }
 
 /* Dynamic Layout */
@@ -150,8 +72,8 @@ body {
     #header {
         grid-column: 2;
     }
-    #title h1 {
-        padding-right: 5px; /* this should be equal to the social icon spacing */
+    #title {
+        margin-right: 5px; /* this should be equal to the social icon spacing */
     }
     #navigation {
         grid-column: 1 / 3;
@@ -179,9 +101,6 @@ body {
     #header {
         text-align: center;
         padding: 2.5vh 0 0 0;
-    }
-    #profile-pic {
-        display: none !important;
     }
     #navigation {
         text-align: center;

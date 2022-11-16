@@ -1,6 +1,6 @@
 # Populates social media links in the title bar
 # Use "name", "link" and "image" for each item, where "name" is the text to be displayed in a tooltip on hover, "link"
-# is the URL of the profile and "image" is an icon
+# is the URL of the profile and "image" is an icon path
 
 - name: Bandcamp
   link: https://bandcamp.com/callumhackett
