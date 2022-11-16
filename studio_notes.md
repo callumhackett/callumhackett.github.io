@@ -12,6 +12,5 @@ navbar: Blog # label to appear in navbar; reference in _data/navbar.yml
 # description: # in blog index, HTML meta and social media snippets
 image: /assets/images/social/studio_notes.jpg # path to an image for social media shares, AR 1.9:1, typically 1200x630, begin with /
 social_image_alt: Studio Notes by Callum Hackett # description of the social image
-feed-link: true
 ---
 {% include blog_index.html %}
