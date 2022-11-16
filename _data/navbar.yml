@@ -3,7 +3,7 @@
 # If not specified with "link", "nav_label" will be matched against a page with the same nav label in its front matter.
 
 - nav_label: Home
-  link: https://www.callumhackett.com
+  link: https://www.callumhackett.com/
 - nav_label: Bio
 - nav_label: Blog
 #- nav_label: List of Works
