@@ -1,7 +1,11 @@
-# Populates page links in the navbar (except for Home).
+# Populates page links in the navbar.
+# If specified with "link", "name" will be used as the label for the given link.
+# If not specified with "link", "name" will be matched against a page with the same label given in config as "navbar".
 # Each page config should state the link name to appear. This lists those names in preferred L-to-R order.
 
-- name: Bio
-- name: Blog
-#- name: List of Works
-- name: Contact
+- nav_label: Home
+  link: https://www.callumhackett.com
+- nav_label: Bio
+- nav_label: Blog
+#- nav_label: List of Works
+- nav_label: Contact

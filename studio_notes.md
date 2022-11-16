@@ -5,7 +5,7 @@ title: Studio Notes # in HTML meta and tab title
 
 # optional, no defaults
 permalink: /studio-notes # custom page URL, begin with /
-navbar: Blog # label to appear in navbar; reference in _data/navbar.yml
+nav_label: Blog # label to appear in navbar; reference in _data/navbar.yml
 
 # optional, overrides defaults
 # type: # defaults to website, otherwise one of: article, music, video

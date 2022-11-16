@@ -43,11 +43,16 @@
                 </div>
             </div>
             <div id="navigation">
-                <a href="{{ site.url }}">Home</a>
-                {%- for link in site.data.navbar -%}
+                {%- for entry in site.data.navbar -%}
+                {%- if entry.link -%}
+                <a href="{{ link.link }}">{{ entry.nav_label | smartify }}</a>
+                {%- else -%}
                 {%- for page in site.pages -%}
-                {% if link.name == page.navbar %} <a href="{{ site.url }}{{ page.permalink }}">{{ page.navbar | smartify }}</a>{% endif %}
+                {%- if entry.nav_label == page.nav_label -%}
+                <a href="{{ site.url }}{{ page.permalink }}">{{ page.nav_label | smartify }}</a>
+                {%- endif -%}
                 {%- endfor -%}
+                {%- endif -%}
                 {%- endfor -%}
             </div>
         </div>
