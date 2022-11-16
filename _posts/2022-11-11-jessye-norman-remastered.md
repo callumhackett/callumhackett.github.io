@@ -10,7 +10,7 @@ permalink: /remastering-jessye-norman # custom page URL, begin with /
 type: article # defaults to website, otherwise one of: article, music, video
 description: In 1984, Jessye Norman gave an unforgettable live performance of a Poulenc song, though only poor audio survives. Here, I discuss the performance and offer a remastering with notes on my processing setup. # in blog index, HTML meta and social media snippets
 image: /assets/images/social/jessye_norman.jpg # path to an image for social media shares, AR 1.9:1, typically 1200x630, begin with /
-social_image_alt: Jessye Norman # description of the social image
+image_alt: Jessye Norman # description of the social image
 ---
 # Remastering Jessye Norman
 

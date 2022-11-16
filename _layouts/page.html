@@ -4,12 +4,12 @@
     <div>Studio Notes</div>
     <div id="feed-link"><a href="https://www.callumhackett.com/feed.xml">Feed</a></div>
     {%- endif -%}
-    {%- if page.title == 'Studio Notes' -%}
-    <div id="feed-link"><a href="https://www.callumhackett.com/feed.xml">Feed</a></div>
-    {%- endif -%}
     {%- unless page.id -%}
     <div>{{ page.title | smartify }}</div>
     {%- endunless -%}
+    {%- if page.title == 'Studio Notes' -%}
+    <div id="feed-link"><a href="https://www.callumhackett.com/feed.xml">Feed</a></div>
+    {%- endif -%}
 </div>
 <div id="page-content">
     {%- if page.id -%}
@@ -17,6 +17,7 @@
     {%- endif -%}
     {{ content | smartify }} <!-- this is the main body picked up from the markdown file -->
 </div>
+<div id="empty-row"></div> <!-- this is to add end-screen padding without affecting the size of the first row -->
 {% endcapture %}
 
-{% include main.html css="/assets/css/page.css" body-content=body-content %}
+{% include main.html css="page" body-content=body-content %}

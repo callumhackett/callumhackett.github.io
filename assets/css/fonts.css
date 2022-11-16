@@ -26,61 +26,68 @@
 }
 
 /* Font Families */
-#title, #navigation, #metadata, #post-date, h1, h2, h3 {
+#title, #navigation, #metadata, #post-date, .post-date, h1, h2, h3 {
     font-family: 'barlow', 'futura', sans-serif;
     color: #000;
     font-weight: normal;
     text-transform: uppercase;
     letter-spacing: 1px;
     word-spacing: 2px;
+    margin-block-start: 0 !important;
 }
 p, li {
     font-family: 'spline sans mono', 'inconsolata', sans-serif;
     color: #282828;
-    line-height: 1.35em;
     letter-spacing: -0.5px;
     word-spacing: -0.5px;
+    margin-block-start: 0 !important;
 }
 
-/* Font Sizes (have no more than two per family) */
-#header h1, #post-date {
+/* Font Sizes */
+#header h1, .post-date {
     font-size: 1em;
     line-height: 1em;
 }
-#navigation, #metadata, #page-content h1, h2 {
-    font-size: 1.3em !important;
+#navigation, #metadata, #page-content h1, h2, h3 {
+    font-size: 1.3em;
     line-height: 1em;
 }
 p, li {
     font-size: 0.9em;
+    line-height: 1.35em;
+}
+
+/* Dynamic Sizes */
+@media screen and (max-width: 1365px) {
+    #navigation {
+        line-height: 1.5em !important;
+    }
 }
 
 /* Font Layout */
-#header h1 {
+ul {
     margin-block-start: 0 !important;
-    margin-block-end: 0 !important;
-    margin-inline-start: 0 !important;
-    margin-inline-end: 0 !important;
-    margin-bottom: 10px !important; /* this should be twice the social icon spacing */
-    padding-right: 5px;
 }
-#navigation a {
-    margin: 0 0.75em;
+p:not(:last-child), ul {
+    margin-block-end: 0.9em;
 }
-.index h2 {
-    margin: 0 0 0.5em 0;
-}
-p, ul, li {
-    margin-block-start: 0;
-}
-p, ul, audio {
-    margin-block-end: 0.9em; /* this should equal the main font size */
+p:last-child {
+    margin-block-end: 0;
 }
 li {
     margin-block-end: 0.25em;
 }
-.index p {
-    margin-block-end: 0em;
+
+/* Dynamic Layout */
+@media screen and (min-width: 1366px) {
+    ul {
+        padding-left: 2em;
+    }
+}
+@media screen and (max-width: 1365px) {
+    ul {
+        padding-left: 1.5em;
+    }
 }
 
 /* Links */
@@ -94,16 +101,4 @@ a, a:active, a:visited, a:hover {
 }
 #page-content p a {
     text-decoration: underline;
-}
-
-/* Dynamic Layout */
-@media screen and (min-width: 1366px) {
-    ul {
-        padding-left: 2em;
-    }
-}
-@media screen and (max-width: 1365px) {
-    ul {
-        padding-left: 1.5em;
-    }
 }
