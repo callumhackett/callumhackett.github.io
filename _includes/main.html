@@ -35,6 +35,12 @@
 
     <body>
         <div id="title-bar">
+            <div id="header">
+                <h1><a href="{{ site.url }}">Callum Hackett</a></h1>
+                {%- for entry in site.data.social_links -%}
+                <a href="{{ entry.link }}"><img src="{{ entry.image }}" title="{{ entry.name }}"/></a>
+                {%- endfor -%}
+            </div>
             <div id="navigation">
                 <a href="{{ site.url }}">Home</a>
                 {%- for entry in site.data.navbar -%}
@@ -48,14 +54,6 @@
                 {%- endfor -%}
                 {%- endif -%}
                 {%- endfor -%}
-            </div>
-            <div id="header">
-                <div id="title-name"><a href="{{ site.url }}">Callum Hackett</a></div>
-                <div id="social-links">
-                    {%- for entry in site.data.social_links -%}
-                    <a href="{{ entry.link }}"><img src="{{ entry.image }}" title="{{ entry.name }}"/></a>
-                    {%- endfor -%}
-                </div>
             </div>
         </div>
         <div id="body-container">

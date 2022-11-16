@@ -2,26 +2,26 @@
 title: Home # in HTML meta and tab title
 ---
 {% capture podcast-description %}
-<em>Music in Pieces</em> is a limited series podcast about the <em>je ne sais quoi</em> of classical music. Currently in production, each episode will focus on a different aspect of musical structure, explored through musical examples and interviews with experts. Newcomers will find out what the genre does uniquely well, and aficionados will hear something fresh in the familiar. Check back soon for the first release.
+<em>Music in Pieces</em> is a limited series podcast about the <em>je ne sais quoi</em> of classical music. Currently in production, each episode will focus on a different aspect of musical structure, explored through musical examples and interviews with experts. Newcomers will find out what the genre does uniquely well, and aficionados will hear something fresh in the familiar.
 {% endcapture %}
 
-{% capture table-content %}
-<div id="composition" class="cell full-cell music-cell">
+{% capture body-content %}
+<div id="music" class="index full-cell music-cell">
     {% include soundcloud.html embed="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1520166127" %}
 </div>
-<div id="narration" class="cell top-cell img-cell">
+<div id="audiobook" class="index top-cell img-cell">
     <a href="{{ site.url }}"><img src="/assets/images/index/the_raven.jpg" alt="The Raven" /></a>
 </div>
-<div id="podcast" class="cell bottom-text-cell">
+<div id="podcast" class="index bottom-text-cell text-cell">
     <h2>Music in Pieces</h2>
     <p>{{ podcast-description | smartify }}</p>
 </div>
-<div id="spotlight" class="cell top-cell video-cell">
+<div id="spotlight" class="index top-cell video-cell">
     {% include youtube.html embed="https://www.youtube.com/embed/_oO_DxpWKtw" %}
 </div>
-<div id="blog" class="cell bottom-cell img-cell">
+<div id="blog" class="index bottom-cell img-cell">
     <a href="{{ site.url }}/studio-notes"><img src="/assets/images/index/studio_notes.jpg" alt="The Blue Room" /></a>
 </div>
 {% endcapture %}
 
-{% include main.html css="/assets/css/index.css" table-content=table-content %}
+{% include main.html css="/assets/css/index.css" body-content=body-content %}

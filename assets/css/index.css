@@ -1,24 +1,16 @@
-/* Backgrounds & Shadows */
-#composition {
+/* Backgrounds Colours */
+#music, #audiobook, #spotlight, #blog {
     background: rgba(0,0,0,0);
 }
-#podcast {
+.text-cell {
     background: #fff;
 }
 
-/* Font Margins */
-h2 {
-    margin: 0 0 0.25em 0;
-}
-#podcast p {
-    margin-block-end: 0em !important;
-}
-
 /* Base Layout */
-#body-container {
-    width: 100%;
+.cell a {
+    line-height: 0 !important;
 }
-.bottom-text-cell {
+.text-cell {
     box-sizing: border-box;
     padding: 1em 1.35em;
 }
@@ -27,7 +19,7 @@ h2 {
 @media screen and (min-width: 1366px) {
     #body-table {
         display: grid;
-        grid: 243px minmax(243px, auto) / 432px 432px 432px; /* the dimensions are based on cells at 16:9 with a container 1366px wide */
+        grid: 243px 243px / 432px 432px 432px; /* the dimensions are based on cells at 16:9 with a container 1366px wide */
         gap: 35px;
         position: absolute;
         top: 0;
@@ -42,11 +34,11 @@ h2 {
         height: 243px;
         width: 432px;
     }
-    #composition {
+    #music {
         grid-column: 1;
         grid-row: 1 / 3;
     }
-    #narration {
+    #audiobook {
         grid-column: 2;
         grid-row: 1;
     }
@@ -63,15 +55,14 @@ h2 {
         grid-row: 2;
     }
 }
-
 @media screen and (max-width: 1365px) {
-    .cell {
-        margin-bottom: 2.5vh !important;
-    }
-    .music-cell, .img-cell, .video-cell, .bottom-text-cell {
+    .index {
         position: relative;
         width: 90%;
-        margin: auto;
+        margin: 0 auto 4vh auto;
+    }
+    .index:last-child {
+        margin-bottom: 0;
     }
     .music-cell {
         height: 50vh;
@@ -80,7 +71,7 @@ h2 {
         width: 100%;
     }
     .video-cell {
-        padding-bottom: 50.63%; /* ensures 16:9 aspect ratio when width is 85% */
+        padding-bottom: 50.63%; /* ensures 16:9 aspect ratio when width is 90% */
     }
     .video-cell iframe {
         position: absolute;

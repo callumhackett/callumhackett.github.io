@@ -28,6 +28,7 @@
 /* Font Families */
 #title, #navigation, #metadata, #post-date, h1, h2, h3 {
     font-family: 'barlow', 'futura', sans-serif;
+    color: #000;
     font-weight: normal;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -41,12 +42,12 @@ p, li {
     word-spacing: -0.5px;
 }
 
-/* Font Sizes */
-#title h1, #post-date {
+/* Font Sizes (have no more than two per family) */
+#header h1, #post-date {
     font-size: 1em;
     line-height: 1em;
 }
-#navigation, #metadata, h1, h2 {
+#navigation, #metadata, #page-content h1, h2 {
     font-size: 1.3em !important;
     line-height: 1em;
 }
@@ -55,14 +56,19 @@ p, li {
 }
 
 /* Font Layout */
-#title h1 {
+#header h1 {
     margin-block-start: 0 !important;
     margin-block-end: 0 !important;
     margin-inline-start: 0 !important;
     margin-inline-end: 0 !important;
+    margin-bottom: 10px !important; /* this should be twice the social icon spacing */
+    padding-right: 5px;
 }
 #navigation a {
-    margin: 0 0.5em;
+    margin: 0 0.75em;
+}
+.index h2 {
+    margin: 0 0 0.5em 0;
 }
 p, ul, li {
     margin-block-start: 0;
@@ -72,4 +78,32 @@ p, ul, audio {
 }
 li {
     margin-block-end: 0.25em;
+}
+.index p {
+    margin-block-end: 0em;
+}
+
+/* Links */
+a, a:active, a:visited, a:hover {
+    color: rgb(0, 0, 255);
+    outline: none;
+    text-decoration: none;
+}
+#header a, #navigation a {
+    color: #000;
+}
+#page-content p a {
+    text-decoration: underline;
+}
+
+/* Dynamic Layout */
+@media screen and (min-width: 1366px) {
+    ul {
+        padding-left: 2em;
+    }
+}
+@media screen and (max-width: 1365px) {
+    ul {
+        padding-left: 1.5em;
+    }
 }
