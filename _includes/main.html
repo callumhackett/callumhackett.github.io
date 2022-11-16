@@ -44,8 +44,10 @@
             </div>
             <div id="navigation">
                 {%- for entry in site.data.navbar -%}
-                {%- if entry.link -%}
-                <a href="{{ link.link }}">{{ entry.nav_label | smartify }}</a>
+                {%- if entry.nav_label == 'Home' -%}
+                <a href="{{ site.url }}">Home</a>
+                {%- elsif entry.link -%}
+                <a href="{{ entry.link }}">{{ entry.nav_label | smartify }}</a>
                 {%- else -%}
                 {%- for page in site.pages -%}
                 {%- if entry.nav_label == page.nav_label -%}
