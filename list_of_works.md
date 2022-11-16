@@ -13,17 +13,31 @@ nav_label: List of Works # label to appear in navbar; reference in _data/navbar.
 # image: # path to an image for social media shares, AR 1.9:1, typically 1200x630, begin with /
 # social_image_alt: # description of the social image
 ---
-# List of Works
+# Music
 
-## Music
+### Original Compositions
 
-Piece one
-Piece two
+*Devouring Time* (choral setting of Sonnet 19 by William Shakespeare)  
+Podcast theme à la James Bond (commercial)  
+Piece for clarinet and piano  
 
-Piece three
+### Arrangements
 
-## Audiobooks
+Music Illustrated  
 
-Piece one
+### Recordings
 
-Piece two
+Erik Satie - Gnossienne No. 4  
+
+### Other
+
+Francis Poulenc/Jessye Norman - Remastering of *Les chemins de l'amour*  
+
+# Audiobooks
+
+Edgar Allan Poe - The Raven  
+
+# Podcast
+
+Music in Pieces (in production)  
+
