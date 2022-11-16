@@ -1,4 +1,4 @@
-# Populates page links in the navbar.
+# Populates links in the navbar.
 # If specified with "link", "name" will be used as the label for the given link.
 # If not specified with "link", "name" will be matched against a page with the same label given in config as "navbar".
 # Each page config should state the link name to appear. This lists those names in preferred L-to-R order.
