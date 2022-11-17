@@ -21,7 +21,8 @@
   color: #000 !important;
   font-family: 'barlow', 'futura', sans-serif !important;
   font-size: 1.3em !important;
-  text-transform: uppercase;
+  font-weight: normal !important;
+  text-transform: uppercase !important;
 }
 
 .gsc-comment-box:not(.gsc-comment-box-is-reply) {
