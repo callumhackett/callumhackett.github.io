@@ -43,7 +43,6 @@
                 {%- endfor -%}
             </div>
             <div id="navigation">
-                <a href="{{ site.url }}"> Home </a>
                 {%- for entry in site.data.navbar -%}
                 {%- if entry.link -%}
                 <a href="{{ entry.link }}"> {{ entry.nav_label | smartify }} </a>

@@ -4,6 +4,6 @@
 
 - nav_label: Bio
 - nav_label: Blog
-#- nav_label: List of Works
-#- nav_label: Support
 - nav_label: Contact
+
+# Pages to possibly: list of works, financial support, store, hire

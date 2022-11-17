@@ -1,14 +1,18 @@
 # necessary to use Jekyll with GitHub pages
 repository: callumhackett/callumhackett.github.io
 
-# the following are defaults that can be overridden on individual pages
+# these are default site attributes
+name: Callum Hackett
+description: Callum Hackett is a composer, pianist and narrator. He's making arrangements of classical music for synthesizers, readings of classic literature with original soundtracks, and pods and vods to learn about the craft.
+author: Callum Hackett
+
+# these are page attribute defaults that can be overridden on individual pages (note: they are not site attributes)
 defaults:
   -
     scope:
       path: "" # applies everywhere
     values:
       type: website
-      name: Callum Hackett
       description: Callum Hackett is a composer, pianist and narrator. He's making arrangements of classical music for synthesizers, readings of classic literature with original soundtracks, and pods and vods to learn about the craft.
       image: /assets/images/social/profile_pic.jpg # THIS SHOULD BE UPDATED TO A 16:9 IMAGE
       image_alt: Callum Hackett

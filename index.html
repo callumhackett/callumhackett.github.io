@@ -12,7 +12,7 @@ title: Home # in HTML meta and tab title
     {% include soundcloud.html embed="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1520166127" %}
 </div>
 <div id="audiobook" class="index top-cell img-cell">
-    <a href="{{ site.url }}"><img src="/assets/images/index/the_raven.jpg" title="The Raven" /></a>
+    <a href="{{ site.url }}"><img src="/assets/images/index/the_raven.jpg" title="The Raven"/></a>
 </div>
 <div id="podcast" class="index bottom-text-cell text-cell">
     {{ podcast-content | smartify }}
@@ -21,7 +21,7 @@ title: Home # in HTML meta and tab title
     {% include youtube.html embed="https://www.youtube.com/embed/_oO_DxpWKtw" %}
 </div>
 <div id="blog" class="index bottom-cell img-cell">
-    <a href="{{ site.url }}/studio-notes"><img src="/assets/images/index/studio_notes.jpg" title="Studio Notes" /></a>
+    <a href="{{ site.url }}/studio-notes"><img src="/assets/images/index/studio_notes.jpg" title="Studio Notes"/></a>
 </div>
 {%- endcapture -%}
 
