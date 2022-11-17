@@ -60,6 +60,9 @@ p, li {
     font-size: 1em;
     line-height: 1.35em;
 }
+#giscus-comments h4 {
+    font-size: 3em !important;
+}
 
 /* Dynamic Sizes */
 @media screen and (max-width: 1365px) {

@@ -21,6 +21,9 @@
     <div id="post-date">{% include post_date.html %}</div>
     {%- endif -%}
     {{ content | smartify }}
+    {%- if page.id -%}
+    {% include giscus_comments.html %}
+    {%- endif -%}
 </div>
 <div id="post-tags" class="post-tags-small-screen">
     {%- for tag in page.tags -%}
