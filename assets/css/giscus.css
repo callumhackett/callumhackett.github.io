@@ -9,11 +9,11 @@
   font-style: italic;
 }
 
-.gsc-reactions-count {
+.gsc-reactions-count, .gsc-reactions-count a {
   display: none !important;
 }
 
-#gsc-header h4, #gsc-left-header h4, h4 {
+.gsc-comments-count, .gsc-comments-count, h4, h4 a {
   color: #000 !important;
   font-family: 'barlow', 'futura', sans-serif !important;
   font-size: 1.3em !important;
