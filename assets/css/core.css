@@ -39,12 +39,8 @@ body {
     width: 100%;
     align-items: center;
 }
-#header {
-    padding-right: 10px;
-}
 #header h1 {
     margin-bottom: 10px !important; /* this should be twice the social icon spacing */
-    padding-right: 5px; /* this should be the social icon spacing */
 }
 #header img {
     height: 24px;
@@ -74,6 +70,10 @@ body {
     }
     #header {
         grid-column: 2;
+        padding-right: 10px;
+    }
+    #header h1 {
+        padding-right: 5px; /* this should be the social icon spacing */
     }
 }
 @media screen and (max-width: 1365px) {
