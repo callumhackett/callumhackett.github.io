@@ -5,6 +5,7 @@ title: List of Works # in HTML meta and tab title
 
 # optional, no defaults
 permalink: /list-of-works # custom page URL, begin with /
+# tags: # tags for blog posts; space separated
 nav_label: List of Works # label to appear in navbar; reference in _data/navbar.yml
 
 # optional, overrides defaults

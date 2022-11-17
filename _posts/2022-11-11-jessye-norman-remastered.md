@@ -5,6 +5,8 @@ title: Remastering Jessye Norman # in HTML meta and tab title
 
 # optional, no defaults
 permalink: /remastering-jessye-norman # custom page URL, begin with /
+tags: ai classical-music mastering mixing plugins # tags for blog posts; space separated
+# nav_label: # label to appear in navbar; reference in _data/navbar.yml
 
 # optional, overrides defaults
 type: article # defaults to website, otherwise one of: article, music, video

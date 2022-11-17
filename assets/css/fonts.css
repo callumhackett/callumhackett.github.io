@@ -26,7 +26,7 @@
 }
 
 /* Font Families */
-#title, #navigation, #metadata, #post-date, .post-index-entry-date, h1, h2, h3 {
+#title, #navigation, #metadata, #post-date, .post-index-entry-date, #post-tags, h1, h2, h3 {
     font-family: 'barlow', 'futura', sans-serif;
     color: #000;
     font-weight: normal;
@@ -48,12 +48,16 @@ p, li {
     font-size: 1em;
     line-height: 1em;
 }
-#navigation, #metadata, #page-content h1, h2, h3 {
+#navigation, #metadata-title, #feed-link, #page-content h1, h2, h3 {
     font-size: 1.3em;
     line-height: 1em;
 }
 p, li {
     font-size: 0.9em;
+    line-height: 1.35em;
+}
+#post-tags {
+    font-size: 1em;
     line-height: 1.35em;
 }
 

@@ -68,6 +68,13 @@ audio {
         grid-row: 1;
         padding: 1.5em 0 0 0;
     }
+    .post-tags-full-screen {
+        padding-top: 35px;
+    }
+    .post-tags-small-screen {
+        display: none !important;
+        font-size: 0 !important;
+    }
     .youtube {
         margin: 0em 0 1em -2em;
     }
@@ -89,6 +96,12 @@ audio {
     }
     #metadata {
         padding: 0 0 2.5vh 0; /* this should be equal to the page-content padding */
+    }
+    .post-tags-small-screen {
+        padding: 2em 2em 0 2em;
+    }
+    .post-tags-full-screen {
+        display: none !important;
     }
     .youtube {
         position: relative;
