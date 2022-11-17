@@ -9,10 +9,15 @@
   font-style: italic;
 }
 
-#gsc-header, #gsc-left-header h4 {
+.gsc-reactions-count {
+  display: none !important;
+}
+
+#gsc-header h4, #gsc-left-header h4, h4 {
   color: #000 !important;
   font-family: 'barlow', 'futura', sans-serif !important;
   font-size: 1.3em !important;
+  text-transform: uppercase;
 }
 
 .gsc-comment-box:not(.gsc-comment-box-is-reply) {
