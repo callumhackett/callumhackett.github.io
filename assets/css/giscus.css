@@ -13,7 +13,11 @@
   display: none !important;
 }
 
-.gsc-comments-count, .gsc-comments-count, h4, h4 a {
+.gsc-reactions {
+  margin-bottom: 10px !important;
+}
+
+.gsc-comments-count {
   color: #000 !important;
   font-family: 'barlow', 'futura', sans-serif !important;
   font-size: 1.3em !important;
@@ -78,17 +82,17 @@ main {
     --color-btn-primary-disabled-bg: #787878;
     --color-btn-primary-disabled-border: rgba(0, 0, 0, 0);
     --color-fg-default: #282828;
-    --color-fg-muted: #57606a;
-    --color-fg-subtle: #6e7781;
+    --color-fg-muted: #585858;
+    --color-fg-subtle: #686868;
     --color-canvas-default: #fff;
     --color-canvas-overlay: #fff;
     --color-canvas-inset: rgb(250, 252, 251);
     --color-canvas-subtle: rgb(250, 252, 251);
-    --color-border-default: #d0d7de;
-    --color-border-muted: hsl(210deg 18% 87% / 100%);
-    --color-neutral-muted: rgb(175 184 193 / 20%);
-    --color-accent-fg: #0969da;
-    --color-accent-emphasis: #0969da;
+    --color-border-default: #ddd;
+    --color-border-muted: #ddd;
+    --color-neutral-muted: #ddd;
+    --color-accent-fg: rgb(0, 0, 255);
+    --color-accent-emphasis: rgb(0, 0, 255);
     --color-accent-muted: rgb(84 174 255 / 40%);
     --color-accent-subtle: #ddf4ff;
     --color-success-fg: #1a7f37;
