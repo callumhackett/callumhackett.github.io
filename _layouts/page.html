@@ -1,23 +1,23 @@
 {% capture body-content %}
-<div id="metadata"> <!-- this appears to the left of the main body -->
+<div id="metadata">
     {%- if page.id -%}
     <div>Studio Notes</div>
-    <div id="feed-link"><a href="https://www.callumhackett.com/feed.xml">Feed</a></div>
+    <div id="feed-link"><a href="{{ site.url }}/feed.xml">Feed</a></div>
     {%- endif -%}
     {%- unless page.id -%}
     <div>{{ page.title | smartify }}</div>
     {%- endunless -%}
     {%- if page.title == 'Studio Notes' -%}
-    <div id="feed-link"><a href="https://www.callumhackett.com/feed.xml">Feed</a></div>
+    <div id="feed-link"><a href="{{ site.url }}/feed.xml">Feed</a></div>
     {%- endif -%}
 </div>
 <div id="page-content">
     {%- if page.id -%}
     <div id="post-date">{% include post_date.html %}</div>
     {%- endif -%}
-    {{ content | smartify }} <!-- this is the main body picked up from the markdown file -->
+    {{ content | smartify }}
 </div>
-<div id="empty-row"></div> <!-- this is to add end-screen padding without affecting the size of the first row -->
+<div id="empty-row"></div> <!-- this adds end-screen padding without affecting the auto size of the first row -->
 {% endcapture %}
 
 {% include main.html css="page" body-content=body-content %}

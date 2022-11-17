@@ -26,7 +26,7 @@
 }
 
 /* Font Families */
-#title, #navigation, #metadata, #post-date, .post-date, h1, h2, h3 {
+#title, #navigation, #metadata, #post-date, .post-index-entry-date, h1, h2, h3 {
     font-family: 'barlow', 'futura', sans-serif;
     color: #000;
     font-weight: normal;
@@ -44,7 +44,7 @@ p, li {
 }
 
 /* Font Sizes */
-#header h1, .post-date {
+#header h1, .post-index-entry-date {
     font-size: 1em;
     line-height: 1em;
 }

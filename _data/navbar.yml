@@ -1,9 +1,9 @@
-# Populates links in the navbar (Home is handled separately)
-# If specified with "link", "nav_label" will be used as the text for the given link
-# If not specified with "link", "nav_label" will be matched against a page with that nav_label in its front matter
+# Populates links in the navbar
+# If an entry has an "external" url, "nav_label" will be used as the text for the url
+# If an entry does not have "external", "nav_label" will be matched against a page with that label in its front matter
 
 - nav_label: Bio
 - nav_label: Blog
 - nav_label: Contact
 
-# Pages to possibly: list of works, financial support, store, hire
+# Pages to possibly include: list of works, support, store, hire

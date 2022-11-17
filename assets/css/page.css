@@ -30,15 +30,15 @@
 #page-content h2 {
     margin: 1.5em 0 0.25em 0 !important;
 }
-.post-entry {
+.post-index-entry {
     display: inline-block;
     clear: both;
     padding-bottom: 2em;
 }
-.post-entry:last-child {
+.post-index-entry:last-child {
     padding-bottom: 0 !important;
 }
-.post-entry p {
+.post-index-entry p {
     text-align: left !important;
 }
 audio {
