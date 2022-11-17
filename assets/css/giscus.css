@@ -1,3 +1,7 @@
+html {
+  font-family: 'times new roman' !important;
+}
+
 main {
     --color-prettylights-syntax-comment: #6e7781;
     --color-prettylights-syntax-constant: #0550ae;
