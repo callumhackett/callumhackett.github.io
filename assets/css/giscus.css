@@ -1,6 +1,23 @@
-html {
-  font-family: 'times new roman' !important;
+@font-face {
+  font-family: 'barlow';
+  src: url('https://www.callumhackett.com/assets/fonts/barlow-medium.woff2') format('woff2');
+  font-style: normal;
 }
+@font-face {
+  font-family: 'barlow';
+  src: url('https://www.callumhackett.com/assets/fonts/barlow-mediumitalic.woff2') format('woff2');
+  font-style: italic;
+}
+
+#gsc-header, #gsc-left-header h4 {
+  color: #000 !important;
+  font-family: 'barlow', 'futura', sans-serif !important;
+  font-size: 1.3em !important;
+}
+
+.gsc-comment-box:not(.gsc-comment-box-is-reply) {
+  border-radius:3px !important;
+ }
 
 main {
     --color-prettylights-syntax-comment: #6e7781;
@@ -44,24 +61,24 @@ main {
     --color-btn-active-border: rgb(27 31 36 / 15%);
     --color-btn-selected-bg: hsl(220deg 14% 94% / 100%);
     --color-btn-primary-text: #fff;
-    --color-btn-primary-bg: #2da44e;
-    --color-btn-primary-border: rgb(27 31 36 / 15%);
+    --color-btn-primary-bg: #282828;
+    --color-btn-primary-border: rgba(0, 0, 0, 0);
     --color-btn-primary-shadow: 0 1px 0 rgb(27 31 36 / 10%);
     --color-btn-primary-inset-shadow: inset 0 1px 0 rgb(255 255 255 / 3%);
-    --color-btn-primary-hover-bg: #2c974b;
-    --color-btn-primary-hover-border: rgb(27 31 36 / 15%);
-    --color-btn-primary-selected-bg: hsl(137deg 55% 36% / 100%);
+    --color-btn-primary-hover-bg: #282828;
+    --color-btn-primary-hover-border: rgba(0, 0, 0, 0);
+    --color-btn-primary-selected-bg: #282828;
     --color-btn-primary-selected-shadow: inset 0 1px 0 rgb(0 45 17 / 20%);
     --color-btn-primary-disabled-text: rgb(255 255 255 / 80%);
-    --color-btn-primary-disabled-bg: #94d3a2;
-    --color-btn-primary-disabled-border: rgb(27 31 36 / 15%);
-    --color-fg-default: #24292f;
+    --color-btn-primary-disabled-bg: #787878;
+    --color-btn-primary-disabled-border: rgba(0, 0, 0, 0);
+    --color-fg-default: #282828;
     --color-fg-muted: #57606a;
     --color-fg-subtle: #6e7781;
     --color-canvas-default: #fff;
     --color-canvas-overlay: #fff;
-    --color-canvas-inset: #f6f8fa;
-    --color-canvas-subtle: #f6f8fa;
+    --color-canvas-inset: rgb(250, 252, 251);
+    --color-canvas-subtle: rgb(250, 252, 251);
     --color-border-default: #d0d7de;
     --color-border-muted: hsl(210deg 18% 87% / 100%);
     --color-neutral-muted: rgb(175 184 193 / 20%);

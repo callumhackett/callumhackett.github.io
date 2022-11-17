@@ -22,7 +22,7 @@
     {%- endif -%}
     {{ content | smartify }}
     {%- if page.id -%}
-    {% include giscus_comments.html %}
+    {% include giscus_comments.html reaction="1" %}
     {%- endif -%}
 </div>
 <div id="post-tags" class="post-tags-small-screen">
