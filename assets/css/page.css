@@ -63,7 +63,7 @@
     line-height: var(--title-line-height);
     padding-bottom: var(--body-padding);
 }
-.post-tag {
+.post-index-entry-tags .post-tag {
     padding-right: 10px !important;
 }
 .post-index-entry:last-child {
