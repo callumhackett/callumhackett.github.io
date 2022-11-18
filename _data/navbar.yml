@@ -1,5 +1,5 @@
 # Populates links in the navbar
-# If an entry has an "external" url, "nav_label" will be used as the text for the url
+# If an entry has "external" with URL content, "nav_label" will be used as the text for the URL
 # If an entry does not have "external", "nav_label" will be matched against a page with that label in its front matter
 
 - nav_label: Bio
