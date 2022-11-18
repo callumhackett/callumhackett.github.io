@@ -1,6 +1,9 @@
+{%- capture date -%}
+{{ include.date }}
+{%- endcapture -%}
 <div class="post-index-entry">
     <a href="{{ include.url }}"><img src="{{ include.image }}"/></a>
-    <div class="post-index-entry-date">{{ include.date | date: "%d.%b.%y" }}</div>
+    <div class="post-index-entry-date">{% include date_formatter.html date=date %}</div>
     <div class="post-index-entry-title"><h1><a href="{{ include.url }}">{{ include.title | smartify }}</a></h1></div>
     <p>{{ include.description | smartify }}</p>
 </div>
