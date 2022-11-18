@@ -93,10 +93,10 @@ main {
     --color-border-default: #ddd;
     --color-border-muted: #ddd;
     --color-neutral-muted: #ddd;
-    --color-accent-fg: #282828;
+    --color-accent-fg: rgb(0, 65, 170);
     --color-accent-emphasis: #fff;
-    --color-accent-muted: rgb(84 174 255 / 40%);
-    --color-accent-subtle: rgb(0, 65, 170);
+    --color-accent-muted: #ddd;
+    --color-accent-subtle: #fff;
     --color-success-fg: #777777;
     --color-attention-fg: #9a6700;
     --color-danger-fg: #cf222e;
