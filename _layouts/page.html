@@ -1,4 +1,4 @@
-{% capture main-content %}
+{%- capture main-content -%}
 <div id="sidebar">
     {%- unless page.id -%}
     <div id="sidebar-title">{{ page.title | smartify }}</div>
@@ -31,6 +31,6 @@
     {%- endfor -%}
 </div>
 <div id="empty-row"></div> <!-- this adds end-screen padding without affecting the auto size of the first row -->
-{% endcapture %}
+{%- endcapture -%}
 
 {% include main.html css="page" main-content=main-content %}
