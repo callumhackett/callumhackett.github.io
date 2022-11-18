@@ -17,17 +17,12 @@ html {
         background-attachment: fixed; /* this stops the colour gradient from repeating */
 }
 #title-bar {
-    background: #fff;
+    background: rgba(0,0,0,0);
 }
 
 /* Shapes */
 img {
-    border-radius: 3px;
-}
-
-/* Shadows */
-#title-bar {
-    box-shadow: 0px 1px 3px rgb(235, 235, 235);
+    border-radius: var(--border-radius);
 }
 
 /* Base Layout */
@@ -40,12 +35,11 @@ body {
     align-items: center;
 }
 #header h1 {
-    margin-bottom: 10px !important; /* this should be twice the social icon spacing */
+    margin-bottom: calc(var(--social-icon-spacing) * 2);
 }
 #header img {
-    height: 24px;
-    padding: 0px 5px;
-    opacity: 0.84;
+    height: var(--social-icon-size);
+    padding: 0px var(--social-icon-spacing);
 }
 #navigation a {
     margin: 0 0.75em;
@@ -73,15 +67,15 @@ body {
         padding-right: 10px;
     }
     #header h1 {
-        padding-right: 5px; /* this should be the social icon spacing */
+        padding-right: var(--social-icon-spacing);
     }
 }
 @media screen and (max-width: 1365px) {
     body {
-        margin-bottom: 4vh;
+        margin-bottom: var(--mobile-element-spacing);
     }
     #title-bar {
-        margin-bottom: 4vh;
+        margin-bottom: var(--mobile-element-spacing);
     }
     #navigation {
         text-align: center;
@@ -91,4 +85,118 @@ body {
         text-align: center;
         padding: 2.5vh 0 0 0;
     }
+}
+
+/* Font Imports */
+@font-face {
+    font-family: 'barlow';
+    src: url('/assets/fonts/barlow-medium.woff2') format('woff2');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'barlow';
+    src: url('/assets/fonts/barlow-mediumitalic.woff2') format('woff2');
+    font-style: italic;
+}
+@font-face {
+    font-family: 'spline sans mono';
+    src: url('/assets/fonts/splinesansmono-regular.woff2') format('woff2');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'spline sans mono';
+    src: url('/assets/fonts/splinesansmono-italic.woff2') format('woff2');
+    font-style: italic;
+}
+@font-face {
+    font-family: 'spline sans mono';
+    src: url('/assets/fonts/splinesansmono-bold.woff2') format('woff2');
+    font-weight: bold;
+}
+
+/* Font Families */
+#header, #navigation, #metadata, #post-date, .post-index-entry-date, #post-tags, h1, h2, h3 {
+    font-family: 'barlow', 'futura', sans-serif;
+    color: var(--title-color);
+    font-weight: var(--title-weight);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-block-start: 0 !important;
+}
+p, li {
+    font-family: 'spline sans mono', 'inconsolata', sans-serif;
+    color: var(--body-color);
+    letter-spacing: -0.5px;
+    word-spacing: -0.5px;
+    margin-block-start: 0 !important;
+}
+
+/* Font Sizes */
+#header h1, .post-index-entry-date {
+    font-size: var(--title-small-size);
+    line-height: 1em;
+}
+#navigation, #metadata-title, #feed-link, #page-content h1, h2, h3 {
+    font-size: var(--title-large-size);
+    line-height: 1em;
+}
+p, li {
+    font-size: var(--body-size);
+    line-height: 1.35em;
+}
+#post-tags {
+    font-size: var(--title-small-size);
+    line-height: 1.35em;
+}
+
+/* Font Colours */
+#header h1, #navigation, #metadata, #post-tags {
+    text-shadow: var(--title-shadow);
+}
+
+/* Dynamic Font Sizes */
+@media screen and (max-width: 1365px) {
+    #navigation {
+        line-height: 1.5em !important;
+    }
+}
+
+/* Font Layout */
+ul {
+    margin-block-start: 0 !important;
+}
+p:not(:last-child), ul {
+    margin-block-end: var(--body-size);
+}
+p:last-child {
+    margin-block-end: 0;
+}
+li {
+    margin-block-end: calc(var(--body-size) / 3);
+}
+
+/* Dynamic Font Layout */
+@media screen and (min-width: 1366px) {
+    ul {
+        padding-left: var(--body-padding);
+    }
+}
+@media screen and (max-width: 1365px) {
+    ul {
+        padding-left: calc(var(--body-padding * 0.75));
+    }
+}
+
+/* Links */
+a, a:active, a:visited, a:hover {
+    color: var(--link-color);
+    outline: none;
+    text-decoration: none;
+}
+#header a, #navigation a {
+    color: var(--title-color);
+}
+#page-content p a {
+    text-decoration: underline;
 }
