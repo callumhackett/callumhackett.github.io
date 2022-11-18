@@ -94,7 +94,7 @@ main {
     --color-border-muted: #ddd;
     --color-neutral-muted: #ddd;
     --color-accent-fg: rgb(0, 65, 170);
-    --color-accent-emphasis: #fff;
+    --color-accent-emphasis: rgb(0, 65, 170);
     --color-accent-muted: #ddd;
     --color-accent-subtle: #fff;
     --color-success-fg: #777777;
