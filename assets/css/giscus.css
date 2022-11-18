@@ -23,9 +23,10 @@
   font-size: 1.3em !important;
   font-weight: normal !important;
   text-transform: uppercase !important;
+  line-height: 1em !important;
 }
 
-.gsc-comment-box:not(.gsc-comment-box-is-reply) {
+.gsc-comment-box:not(.gsc-comment-box-is-reply), #__next .rounded-md {
   border-radius:3px !important;
  }
 
@@ -60,7 +61,7 @@ main {
     --color-prettylights-syntax-brackethighlighter-angle: #57606a;
     --color-prettylights-syntax-sublimelinter-gutter-mark: #8c959f;
     --color-prettylights-syntax-constant-other-reference-link: #0a3069;
-    --color-btn-text: #000;
+    --color-btn-text: #282828;
     --color-btn-bg: #fafafa;
     --color-btn-border: rgb(30 30 30 / 15%);
     --color-btn-shadow: 0 1px 0 rgb(30 30 30 / 4%);
@@ -82,9 +83,9 @@ main {
     --color-btn-primary-disabled-text: rgb(255 255 255 / 80%);
     --color-btn-primary-disabled-bg: #787878;
     --color-btn-primary-disabled-border: rgba(0, 0, 0, 0);
-    --color-fg-default: #000;
-    --color-fg-muted: #585858;
-    --color-fg-subtle: #686868;
+    --color-fg-default: #282828;
+    --color-fg-muted: rgb(136, 138, 137);
+    --color-fg-subtle: rgb(136, 138, 137);
     --color-canvas-default: #fff;
     --color-canvas-overlay: #fff;
     --color-canvas-inset: rgb(250, 252, 251);
@@ -92,7 +93,7 @@ main {
     --color-border-default: #ddd;
     --color-border-muted: #ddd;
     --color-neutral-muted: #ddd;
-    --color-accent-fg: #fff;
+    --color-accent-fg: #282828;
     --color-accent-emphasis: #fff;
     --color-accent-muted: rgb(84 174 255 / 40%);
     --color-accent-subtle: rgb(0, 65, 170);
