@@ -30,33 +30,6 @@
         grid-row: 2;
     }
 }
-@media screen and (max-width: 1365px) {
-    .index {
-        position: relative;
-        width: var(--mobile-content-width);
-        margin: 0 auto var(--mobile-element-spacing) auto;
-    }
-    .index:last-child {
-        margin-bottom: 0 !important;
-    }
-    .music-cell {
-        height: 50vh;
-    }
-    .img-cell img {
-        width: 100%;
-    }
-    .video-cell {
-        padding-bottom: calc(var(--mobile-content-width) / 1.77778);
-    }
-    .video-cell iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border: 0;
-    }
-}
 
 /* Main Body Elements */
 #music, #audiobook, #spotlight, #blog {
@@ -100,5 +73,30 @@
     .cell {
         display: block;
         box-shadow: 0px 2px 2px var(--shadow-light);
+    }
+    .index {
+        position: relative;
+        width: var(--mobile-content-width);
+        margin: 0 auto var(--mobile-element-spacing) auto;
+    }
+    .index:last-child {
+        margin-bottom: 0 !important;
+    }
+    .music-cell {
+        height: 50vh;
+    }
+    .img-cell img {
+        width: 100%;
+    }
+    .video-cell {
+        padding-bottom: calc(var(--mobile-content-width) / 1.77778);
+    }
+    .video-cell iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
     }
 }

@@ -36,7 +36,7 @@
 @media screen and (max-width: 1365px) {
     #body-table {
         margin: auto;
-        width: 90%;
+        width: var(--mobile-content-width);
     }
     #sidebar {
         padding: 0 0 var(--mobile-element-spacing) 0;

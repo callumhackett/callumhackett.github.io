@@ -47,7 +47,7 @@ body {
     margin: 0;
 }
 #title-bar {
-    background: rgba(0,0,0,0);
+    background: transparent;
     width: 100%;
 }
 #body-container {
