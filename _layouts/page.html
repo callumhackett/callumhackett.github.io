@@ -27,7 +27,7 @@
 </div>
 <div id="mobile-post-tags" class="post-tags">
     {%- for tag in page.tags -%}
-    #{{ tag | replace: "-", " " | smartify }}&#32;
+    {% include tag_formatter.html tag=tag %}
     {%- endfor -%}
 </div>
 <div id="empty-row"></div> <!-- this adds end-screen padding without affecting the auto size of the first row -->

@@ -3,7 +3,7 @@
     background: var(--body-background);
     border-radius: var(--border-radius);
     padding: var(--body-padding);
-    box-shadow: 0px 1px 3px var(--shadow-light);
+    box-shadow: var(--bottom-shadow-shape) var(--shadow-light);
     box-sizing: border-box;
 }
 @media screen and (min-width: 1366px) {
@@ -23,7 +23,6 @@
     #sidebar {
         grid-column: 1;
         grid-row: 1;
-        padding: 1.5em 0 0 0;
     }
 }
 @media screen and (max-width: 1365px) {
@@ -71,7 +70,7 @@
     padding-bottom: 0 !important;
 }
 #page-content img {
-    box-shadow: 0px 1px 3px var(--shadow-light);
+    box-shadow: var(--bottom-shadow-shape) var(--shadow-light);
 }
 audio {
     margin-block-end: var(--body-font-size);
@@ -79,6 +78,17 @@ audio {
 @media screen and (min-width: 1366px) {
     #page-content p {
         text-align: justify;
+    }
+    #page-content .small-pic {
+        margin-top: 3px;
+    }
+    #post-index img {
+        margin-top: 2px;
+    }
+    #page-content .small-pic, #post-index img {
+        float: left;
+        margin-right: calc(var(--body-padding) * 0.75);
+        width: var(--body-img-width);
     }
     .youtube {
         margin-top: calc(var(--body-padding) * 0.75);
@@ -90,10 +100,8 @@ audio {
         width: var(--grid-body-width); /* this should be the same as the large cell width */
         height: calc(var(--grid-body-width) / 1.77778); /* this maintains a 16:9 aspect ratio with a width of 899px */
     }
-    #post-index img, #bio-pic {
-        float: left;
-        margin-right: calc(var(--body-padding) /2);
-        width: var(--body-img-width);
+    #sidebar {
+        padding: var(--body-padding) 0 0 0;
     }
     #mobile-post-tags {
         display: none !important;
