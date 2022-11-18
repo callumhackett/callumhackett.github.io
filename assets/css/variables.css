@@ -1,19 +1,31 @@
 /* Variables */
 :root {
+    /* Colours */
     --body-background: #fff;
-    --body-size: 0.9em;
-    --body-color: #282828;
-    --body-padding: 2em;
-    --border-radius: 3px;
-    --shadow-light: rgb(225, 225, 225);
-    --shadow-dark: rgb(185, 185, 185);
-    --link-color: rgb(0, 0, 255);
-    --title-small-size: 1em;
-    --title-large-size: 1.3em;
     --title-color: #000;
     --title-weight: normal;
     --title-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    --body-color: #282828;
+    --link-color: rgb(0, 0, 255);
+    --shadow-light: rgb(225, 225, 225);
+    --shadow-dark: rgb(185, 185, 185);
+    /* Sizes */
+    --title-small-size: 1em;
+    --title-large-size: 1.3em;
+    --title-line-height: 1em;
+    --body-font-size: 0.9em;
+    --body-line-height: 1.35em;
+    --body-img-width: 30%;
     --social-icon-size: 24px;
+    --grid-cell-height: 243px;
+    --grid-cell-width: 432px;
+    --grid-gap-size: 35px;
+    --grid-body-width: calc(var(--grid-cell-width) * 2 + var(--grid-gap-size));
+    /* Spacing */
+    --body-padding: 2em;
     --social-icon-spacing: 5px;
+    --mobile-content-width: 90%;
     --mobile-element-spacing: 4vh;
+    /* Shapes */
+    --border-radius: 3px;
 }
