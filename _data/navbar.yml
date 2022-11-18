@@ -1,6 +1,6 @@
 # Populates links in the navbar
 # If an entry has a "link" parameter, "nav_label" will be used as the text for the link
-# If an entry does not have a "link" parameter, "nav_label" will be matched against a page with the same in its front matter
+# If an entry does not have a "link" parameter, "nav_label" will be matched against a page with the label in its front matter
 
 - nav_label: Bio
 - nav_label: Blog
