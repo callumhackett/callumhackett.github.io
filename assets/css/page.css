@@ -20,7 +20,7 @@
         grid-column: 2;
         grid-row: 1;
     }
-    #metadata {
+    #sidebar {
         grid-column: 1;
         grid-row: 1;
         padding: 1.5em 0 0 0;
@@ -38,7 +38,7 @@
         margin: auto;
         width: 90%;
     }
-    #metadata {
+    #sidebar {
         padding: 0 0 var(--mobile-element-spacing) 0;
     }
 }
@@ -123,11 +123,11 @@ audio {
 }
 
 /* Sidebar Elements */
-#metadata {
+#sidebar {
     text-align: right;
     text-shadow: var(--title-shadow);
 }
-#metadata-title {
+#sidebar-title {
     font-size: var(--title-large-size);
     line-height: var(--title-line-height);
 }

@@ -1,0 +1,4 @@
+{%- capture tag -%}
+{{ include.tag }}
+{%- endcapture -%}
+#{{ tag | replace: "-", " " | smartify }}

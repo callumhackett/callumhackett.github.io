@@ -7,7 +7,7 @@ title: Home # in HTML meta and tab title
 {%- endcapture -%}
 
 <!-- this functions as the index.html layout specification but without a dedicated file -->
-{%- capture body-content -%}
+{%- capture main-content -%}
 <div id="music" class="index full-cell music-cell">
     {% include soundcloud.html embed="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1520166127" %}
 </div>
@@ -25,4 +25,4 @@ title: Home # in HTML meta and tab title
 </div>
 {%- endcapture -%}
 
-{% include main.html css="index" body-content=body-content %}
+{% include main.html css="index" main-content=main-content %}

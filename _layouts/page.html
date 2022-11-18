@@ -1,18 +1,18 @@
-{% capture body-content %}
-<div id="metadata">
+{% capture main-content %}
+<div id="sidebar">
     {%- if page.id -%}
-    <div id="metadata-title">Studio Notes</div>
+    <div id="sidebar-title">Studio Notes</div>
     <div id="feed-link"><a href="{{ site.url }}/feed.xml">Feed</a></div>
     {%- endif -%}
     {%- unless page.id -%}
-    <div id="metadata-title">{{ page.title | smartify }}</div>
+    <div id="sidebar-title">{{ page.title | smartify }}</div>
     {%- endunless -%}
     {%- if page.title == 'Studio Notes' -%}
     <div id="feed-link"><a href="{{ site.url }}/feed.xml">Feed</a></div>
     {%- endif -%}
     <div id="post-tags" class="post-tags-full-screen">
     {%- for tag in page.tags -%}
-    #{{ tag | replace: "-", " " | smartify }}<br/>
+    {% include tag_formatter.html tag=tag %}<br/>
     {%- endfor -%}
     </div>
 </div>
@@ -33,4 +33,4 @@
 <div id="empty-row"></div> <!-- this adds end-screen padding without affecting the auto size of the first row -->
 {% endcapture %}
 
-{% include main.html css="page" body-content=body-content %}
+{% include main.html css="page" main-content=main-content %}
