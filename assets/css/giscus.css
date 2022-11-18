@@ -93,8 +93,8 @@ main {
     --color-border-default: #ddd;
     --color-border-muted: #ddd;
     --color-neutral-muted: #ddd;
-    --color-accent-fg: rgb(0, 65, 170);
-    --color-accent-emphasis: rgb(0, 65, 170);
+    --color-accent-fg: rgb(0, 0, 255);
+    --color-accent-emphasis: rgb(0, 0, 255);
     --color-accent-muted: #ddd;
     --color-accent-subtle: #fff;
     --color-success-fg: #777777;
@@ -108,8 +108,8 @@ main {
     --color-scale-blue-1: #ddd;
   
     /*! Extensions from @primer/css/alerts/flash.scss */
-    --color-social-reaction-bg-hover: var(--color-scale-gray-1);
-    --color-social-reaction-bg-reacted-hover: var(--color-scale-blue-1);
+    --color-social-reaction-bg-hover: rgb(240, 240, 255);
+    --color-social-reaction-bg-reacted-hover: rgb(240, 240, 255);
   }
   
   main .pagination-loader-container {
