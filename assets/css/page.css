@@ -2,7 +2,6 @@
 #page-content {
     background: var(--body-background);
     border-radius: var(--border-radius);
-    padding: var(--body-padding);
     box-shadow: var(--bottom-shadow-shape) var(--shadow-light);
     box-sizing: border-box;
 }
@@ -76,6 +75,9 @@ audio {
     margin-block-end: var(--body-font-size);
 }
 @media screen and (min-width: 1366px) {
+    #page-content {
+        padding: var(--body-padding);
+    }
     #page-content p {
         text-align: justify;
     }
@@ -108,6 +110,9 @@ audio {
     }
 }
 @media screen and (max-width: 1365px) {
+    #page-content {
+        padding: calc((100% - var(--mobile-content-width)) / 2);
+    }
     .youtube {
         position: relative;
         width: 100%;
@@ -121,17 +126,20 @@ audio {
         left: 0;
         width: 100%;
         height: 100%;
-        border-radius: var(--body-radius);
+        border-radius: var(--border-radius);
     }
     audio {
         width: 100%;
     }
-    #post-index img, #bio-pic {
-        margin: 0 0 var(--body-line-height);
+    #post-index img, #page-content img {
+        margin: 0 0 calc(var(--body-padding) / 3);
         width: 100%;
     }
     #mobile-post-tags {
-        padding: var(--body-padding) var(--body-padding) 0 var(--body-padding);
+        padding: var(--body-padding) 0 0 0;
+    }
+    #mobile-post-tags .post-tag {
+        padding-right: 10px;
     }
 }
 

@@ -181,6 +181,6 @@ img, audio {
 }
 @media screen and (max-width: 1365px) {
     ul {
-        padding-left: calc(var(--body-padding * 0.75));
+        padding-left: calc(var(--body-padding) * 0.75);
     }
 }
