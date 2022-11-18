@@ -1,9 +1,5 @@
-{%- capture date -%}
-{{ include.date }}
-{%- endcapture -%}
-{%- capture tags -%}
-{{ include.tags }}
-{%- endcapture -%}
+{%- assign date = include.date -%}
+{%- assign tags = include.tags | split: ", " -%}
 <div class="post-index-entry">
     <a href="{{ include.url }}"><img src="{{ include.image }}"/></a>
     <div class="post-index-entry-date">{% include date_formatter.html date=date %}</div>
@@ -11,7 +7,7 @@
     <p>{{ include.description | smartify }}</p>
 </div>
 <div class="post-index-entry-tags post-tags">
-    {%- for tag in tags | split: " " -%}
+    {%- for tag in tags -%}
     {% include tag_formatter.html tag=tag %}&#32;
     {%- endfor -%}
 </div>

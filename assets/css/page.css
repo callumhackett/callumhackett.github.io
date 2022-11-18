@@ -25,13 +25,6 @@
         grid-row: 1;
         padding: 1.5em 0 0 0;
     }
-    .post-tags-full-screen {
-        padding-top: var(--grid-gap-size);
-    }
-    .post-tags-small-screen {
-        display: none !important;
-        font-size: 0 !important;
-    }
 }
 @media screen and (max-width: 1365px) {
     #body-table {
@@ -66,13 +59,13 @@
     text-align: left !important;
 }
 .post-index-entry-tags {
-    color: #888;
+    color: rgb(136, 138, 137);
     font-size: 0.8em;
     line-height: var(--title-line-height);
     padding-bottom: var(--body-padding);
 }
-#post-index .post-tag {
-    padding-right: 5px;
+.post-tag {
+    padding-right: 10px !important;
 }
 .post-index-entry:last-child {
     padding-bottom: 0 !important;

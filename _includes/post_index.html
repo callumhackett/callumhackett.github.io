@@ -1,6 +1,6 @@
 <div id="post-index">
     {%- for post in site.posts -%}
-    {%- assign tags = post.tags | join: " " -%}
+    {%- assign tags = post.tags | join: ", " -%}
     {% include post_index_entry.html date=post.date title=post.title url=post.url image=post.image description=post.description tags=tags %}
     {%- endfor -%}
 </div>

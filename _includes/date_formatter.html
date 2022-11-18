@@ -1,4 +1,2 @@
-{%- capture date -%}
-{{ include.date }}
-{%- endcapture -%}
+{%- assign date = include.date -%}
 {{ date | date: "%d.%b.%y" }}
