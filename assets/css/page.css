@@ -47,39 +47,51 @@
 #page-content h1 {
     margin: 0 0 0.5em 0;
 }
-.post-title h1 {
-    margin: 0 0 0.75em 0 !important;
-}
 #page-content h2 {
     margin: 1.5em 0 0.25em 0 !important;
 }
 .post-index-entry {
     display: inline-block;
     clear: both;
-    padding-bottom: var(--body-padding);
-}
-.post-index-entry:last-child {
-    padding-bottom: 0 !important;
-}
-.post-index-entry p {
-    text-align: left !important;
-}
-audio {
-    margin-block-end: var(--body-font-size);
-}
-#page-content img {
-    box-shadow: 0px 1px 3px var(--shadow-light);
+    padding-bottom: calc(var(--body-padding) /2);
 }
 .post-index-entry-date {
     font-size: var(--title-small-size);
     line-height: var(--title-line-height);
+}
+.post-index-entry-title h1 {
+    margin: 0 0 0.75em 0 !important;
+}
+.post-index-entry p {
+    text-align: left !important;
+}
+.post-index-entry-tags {
+    color: #888;
+    font-size: 0.8em;
+    line-height: var(--title-line-height);
+    padding-bottom: var(--body-padding);
+}
+#post-index .post-tag {
+    padding-right: 5px;
+}
+.post-index-entry:last-child {
+    padding-bottom: 0 !important;
+}
+#page-content img {
+    box-shadow: 0px 1px 3px var(--shadow-light);
+}
+audio {
+    margin-block-end: var(--body-font-size);
 }
 @media screen and (min-width: 1366px) {
     #page-content p {
         text-align: justify;
     }
     .youtube {
-        margin: 0em 0 calc(var(--body-font-size) / 2) calc(var(--body-font-size) * -1);
+        margin-top: calc(var(--body-padding) * 0.75);
+        margin-right: 0;
+        margin-bottom: calc(var(--body-padding) * 0.75);
+        margin-left: calc(var(--body-padding) * -1);
     }
     .youtube iframe {
         width: var(--grid-body-width); /* this should be the same as the large cell width */
@@ -87,22 +99,19 @@ audio {
     }
     #post-index img, #bio-pic {
         float: left;
-        margin-right: var(--body-line-height);
+        margin-right: calc(var(--body-padding) /2);
         width: var(--body-img-width);
+    }
+    #mobile-post-tags {
+        display: none !important;
     }
 }
 @media screen and (max-width: 1365px) {
-    .post-tags-small-screen {
-        padding: var(--body-padding) var(--body-padding) 0 var(--body-padding);
-    }
-    .post-tags-full-screen {
-        display: none !important;
-    }
     .youtube {
         position: relative;
         width: 100%;
         height: 0;
-        padding-bottom: 56.25%;
+        padding-bottom: calc(100% / 1.77778);
         margin: 0 0 1em 0;
     }
     .youtube iframe {
@@ -120,6 +129,9 @@ audio {
         margin: 0 0 var(--body-line-height);
         width: 100%;
     }
+    #mobile-post-tags {
+        padding: var(--body-padding) var(--body-padding) 0 var(--body-padding);
+    }
 }
 
 /* Sidebar Elements */
@@ -131,8 +143,21 @@ audio {
     font-size: var(--title-large-size);
     line-height: var(--title-line-height);
 }
-#post-tags {
+#feed-link {
+    font-size: var(--title-small-size);
+    line-height: var(--body-line-height);
+}
+#sidebar-post-tags {
     font-size: var(--title-small-size);
     text-shadow: var(--title-shadow);
     line-height: var(--body-line-height);
+    padding-top: var(--grid-gap-size);
+}
+.post-tags {
+    word-spacing: -1px;
+}
+@media screen and (max-width: 1365px) {
+    #sidebar-title, #sidebar-post-tags {
+        display: none !important;
+    }
 }

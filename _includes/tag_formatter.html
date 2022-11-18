@@ -1,4 +1,4 @@
 {%- capture tag -%}
 {{ include.tag }}
 {%- endcapture -%}
-#{{ tag | replace: "-", " " | smartify }}
+<span class="post-tag">#{{ tag | replace: "-", " " | smartify }}</span>

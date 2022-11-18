@@ -1,16 +1,16 @@
 {% capture main-content %}
 <div id="sidebar">
+    {%- unless page.id -%}
+    <div id="sidebar-title">{{ page.title | smartify }}</div>
+    {%- if page.title == 'Studio Notes' -%}
+    <div id="feed-link"><a href="{{ site.url }}/feed.xml">Feed</a></div>
+    {%- endif -%}
+    {%- endunless -%}
     {%- if page.id -%}
     <div id="sidebar-title">Studio Notes</div>
     <div id="feed-link"><a href="{{ site.url }}/feed.xml">Feed</a></div>
     {%- endif -%}
-    {%- unless page.id -%}
-    <div id="sidebar-title">{{ page.title | smartify }}</div>
-    {%- endunless -%}
-    {%- if page.title == 'Studio Notes' -%}
-    <div id="feed-link"><a href="{{ site.url }}/feed.xml">Feed</a></div>
-    {%- endif -%}
-    <div id="post-tags" class="post-tags-full-screen">
+    <div id="sidebar-post-tags" class="post-tags">
     {%- for tag in page.tags -%}
     {% include tag_formatter.html tag=tag %}<br/>
     {%- endfor -%}
@@ -25,7 +25,7 @@
     {% include giscus_comments.html reactions="1" %}
     {%- endif -%}
 </div>
-<div id="post-tags" class="post-tags-small-screen">
+<div id="mobile-post-tags" class="post-tags">
     {%- for tag in page.tags -%}
     #{{ tag | replace: "-", " " | smartify }}&#32;
     {%- endfor -%}

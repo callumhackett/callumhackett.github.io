@@ -92,7 +92,7 @@ body {
 }
 
 /* Font Families */
-#header, #navigation, #sidebar, #post-date, .post-index-entry-date, #post-tags, h1, h2, h3 {
+#header, #navigation, #sidebar, #post-date, .post-tags, .post-index-entry-date, .post-index-entry-tags, h1, h2, h3 {
     font-family: 'barlow', 'futura', sans-serif;
     color: var(--title-color);
     font-weight: var(--title-weight);
