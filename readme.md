@@ -1,3 +1,1 @@
----
----
-This repo is the source of [my website]({{ site.url }}).
+This repo is the source of [my website](https://www.callumhackett.com).
