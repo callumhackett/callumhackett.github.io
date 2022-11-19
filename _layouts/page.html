@@ -23,12 +23,17 @@
     </div>
 </div>
 <div id="page-content">
+    {%- unless page.list -%}
     {%- if page.id -%}
     <div id="post-date">{% include date_formatter.html date=page.date %}</div>
     {%- endif -%}
     {{ content | smartify }}
     {%- if page.id -%}
     {% include giscus_comments.html reactions="1" %}
+    {%- endif -%}
+    {%- endunless -%}
+    {%- if page.list -%}
+    <div id="list-of-works">{{ content | smartify }}</div>
     {%- endif -%}
 </div>
 <div id="mobile-post-tags" class="post-tags">

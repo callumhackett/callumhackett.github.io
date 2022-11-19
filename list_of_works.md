@@ -7,6 +7,7 @@ title: List of Works # in HTML meta and tab title
 permalink: /list-of-works # custom page URL, begin with /
 # tags: # tags for blog posts; space separated
 nav_label: List of Works # label to appear in navbar if referenced in _data/navbar.yml
+list: true
 
 # optional, overrides defaults
 # type: # defaults to website, otherwise one of: article, music, video
@@ -16,29 +17,30 @@ nav_label: List of Works # label to appear in navbar if referenced in _data/navb
 ---
 ### Original Compositions
 
-*Devouring Time* (choral setting of Sonnet 19 by William Shakespeare)  
-Podcast theme à la James Bond (commercial)  
+*Devouring Time* (choral setting of Sonnet 19 by William Shakespeare)
+
+Podcast theme à la James Bond (commercial)
+
 Piece for clarinet and piano  
 
 ### Arrangements
 
-Music Illustrated  
+Music Illustrated
 
 ### Recordings
 
-Erik Satie - Gnossienne No. 4  
+Erik Satie - Gnossienne No. 4
 
 ### Audiobooks
 
-Edgar Allan Poe - The Raven  
+Edgar Allan Poe - The Raven
 
 ### Podcast Series
 
-Music in Pieces (in production)  
+Music in Pieces (in production)
 
 ### Other
 
-Francis Poulenc/Jessye Norman - Remastering of *Les chemins de l'amour*  
+Francis Poulenc/Jessye Norman - Remastering of *Les chemins de l'amour*
 
 ### Works in Progress
-
