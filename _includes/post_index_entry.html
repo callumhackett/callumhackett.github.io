@@ -1,8 +1,7 @@
-{%- assign date = include.date -%}
 {%- assign tags = include.tags | split: ", " -%}
 <div class="post-index-entry">
     <a href="{{ include.url }}"><img src="{{ include.image }}"/></a>
-    <div class="post-index-entry-date">{% include date_formatter.html date=date %}</div>
+    <div class="post-index-entry-date">{% include date_formatter.html date=include.date %}</div>
     <div class="post-index-entry-title"><h1><a href="{{ include.url }}">{{ include.title | smartify }}</a></h1></div>
     <p>{{ include.description | smartify }}</p>
 </div>

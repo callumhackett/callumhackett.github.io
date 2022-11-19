@@ -1,2 +1,1 @@
-{%- assign tag = include.tag -%}
-<span class="post-tag">#{{ tag | replace: "-", " " | smartify }}</span>
+<span class="post-tag"><a href="{{ site.url }}/tags/{{ include.tag }}">#{{ include.tag | smartify }}</a></span>
