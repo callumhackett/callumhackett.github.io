@@ -172,7 +172,7 @@ ul {
     margin-block-start: 0 !important;
 }
 img, audio {
-    border-radius: var(--border-radius);
+    border-radius: calc(var(--border-radius) * 0.67);
 }
 @media screen and (min-width: 1366px) {
     ul {

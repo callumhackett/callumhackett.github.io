@@ -9,7 +9,11 @@
   font-style: italic;
 }
 
-.gsc-reactions-count, .gsc-reactions-count a {
+a:hover {
+  text-decoration-line: none !important;
+}
+
+.gsc-reactions-count, .gsc-reactions-count a, .gsc-comments-count-separator, .gsc-replies-count {
   display: none !important;
 }
 
@@ -27,8 +31,13 @@
 }
 
 .gsc-comment-box:not(.gsc-comment-box-is-reply), #__next .rounded-md {
-  border-radius:3px !important;
- }
+  border-radius: 2px !important;
+}
+
+.gsc-comment {
+  margin-top: 0.75em !important;
+  margin-bottom: 0.75em !important;
+}
 
 main {
     --color-prettylights-syntax-comment: #6e7781;
