@@ -171,7 +171,7 @@ audio {
     line-height: var(--body-line-height);
     padding-top: var(--grid-gap-size);
 }
-#sidebar-post-tags a {
+#sidebar-post-tags a, #tag-title a {
     color: var(--title-color);
 }
 @media screen and (max-width: 1365px) {
