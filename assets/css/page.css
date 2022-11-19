@@ -181,7 +181,10 @@ audio {
     color: var(--title-color);
 }
 @media screen and (max-width: 1365px) {
-    #sidebar {
+    #sidebar-title, #feed-link, #sidebar-post-tags {
         display: none !important;
+    }
+    #tag-title {
+        padding: 0 !important;
     }
 }
