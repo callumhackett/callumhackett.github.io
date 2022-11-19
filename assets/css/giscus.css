@@ -119,12 +119,12 @@ main {
     /*! Extensions from @primer/css/alerts/flash.scss */
     --color-social-reaction-bg-hover: rgb(240, 240, 255);
     --color-social-reaction-bg-reacted-hover: rgb(240, 240, 255);
-  }
+}
   
-  main .pagination-loader-container {
+main .pagination-loader-container {
     background-image: url("https://github.com/images/modules/pulls/progressive-disclosure-line.svg");
-  }
+}
   
-  main .gsc-loading-image {
+main .gsc-loading-image {
     background-image: url("https://github.githubassets.com/images/mona-loading-default.gif");
-  }
+}
