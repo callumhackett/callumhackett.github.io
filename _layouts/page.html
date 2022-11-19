@@ -1,16 +1,16 @@
 {%- capture main-content -%}
 <div id="sidebar">
     {%- unless page.id -%} <!-- when not a blog post -->
-        {%- if page.url contains "/tags/" -%} <!-- if it's a tag index page -->
-            <div id="sidebar-title">Studio Notes</div>
-            <div id="feed-link"><a href="{{ site.url }}/feed.xml">Feed</a></div>
-            <div id="tag-title">Tag: {% include tag_formatter.html tag=page.title %}</div>
-        {%- else -%} <!-- else, when it's a regular page -->
-            <div id="sidebar-title">{{ page.title | smartify }}</div>
-        {%- endif -%}
-        {%- if page.title == 'Studio Notes' -%}
-        <div id="feed-link"><a href="{{ site.url }}/feed.xml">Feed</a></div>
-        {%- endif -%}
+    {%- if page.url contains "/tags/" -%} <!-- if it's a tag index page -->
+    <div id="sidebar-title">Studio Notes</div>
+    <div id="feed-link"><a href="{{ site.url }}/feed.xml">Feed</a></div>
+    <div id="tag-title">Tag: {% include tag_formatter.html tag=page.title %}</div>
+    {%- else -%} <!-- else, when it's a regular page -->
+    <div id="sidebar-title">{{ page.title | smartify }}</div>
+    {%- endif -%}
+    {%- if page.title == 'Studio Notes' -%}
+    <div id="feed-link"><a href="{{ site.url }}/feed.xml">Feed</a></div>
+    {%- endif -%}
     {%- endunless -%}
     {%- if page.id -%} <!-- when a blog post -->
     <div id="sidebar-title">Studio Notes</div>

@@ -6,7 +6,7 @@ title: Biography # in HTML meta and tab title
 # optional, no defaults
 permalink: /bio # custom page URL, begin with /
 # tags: # tags for blog posts; space separated
-nav_label: Bio # label to appear in navbar; reference in _data/navbar.yml
+nav_label: Bio # label to appear in navbar if referenced in _data/navbar.yml
 
 # optional, overrides defaults
 # type: # defaults to website, otherwise one of: article, music, video
