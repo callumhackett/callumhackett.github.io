@@ -1,7 +1,7 @@
 ---
 # obligatory
 layout: page
-title: "#plugins" # in HTML meta and tab title
+title: "plugins" # in HTML meta and tab title
 
 # optional, no defaults
 # permalink: # custom page URL, begin with /
@@ -14,5 +14,5 @@ title: "#plugins" # in HTML meta and tab title
 # image: # path to an image for social media shares, AR 1.9:1, typically 1200x630, begin with /
 # image_alt: # description of the social image
 ---
-{%- assign tag = page.title | remove: "#" -%}
+{%- assign tag = page.title -%}
 {% include tag_index.html tag=tag %}

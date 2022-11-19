@@ -4,7 +4,11 @@
         <!-- Website designed by Callum Hackett using GitHub Pages & Jekyll -->
         <meta charset="utf-8"/>
 
+        {%- if page.url contains "/tags/" -%}
+        <title>Callum Hackett | tag: #{{ page.title }}</title>
+        {%- else -%}
         <title>Callum Hackett | {{ page.title | smartify }}</title>
+        {%- endif -%}
         <meta name="description" content="{{ page.description }}"/>
         <meta name="author" content="Callum Hackett"/>
         <link rel="canonical" href="{{ site.url }}{{ page.url }}"/>
