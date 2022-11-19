@@ -83,7 +83,7 @@ main {
     --color-btn-primary-disabled-text: rgb(255 255 255 / 80%);
     --color-btn-primary-disabled-bg: #787878;
     --color-btn-primary-disabled-border: rgba(0, 0, 0, 0);
-    --color-fg-default: #282828;
+    --color-fg-default: #000;
     --color-fg-muted: rgb(136, 138, 137);
     --color-fg-subtle: rgb(136, 138, 137);
     --color-canvas-default: #fff;
