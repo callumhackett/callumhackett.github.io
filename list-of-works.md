@@ -7,7 +7,7 @@ title: List of Works # in HTML meta and tab title
 permalink: /list-of-works # custom page URL, begin with /
 # tags: # tags for blog posts; space separated
 nav_label: List of Works # label to appear in navbar if referenced in _data/navbar.yml
-list: true
+list: true # specific for this page, gets picked up in CSS for smaller paragraph spacing
 
 # optional, overrides defaults
 # type: # defaults to website, otherwise one of: article, music, video

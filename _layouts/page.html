@@ -23,16 +23,16 @@
     </div>
 </div>
 <div id="page-content">
-    {%- unless page.list -%}
-    {%- if page.id -%}
+    {%- unless page.list -%} <!-- except on a list page -->
+    {%- if page.id -%} <!-- when a blog post -->
     <div id="post-date">{% include date_formatter.html date=page.date %}</div>
     {%- endif -%}
     {{ content | smartify }}
-    {%- if page.id -%}
+    {%- if page.id -%} <!-- also add comments on blog posts -->
     {% include giscus_comments.html reactions="1" %}
     {%- endif -%}
     {%- endunless -%}
-    {%- if page.list -%}
+    {%- if page.list -%} <!-- extra div for list pages -->
     <div id="list-of-works">{{ content | smartify }}</div>
     {%- endif -%}
 </div>
