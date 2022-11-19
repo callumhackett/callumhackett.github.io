@@ -14,8 +14,6 @@ nav_label: List of Works # label to appear in navbar if referenced in _data/navb
 # image: # path to an image for social media shares, AR 1.9:1, typically 1200x630, begin with /
 # image_alt: # description of the social image
 ---
-# Music
-
 ### Original Compositions
 
 *Devouring Time* (choral setting of Sonnet 19 by William Shakespeare)  
@@ -30,17 +28,17 @@ Music Illustrated
 
 Erik Satie - Gnossienne No. 4  
 
+### Audiobooks
+
+Edgar Allan Poe - The Raven  
+
+### Podcast Series
+
+Music in Pieces (in production)  
+
 ### Other
 
 Francis Poulenc/Jessye Norman - Remastering of *Les chemins de l'amour*  
 
-# Audiobooks
-
-Edgar Allan Poe - The Raven  
-
-# Podcast
-
-Music in Pieces (in production)  
-
-# Works in Progress
+### Works in Progress
 
