@@ -71,7 +71,7 @@
     padding-bottom: 0 !important;
 }
 #page-content img {
-    box-shadow: var(--bottom-shadow-shape) var(--shadow-light);
+    box-shadow: 0px 1px 0px var(--shadow-light);
 }
 audio {
     margin-block-end: var(--body-font-size);
@@ -175,7 +175,7 @@ audio {
     color: var(--title-color);
 }
 @media screen and (max-width: 1365px) {
-    #sidebar-title, #sidebar-post-tags {
+    #sidebar {
         display: none !important;
     }
 }
