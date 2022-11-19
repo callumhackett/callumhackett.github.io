@@ -15,4 +15,4 @@ title: "mastering" # in HTML meta and tab title
 # image_alt: # description of the social image
 ---
 {%- assign tag = page.title -%}
-{% include tag_index.html tag=tag %}
+{% include post_index.html filter=tag %}
