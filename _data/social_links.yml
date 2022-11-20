@@ -2,7 +2,7 @@
 # "name" is the text to be displayed in a tooltip; "link" is the URL of the profile and "image" is the icon path
 
 - name: Bandcamp
-  link: https://bandcamp.com/callumhackett
+  link: https://callumhackett.bandcamp.com/releases
   image: /assets/images/core/bandcamp-bw.svg
 - name: Soundcloud
   link: https://soundcloud.com/callumhackett
