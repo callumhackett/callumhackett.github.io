@@ -33,19 +33,17 @@
         max-width: var(--grid-body-width);
     }
     #sidebar {
-        padding: 0 0 var(--mobile-element-spacing) 0;
+        padding: 0 0 var(--mobile-vertical-spacing) 0;
     }
 }
 
 /* Main Body Elements */
 #page-content h1 {
     font-size: var(--title-large-size);
-    line-height: var(--title-line-height);
     margin: 0 0 0.5em 0;
 }
 #page-content h2 {
     font-size: var(--title-large-size);
-    line-height: var(--title-line-height);
     margin: 1.5em 0 0.25em 0;
 }
 #page-content h3 {
@@ -57,6 +55,12 @@
 #page-content h3:not(:first-child) {
     margin: 1.5em 0 0.25em 0;
 }
+#post-date {
+    margin-block-start: 0 !important;
+}
+.post-tags {
+    margin-block-start: 0 !important;
+}
 .post-index-entry {
     display: inline-block;
     clear: both;
@@ -64,19 +68,19 @@
 }
 .post-index-entry-date {
     font-size: var(--title-small-size);
-    line-height: var(--title-line-height);
+    margin-block-start: 0;
 }
 .post-index-entry-title h1 {
-    margin: 0 0 0.75em 0 !important;
+    margin: 0 0 0.75em 0;
 }
 .post-index-entry p {
     text-align: left !important;
 }
 .post-index-entry-tags {
     font-size: 0.8em;
-    line-height: var(--title-line-height);
     padding-bottom: var(--body-padding);
     clear: both;
+    margin-block-start: 0;
 }
 .post-index-entry-tags a {
     color: rgb(136, 138, 137);
@@ -129,8 +133,14 @@ audio {
 @media screen and (min-width: 600px) {
     #page-content .small-pic, #post-index img {
         float: left;
-        margin-right: calc(var(--body-padding) * 0.75);
+        margin: 0 16px 8px 0;
         width: var(--body-img-width);
+    }
+    #page-content .small-pic {
+        margin-top: 2px;
+    }
+    #post-index img {
+        margin-top: 1px;
     }
 }
 @media screen and (max-width: 599px) {
@@ -165,7 +175,7 @@ audio {
         line-height: 1.3em;
     }
     #mobile-post-tags {
-        padding: var(--body-padding) 0 var(--mobile-element-spacing) 0;
+        padding: var(--body-padding) var(--body-padding) var(--mobile-vertical-spacing) var(--body-padding);
         line-height: 1.3em;
     }
     #mobile-post-tags a {
@@ -180,6 +190,7 @@ audio {
 #sidebar {
     text-align: right;
     text-shadow: var(--title-shadow);
+    margin-block-start: 0 !important;
 }
 #sidebar-title {
     font-size: var(--title-large-size);

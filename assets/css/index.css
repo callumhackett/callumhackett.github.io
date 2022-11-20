@@ -32,7 +32,7 @@
 }
 @media screen and (max-width: 1365px) {
     #body-grid {
-        margin-top: calc(var(--mobile-element-spacing) /2);
+        margin-top: calc(var(--mobile-vertical-spacing) /2);
     }
 }
 
@@ -89,7 +89,7 @@
     .index {
         position: relative;
         max-width: var(--grid-body-width);
-        margin: 0 auto var(--mobile-element-spacing) auto;
+        margin: 0 auto var(--mobile-vertical-spacing) auto;
     }
     .text-cell {
         padding: 2em;
