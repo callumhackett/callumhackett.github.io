@@ -5,7 +5,7 @@ title: "plugins" # in HTML meta and tab title
 
 # optional, no defaults
 # permalink: # custom page URL, begin with /
-# tags: ai # tags for blog posts; space separated
+# tags: # tags for blog posts; space separated
 # nav_label: # label to appear in navbar; reference in _data/navbar.yml
 
 # optional, overrides defaults
@@ -14,5 +14,4 @@ title: "plugins" # in HTML meta and tab title
 # image: # path to an image for social media shares, AR 1.9:1, typically 1200x630, begin with /
 # image_alt: # description of the social image
 ---
-{%- assign tag = page.title -%}
-{% include post_index.html filter=tag %}
+{% include post_index.html filter=page.title %}

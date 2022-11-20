@@ -46,9 +46,6 @@ html {
 body {
     margin: 0;
 }
-#body-container {
-    width: 100%;
-}
 
 /* Font Families */
 #title, #navigation, #sidebar, #post-date, .post-tags, .post-index-entry-date, .post-index-entry-tags {

@@ -1,6 +1,6 @@
 /* Containers */
 @media screen and (min-width: 1366px) {
-    #body-table {
+    #body-grid {
         display: grid;
         grid: var(--grid-cell-height) var(--grid-cell-height) / var(--grid-cell-width) var(--grid-cell-width) var(--grid-cell-width);
         gap: var(--grid-gap-size);
@@ -31,7 +31,7 @@
     }
 }
 @media screen and (max-width: 1365px) {
-    #body-table {
+    #body-grid {
         margin-top: calc(var(--mobile-element-spacing) /2);
     }
 }

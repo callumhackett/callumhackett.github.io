@@ -21,7 +21,7 @@ list: true # specific for this page, gets picked up in CSS for smaller paragraph
 
 Podcast theme à la James Bond (commercial)
 
-Piece for clarinet and piano  
+Piece for clarinet and piano
 
 ### Arrangements
 
@@ -44,3 +44,5 @@ Music in Pieces (in production)
 Francis Poulenc/Jessye Norman - Remastering of *Les chemins de l'amour*
 
 ### Works in Progress
+
+Arrangement of Mozart's Piano Concerto No. 26 for Synth Ensemble

@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 @media screen and (min-width: 1366px) {
-    #body-table {
+    #body-grid {
         display: grid;
         grid: minmax(var(--grid-cell-height), auto) / var(--grid-cell-width) var(--grid-body-width);
         gap: var(--grid-gap-size);
@@ -28,7 +28,7 @@
     body {
         padding: 0 5%;
     }
-    #body-table {
+    #body-grid {
         margin: auto;
         max-width: var(--grid-body-width);
     }
@@ -76,6 +76,7 @@
     font-size: 0.8em;
     line-height: var(--title-line-height);
     padding-bottom: var(--body-padding);
+    clear: both;
 }
 .post-index-entry-tags a {
     color: rgb(136, 138, 137);

@@ -4,9 +4,9 @@
     <div class="post-index-entry-date">{% include date_formatter.html date=include.date %}</div>
     <div class="post-index-entry-title"><h1><a href="{{ include.url }}">{{ include.title | smartify }}</a></h1></div>
     <p>{{ include.description | smartify }}</p>
-</div>
-<div class="post-index-entry-tags post-tags">
-    {%- for tag in tags -%}
-    {% include tag_formatter.html tag=tag %}&#32;
-    {%- endfor -%}
+    <div class="post-index-entry-tags post-tags">
+        {%- for tag in tags -%}
+        {% include tag_formatter.html tag=tag %}&#32;
+        {%- endfor -%}
+    </div>
 </div>

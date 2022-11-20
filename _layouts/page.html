@@ -1,4 +1,4 @@
-{%- capture main-content -%}
+{%- capture body-grid -%}
 <div id="sidebar">
     {%- unless page.id -%} <!-- when not a blog post -->
     {%- if page.url contains "/tags/" -%} <!-- if it's a tag index page -->
@@ -44,4 +44,4 @@
 <div id="empty-row"></div> <!-- this adds end-screen padding without affecting the auto size of the first row -->
 {%- endcapture -%}
 
-{% include main.html css="page" main-content=main-content %}
+{% include main.html css="page" body-grid=body-grid %}

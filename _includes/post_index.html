@@ -1,12 +1,12 @@
 <div id="post-index">
-    {%- if include.filter -%}
+    {%- if include.filter -%} <!-- for tag pages -->
     {%- for post in site.posts -%}
     {%- if post.tags contains include.filter -%}
     {%- assign tags = post.tags | join: ", " -%}
     {% include post_index_entry.html date=post.date title=post.title url=post.url image=post.image description=post.description tags=tags %}
     {%- endif -%}
     {%- endfor -%}
-    {%- else -%}
+    {%- else -%} <!-- for blog index -->
     {%- for post in site.posts -%}
     {%- assign tags = post.tags | join: ", " -%}
     {% include post_index_entry.html date=post.date title=post.title url=post.url image=post.image description=post.description tags=tags %}

@@ -1,21 +1,21 @@
 ---
 title: Home # in HTML meta and tab title
 ---
-{%- capture podcast-content -%}
+{%- capture podcast -%}
 <h2>Music in Pieces</h2>
 <p><em>Music in Pieces</em> is a limited series podcast about the <em>je ne sais quoi</em> of classical music. Currently in production, each episode will focus on a different aspect of musical structure, with plenty of examples and interviews with experts. Newcomers will find out what the genre does uniquely well, and aficionados will hear the music anew.</p>
 {%- endcapture -%}
 
-<!-- this functions as the index.html layout specification but without a dedicated file -->
-{%- capture main-content -%}
+<!-- this functions as the index.html layout specification but without a dedicated layout file -->
+{%- capture body-grid -%}
 <div id="music" class="index full-cell music-cell">
     {% include soundcloud.html embed="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1520166127" %}
 </div>
 <div id="audiobook" class="index top-cell img-cell">
-    <a href="{{ site.url }}"><img src="/assets/images/index/the_raven.jpg" title="The Raven"/></a>
+    <img src="/assets/images/index/the_raven.jpg" title="The Raven"/>
 </div>
 <div id="podcast" class="index bottom-text-cell text-cell">
-    {{ podcast-content | smartify }}
+    {{ podcast | smartify }}
 </div>
 <div id="spotlight" class="index top-cell video-cell">
     {% include youtube.html embed="https://www.youtube.com/embed/_oO_DxpWKtw" %}
@@ -25,4 +25,4 @@ title: Home # in HTML meta and tab title
 </div>
 {%- endcapture -%}
 
-{% include main.html css="index" main-content=main-content %}
+{% include main.html css="index" body-grid=body-grid %}
