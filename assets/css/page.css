@@ -25,9 +25,12 @@
     }
 }
 @media screen and (max-width: 1365px) {
+    body {
+        padding: 0 5%;
+    }
     #body-table {
         margin: auto;
-        width: var(--mobile-content-width);
+        max-width: var(--grid-body-width);
     }
     #sidebar {
         padding: 0 0 var(--mobile-element-spacing) 0;
@@ -36,10 +39,17 @@
 
 /* Main Body Elements */
 #page-content h1 {
+    font-size: var(--title-large-size);
+    line-height: var(--title-line-height);
     margin: 0 0 0.5em 0;
 }
 #page-content h2 {
+    font-size: var(--title-large-size);
+    line-height: var(--title-line-height);
     margin: 1.5em 0 0.25em 0;
+}
+#page-content h3 {
+    font-size: var(--title-small-size);
 }
 #page-content h3:first-child {
     margin: 0 0 0.25em 0;
@@ -82,6 +92,9 @@
 audio {
     margin-block-end: var(--body-font-size);
 }
+#list-of-works p:not(:last-child) {
+    margin-block-end: calc(var(--body-font-size) / 2);
+}
 @media screen and (min-width: 1366px) {
     #page-content {
         padding: var(--body-padding);
@@ -94,11 +107,6 @@ audio {
     }
     #post-index img {
         margin-top: 1px;
-    }
-    #page-content .small-pic, #post-index img {
-        float: left;
-        margin-right: calc(var(--body-padding) * 0.75);
-        width: var(--body-img-width);
     }
     .youtube {
         margin-top: calc(var(--body-padding) * 0.75);
@@ -115,6 +123,19 @@ audio {
     }
     #mobile-post-tags {
         display: none !important;
+    }
+}
+@media screen and (min-width: 600px) {
+    #page-content .small-pic, #post-index img {
+        float: left;
+        margin-right: calc(var(--body-padding) * 0.75);
+        width: var(--body-img-width);
+    }
+}
+@media screen and (max-width: 599px) {
+    #post-index img, #page-content img {
+        margin: 0 0 calc(var(--body-padding) / 3);
+        width: 100%;
     }
 }
 @media screen and (max-width: 1365px) {
@@ -142,12 +163,8 @@ audio {
     .post-index-entry-tags {
         line-height: 1.3em;
     }
-    #post-index img, #page-content img {
-        margin: 0 0 calc(var(--body-padding) / 3);
-        width: 100%;
-    }
     #mobile-post-tags {
-        padding: var(--body-padding) 0 0 0;
+        padding: var(--body-padding) 0 var(--mobile-element-spacing) 0;
         line-height: 1.3em;
     }
     #mobile-post-tags a {

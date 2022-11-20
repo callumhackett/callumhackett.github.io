@@ -21,15 +21,15 @@
     --body-line-height: 1.35em;
     --body-img-width: 30%;
     --social-icon-size: 24px;
-    --grid-cell-height: 243px;
-    --grid-cell-width: 432px;
-    --grid-gap-size: 35px;
-    --grid-body-width: calc(var(--grid-cell-width) * 2 + var(--grid-gap-size));
+    --grid-cell-height: 225px;
+    --grid-cell-width: 400px;
+    --grid-gap-size: 48px;
+    --grid-body-width: calc(var(--grid-cell-width) * 2);
     /* Spacing */
     --body-padding: 2em;
     --social-icon-spacing: 5px;
     --mobile-content-width: 90%;
-    --mobile-element-spacing: 3vh;
+    --mobile-element-spacing: 4vh;
     /* Shapes */
     --border-radius: 3px;
 }

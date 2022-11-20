@@ -39,26 +39,24 @@
     </head>
 
     <body>
-        <div id="title-bar">
-            <div id="header">
-                <h1><a href="{{ site.url }}">Callum Hackett</a></h1>
-                {%- for entry in site.data.social_links -%}
-                <a href="{{ entry.link }}"><img src="{{ entry.image }}" title="{{ entry.name }}"/></a>
-                {%- endfor -%}
-            </div>
-            <div id="navigation">
-                {%- for entry in site.data.navbar -%}
-                {%- if entry.link -%}
-                <a href="{{ entry.link }}"> {{ entry.nav_label | smartify }} </a>
-                {%- else -%}
-                {%- for page in site.pages -%}
-                {%- if entry.nav_label == page.nav_label -%}
-                <a href="{{ site.url }}{{ page.permalink }}"> {{ entry.nav_label | smartify }} </a>
-                {%- endif -%}
-                {%- endfor -%}
-                {%- endif -%}
-                {%- endfor -%}
-            </div>
+        <div id="title"><h1><a href="{{ site.url }}">Callum Hackett</a></h1></div>
+        <div id="social">
+            {%- for entry in site.data.social -%}
+            <a href="{{ entry.link }}"><img src="{{ entry.image }}" title="{{ entry.name }}"/></a>
+            {%- endfor -%}
+        </div>
+        <div id="navigation">
+            {%- for entry in site.data.navbar -%}
+            {%- if entry.link -%}
+            <a href="{{ entry.link }}">&#32;{{ entry.nav_label | smartify }}&#32;</a>
+            {%- else -%}
+            {%- for page in site.pages -%}
+            {%- if entry.nav_label == page.nav_label -%}
+            <a href="{{ site.url }}{{ page.permalink }}">&#32;{{ entry.nav_label | smartify }}&#32;</a>
+            {%- endif -%}
+            {%- endfor -%}
+            {%- endif -%}
+            {%- endfor -%}
         </div>
         <div id="body-container">
             <div id="body-table">

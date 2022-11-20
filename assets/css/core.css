@@ -46,53 +46,21 @@ html {
 body {
     margin: 0;
 }
-#title-bar {
-    background: transparent;
-    width: 100%;
-}
 #body-container {
     width: 100%;
 }
-@media screen and (min-width: 1366px) {
-    #title-bar {
-        display: grid;
-        grid: 100% / auto auto;
-        position: relative;
-        height: 8vh;
-    }
-    #navigation {
-        grid-column: 1 / 3;
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%, 0%);
-    }
-    #header {
-        grid-column: 2;
-        padding-right: 10px;
-    }
-    #header h1 {
-        padding-right: var(--social-icon-spacing);
-    }
-}
-@media screen and (max-width: 1365px) {
-    body {
-        margin-bottom: var(--mobile-element-spacing);
-    }
-    #title-bar {
-        margin-bottom: var(--mobile-element-spacing);
-    }
-    #navigation {
-        text-align: center;
-        padding: 2.5vh 7.5%;
-    }
-    #header {
-        text-align: center;
-        padding: 2.5vh 0 0 0;
-    }
-}
 
 /* Font Families */
-#header, #navigation, #sidebar, #post-date, .post-tags, .post-index-entry-date, .post-index-entry-tags, h1, h2, h3 {
+#title, #navigation, #sidebar, #post-date, .post-tags, .post-index-entry-date, .post-index-entry-tags {
+    font-family: 'barlow', 'futura', sans-serif;
+    color: var(--title-color);
+    font-weight: var(--title-weight);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-block-start: 0 !important;
+}
+h1, h2, h3 {
     font-family: 'barlow', 'futura', sans-serif;
     color: var(--title-color);
     font-weight: var(--title-weight);
@@ -109,76 +77,66 @@ p, li {
 }
 
 /* Header Elements */
-#title-bar {
-    text-align: right;
-    align-items: center;
+#title {
+    text-align: center;
+    padding: 2.5vh 0 0 0;
 }
-#header, #navigation, #sidebar, #post-date, .post-tags, .post-index-entry-date, .post-index-entry-tags {
-    margin-block-start: 0 !important;
-}
-#header h1 {
-    font-size: var(--title-small-size);
+#title h1 {
+    font-size: var(--title-small-size) !important;
     line-height: var(--title-line-height);
     text-shadow: var(--title-shadow);
-    margin-block-start: 0 !important;
-    margin-bottom: calc(var(--social-icon-spacing) * 2);
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
-#header a {
+#title a {
     color: var(--title-color);
 }
-#header img {
+#social {
+    text-align: center;
+    padding: 1.25vh 0 0;
+}
+#social img {
     height: var(--social-icon-size);
     padding: 0px var(--social-icon-spacing);
 }
 #navigation {
     font-size: var(--title-large-size);
     text-shadow: var(--title-shadow);
-    line-height: var(--title-line-height);
+    line-height: 1.5em;
+    text-align: center;
+    padding: 2.5vh 0;
 }
 #navigation a {
     color: var(--title-color);
     margin: 0 0.75em;
 }
-@media screen and (max-width: 1365px) {
-    #navigation {
-        line-height: 1.5em !important;
-    }
-}
 
 /* Main Body Elements */
-#page-content h1, h2 {
-    font-size: var(--title-large-size);
-    line-height: var(--title-line-height);
-}
-#page-content h3 {
-    font-size: var(--title-small-size);
-}
-p, li {
+p {
     font-size: var(--body-font-size);
     line-height: var(--body-line-height);
+}
+p:not(:last-child), ul {
+    margin-block-end: var(--body-font-size);
+}
+p:last-child {
+    margin-block-end: 0;
 }
 a, a:active, a:visited, a:hover {
     color: var(--link-color);
     outline: none;
     text-decoration: none;
 }
-#page-content p a {
+p a {
     text-decoration: underline;
-}
-p:not(:last-child), ul {
-    margin-block-end: var(--body-font-size);
-}
-#list-of-works p:not(:last-child) {
-    margin-block-end: calc(var(--body-font-size) / 2);
-}
-p:last-child {
-    margin-block-end: 0;
-}
-li {
-    margin-block-end: calc(var(--body-font-size) / 3);
 }
 ul {
     margin-block-start: 0 !important;
+}
+li {
+    font-size: var(--body-font-size);
+    line-height: var(--body-line-height);
+    margin-block-end: calc(var(--body-font-size) / 3);
 }
 img, audio {
     border-radius: calc(var(--border-radius) * 0.67);
