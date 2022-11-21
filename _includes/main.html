@@ -48,11 +48,11 @@
         <div id="navigation">
             {%- for entry in site.data.navbar -%}
             {%- if entry.link -%}
-            <a href="{{ entry.link }}">&#32;{{ entry.nav_label | smartify }}&#32;</a>
+            &#32;<a href="{{ entry.link }}">{{ entry.nav_label | smartify }}</a>&#32;
             {%- else -%}
             {%- for page in site.pages -%}
             {%- if entry.nav_label == page.nav_label -%}
-            <a href="{{ site.url }}{{ page.permalink }}">&#32;{{ entry.nav_label | smartify }}&#32;</a>
+            &#32;<a href="{{ site.url }}{{ page.permalink }}">{{ entry.nav_label | smartify }}</a>&#32;
             {%- endif -%}
             {%- endfor -%}
             {%- endif -%}
