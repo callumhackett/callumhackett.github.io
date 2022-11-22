@@ -2,7 +2,7 @@
 #page-content {
     background: var(--body-background);
     border-radius: var(--border-radius);
-    box-shadow: var(--bottom-shadow-shape) var(--shadow-light);
+    box-shadow: var(--black-shadow);
     box-sizing: border-box;
 }
 @media screen and (min-width: 1366px) {
@@ -37,7 +37,7 @@
     }
 }
 
-/* Main Body Elements */
+/* Post Body Elements */
 #page-content h1 {
     font-size: var(--title-large-size);
     margin: 0 0 0.5em 0;
@@ -56,43 +56,8 @@
     margin: 1.5em 0 0.25em 0;
 }
 #post-date {
-    margin-block-start: 0 !important;
-}
-.post-tags {
-    margin-block-start: 0 !important;
-}
-.post-index-entry {
-    display: inline-block;
-    clear: both;
-    padding-bottom: calc(var(--body-padding) /2);
-}
-.post-index-entry-date {
     font-size: var(--title-small-size);
-    margin-block-start: 0;
-}
-.post-index-entry-title h1 {
-    margin: 0 0 0.75em 0;
-}
-.post-index-entry p {
-    text-align: left !important;
-}
-.post-index-entry-tags {
-    font-size: 0.8em;
-    padding-bottom: var(--body-padding);
-    clear: both;
-    margin-block-start: 0;
-}
-.post-index-entry-tags a {
-    color: rgb(136, 138, 137);
-}
-.post-index-entry-tags .post-tag {
-    padding-right: 10px !important;
-}
-.post-index-entry:last-child {
-    padding-bottom: 0 !important;
-}
-#page-content img {
-    box-shadow: 0px 1px 0px var(--shadow-light);
+    margin-block-start: 0 !important;
 }
 audio {
     margin-block-end: calc(var(--body-font-size) * 0.8);
@@ -107,12 +72,6 @@ audio {
     #page-content p {
         text-align: justify;
     }
-    #page-content .small-pic {
-        margin-top: 2px;
-    }
-    #post-index img {
-        margin-top: 1px;
-    }
     .youtube {
         margin-right: 0;
         margin-bottom: calc(var(--body-font-size) * 0.8);
@@ -122,28 +81,19 @@ audio {
         width: var(--grid-body-width); /* this should be the same as the large cell width */
         height: calc(var(--grid-body-width) / 1.77778); /* this maintains a 16:9 aspect ratio with a width of 899px */
     }
-    #sidebar {
-        padding: var(--body-padding) 0 0 0;
-    }
     #mobile-post-tags {
         display: none !important;
     }
 }
 @media screen and (min-width: 600px) {
-    #page-content .small-pic, #post-index img {
+    .small-pic {
         float: left;
-        margin: 0 16px 8px 0;
+        margin: var(--body-img-spacing);
         width: var(--body-img-width);
-    }
-    #page-content .small-pic {
-        margin-top: 2px;
-    }
-    #post-index img {
-        margin-top: 1px;
     }
 }
 @media screen and (max-width: 599px) {
-    #post-index img, #page-content img {
+    #page-content img {
         margin: 0 0 calc(var(--body-padding) / 3);
         width: 100%;
     }
@@ -185,10 +135,63 @@ audio {
     }
 }
 
+/* Index Body Elements */
+.post-index-entry {
+    display: inline-block;
+    clear: both;
+    padding-bottom: calc(var(--body-padding) /2);
+}
+.post-index-entry-date {
+    font-size: var(--title-small-size);
+    margin-block-start: 0;
+}
+.post-index-entry-title h1 {
+    margin: 0 0 0.75em 0;
+}
+.post-index-entry p {
+    text-align: left !important;
+}
+.post-index-entry-tags {
+    font-size: 0.8em;
+    padding-bottom: var(--body-padding);
+    clear: both;
+    margin-block-start: 0;
+}
+.post-index-entry-tags a {
+    color: rgb(140, 140, 140);
+}
+.post-index-entry-tags .post-tag {
+    padding-right: 10px !important;
+}
+.post-index-entry:last-child {
+    padding-bottom: 0 !important;
+}
+@media screen and (min-width: 1366px) {
+    #post-index img {
+        margin-top: 2px;
+        float: left;
+        margin-right: 16px;
+        margin-bottom: 8px;
+        width: var(--body-img-width);
+    }
+}
+@media screen and (min-width: 600px) {
+    #post-index img {
+        float: left;
+        margin: var(--body-img-spacing);
+        width: var(--body-img-width);
+    }
+}
+@media screen and (max-width: 599px) {
+    #post-index img {
+        margin: 0 0 calc(var(--body-padding) / 3);
+        width: 100%;
+    }
+}
+
 /* Sidebar Elements */
 #sidebar {
     text-align: right;
-    text-shadow: var(--title-shadow);
     margin-block-start: 0 !important;
 }
 #sidebar-title {
@@ -199,14 +202,21 @@ audio {
     font-size: var(--title-small-size);
     line-height: var(--body-line-height);
 }
+#feed-link a {
+    color: rgb(255, 255, 0);
+}
 #tag-title, #sidebar-post-tags {
     font-size: var(--title-small-size);
-    text-shadow: var(--title-shadow);
     line-height: var(--body-line-height);
     padding-top: var(--grid-gap-size);
 }
 #sidebar-post-tags a, #tag-title a {
     color: var(--title-color);
+}
+@media screen and (min-width: 1366px) {
+    #sidebar {
+        padding: var(--body-padding) 0 0 0;
+    }
 }
 @media screen and (max-width: 1365px) {
     #sidebar-title, #feed-link, #sidebar-post-tags {

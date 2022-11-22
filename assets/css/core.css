@@ -27,9 +27,8 @@
 
 /* Containers */
 html {
-    background-image:
-    url('/assets/images/core/bg.png');
-        background-attachment: fixed; /* this stops the colour gradient from repeating */
+    background-image: url('/assets/images/core/bg.png');
+    background-attachment: fixed;
 }
 body {
     margin: 0;
@@ -41,8 +40,8 @@ body {
     color: var(--title-color);
     font-weight: var(--title-weight);
     text-transform: uppercase;
-    letter-spacing: 1px;
-    word-spacing: 2px;
+    letter-spacing: 1.5px;
+    word-spacing: 1px;
     line-height: var(--title-line-height);
 }
 p, li {
@@ -60,9 +59,8 @@ p, li {
     margin-block-start: 0;
 }
 #title h1 {
-    font-size: var(--title-small-size) !important;
+    font-size: var(--title-small-size);
     line-height: var(--title-line-height);
-    text-shadow: var(--title-shadow);
     margin-block-start: 0;
     margin-block-end: 0;
 }
@@ -79,7 +77,6 @@ p, li {
 }
 #navigation {
     font-size: var(--title-large-size);
-    text-shadow: var(--title-shadow);
     line-height: 1.5em !important;
     text-align: center;
     padding: 2.5vh 0;
@@ -95,8 +92,8 @@ p {
     font-size: var(--body-font-size);
     line-height: var(--body-line-height);
 }
-p:not(:last-child), ul {
-    margin-block-end: var(--body-font-size);
+p:not(:last-child) {
+    margin-block-end: calc(var(--body-font-size) * 1.1);
 }
 p:last-child {
     margin-block-end: 0;
@@ -112,12 +109,10 @@ p a {
 ul {
     padding: 0 var(--body-padding);
     margin-block-start: 0;
+    margin-block-end: calc(var(--body-font-size) * 1.1);
 }
 li {
     font-size: var(--body-font-size);
     line-height: var(--body-line-height);
     margin-block-end: calc(var(--body-font-size) / 3);
-}
-img, audio {
-    border-radius: calc(var(--border-radius) * 0.67);
 }

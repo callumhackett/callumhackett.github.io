@@ -4,15 +4,10 @@
     --body-background: #fff;
     --title-color: #000;
     --title-weight: normal;
-    --title-shadow: 0 1px 2px rgba(0,0,0,0.13);
-    --body-color: #282828;
-    --link-color: rgb(0, 75, 255);
+    --body-color: #000;
+    --link-color: rgb(255, 0, 135);
     --studio-color: rgb(0, 85, 165);
-    --neutral-shadow-shape: 3px 4px 0px 0px;
-    --top-shadow-shape: 3px 4px 0px 0px;
-    --bottom-shadow-shape: 3px 4px 0px 0px;
-    --shadow-light: rgb(0, 0, 0);
-    --shadow-dark: rgb(0, 0, 0);
+    --black-shadow: 3px 4px 0px 0px #000;
     /* Sizes */
     --title-small-size: 1em;
     --title-large-size: 1.3em;
@@ -20,16 +15,17 @@
     --body-font-size: 0.9em;
     --body-line-height: 1.35em;
     --body-img-width: 30%;
-    --social-icon-size: 28px;
+    --social-icon-size: 24px;
     --grid-cell-height: 225px;
     --grid-cell-width: 400px;
     --grid-gap-size: 48px;
     --grid-body-width: calc(var(--grid-cell-width) * 2);
     /* Spacing */
     --body-padding: 2em;
+    --body-img-spacing: 3px 16px 8px 0px;
     --social-icon-spacing: calc(var(--social-icon-size) / 4);
     --mobile-content-width: 90%;
     --mobile-vertical-spacing: 4vh;
     /* Shapes */
-    --border-radius: 0px;
+    --border-radius: 3px 3px 0px 0px;
 }

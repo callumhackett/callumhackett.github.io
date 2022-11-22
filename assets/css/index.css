@@ -37,19 +37,17 @@
 }
 
 /* Main Body Elements */
-.index iframe {
+#body-grid img, iframe {
     border-radius: var(--border-radius);
-}
-#music, #audiobook, #spotlight, #blog {
-    background: transparent;
+    box-shadow: var(--black-shadow);
 }
 .text-cell {
     background: var(--body-background);
     border-radius: var(--border-radius);
+    box-shadow: var(--black-shadow);
     box-sizing: border-box;
-    border: 1px solid #000;
 }
-.index h2 {
+.text-cell h2 {
     font-size: var(--title-large-size);
     line-height: var(--title-line-height);
     margin: 0 0 0.5em 0;
@@ -66,18 +64,6 @@
         height: var(--grid-cell-height);
         width: var(--grid-cell-width);
     }
-    .full-cell iframe {
-        box-shadow: var(--neutral-shadow-shape) var(--shadow-light);
-    }
-    .top-cell img, .top-cell iframe {
-        box-shadow: var(--top-shadow-shape) var(--shadow-dark);
-    }
-    .bottom-text-cell {
-        box-shadow: var(--bottom-shadow-shape) var(--shadow-light);
-    }
-    .bottom-cell img, .bottom-cell iframe {
-        box-shadow: var(--bottom-shadow-shape) var(--shadow-dark);
-    }
 }
 @media screen and (max-width: 1365px) {
     body {
@@ -85,7 +71,6 @@
     }
     .cell {
         display: block;
-        box-shadow: var(--bottom-shadow-shape) var(--shadow-light);
     }
     .index {
         position: relative;
