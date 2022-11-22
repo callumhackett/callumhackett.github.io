@@ -47,6 +47,7 @@
     background: var(--body-background);
     border-radius: var(--border-radius);
     box-sizing: border-box;
+    border: 1px solid #000;
 }
 .index h2 {
     font-size: var(--title-large-size);

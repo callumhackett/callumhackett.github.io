@@ -8,11 +8,11 @@
     --body-color: #282828;
     --link-color: rgb(0, 75, 255);
     --studio-color: rgb(0, 85, 165);
-    --neutral-shadow-shape: 0px 0px 3px 1px;
-    --top-shadow-shape: 0px -2px 2px;
-    --bottom-shadow-shape: 0px 2px 2px;
-    --shadow-light: rgb(225, 225, 225);
-    --shadow-dark: rgb(200, 200, 200);
+    --neutral-shadow-shape: 3px 4px 0px 0px;
+    --top-shadow-shape: 3px 4px 0px 0px;
+    --bottom-shadow-shape: 3px 4px 0px 0px;
+    --shadow-light: rgb(0, 0, 0);
+    --shadow-dark: rgb(0, 0, 0);
     /* Sizes */
     --title-small-size: 1em;
     --title-large-size: 1.3em;
@@ -20,7 +20,7 @@
     --body-font-size: 0.9em;
     --body-line-height: 1.35em;
     --body-img-width: 30%;
-    --social-icon-size: 24px;
+    --social-icon-size: 28px;
     --grid-cell-height: 225px;
     --grid-cell-width: 400px;
     --grid-gap-size: 48px;
@@ -31,5 +31,5 @@
     --mobile-content-width: 90%;
     --mobile-vertical-spacing: 4vh;
     /* Shapes */
-    --border-radius: 3px;
+    --border-radius: 0px;
 }
