@@ -28,7 +28,7 @@
 /* Containers */
 html {
     background-image:
-    url('/assets/images/core/speckle.png');
+    url('/assets/images/core/bg.png');
         background-attachment: fixed; /* this stops the colour gradient from repeating */
 }
 body {
