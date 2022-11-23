@@ -1,11 +1,12 @@
 /* Variables */
 :root {
     /* Colours */
+    --main-background: rgb(79, 190, 252);
     --body-background: #fff;
     --title-color: #000;
     --title-weight: normal;
     --body-color: #000;
-    --link-color: rgb(255, 0, 135);
+    --link-color: rgb(255, 0, 120);
     --studio-color: rgb(0, 85, 165);
     --black-shadow: 3px 4px 0px 0px #000;
     /* Sizes */

@@ -31,7 +31,7 @@ a:hover {
 }
 
 .gsc-comment-box:not(.gsc-comment-box-is-reply), #__next .rounded-md {
-  border-radius: 2px !important;
+  border-radius: 0px !important;
 }
 
 .gsc-comment {
@@ -70,12 +70,12 @@ main {
     --color-prettylights-syntax-brackethighlighter-angle: #57606a;
     --color-prettylights-syntax-sublimelinter-gutter-mark: #8c959f;
     --color-prettylights-syntax-constant-other-reference-link: #0a3069;
-    --color-btn-text: #282828;
+    --color-btn-text: #000;
     --color-btn-bg: #fafafa;
     --color-btn-border: rgb(30 30 30 / 15%);
     --color-btn-shadow: 0 1px 0 rgb(30 30 30 / 4%);
     --color-btn-inset-shadow: inset 0 1px 0 rgb(255 255 255 / 25%);
-    --color-btn-hover-bg: #f3f4f6;
+    --color-btn-hover-bg: #f4f4f4;
     --color-btn-hover-border: rgb(30 30 30 / 15%);
     --color-btn-active-bg: hsl(220deg 14% 93% / 100%);
     --color-btn-active-border: rgb(30 30 30 / 15%);
@@ -93,17 +93,17 @@ main {
     --color-btn-primary-disabled-bg: #787878;
     --color-btn-primary-disabled-border: rgba(0, 0, 0, 0);
     --color-fg-default: #000;
-    --color-fg-muted: rgb(136, 138, 137);
-    --color-fg-subtle: rgb(136, 138, 137);
+    --color-fg-muted: rgb(137, 137, 137);
+    --color-fg-subtle: rgb(137, 137, 137);
     --color-canvas-default: #fff;
     --color-canvas-overlay: #fff;
-    --color-canvas-inset: rgb(250, 252, 251);
-    --color-canvas-subtle: rgb(250, 252, 251);
+    --color-canvas-inset: rgb(250, 250, 250);
+    --color-canvas-subtle: rgb(250, 250, 250);
     --color-border-default: #ddd;
     --color-border-muted: #ddd;
     --color-neutral-muted: #ddd;
-    --color-accent-fg: rgb(0, 0, 255);
-    --color-accent-emphasis: rgb(0, 0, 255);
+    --color-accent-fg: rgb(8, 144, 223);
+    --color-accent-emphasis: rgb(8, 144, 223);
     --color-accent-muted: #ddd;
     --color-accent-subtle: #fff;
     --color-success-fg: #777777;

@@ -178,7 +178,7 @@ audio {
 @media screen and (min-width: 600px) {
     #post-index img {
         float: left;
-        margin: var(--body-img-spacing);
+        margin: 2px 16px 8px 0px;
         width: var(--body-img-width);
     }
 }
@@ -201,9 +201,10 @@ audio {
 #feed-link {
     font-size: var(--title-small-size);
     line-height: var(--body-line-height);
+    text-shadow: 1px 1px #000;
 }
 #feed-link a {
-    color: rgb(255, 255, 0);
+    color: rgb(255, 230, 0);
 }
 #tag-title, #sidebar-post-tags {
     font-size: var(--title-small-size);

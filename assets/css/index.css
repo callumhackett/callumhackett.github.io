@@ -50,7 +50,7 @@
 .text-cell h2 {
     font-size: var(--title-large-size);
     line-height: var(--title-line-height);
-    margin: 0 0 0.5em 0;
+    margin: 0 0 0.25em 0;
 }
 @media screen and (min-width: 1366px) {
     .text-cell {
