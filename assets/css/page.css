@@ -160,7 +160,7 @@ audio {
 .post-index-entry-tags a {
     color: rgb(140, 140, 140);
 }
-.post-index-entry-tags .post-tag {
+.post-index-entry-tags .post-tag, #mobile-post-tags .post-tag {
     padding-right: 15px !important;
 }
 .post-index-entry:last-child {
