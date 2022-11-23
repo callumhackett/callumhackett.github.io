@@ -197,14 +197,15 @@ audio {
 #sidebar-title {
     font-size: var(--title-large-size);
     line-height: var(--title-line-height);
+    background: var(--main-background);
 }
 #feed-link {
     font-size: var(--title-small-size);
     line-height: var(--body-line-height);
-    text-shadow: 1px 1px #000;
 }
 #feed-link a {
-    color: rgb(255, 230, 0);
+    color: rgb(255, 255, 0);
+    background: var(--main-background);
 }
 #tag-title, #sidebar-post-tags {
     font-size: var(--title-small-size);
@@ -213,6 +214,7 @@ audio {
 }
 #sidebar-post-tags a, #tag-title a {
     color: var(--title-color);
+    background: var(--main-background);
 }
 @media screen and (min-width: 1366px) {
     #sidebar {

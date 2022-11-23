@@ -66,6 +66,7 @@ p, li {
 }
 #title a {
     color: var(--title-color);
+    background: var(--main-background);
 }
 #social {
     text-align: center;
@@ -74,6 +75,7 @@ p, li {
 #social img {
     height: var(--social-icon-size);
     padding: 0px var(--social-icon-spacing);
+    background: var(--main-background);
 }
 #navigation {
     font-size: var(--title-large-size);
@@ -85,6 +87,7 @@ p, li {
 #navigation a {
     color: var(--title-color);
     margin: 0 0.75em;
+    background: var(--main-background);
 }
 
 /* Main Body Elements */
