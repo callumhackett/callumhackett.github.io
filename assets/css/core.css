@@ -47,7 +47,7 @@ body {
 p, li {
     font-family: 'spline sans mono', 'inconsolata', sans-serif;
     color: var(--body-color);
-    letter-spacing: -0.5px;
+    letter-spacing: -0.25px;
     word-spacing: -0.5px;
     margin-block-start: 0 !important;
 }

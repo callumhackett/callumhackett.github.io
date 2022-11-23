@@ -197,6 +197,8 @@ audio {
 #sidebar-title {
     font-size: var(--title-large-size);
     line-height: var(--title-line-height);
+}
+.sidebar-title {
     background: var(--main-background);
 }
 #feed-link {
