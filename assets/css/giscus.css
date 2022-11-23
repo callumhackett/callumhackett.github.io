@@ -30,7 +30,7 @@ a:hover {
   line-height: 1em !important;
 }
 
-.gsc-comment-box:not(.gsc-comment-box-is-reply), #__next .rounded-md {
+.gsc-comment-box:not(.gsc-comment-box-is-reply), #__next .rounded-md, #__next .rounded-t, .gsc-comment-box-textarea {
   border-radius: 0px !important;
 }
 
