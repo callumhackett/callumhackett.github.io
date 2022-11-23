@@ -161,7 +161,7 @@ audio {
     color: rgb(140, 140, 140);
 }
 .post-index-entry-tags .post-tag {
-    padding-right: 10px !important;
+    padding-right: 15px !important;
 }
 .post-index-entry:last-child {
     padding-bottom: 0 !important;
