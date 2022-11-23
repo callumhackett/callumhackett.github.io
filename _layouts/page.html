@@ -25,7 +25,10 @@
 <div id="page-content">
     {%- unless page.list -%} <!-- except on a list page -->
     {%- if page.id -%} <!-- when a blog post -->
+    <div id="piano-icon"><img src="/assets/images/core/piano2.png" width="100"/></div>
     <div id="post-date">{% include date_formatter.html date=page.date %}</div>
+    {%- elsif page.title == "Studio Notes" -%}
+    <div id="piano-icon"><img src="/assets/images/core/piano2.png" width="100"/></div>
     {%- endif -%}
     {{ content | smartify }}
     {%- if page.id -%} <!-- also add comments on blog posts -->

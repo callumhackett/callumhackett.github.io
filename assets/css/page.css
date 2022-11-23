@@ -4,6 +4,7 @@
     border-radius: var(--border-radius);
     box-shadow: var(--black-shadow);
     box-sizing: border-box;
+    position: relative;
 }
 @media screen and (min-width: 1366px) {
     #body-grid {
@@ -38,6 +39,11 @@
 }
 
 /* Post Body Elements */
+#piano-icon {
+    position: absolute;
+    top: -50px;
+    right: 2em;
+}
 #page-content h1 {
     font-size: var(--title-large-size);
     margin: 0 0 0.5em 0;
@@ -96,6 +102,9 @@ audio {
     #page-content img {
         margin: 0 0 calc(var(--body-padding) / 3);
         width: 100%;
+    }
+    #piano-icon {
+        display: none !important;
     }
 }
 @media screen and (max-width: 1365px) {
