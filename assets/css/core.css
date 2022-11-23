@@ -51,7 +51,7 @@ p, li {
     word-spacing: -0.5px;
     margin-block-start: 0 !important;
 }
-#body-grid h1::selection, #body-grid  h2::selection, #body-grid h3::selection, #body-grid #post-date::selection, p::selection, p em::selection, p a::selection, p strong::selection, ul::selection, li::selection, #post-index a::selection, .post-index-entry-date::selection {
+*::selection {
     background: var(--link-color);
     color: #fff;
 }

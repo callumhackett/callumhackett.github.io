@@ -6,7 +6,7 @@
     <p>{{ include.description | smartify }}</p>
     <div class="post-index-entry-tags post-tags">
         {%- for tag in tags -%}
-        {% include tag_formatter.html tag=tag %}
+        {% include tag_formatter.html tag=tag %}&#32;
         {%- endfor -%}
     </div>
 </div>
