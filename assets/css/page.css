@@ -221,8 +221,8 @@ audio {
     line-height: var(--body-line-height);
 }
 #feed-link a {
-    color: rgb(255, 255, 0);
-    text-shadow: 1px 1px rgba(255, 255, 0, 0.1);
+    color: rgb(255, 245, 0);
+    text-shadow: 1px 1px rgba(255, 245, 0, 0.1);
     background: var(--main-background);
 }
 #tag-title, #sidebar-post-tags {
