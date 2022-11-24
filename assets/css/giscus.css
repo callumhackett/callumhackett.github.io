@@ -30,7 +30,7 @@ a:hover {
   line-height: 1em !important;
 }
 
-.gsc-comment-box:not(.gsc-comment-box-is-reply), #__next .rounded-md, #__next .rounded-t, .gsc-comment-box-textarea, #__next .border, #__next .rounded {
+.gsc-comment-box:not(.gsc-comment-box-is-reply), #__next .rounded-md, #__next .rounded-t, .gsc-comment-box-textarea, #__next .border, #__next .rounded, .gsc-replies {
   border-radius: 0px !important;
 }
 
@@ -97,7 +97,7 @@ main {
     --color-fg-subtle: rgb(137, 137, 137);
     --color-canvas-default: #fff;
     --color-canvas-overlay: #fff;
-    --color-canvas-inset: rgb(227, 234, 254);
+    --color-canvas-inset: rgb(251, 254, 255);
     --color-canvas-subtle: rgb(250, 250, 250);
     --color-border-default: #ddd;
     --color-border-muted: #ddd;
