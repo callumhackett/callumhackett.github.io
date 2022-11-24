@@ -38,7 +38,7 @@
 
 /* Main Body Elements */
 #body-grid img, iframe {
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius) !important;
     box-shadow: var(--black-shadow);
 }
 .text-cell {

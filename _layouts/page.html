@@ -29,6 +29,8 @@
     <div id="post-date">{% include date_formatter.html date=page.date %}</div>
     {%- elsif page.title == "Studio Notes" -%}
     <img id="piano-icon" src="/assets/images/core/piano.png"/>
+    {%- elsif page.url contains "/tags/" -%}
+    <img id="piano-icon" src="/assets/images/core/piano.png"/>
     {%- endif -%}
     {{ content | smartify }}
     {%- if page.id -%} <!-- also add comments on blog posts -->
