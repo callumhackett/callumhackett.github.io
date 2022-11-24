@@ -4,7 +4,7 @@
     {%- if page.url contains "/tags/" -%} <!-- if it's a tag index page -->
     <div id="sidebar-title"><span class="sidebar-title">Studio Notes</span></div>
     <div id="feed-link"><a href="{{ site.url }}/feed.xml">Feed</a></div>
-    <div id="tag-title">Tag: {% include tag_formatter.html tag=page.title %}</div>
+    <div id="tag-title"><span id="tag-id">Tag: </span>{% include tag_formatter.html tag=page.title %}</div>
     {%- else -%} <!-- else, when it's a regular page -->
     <div id="sidebar-title"><span class="sidebar-title">{{ page.title | smartify }}</span></div>
     {%- endif -%}

@@ -25,6 +25,16 @@
         grid-row: 1;
     }
 }
+@media screen and (min-width: 600px) {
+    #sidebar {
+        padding: 0 0 calc(var(--mobile-vertical-spacing) * 1.5) 0;
+    }
+}
+@media screen and (max-width: 599px) {
+    #sidebar {
+        padding: 0 0 var(--mobile-vertical-spacing) 0;
+    }
+}
 @media screen and (max-width: 1365px) {
     body {
         padding: 0 5%;
@@ -32,9 +42,6 @@
     #body-grid {
         margin: auto;
         max-width: var(--grid-body-width);
-    }
-    #sidebar {
-        padding: 0 0 var(--mobile-vertical-spacing) 0;
     }
 }
 
@@ -103,19 +110,22 @@ audio {
         margin: var(--body-img-spacing);
         width: var(--body-img-width);
     }
+    #page-content {
+        padding: var(--body-padding);
+    }
 }
 @media screen and (max-width: 599px) {
     #page-content img {
         margin: 0 0 calc(var(--body-padding) / 3);
         width: 100%;
     }
+    #page-content {
+        padding: var(--mobile-body-padding);
+    }
 }
 @media screen and (max-width: 1365px) {
     #piano-icon {
         transform: translate(calc(var(--body-padding) * -0.75), -50%);
-    }
-    #page-content {
-        padding: var(--mobile-body-padding);
     }
     .youtube {
         position: relative;
@@ -144,6 +154,7 @@ audio {
     }
     #mobile-post-tags a {
         color: var(--title-color);
+        background: var(--main-background);
     }
     #mobile-post-tags .post-tag {
         padding-right: 10px;
@@ -198,6 +209,9 @@ audio {
     }
 }
 @media screen and (max-width: 599px) {
+    #piano-icon {
+        display: none !important;
+    }
     #post-index img {
         margin: 0 0 calc(var(--body-padding) / 3);
         width: 100%;
@@ -222,7 +236,6 @@ audio {
 }
 #feed-link a {
     color: rgb(255, 245, 0);
-    text-shadow: 1px 1px rgba(255, 245, 0, 0.05);
     background: var(--main-background);
 }
 #tag-title, #sidebar-post-tags {
@@ -230,7 +243,7 @@ audio {
     line-height: var(--body-line-height);
     padding-top: var(--grid-gap-size);
 }
-#sidebar-post-tags a, #tag-title a {
+#sidebar-post-tags a, #tag-title a, #tag-id {
     color: var(--title-color);
     background: var(--main-background);
 }

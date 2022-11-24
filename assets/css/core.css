@@ -83,7 +83,7 @@ p, li {
 }
 #navigation {
     font-size: var(--title-large-size);
-    line-height: 1.5em !important;
+    line-height: 1.75em !important;
     text-align: center;
     padding: 2.5vh 0;
     margin-block-start: 0;
