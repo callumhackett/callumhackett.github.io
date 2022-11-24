@@ -27,6 +27,7 @@
     --body-img-spacing: 3px 16px 8px 0px;
     --social-icon-spacing: calc(var(--social-icon-size) / 4);
     --mobile-content-width: 90%;
+    --mobile-body-padding: 1.5em;
     --mobile-vertical-spacing: 4vh;
     /* Shapes */
     --border-radius: 0px;

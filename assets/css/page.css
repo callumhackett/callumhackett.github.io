@@ -41,8 +41,10 @@
 /* Post Body Elements */
 #piano-icon {
     position: absolute;
-    top: -50px;
-    right: 2em;
+    top: 0;
+    right: 0;
+    width: 10% !important;
+    min-width: 60px;
 }
 #page-content h1 {
     font-size: var(--title-large-size);
@@ -72,6 +74,9 @@ audio {
     margin-block-end: calc(var(--body-font-size) / 2);
 }
 @media screen and (min-width: 1366px) {
+    #piano-icon {
+        transform: translate(calc(var(--body-padding) * -1), -50%);
+    }
     #page-content {
         padding: var(--body-padding);
     }
@@ -103,13 +108,13 @@ audio {
         margin: 0 0 calc(var(--body-padding) / 3);
         width: 100%;
     }
-    #piano-icon {
-        display: none !important;
-    }
 }
 @media screen and (max-width: 1365px) {
+    #piano-icon {
+        transform: translate(-1.25em, -50%);
+    }
     #page-content {
-        padding: calc((100% - var(--mobile-content-width)) / 2);
+        padding: var(--mobile-body-padding);
     }
     .youtube {
         position: relative;
