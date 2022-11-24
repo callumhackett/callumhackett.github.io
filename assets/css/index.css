@@ -41,6 +41,9 @@
     border-radius: var(--border-radius) !important;
     box-shadow: var(--black-shadow);
 }
+#soundcloud {
+    background: linear-gradient(rgba(0,0,0,0), black);
+}
 .text-cell {
     background: var(--body-background);
     border-radius: var(--border-radius);
