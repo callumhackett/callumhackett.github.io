@@ -45,6 +45,7 @@
     right: 0;
     width: 10% !important;
     min-width: 60px;
+    z-index: 10;
 }
 #page-content h1 {
     font-size: var(--title-large-size);
