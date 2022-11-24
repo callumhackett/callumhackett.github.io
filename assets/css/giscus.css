@@ -97,7 +97,7 @@ main {
     --color-fg-subtle: rgb(137, 137, 137);
     --color-canvas-default: #fff;
     --color-canvas-overlay: #fff;
-    --color-canvas-inset: rgb(253, 255, 255);
+    --color-canvas-inset: rgb(250, 250, 250);
     --color-canvas-subtle: rgb(250, 250, 250);
     --color-border-default: #ddd;
     --color-border-muted: #ddd;
