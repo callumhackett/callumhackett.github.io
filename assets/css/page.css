@@ -150,7 +150,7 @@ audio {
     }
     #mobile-post-tags {
         padding: var(--body-padding) var(--body-padding) var(--mobile-vertical-spacing) var(--body-padding);
-        line-height: 1.3em;
+        line-height: 1.75em;
     }
     #mobile-post-tags a {
         color: var(--title-color);
@@ -185,6 +185,9 @@ audio {
 }
 .post-index-entry-tags a {
     color: rgb(140, 140, 140);
+}
+.post-index-entry-tags a:hover {
+    color: #000;
 }
 .post-index-entry-tags .post-tag, #mobile-post-tags .post-tag {
     padding-right: 15px !important;
@@ -238,6 +241,9 @@ audio {
     color: rgb(255, 245, 0);
     background: var(--main-background);
 }
+#feed-link a:hover {
+    color: #fff;
+}
 #tag-title, #sidebar-post-tags {
     font-size: var(--title-small-size);
     line-height: var(--body-line-height);
@@ -246,6 +252,9 @@ audio {
 #sidebar-post-tags a, #tag-title a, #tag-id {
     color: var(--title-color);
     background: var(--main-background);
+}
+#sidebar-post-tags a:hover, #mobile-post-tags a:hover {
+    color: #fff;
 }
 @media screen and (min-width: 1366px) {
     #sidebar {
