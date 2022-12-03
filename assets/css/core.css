@@ -27,7 +27,7 @@
 
 /* Containers */
 html {
-    background-image: url('/assets/images/core/bg.png');
+    background-image: url('/assets/images/core/bg_noisy.png');
     background-attachment: fixed;
 }
 body {
@@ -70,7 +70,7 @@ p, li {
 }
 #title a {
     color: var(--title-color);
-    background: var(--main-background);
+    background: var(--main-background-overlay);
 }
 #title a:hover {
     color: #fff;
@@ -82,7 +82,7 @@ p, li {
 #social img {
     height: var(--social-icon-size);
     padding: 0px var(--social-icon-spacing);
-    background: var(--main-background);
+    background: var(--main-background-overlay);
 }
 #social img:hover {
     background: #9B3C08;
@@ -98,7 +98,7 @@ p, li {
 #navigation a {
     color: var(--title-color);
     margin: 0 0.75em;
-    background: var(--main-background);
+    background: var(--main-background-overlay);
 }
 #navigation a:hover {
     color: #fff;

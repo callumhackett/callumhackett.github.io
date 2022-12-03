@@ -2,6 +2,7 @@
 :root {
     /* Colours */
     --main-background: rgb(100, 195, 247);
+    --main-background-overlay: rgba(100, 195, 247, 0.4);
     --main-background-light: rgb(227, 234, 254);
     --body-background: #fff;
     --title-color: #000;
