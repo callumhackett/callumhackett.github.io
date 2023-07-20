@@ -3,7 +3,7 @@ title: Home
 ---
 <!-- this functions as the index.html layout specification but without a dedicated layout file -->
 {%- capture body-content -%} <!-- this creates a variable called body-content and binds the enclosed HTML to it, to be passed to the include, which is the focus of this file -->
-<div>Hold on a second...</div>
+<div></div>
 {%- endcapture -%}
 
 {% include main.html css="index" body-content=body-content %} <!-- the css is optional but will add rules from `/assets/css/index.css` -->

@@ -1,18 +1,18 @@
 # Populates social media links in the title bar
 # "name" is the text to be displayed in a tooltip; "link" is the URL of the profile and "image" is the icon path
 
-- name: Bandcamp
-  link: https://callumhackett.bandcamp.com/releases
-  image: /assets/images/core/bandcamp-bw.svg
-- name: Soundcloud
-  link: https://soundcloud.com/callumhackett
-  image: /assets/images/core/soundcloud-bw.svg
-- name: YouTube
-  link: https://www.youtube.com/@callumhackett
-  image: /assets/images/core/youtube-bw.svg
-- name: Instagram
-  link: https://www.instagram.com/callum.hackett/
-  image: /assets/images/core/instagram-bw.svg
-- name: Twitter
-  link: https://www.twitter.com/callumhackett_
-  image: /assets/images/core/twitter-bw.svg
+#- name: Bandcamp
+#  link: https://callumhackett.bandcamp.com/releases
+#  image: /assets/images/core/bandcamp-bw.svg
+#- name: Soundcloud
+#  link: https://soundcloud.com/callumhackett
+#  image: /assets/images/core/soundcloud-bw.svg
+#- name: YouTube
+#  link: https://www.youtube.com/@callumhackett
+#  image: /assets/images/core/youtube-bw.svg
+#- name: Instagram
+#  link: https://www.instagram.com/callum.hackett/
+#  image: /assets/images/core/instagram-bw.svg
+#- name: Twitter
+#  link: https://www.twitter.com/callumhackett_
+#  image: /assets/images/core/twitter-bw.svg
