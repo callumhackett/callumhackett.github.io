@@ -1,5 +1,6 @@
 _drafts
+_layouts/minimal_example.html
 _site
-_templates
 .jekyll-cache
+page_template.md
 setup.txt

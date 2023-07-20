@@ -1,6 +1,6 @@
 /* Containers */
 @media screen and (min-width: 1366px) {
-    #body-grid {
+    #body-content {
         display: grid;
         grid: var(--grid-cell-height) var(--grid-cell-height) / var(--grid-cell-width) var(--grid-cell-width) var(--grid-cell-width);
         gap: var(--grid-gap-size);
@@ -31,13 +31,13 @@
     }
 }
 @media screen and (max-width: 1365px) {
-    #body-grid {
+    #body-content {
         margin-top: calc(var(--mobile-vertical-spacing) /2);
     }
 }
 
 /* Main Body Elements */
-#body-grid img, iframe {
+#body-content img, iframe {
     border-radius: var(--border-radius) !important;
     box-shadow: var(--black-shadow);
 }

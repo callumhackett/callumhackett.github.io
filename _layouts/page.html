@@ -1,4 +1,4 @@
-{%- capture body-grid -%}
+{%- capture body-content -%} <!-- this creates a variable called body-content and binds the enclosed HTML to it, to be passed to the include, which is the focus of this file -->
 <div id="sidebar">
     {%- unless page.id -%} <!-- when not a blog post -->
     {%- if page.url contains "/tags/" -%} <!-- if it's a tag index page -->
@@ -32,7 +32,7 @@
     {%- elsif page.url contains "/tags/" -%}
     <img id="piano-icon" src="/assets/images/core/piano.png"/>
     {%- endif -%}
-    {{ content | smartify }}
+    {{ content | smartify }} <!-- this is how main body content is called from an .md file; smartify ensures curly quotes -->
     {%- if page.id -%} <!-- also add comments on blog posts -->
     {% include giscus_comments.html reactions="1" %}
     {%- endif -%}
@@ -49,4 +49,4 @@
 <div id="empty-row"></div> <!-- this adds end-screen padding without affecting the auto size of the first row -->
 {%- endcapture -%}
 
-{% include main.html css="page" body-grid=body-grid %}
+{% include main.html css="page" body-content=body-content %} <!-- the css is optional but will add rules from `/assets/css/page.css` -->

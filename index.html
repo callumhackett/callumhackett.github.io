@@ -7,7 +7,7 @@ title: Home # in HTML meta and tab title
 {%- endcapture -%}
 
 <!-- this functions as the index.html layout specification but without a dedicated layout file -->
-{%- capture body-grid -%}
+{%- capture body-content -%} <!-- this creates a variable called body-content and binds the enclosed HTML to it, to be passed to the include, which is the focus of this file -->
 <div id="music" class="index full-cell music-cell">
     {% include soundcloud.html embed="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1520166127" %}
 </div>
@@ -25,4 +25,4 @@ title: Home # in HTML meta and tab title
 </div>
 {%- endcapture -%}
 
-{% include main.html css="index" body-grid=body-grid %}
+{% include main.html css="index" body-content=body-content %} <!-- the css is optional but will add rules from `/assets/css/page.css` -->

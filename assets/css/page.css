@@ -7,7 +7,7 @@
     position: relative;
 }
 @media screen and (min-width: 1366px) {
-    #body-grid {
+    #body-content {
         display: grid;
         grid: minmax(var(--grid-cell-height), auto) / var(--grid-cell-width) var(--grid-body-width);
         gap: var(--grid-gap-size);
@@ -39,7 +39,7 @@
     body {
         padding: 0 5%;
     }
-    #body-grid {
+    #body-content {
         margin: auto;
         max-width: var(--grid-body-width);
     }
