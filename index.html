@@ -1,28 +1,9 @@
 ---
-title: Home # in HTML meta and tab title
+title: Home
 ---
-{%- capture podcast -%}
-<h2>Music in Pieces</h2>
-<p><em>Music in Pieces</em> is a limited series podcast about the <em>je ne sais quoi</em> of classical music. Currently in production, each episode will focus on a different aspect of musical structure, with plenty of examples and interviews with experts. Newcomers will find out what the genre does uniquely well, and aficionados will hear the music anew.</p>
-{%- endcapture -%}
-
 <!-- this functions as the index.html layout specification but without a dedicated layout file -->
 {%- capture body-content -%} <!-- this creates a variable called body-content and binds the enclosed HTML to it, to be passed to the include, which is the focus of this file -->
-<div id="music" class="index full-cell music-cell">
-    {% include soundcloud.html embed="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1520166127" %}
-</div>
-<div id="audiobook" class="index top-cell img-cell">
-    <img src="/assets/images/index/the_raven.jpg" title="The Raven"/>
-</div>
-<div id="podcast" class="index bottom-text-cell text-cell">
-    {{ podcast | smartify }}
-</div>
-<div id="spotlight" class="index top-cell video-cell">
-    {% include youtube.html embed="https://www.youtube.com/embed/_oO_DxpWKtw" %}
-</div>
-<div id="blog" class="index bottom-cell img-cell">
-    <a href="{{ site.url }}/studio-notes"><img src="/assets/images/index/studio_notes.jpg" title="Studio Notes"/></a>
-</div>
+<div>Hold on a second...</div>
 {%- endcapture -%}
 
-{% include main.html css="index" body-content=body-content %} <!-- the css is optional but will add rules from `/assets/css/page.css` -->
+{% include main.html css="index" body-content=body-content %} <!-- the css is optional but will add rules from `/assets/css/index.css` -->
