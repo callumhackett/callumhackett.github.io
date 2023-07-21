@@ -1,22 +1,23 @@
 /* Variables */
 :root {
     /* Colours */
-    --main-background: rgb(255, 255, 255);
-    --main-background-overlay: rgba(255, 255, 255, 1);
-    --main-background-light: rgb(227, 234, 254);
-    --body-background: #fff;
-    --title-color: #000;
+    --main-background: rgb(113, 173, 173);
+    --main-background-overlay: rgba(113, 173, 173, 1);
+    --main-background-light: rgb(255, 255, 255);
+    --main-background: rgb(113, 173, 173);
+    --title-color: #111;
     --title-weight: normal;
     --body-color: #000;
     --link-color: rgb(255, 0, 130);
+    --link-hover: rgb(0, 0, 255);
     --studio-color: rgb(0, 85, 165);
     --black-shadow: 3px 4px 0px 0px #000;
     /* Sizes */
-    --title-small-size: 1em;
+    --title-small-size: 18px;
     --title-large-size: 1.3em;
     --title-line-height: 1em;
-    --body-font-size: 0.9em;
-    --body-line-height: 1.35em;
+    --body-font-size: 13px;
+    --body-line-height: 1.4em;
     --body-img-width: 30%;
     --social-icon-size: 28px;
     --grid-cell-height: 225px;
