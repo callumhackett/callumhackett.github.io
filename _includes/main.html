@@ -4,7 +4,7 @@
         <!-- Website built by Callum Hackett using GitHub Pages & Jekyll -->
         <meta charset="utf-8"/>
 
-        <title>Callum Hackett | {{ page.title | smartify }}</title>
+        <title>Callum Hackett</title>
         <meta name="description" content="{{ page.description }}"/>
         <meta name="author" content="Callum Hackett"/>
         <link rel="canonical" href="{{ site.url }}{{ page.url }}"/>
@@ -12,7 +12,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" href="/assets/css/variables.css">
         <link rel="stylesheet" href="/assets/css/main.css">
-        <link rel="stylesheet" href="/assets/css/{{ include.css }}.css">
         <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
         <meta property="og:locale" content="en"/>
@@ -23,13 +22,6 @@
         <meta property="og:type" content="{{ page.type }}"/>
         <meta property="og:image" content="{{ site.url }}{{ page.image }}"/>
         <meta property="og:image:alt" content="{{ page.image_alt }}"/>
-        <meta name="twitter:card" content="summary_large_image"/>
-        <meta name="twitter:site" content="@callumhackett_"/>
-        <meta name="twitter:creator" content="@callumhackett_"/>
-        <meta name="twitter:title" content="{{ page.title }}"/>
-        <meta name="twitter:description" content="{{ page.description }}"/>
-        <meta name="twitter:image" content="{{ site.url }}{{ page.image }}"/>
-        <meta name="twitter:image:alt" content="{{ page.image_alt }}"/>
 
         {% feed_meta %}
     </head>
@@ -38,12 +30,5 @@
         <div id="body-content">
             {{ include.body-content }}
         </div>
-        <!-- social links
-        <div id="social">
-            {%- for entry in site.data.social -%}
-            <a href="{{ entry.link }}"><img src="{{ entry.image }}" title="{{ entry.name }}"/></a>
-            {%- endfor -%}
-        </div>
-    -->
     </body>
 </html>
