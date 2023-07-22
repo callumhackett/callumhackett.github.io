@@ -1,16 +1,8 @@
 ---
+layout: front
 title: 404
 permalink: /404.html
 ---
-{%- capture body-content -%} <!-- creates a variable called body-content and binds the enclosed HTML to it, to be passed to the include -->
-<div id="body-grid">
-    <div id="title-bar">
-        <div id="title-content">
-            <a id="title" href="{{ site.url }}">Callum Hackett</a> • Linguistics • Philosophy • Music • Artificial Intelligence
-        </div>
-    </div>
+<div>
     <p>Ceci n'est pas une page.</p>
 </div>
-{%- endcapture -%}
-
-{% include main.html body-content=body-content %}

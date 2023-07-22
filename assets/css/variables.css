@@ -1,31 +1,28 @@
-/* Variables */
 :root {
-    /* Colours */
+    /* Background Colours */
     --main-background: rgb(140, 195, 191);
     --body-background: #fff;
+    --selection-background: #fff;
+    --shadow-size: 4px;
+    --box-shadow: var(--shadow-size) var(--shadow-size) 0px 0px #000;
+
+    /* Foreground Colors */
     --title-color: #111;
-    --nav-color: #777;
     --body-color: #000;
-    --link-color: rgb(0, 0, 255);
-    --link-hover: rgb(0, 0, 255);
-    --box-shadow: 4px 4px 0px 0px #000;
+    --accent-color: rgb(0, 0, 255);
+    --soft-color: #777;
+    --very-soft-color: #ddd;
+
+    /* Font Families */
+    --accent-font: 'uni0553', 'fragment mono', 'roboto mono', monospace;
+    --accent-font-scale: 0.85;
+    --body-font: 'fragment mono', 'roboto mono', monospace;
+
     /* Sizes */
     --title-small-size: 18px;
     --body-font-size: 14px;
     --body-line-height: 1.4em;
 
-
-
-    
-    --body-img-width: 30%;
-    --social-icon-size: 28px;
-    /* Spacing */
-    --body-padding: 2em;
-    --body-img-spacing: 3px 16px 8px 0px;
-    --social-icon-spacing: calc(var(--social-icon-size) / 4);
-    --mobile-content-width: 90%;
-    --mobile-body-padding: 1.5em;
-    --mobile-vertical-spacing: 4vh;
-    /* Shapes */
-    --border-radius: 0px;
+    /* Element Spacing */
+    --body-padding: 16px;
 }

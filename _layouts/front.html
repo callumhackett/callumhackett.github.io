@@ -1,0 +1,12 @@
+{%- capture body-content -%}
+<div id="body-grid">
+    <div id="title-bar">
+        <div id="title-content">
+            <p><a id="title" href="{{ site.url }}">Callum Hackett</a> • Language • Philosophy • Music •&nbsp;Artificial&nbsp;Intelligence</p>
+        </div>
+    </div>
+    {{ content | smartify }}
+</div>
+{%- endcapture -%}
+
+{% include main.html body-content=body-content %}

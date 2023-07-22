@@ -1,27 +1,17 @@
 ---
+layout: front
 title: Home
 ---
-{%- capture body-content -%} <!-- creates a variable called body-content and binds the enclosed HTML to it, to be passed to the include -->
-<div id="body-grid">
-    <div id="title-bar">
-        <div id="title-content">
-            <a id="title" href="{{ site.url }}">Callum Hackett</a> • Language • Philosophy • Music • Artificial Intelligence
-        </div>
-    </div>
-    <div id="left-content">
-        <p>I'm a researcher in linguistics interested in the evolutionary and cognitive foundations of language structure and meaning.</p>
-        <p>I'm a philosopher, really, as my approach is grounded in philosophy of mind and touches upon problems of consciousness.</p>
-        <p>I'm a language engineer professionally and I work to improve the quality of language-based AI tools in the vein of ChatGPT.</p>
-        <p>I'm a classical musician (pianist and composer), currently experimenting with neoclassical electronica.</p>
-    </div>
-    <div id="right-content">
-        <p>Take a look at my:</p>
-        <ul>
-          <li><a href="https://descartesinthedesert.substack.com/"><em>Descartes in the Desert</em></a> philosophy podcast</li>
-          <li>Music on <a href="https://www.youtube.com/@holberg_music">YouTube</a> and <a href="https://holberg.bandcamp.com">Bandcamp</a></li>
-        </ul>
-    </div>
+<div id="summary">
+    <p>I'm a researcher in linguistics interested in the evolutionary and cognitive foundations of language structure and meaning.</p>
+    <p>I'm a philosopher, really, as my approach is grounded in philosophy of mind and touches upon problems of consciousness.</p>
+    <p>I'm a language engineer professionally and I work to improve the quality of language-based AI tools in the vein of ChatGPT.</p>
+    <p>I'm a classical musician (pianist and composer), currently experimenting with neoclassical electronica.</p>
 </div>
-{%- endcapture -%}
-
-{% include main.html body-content=body-content %}
+<div id="recommendations">
+    <p>Take a look at my:</p>
+    <ul>
+      <li><a href="https://descartesinthedesert.substack.com/"><em>Descartes in the Desert</em></a> philosophy podcast</li>
+      <li>Music on <a href="https://www.youtube.com/@holberg_music">YouTube</a> and <a href="https://holberg.bandcamp.com">Bandcamp</a></li>
+    </ul>
+</div>
