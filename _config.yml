@@ -3,19 +3,19 @@ repository: callumhackett/callumhackett.github.io
 
 # these are default site attributes
 name: Callum Hackett
-description: Callum Hackett is a composer, pianist and narrator. He's making arrangements of classical music for synthesizers, readings of classic literature with original soundtracks, and pods and vods to learn about the craft.
+description: Callum Hackett is a linguist.
 author: Callum Hackett
 
-# these are page attribute defaults that can be overridden on individual pages (note: they are not site attributes)
+# these are page/post attribute defaults that can be overridden (note: they are not site attributes)
 defaults:
   -
     scope:
       path: "" # applies everywhere
     values:
       type: website
-      description: Callum Hackett is a composer, pianist and narrator. He's making arrangements of classical music for synthesizers, readings of classic literature with original soundtracks, and pods and vods to learn about the craft.
-      image: /assets/images/social/studio_notes.jpg
-      image_alt: Callum Hackett
+      description: Callum Hackett is a linguist.
+      #image: /assets/images/social/studio_notes.jpg
+      #image_alt: Callum Hackett
 
 plugins:
   - jekyll-feed

@@ -1,30 +1,24 @@
 /* Variables */
 :root {
     /* Colours */
-    --main-background: rgb(113, 173, 173);
-    --main-background-overlay: rgba(113, 173, 173, 1);
-    --main-background-light: rgb(255, 255, 255);
-    --main-background: rgb(113, 173, 173);
+    --main-background: rgb(140, 195, 191);
+    --body-background: #fff;
     --title-color: #111;
-    --title-weight: normal;
+    --nav-color: #777;
     --body-color: #000;
-    --link-color: rgb(255, 0, 130);
+    --link-color: rgb(0, 0, 255);
     --link-hover: rgb(0, 0, 255);
-    --studio-color: rgb(0, 85, 165);
-    --black-shadow: 3px 4px 0px 0px #000;
+    --box-shadow: 4px 4px 0px 0px #000;
     /* Sizes */
     --title-small-size: 18px;
-    --title-large-size: 1.3em;
-    --title-line-height: 1em;
-    --body-font-size: 13px;
+    --body-font-size: 14px;
     --body-line-height: 1.4em;
+
+
+
+    
     --body-img-width: 30%;
     --social-icon-size: 28px;
-    --grid-cell-height: 225px;
-    --grid-cell-width: 400px;
-    --grid-gap-size: 48px;
-    --grid-body-height: calc((var(--grid-cell-height) * 2) + var(--grid-gap-size));
-    --grid-body-width: calc(var(--grid-cell-width) * 2);
     /* Spacing */
     --body-padding: 2em;
     --body-img-spacing: 3px 16px 8px 0px;
