@@ -11,7 +11,8 @@
     --body-color: #000;
     --accent-color: rgb(0, 0, 255);
     --soft-color: #777;
-    --very-soft-color: #ddd;
+    --border-style: 1px solid;
+    --border-color: #fff, #ddd 2.5%, #ddd 97.5%, #fff;
 
     /* Font Families */
     --accent-font: 'uni0553', 'fragment mono', 'roboto mono', monospace;
