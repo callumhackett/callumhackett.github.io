@@ -41,7 +41,7 @@ body {
     margin-block-end: 0;
 }
 /* body */
-p, li {
+body, p, li {
     color: var(--body-color);
     font-family: var(--body-font);
     font-size: var(--body-font-size);
@@ -53,7 +53,7 @@ p, li {
 
 /* Header Elements */
 #title-bar {
-    margin-bottom: 4px;
+    margin-bottom: 6px;
 }
 #title-bar p {
     color: var(--soft-color);
@@ -78,24 +78,30 @@ p:last-child {
 #summary p:before {
     content: "▨ ";
 }
+#content a, .caption {
+    font-variant: small-caps;
+    letter-spacing: -0.33px;
+}
+#image {
+    text-align: center;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-bottom: 12px;
+}
 .caption {
-    font-size: calc(var(--body-font-size) * 0.85);
+    font-size: calc(var(--body-font-size) * 0.875);
     color: var(--soft-color);
     text-align: center;
     font-style: italic;
-    margin-top: -4px !important;
+    margin-top: -6px !important;
 }
 a, a:active, a:visited, a:hover {
     color: var(--accent-color);
     text-decoration: none;
 }
-#recommendations a {
-    font-variant: small-caps;
-    letter-spacing: -0.5px;
-}
 ul {
     padding: 0 var(--body-padding);
-    margin-block-start: 0;
+    margin-block-start: calc(var(--body-font-size) / 3);
     margin-block-end: var(--body-font-size);
 }
 li {
@@ -106,6 +112,16 @@ audio {
     color: #fff;
     background-color: #fff;
     width: 100%;
+}
+.youtube {
+    width: calc(var(--column-width) - var(--body-padding));
+    height: calc((var(--column-width) - var(--body-padding)) / 2.35);
+}
+.youtube iframe {
+    width: calc(var(--column-width) - var(--body-padding));
+    height: calc((var(--column-width) - var(--body-padding)) / 2.35);
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 /* Containers */
@@ -119,7 +135,7 @@ audio {
 @media screen and (min-width: 840px) {
     #body-grid {
         display: grid;
-        grid: auto auto auto / 400px 400px; /* rows then columns */
+        grid: auto auto auto / var(--column-width) var(--column-width); /* rows then columns */
         position: absolute;
         top: 50%;
         left: 50%;
@@ -136,7 +152,12 @@ audio {
         border-right: var(--border-style);
         border-image: linear-gradient(to bottom, var(--border-color)) 0 1 0 0;
     }
-    #recommendations {
+    #content {
+        grid-column: 2;
+        grid-row: 2;
+        padding-left: var(--body-padding);
+    }
+    #not_found {
         grid-column: 2;
         grid-row: 2;
         padding-left: var(--body-padding);
@@ -154,7 +175,12 @@ audio {
     #summary {
         padding-bottom: var(--body-padding);
     }
-    #recommendations {
+    #content {
+        border-top: var(--border-style);
+        border-image: linear-gradient(to right, var(--border-color)) 1 0 0 0;
+        padding-top: var(--body-padding);
+    }
+    #not_found {
         border-top: var(--border-style);
         border-image: linear-gradient(to right, var(--border-color)) 1 0 0 0;
         padding-top: var(--body-padding);
