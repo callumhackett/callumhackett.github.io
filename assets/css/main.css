@@ -113,15 +113,19 @@ audio {
     background-color: #fff;
     width: 100%;
 }
-.youtube {
-    width: calc(var(--column-width) - var(--body-padding));
-    height: calc((var(--column-width) - var(--body-padding)) / 2.35);
+.youtube { /* the youtube rules maintain a flexible size with 2.39:1 aspect ratio */
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: calc(100% / 2.39);
+    margin: 0;
 }
 .youtube iframe {
-    width: calc(var(--column-width) - var(--body-padding));
-    height: calc((var(--column-width) - var(--body-padding)) / 2.35);
-    margin-block-start: 0;
-    margin-block-end: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /* Containers */
@@ -129,6 +133,7 @@ audio {
     background: var(--body-background);
     box-shadow: var(--box-shadow);
     padding: 6px var(--body-padding) var(--body-padding);
+    margin-bottom: calc(var(--mobile-vertical-spacing) + var(--shadow-size));
 }
 
 /* Containers */
@@ -170,7 +175,7 @@ audio {
         padding: 0 3%;
     }
     #body-grid {
-        margin-top: 2vh;
+        margin-top: var(--mobile-vertical-spacing);
     }
     #summary {
         padding-bottom: var(--body-padding);
