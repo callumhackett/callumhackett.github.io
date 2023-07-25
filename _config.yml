@@ -3,7 +3,7 @@ repository: callumhackett/callumhackett.github.io
 
 # these are default site attributes
 name: Callum Hackett
-description: Callum Hackett is a researcher in linguistics and philosophy, as well as an NLP engineer working on the quality of language-based AI tools. He hosts the 'Descartes in the Desert' podcast and performs neoclassical electronica as Holberg.
+description: Callum Hackett is a researcher in philosophy and linguistics, as well as an NLP engineer working to improve language-based AI tools. He hosts the 'Descartes in the Desert' podcast and performs neoclassical electronica as Holberg.
 author: Callum Hackett
 
 # these are page/post attribute defaults that can be overridden (note: they are not site attributes)
@@ -13,7 +13,7 @@ defaults:
       path: "" # applies everywhere
     values:
       type: website
-      description: Callum Hackett is a researcher in linguistics and philosophy, as well as an NLP engineer working on the quality of language-based AI tools. He hosts the 'Descartes in the Desert' podcast and performs neoclassical electronica as Holberg.
+      description: Callum Hackett is a researcher in philosophy and linguistics, as well as an NLP engineer working to improve language-based AI tools. He hosts the 'Descartes in the Desert' podcast and performs neoclassical electronica as Holberg.
       #image: /assets/images/social/studio_notes.jpg
       #image_alt: Callum Hackett
 
