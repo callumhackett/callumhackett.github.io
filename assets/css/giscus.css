@@ -1,0 +1,130 @@
+@font-face {
+  font-family: 'barlow';
+  src: url('https://www.callumhackett.com/assets/fonts/barlow-medium.woff2') format('woff2');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'barlow';
+  src: url('https://www.callumhackett.com/assets/fonts/barlow-mediumitalic.woff2') format('woff2');
+  font-style: italic;
+}
+
+a:hover {
+  text-decoration-line: none !important;
+}
+
+.gsc-reactions-count, .gsc-reactions-count a, .gsc-comments-count-separator, .gsc-replies-count {
+  display: none !important;
+}
+
+.gsc-reactions {
+  margin-bottom: 10px !important;
+}
+
+.gsc-comments-count {
+  color: #000 !important;
+  font-family: 'barlow', 'futura', sans-serif !important;
+  font-size: 1.3em !important;
+  font-weight: normal !important;
+  text-transform: uppercase !important;
+  line-height: 1em !important;
+}
+
+.gsc-comment-box:not(.gsc-comment-box-is-reply), #__next .rounded-md, #__next .rounded-t, .gsc-comment-box-textarea, #__next .border, #__next .rounded, .gsc-replies {
+  border-radius: 0px !important;
+}
+
+.gsc-comment {
+  margin-top: 0.75em !important;
+  margin-bottom: 0.75em !important;
+}
+
+main {
+    --color-prettylights-syntax-comment: #6e7781;
+    --color-prettylights-syntax-constant: #0550ae;
+    --color-prettylights-syntax-entity: #8250df;
+    --color-prettylights-syntax-storage-modifier-import: #24292f;
+    --color-prettylights-syntax-entity-tag: #116329;
+    --color-prettylights-syntax-keyword: #cf222e;
+    --color-prettylights-syntax-string: #0a3069;
+    --color-prettylights-syntax-variable: #953800;
+    --color-prettylights-syntax-brackethighlighter-unmatched: #82071e;
+    --color-prettylights-syntax-invalid-illegal-text: #f6f8fa;
+    --color-prettylights-syntax-invalid-illegal-bg: #82071e;
+    --color-prettylights-syntax-carriage-return-text: #f6f8fa;
+    --color-prettylights-syntax-carriage-return-bg: #cf222e;
+    --color-prettylights-syntax-string-regexp: #116329;
+    --color-prettylights-syntax-markup-list: #3b2300;
+    --color-prettylights-syntax-markup-heading: #0550ae;
+    --color-prettylights-syntax-markup-italic: #24292f;
+    --color-prettylights-syntax-markup-bold: #24292f;
+    --color-prettylights-syntax-markup-deleted-text: #82071e;
+    --color-prettylights-syntax-markup-deleted-bg: #ffebe9;
+    --color-prettylights-syntax-markup-inserted-text: #116329;
+    --color-prettylights-syntax-markup-inserted-bg: #dafbe1;
+    --color-prettylights-syntax-markup-changed-text: #953800;
+    --color-prettylights-syntax-markup-changed-bg: #ffd8b5;
+    --color-prettylights-syntax-markup-ignored-text: #eaeef2;
+    --color-prettylights-syntax-markup-ignored-bg: #0550ae;
+    --color-prettylights-syntax-meta-diff-range: #8250df;
+    --color-prettylights-syntax-brackethighlighter-angle: #57606a;
+    --color-prettylights-syntax-sublimelinter-gutter-mark: #8c959f;
+    --color-prettylights-syntax-constant-other-reference-link: #0a3069;
+    --color-btn-text: #000;
+    --color-btn-bg: #fafafa;
+    --color-btn-border: rgb(30 30 30 / 15%);
+    --color-btn-shadow: 0 1px 0 rgb(30 30 30 / 4%);
+    --color-btn-inset-shadow: inset 0 1px 0 rgb(255 255 255 / 25%);
+    --color-btn-hover-bg: #f4f4f4;
+    --color-btn-hover-border: rgb(30 30 30 / 15%);
+    --color-btn-active-bg: hsl(220deg 14% 93% / 100%);
+    --color-btn-active-border: rgb(30 30 30 / 15%);
+    --color-btn-selected-bg: hsl(220deg 14% 94% / 100%);
+    --color-btn-primary-text: #fff;
+    --color-btn-primary-bg: #000;
+    --color-btn-primary-border: rgba(0, 0, 0, 0);
+    --color-btn-primary-shadow: 0 1px 0 rgb(30 30 30 / 10%);
+    --color-btn-primary-inset-shadow: inset 0 1px 0 rgb(255 255 255 / 3%);
+    --color-btn-primary-hover-bg: #000;
+    --color-btn-primary-hover-border: rgba(0, 0, 0, 0);
+    --color-btn-primary-selected-bg: #000;
+    --color-btn-primary-selected-shadow: inset 0 1px 0 rgb(30 30 30 / 20%);
+    --color-btn-primary-disabled-text: rgb(255 255 255 / 80%);
+    --color-btn-primary-disabled-bg: #787878;
+    --color-btn-primary-disabled-border: rgba(0, 0, 0, 0);
+    --color-fg-default: #000;
+    --color-fg-muted: rgb(137, 137, 137);
+    --color-fg-subtle: rgb(137, 137, 137);
+    --color-canvas-default: #fff;
+    --color-canvas-overlay: #fff;
+    --color-canvas-inset: rgb(250, 250, 250);
+    --color-canvas-subtle: rgb(250, 250, 250);
+    --color-border-default: #ddd;
+    --color-border-muted: #ddd;
+    --color-neutral-muted: #ddd;
+    --color-accent-fg: rgb(30, 155, 223);
+    --color-accent-emphasis: rgb(64, 167, 223);
+    --color-accent-muted: rgb(227, 234, 254);
+    --color-accent-subtle: #fff;
+    --color-success-fg: #777777;
+    --color-attention-fg: #9a6700;
+    --color-danger-fg: #cf222e;
+    --color-danger-muted: rgb(255 129 130 / 40%);
+    --color-danger-subtle: #fefefe;
+    --color-primer-shadow-inset: inset 0 1px 0 rgb(215 215 215 / 20%);
+    --color-primer-shadow-focus: 0 0 0 3px rgb(0 65 170 / 30%);
+    --color-scale-gray-1: rgb(227, 234, 254);
+    --color-scale-blue-1: rgb(227, 234, 254);
+  
+    /*! Extensions from @primer/css/alerts/flash.scss */
+    --color-social-reaction-bg-hover: #fff;
+    --color-social-reaction-bg-reacted-hover: #fff;
+}
+  
+main .pagination-loader-container {
+    background-image: url("https://github.com/images/modules/pulls/progressive-disclosure-line.svg");
+}
+  
+main .gsc-loading-image {
+    background-image: url("https://github.githubassets.com/images/mona-loading-default.gif");
+}
