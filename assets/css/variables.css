@@ -16,8 +16,8 @@
     --selection-color: #fff;
 
     /* Font Families */
-    --accent-font: 'uni0553', 'fragment mono', 'roboto mono', monospace;
-    --accent-font-scale: 0.85;
+    --accent-font: 'fragment mono', 'roboto mono', monospace;
+    --accent-font-scale: 0.95;
     --body-font: 'fragment mono', 'roboto mono', monospace;
     --title-small-size: 18px;
     --body-font-size: 14px;
