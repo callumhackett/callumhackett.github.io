@@ -1,1 +1,1 @@
-This repo is the source of [my website](https://www.callumhackett.com), built with [GitHub Pages](https://pages.github.com/) and [Jekyll](https://jekyllrb.com/docs/).
+This repo is the source of [my website](https://www.callumhackett.com).
