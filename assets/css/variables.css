@@ -1,30 +1,24 @@
 :root {
     /* Background Colors */
-    --main-background: rgb(140, 195, 191);
-    --body-background: #fff;
-    --shadow-size: 4px;
-    --box-shadow: var(--shadow-size) var(--shadow-size) 0px 0px #000;
+    --main-background:#fff;
 
     /* Foreground Colors */
-    --title-color: #111;
+    --title-color: #fff;
     --body-color: #000;
-    --accent-color: rgb(0, 0, 255);
-    --soft-color: #777;
-    --very-soft-color: #ddd;
-    --border-style: 1px solid;
-    --border-color: #fff, var(--very-soft-color) 2.5%, var(--very-soft-color) 97.5%, #fff;
+    --accent-color: #283d88;
     --selection-color: #fff;
 
-    /* Font Families */
-    --accent-font: 'fragment mono', 'roboto mono', monospace;
-    --accent-font-scale: 0.95;
-    --body-font: 'fragment mono', 'roboto mono', monospace;
-    --title-small-size: 18px;
-    --body-font-size: 14px;
+    /* Font Properties */
+    --accent-font: 'Overpass';
+    --body-font: 'Overpass';
+    --title-font-size: 48px;
+    --body-font-size: 16px;
     --body-line-height: 1.4em;
 
     /* Element Spacing */
     --body-padding: 16px;
-    --column-width: 400px;
+    --column-width: 360px;
+    --row-height: 90px;
+    --grid-gap: 150px;
     --mobile-vertical-spacing: 2vh;
 }

@@ -1,25 +1,5 @@
 {%- capture body-content -%}
-<div id="body-grid">
-    <div id="title-bar">
-        <div id="title-content"> <!-- this separate div helps apply a CSS scale transform to the text and not its containing grid row -->
-            <p><a id="title" href="{{ site.url }}">Callum Hackett</a> •&nbsp;Philosophy •&nbsp;Language •&nbsp;Music •&nbsp;Artificial&nbsp;Intelligence</p>
-        </div>
-    </div>
-    <div id="summary">
-        <p>I'm a philosopher working on the nature of meaning in natural language and its relation to reasoning and consciousness.</p>
-        <p>I'm a linguist interested in how the symbolic aspect of meaning can help clarify the evolutionary origins of language.</p>
-        <p>I'm an NLP engineer working to improve meaningful interactions with language-based AI tools in the vein of ChatGPT.</p>
-        <p>I'm a classical musician, previously a finalist for the BBC Young Composers Award, experimenting with neoclassical electronica.</p>
-        <span id="email">callumjhackett@gmail.com</span>
-    </div>
-    {%- if page.url == "/404.html" -%}
-    <div id="not_found">
-    {%- else -%}
-    <div id="content">
-    {%- endif -%}
-    {{ content | smartify }}
-    </div>
-</div>
+{{ content | smartify }}
 {%- endcapture -%}
 
 {% include main.html body-content=body-content %}
