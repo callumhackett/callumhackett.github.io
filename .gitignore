@@ -1,5 +1,5 @@
 _drafts
-_layouts/minimal_example.html
+_layouts/layout_core.html
 _site
 .jekyll-cache
 page_template.md
