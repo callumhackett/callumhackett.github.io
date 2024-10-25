@@ -1,6 +1,8 @@
 :root {
     /* Backgrounds */
-    --canvas-background: url('/assets/images/dark-tire.png');
+    --main-background: url('/assets/images/Morris.jpg');
+    --canvas-background-large: url('/assets/images/dark-tire.png');
+    --canvas-background-small: url('/assets/images/first-aid-kit.png');
 
     /* Foregrounds */
     --body-color: #080c39;
@@ -20,4 +22,21 @@
     --index-grid-row-gap: 120px;
     --index-border-radius: 2.5px;
     --mobile-vertical-spacing: 2vh;
+}
+
+/* Font Imports */
+@font-face {
+    font-family: 'no';
+    src: url('/assets/fonts/Overpass-Regular.woff2') format('woff2');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'no';
+    src: url('/assets/fonts/Overpass-Bold.woff2') format('woff2');
+    font-style: bold;
+}
+@font-face {
+    font-family: 'no';
+    src: url('/assets/fonts/Overpass-Italic.woff2') format('woff2');
+    font-style: italic;
 }
