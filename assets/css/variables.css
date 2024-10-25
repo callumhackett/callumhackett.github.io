@@ -1,17 +1,16 @@
 :root {
-    /* Background Colours */
-    --main-background:#fff;
+    /* Backgrounds */
+    --canvas-background: url('/assets/images/dark-tire.png');
 
-    /* Foreground Colours */
-    --title-color: #000;
+    /* Foregrounds */
     --body-color: #080c39;
     --accent-color: #D06803;
-    --selection-color: #fff;
+    --selection-color: #F4F0E8;
 
-    /* Font Properties */
+    /* Fonts */
     --accent-font: 'Overpass';
     --body-font: 'Overpass';
-    --body-font-size: 16px;
+    --body-font-size: 18px;
     --body-line-height: 1.4em;
 
     /* Element Properties */
