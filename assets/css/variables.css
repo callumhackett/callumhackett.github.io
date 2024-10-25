@@ -1,24 +1,24 @@
 :root {
-    /* Background Colors */
+    /* Background Colours */
     --main-background:#fff;
 
-    /* Foreground Colors */
-    --title-color: #fff;
-    --body-color: #000;
-    --accent-color: #283d88;
+    /* Foreground Colours */
+    --title-color: #000;
+    --body-color: #080c39;
+    --accent-color: #D06803;
     --selection-color: #fff;
 
     /* Font Properties */
     --accent-font: 'Overpass';
     --body-font: 'Overpass';
-    --title-font-size: 48px;
     --body-font-size: 16px;
     --body-line-height: 1.4em;
 
-    /* Element Spacing */
-    --body-padding: 16px;
-    --column-width: 360px;
-    --row-height: 90px;
-    --grid-gap: 150px;
+    /* Element Properties */
+    --index-column-width: 360px;
+    --index-row-height: 90px;
+    --index-grid-column-gap: 150px;
+    --index-grid-row-gap: 120px;
+    --index-border-radius: 2.5px;
     --mobile-vertical-spacing: 2vh;
 }

@@ -12,7 +12,8 @@
 
 /* Containers */
 html {
-    background-image: url('/assets/images/Morris.png');
+    background-image: url('/assets/images/Morris.jpg');
+    background-size: 100% auto;
 }
 body {
     margin: 0;
@@ -24,38 +25,29 @@ body {
 @media screen and (min-width: 840px) {
     #index-grid {
         display: grid;
-        grid: var(--row-height) / var(--column-width) var(--column-width); /* rows then columns */
+        grid: var(--index-row-height) var(--index-row-height) / var(--index-column-width) var(--index-column-width); /* rows then columns */
         position: absolute;
-        gap: var(--grid-gap);
-        top: 20%;
-        left: calc(50% - var(--column-width) - calc(var(--grid-gap)/2)); /* last value should be half the middle column above */
+        column-gap: var(--index-grid-column-gap);
+        row-gap: var(--index-grid-row-gap);
+        top: calc(50% - var(--index-row-height) - calc(var(--index-grid-row-gap) / 2));
+        left: calc(50% - var(--index-column-width) - calc(var(--index-grid-column-gap) / 2)); /* last value should be half the middle column above */
     }
     #index-grid p {
         font-size: 32px;
         font-weight: bold;
         padding-top: 4px;
+        text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.15);
     }
-    #index-grid-left {
+    #index-grid-cell {
         background-image: url('/assets/images/canvas.avif');
+        border-radius: var(--index-border-radius);
         display: flex;
-        grid-column: 1;
-        grid-row: 1;
         justify-content: center;
         align-items: center;
         text-transform: uppercase;
         height: 100%;
         width: 100%;
-    }
-    #index-grid-right {
-        background-image: url('/assets/images/canvas.avif');
-        display: flex;
-        grid-column: 2;
-        grid-row: 1;
-        justify-content: center;
-        align-items: center;
-        text-transform: uppercase;
-        height: 100%;
-        width: 100%;
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.8);
     }
 }
 @media screen and (max-width: 839px) {
