@@ -63,6 +63,10 @@
         cursor: pointer;
     }
 
+    #home-button {
+        margin-bottom: 8px !important;
+    }
+
     #home-button-img {
         height: 16px;
         margin-right: 6px;
@@ -70,7 +74,6 @@
 
     .switchable {
         display: none;
-        padding-top: var(--index-spacing);
     }
 
     .switched {

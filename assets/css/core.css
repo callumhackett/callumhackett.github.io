@@ -10,21 +10,6 @@ body {
     color: var(--selection-color);
 }
 @media screen and (max-width: 839px) {
-    body {
-        padding: 0 3%;
-    }
-    #body-grid {
-        margin-top: var(--mobile-vertical-spacing);
-    }
-    #summary {
-        padding-bottom: var(--body-padding);
-    }
-    #content {
-        padding-top: var(--body-padding);
-    }
-    #not_found {
-        padding-top: var(--body-padding);
-    }
 }
 
 /* Main Body Elements */
@@ -36,6 +21,7 @@ p, li {
     font-weight: 400;
     margin-block-start: 0 !important;
     font-feature-settings: "ss01" on;
+    text-align: justify;
 }
 h1 {
     font-family: var(--body-font);
@@ -48,7 +34,7 @@ a, a:active, a:visited, a:hover {
     text-decoration: none;
 }
 p:not(:last-child) {
-    margin-block-end: var(--body-font-size);
+    margin-block-end: calc(var(--index-spacing) - 4px);
 }
 p:last-child {
     margin-block-end: 0;
@@ -65,12 +51,13 @@ li {
 audio {
     width: 100%;
 }
-.youtube { /* the youtube rules maintain a flexible size with 2.1:1 aspect ratio */
+.youtube {
     position: relative;
     width: 100%;
     height: 0;
-    padding-bottom: calc(100% / 2.1);
+    padding-bottom: calc(100% / 1.78); /* set the denominator to fix a constant aspect ratio */
     margin: 0;
+    box-shadow: var(--collage-shadow);
 }
 .youtube iframe {
     position: absolute;
