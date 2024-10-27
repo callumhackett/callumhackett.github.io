@@ -1,28 +1,13 @@
 /* Containers */
-html {
-    background-image: var(--main-background);
-    background-size: cover;
+body {
+    background-color: #fff8ed;
+    background-image: var(--canvas-background-small);
+    background-repeat: repeat;
+    margin: 0;
 }
 *::selection {
     background: var(--accent-color);
     color: var(--selection-color);
-}
-@media screen and (min-width: 840px) {
-    #page-content {
-        background-color: #fff8ed;
-        background-image: var(--canvas-background-small);
-        border-radius: var(--index-border-radius);
-        background-size: auto;
-        overflow: hidden;
-        background-position: top left;
-        position: absolute;
-        top: calc(50% - 360px);
-        left: calc(50% - 450px);
-        padding: 24px;
-        width: 900px;
-        height: 720px;
-        box-shadow: 1px 0px 3px rgba(0, 0, 0, 0.33);
-    }
 }
 @media screen and (max-width: 839px) {
     body {
@@ -43,12 +28,20 @@ html {
 }
 
 /* Main Body Elements */
-body, p, li {
+p, li {
     color: var(--body-color);
     font-family: var(--body-font);
     font-size: var(--body-font-size);
     line-height: var(--body-line-height);
+    font-weight: 400;
     margin-block-start: 0 !important;
+    font-feature-settings: "ss01" on;
+}
+h1 {
+    font-family: var(--body-font);
+    font-weight: bold;
+    font-size: calc(var(--body-font-size) * 1.2);
+    line-height: var(--body-line-height);
 }
 a, a:active, a:visited, a:hover {
     color: var(--accent-color);

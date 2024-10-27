@@ -1,35 +1,79 @@
 @media screen and (min-width: 840px) {
     #index-grid {
+        border: var(--index-spacing) solid transparent;
         display: grid;
-        grid: var(--index-row-height) var(--index-row-height) / var(--index-column-width) var(--index-column-width); /* rows then columns */
-        position: absolute;
+        grid: calc(100vh - calc(var(--index-spacing) * 2)) / 2fr 1fr;
+        column-gap: var(--index-spacing);
+    }
+
+    #index-background {
+        background-image: var(--main-background);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-area: 1 / 1 / 1 / 1;
+        box-shadow: var(--collage-shadow);
+    }
+
+    #index-links {
+        display: grid;
+        grid-area: 1 / 1 / 1 / 1;
+        grid-template-columns: var(--index-column-width);
+        grid-auto-rows: var(--index-row-height);
         column-gap: var(--index-grid-column-gap);
         row-gap: var(--index-grid-row-gap);
-        top: calc(50% - var(--index-row-height) - calc(var(--index-grid-row-gap) / 2));
-        left: calc(50% - var(--index-column-width) - calc(var(--index-grid-column-gap) / 2)); /* last value should be half the middle column above */
+        position: relative;
+        top: var(--index-spacing);
+        margin-right: var(--index-spacing);
+        justify-self: end;
     }
-    #index-grid-cell {
+
+    .index-link {
         background-color: #fff8ed;
         background-image: var(--canvas-background-large);
-        background-size: auto;
-        overflow: hidden;
+        background-repeat: repeat;
         display: flex;
         border-radius: var(--index-border-radius);
-        background-position: top left;
         justify-content: center;
         align-items: center;
-        text-transform: uppercase;
-        height: 100%;
-        width: 100%;
-        box-shadow: 1px 0px 3px rgba(0, 0, 0, 0.33);
+        box-shadow: var(--collage-shadow);
     }
-    #index-grid p {
-        font-size: 32px;
-        font-weight: bold;
-        padding-top: 4px;
-        text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.15);
-    }
-    #index-grid p a {
+
+    #index-links button {
+        background: none;
+        border: none;
+        cursor: pointer;
         color: var(--body-color);
+        font-family: var(--accent-font);
+        font-size: var(--index-link-size);
+        font-weight: bold;
+        padding: 4px 0 0 0;
+        margin: 0;
+        text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.15);
+        text-transform: uppercase;
+    }
+
+    #index-content button {
+        background: none;
+        border: none;
+        margin: 0;
+        padding: 0;
+        font-family: var(--accent-font);
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    #home-button-img {
+        height: 16px;
+        margin-right: 6px;
+    }
+
+    .switchable {
+        display: none;
+        padding-top: var(--index-spacing);
+    }
+
+    .switched {
+        display: block;
     }
 }

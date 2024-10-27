@@ -1,27 +1,31 @@
 :root {
     /* Backgrounds */
-    --main-background: url('/assets/images/Morris.jpg');
+    --main-background: url('/assets/images/morris.jpg');
     --canvas-background-large: url('/assets/images/dark-tire.png');
     --canvas-background-small: url('/assets/images/first-aid-kit.png');
 
     /* Foregrounds */
     --body-color: #080c39;
     --accent-color: #D06803;
-    --selection-color: #F4F0E8;
+    --custom-white: #fff8ed;
+    --selection-color: var(--custom-white);
 
     /* Fonts */
-    --accent-font: 'Overpass';
-    --body-font: 'Overpass';
-    --body-font-size: 18px;
+    --accent-font: 'Sorts Mill Goudy', 'Garamond', serif;
+    --body-font: 'Jost', 'Helvetica', 'Arial', sans-serif;
+    --index-link-size: 28px;
+    --body-font-size: 17px;
     --body-line-height: 1.4em;
 
     /* Element Properties */
-    --index-column-width: 360px;
-    --index-row-height: 90px;
+    --index-spacing: 24px;
+    --index-column-width: 250px;
+    --index-row-height: 50px;
     --index-grid-column-gap: 150px;
-    --index-grid-row-gap: 120px;
-    --index-border-radius: 2.5px;
+    --index-grid-row-gap: var(--index-spacing);
+    --index-border-radius: 2px;
     --mobile-vertical-spacing: 2vh;
+    --collage-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
 }
 
 /* Font Imports */

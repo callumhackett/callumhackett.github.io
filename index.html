@@ -3,16 +3,51 @@ layout: page
 title: Home
 ---
 <div id="index-grid">
-  <div id="index-grid-cell">
-      <p><a href="/about.html">About</a></p>
-  </div>
-  <div id="index-grid-cell">
-      <p><a href="/music.html">Music</a></p>
-  </div>
-  <div id="index-grid-cell">
-      <p><a href="/research.html">Research</a></p>
-  </div>
-  <div id="index-grid-cell">
-      <p><a href="/diary.html">Diary</a></p>
-  </div>
+    <div id="index-background"></div>
+    <div id="index-links">
+        <div class="index-link">
+            <button onclick="showContent('music')">Music</button>
+        </div>
+        <div class="index-link">
+            <button onclick="showContent('research')">Research</button>
+        </div>
+        <div class="index-link">
+            <button onclick="showContent('diary')">Diary</button>
+        </div>
+    </div>
+    <div id="index-content">
+        <div id="content-front" class="switchable switched">
+            <p>This is the first paragraph.</p>
+        </div>
+        <div id="content-music" class="switchable">
+            {%- include home_button.html -%}
+            <p>This is the second paragraph.</p>
+        </div>
+        <div id="content-research" class="switchable">
+            {%- include home_button.html -%}
+            <ul>
+                <li><a target="_blank" href="/assets/papers/On_the_insufficiency_of_form_to_determine_meaning.pdf">On the insufficiency of form to determine meaning (2018)</a> - abstract <span style="font-variant: small-caps">.pdf</span></li>
+                <li><a target="_blank" href="/assets/papers/Syntax-one_interface_or_two.pdf">Syntax: one interface or two? (2018)</a> - abstract <span style="font-variant: small-caps">.pdf</span></li>
+                <li><a target="_blank" href="/assets/papers/Justifications_for_a_discontinuity_theory_of_language_evolution.pdf">Justifications for a discontinuity theory of language evolution (2017)</a> - paper <span style="font-variant: small-caps">.pdf</span></li>
+                <li><a target="_blank" href="/assets/papers/Universals_of_INFL.pdf">Universals of INFL: Challenges from Maybrat (2017)</a> - abstract <span style="font-variant: small-caps">.pdf</span></li>
+            </ul>
+            <p>After the COVID pandemic, I took a break from research for a few years. I'm now working on a book that fleshes out a research program for understanding the cognitive structure of language that I first outlined in my 2017 'Justifications' paper.</p>
+        </div>
+        <div id="content-diary" class="switchable">
+            {%- include home_button.html -%}
+            <p>This is the fourth paragraph.</p>
+        </div>
+    </div>
 </div>
+
+<script>
+    function showContent(name) {
+        // Hide all paragraphs
+        document.querySelectorAll('.switchable').forEach(p => {
+            p.classList.remove('switched');
+        });
+        
+        // Show the selected paragraph
+        document.getElementById('content-' + name).classList.add('switched');
+    }
+</script>
