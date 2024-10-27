@@ -20,7 +20,7 @@
     /* Element Properties */
     --index-spacing: 24px;
     --index-column-width: 250px;
-    --index-row-height: 50px;
+    --index-row-height: 60px;
     --index-grid-column-gap: 150px;
     --index-grid-row-gap: var(--index-spacing);
     --index-border-radius: 2px;
