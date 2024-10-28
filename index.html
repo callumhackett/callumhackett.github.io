@@ -2,51 +2,28 @@
 layout: page
 title: Home
 ---
-{%- capture frontmatter -%}
-<p>I work with languages: natural, logical, formal, musical.</p>
-{%- include youtube.html video_id="-MoHFhtfB_Y" -%}
-{%- endcapture -%}
-
-{%- capture music -%}
-<p>Check back soon...</p>
-{%- endcapture -%}
-
-{%- capture research -%}
-<p>Until 2020, I was a researcher and lecturer in linguistics. The last I had my hand in it, I published a paper on the biological origins of language [<a href="{{ site.url }}/assets/papers/Justifications_for_a_discontinuity_theory_of_language_evolution.pdf">⇣pdf</a>], where I used a combination of Chomsky, Peirce and Wittgenstein to unify theories of animal communication and theories of natural language inference. I also laid down the beginnings of a research programme to explore the consequences of this unification for cognitive science but I left academia soon after.</p>
-
-<p>Since 2020, I've been working in AI research as an NLP engineer. In that capacity, I've been more concerned with trying to understand how best to model reasoning in intelligent systems, specifically so that we can leverage the recent advances in LLMs while overcoming their inherent limitations.</p>
-
-<p>If there's one idea I wish the industry would collectively grok, it's that human reasoning doesn't happen <em>in</em> language; language is only an impression of non-linguistic cognition, with about as much fidelity to the real thing as a Monet painting has compared to a pond of water lilies.</p>
-
-<p>Because of this, AI systems which rely on natural language data to model intelligence will necessarily fall short of our expectations. Hoping that reasoning will 'emerge' from such models as a consequence of scale is as foolish as hoping that gold will emerge from the alchemist's cauldron–the problem isn't the method (statistical or symbolic) but the ingredients.</p>
-{%- endcapture -%}
-
 <div id="index-grid">
     <div id="index-background"></div>
     <div id="index-links">
         <div class="index-link">
-            <button onclick="showContent('music')">Music</button>
+            <button onclick="showContent('music-description')">Music</button>
         </div>
         <div class="index-link">
-            <button onclick="showContent('research')">Research</button>
+            <button onclick="showContent('research-description')">Research</button>
         </div>
     </div>
     <div id="index-content">
-
-        <div id="content-front" class="switchable switched">
-            {{frontmatter}}
+        <div id="front-matter" class="switchable switched">
+            {%- include /content/front_matter.html -%}
         </div>
-
-        <div id="content-music" class="switchable">
+        <div id="music-description" class="switchable">
             {%- include home_button.html -%}
-            {{music}}
+            {%- include /content/music_description.html -%}
         </div>
-
-        <div id="content-research" class="switchable">
+        <div id="research-description" class="switchable">
             {%- include home_button.html -%}
-            {{research}}
+            {%- include /content/research_description.html -%}
         </div>
-
     </div>
 </div>
 
@@ -56,8 +33,7 @@ title: Home
         document.querySelectorAll('.switchable').forEach(p => {
             p.classList.remove('switched');
         });
-        
         // Show the selected paragraph
-        document.getElementById('content-' + name).classList.add('switched');
+        document.getElementById(name).classList.add('switched');
     }
 </script>

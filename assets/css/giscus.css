@@ -1,14 +1,3 @@
-@font-face {
-  font-family: 'barlow';
-  src: url('https://www.callumhackett.com/assets/fonts/barlow-medium.woff2') format('woff2');
-  font-style: normal;
-}
-@font-face {
-  font-family: 'barlow';
-  src: url('https://www.callumhackett.com/assets/fonts/barlow-mediumitalic.woff2') format('woff2');
-  font-style: italic;
-}
-
 a:hover {
   text-decoration-line: none !important;
 }

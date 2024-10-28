@@ -28,7 +28,7 @@
     }
 
     .index-link {
-        background-color: #fff8ed;
+        background-color: var(--custom-white);
         background-image: var(--canvas-background-large);
         background-repeat: repeat;
         display: flex;

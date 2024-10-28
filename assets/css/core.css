@@ -1,6 +1,6 @@
 /* Containers */
 body {
-    background-color: #fff8ed;
+    background-color: var(--custom-white);
     background-image: var(--canvas-background-small);
     background-repeat: repeat;
     margin: 0;
@@ -9,8 +9,6 @@ body {
     background: var(--accent-color);
     color: var(--selection-color);
 }
-@media screen and (max-width: 839px) {
-}
 
 /* Main Body Elements */
 p, li {
@@ -18,23 +16,17 @@ p, li {
     font-family: var(--body-font);
     font-size: var(--body-font-size);
     line-height: var(--body-line-height);
-    font-weight: 400;
+    font-weight: var(--body-font-weight);
     margin-block-start: 0 !important;
     font-feature-settings: "ss01" on;
     text-align: justify;
-}
-h1 {
-    font-family: var(--body-font);
-    font-weight: bold;
-    font-size: calc(var(--body-font-size) * 1.2);
-    line-height: var(--body-line-height);
 }
 a, a:active, a:visited, a:hover {
     color: var(--accent-color);
     text-decoration: none;
 }
 p:not(:last-child) {
-    margin-block-end: calc(var(--index-spacing) - 4px);
+    margin-block-end: calc(var(--index-spacing) - 12px);
 }
 p:last-child {
     margin-block-end: 0;
@@ -65,4 +57,20 @@ audio {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.content-404 {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Petit Formal Script' !important;
+    font-size: 32px;
+    word-spacing: 5px;
+}
+.content-404 a {
+    color: var(--body-color);
+}
+.content-404 img {
+    box-shadow: var(--collage-shadow);
 }

@@ -3,7 +3,7 @@ repository: callumhackett/callumhackett.github.io
 
 # these are default site attributes
 name: Callum Hackett
-description: Callum Hackett is a researcher in philosophy and linguistics, as well as an NLP engineer working to improve language-based AI tools.
+description: Callum Hackett is an AI researcher and musician.
 author: Callum Hackett
 
 # these are page/post attribute defaults that can be overridden (note: they are not site attributes)
@@ -13,8 +13,8 @@ defaults:
       path: "" # applies everywhere
     values:
       type: website
-      description: Callum Hackett is a researcher in philosophy and linguistics, as well as an NLP engineer working to improve language-based AI tools.
-      #image: /assets/images/social/studio_notes.jpg
+      description: Callum Hackett is an AI researcher and musician.
+      #image: 
       #image_alt: Callum Hackett
 
 plugins:
