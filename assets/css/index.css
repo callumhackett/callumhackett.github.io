@@ -1,6 +1,7 @@
 @media screen and (min-width: 840px) {
     #index-grid {
         border: var(--index-spacing) solid transparent;
+        border-right: 0 !important;
         display: grid;
         grid: calc(100vh - calc(var(--index-spacing) * 2)) / 2fr 1fr;
         column-gap: var(--index-spacing);
@@ -50,6 +51,11 @@
         margin: 0;
         text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.15);
         text-transform: uppercase;
+    }
+
+    #index-content {
+        padding-right: var(--index-spacing);
+        overflow: auto;
     }
 
     #index-content button {
