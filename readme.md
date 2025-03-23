@@ -1,1 +1,1 @@
-This repo is the source of [my website](https://www.callumhackett.com).
+This repo is the source of [my website](https://callumhackett.github.io/).
