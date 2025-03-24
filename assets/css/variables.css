@@ -1,8 +1,8 @@
 :root {
     /* Colours */
     --background-texture: url('/assets/images/egg-shell.png');
-    --douter-green: #636F68;
-    --soft-black: #080c39;
+    --dark-green: #68706A;
+    --soft-black: #17171C;
     --accent-colour: #d16900;
     --custom-white: #fff8ed;
     --selection-color: var(--custom-white);

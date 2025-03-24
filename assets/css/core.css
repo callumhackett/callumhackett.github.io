@@ -1,7 +1,7 @@
 /* Containers */
 body {
     background-image: var(--background-texture);
-    background-color: var(--douter-green);
+    background-color: var(--dark-green);
     background-repeat: repeat;
     margin: 0;
 }
@@ -15,7 +15,7 @@ body {
     top: 15%;
     bottom: 15%;
     overflow-y: auto;
-    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
 }
 *::selection {
     background: var(--accent-colour);
