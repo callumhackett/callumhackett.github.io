@@ -1,22 +1,18 @@
 :root {
-    /* Backgrounds */
-    --canvas-background: url('/assets/images/first-aid-kit.png');
-
-    /* Foregrounds */
-    --paint-background: #636F68;
-    --body-color: #080c39;
-    --accent-color: #d16900;
+    /* Colours */
+    --background-texture: url('/assets/images/egg-shell.png');
+    --douter-green: #636F68;
+    --soft-black: #080c39;
+    --accent-colour: #d16900;
     --custom-white: #fff8ed;
     --selection-color: var(--custom-white);
 
     /* Fonts */
     --accent-font: 'Sorts Mill Goudy', 'Garamond', serif;
     --body-font: 'Chronicle Text G2', 'STIX Two Text', 'Georgia Pro', 'Georgia', serif;
-    --index-link-size: 28px;
+    --code-font: 'CommitMonoV143', monospace;
+    --code-font-feature-settings: 'cv03', 'cv08', 'cv10', 'ss03', 'ss04', 'ss05';
     --body-font-size: 17.6px;
     --body-line-height: 1.3em;
     --body-font-weight: 300;
-
-    /* Element Properties */
-    --mobile-vertical-spacing: 2vh;
 }

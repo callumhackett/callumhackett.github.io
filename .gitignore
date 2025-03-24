@@ -2,5 +2,4 @@ _drafts
 _layouts/layout_template.html
 _site
 .jekyll-cache
-page_template.md
-setup.txt
+setup.md

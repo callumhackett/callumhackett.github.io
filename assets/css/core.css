@@ -1,7 +1,7 @@
 /* Containers */
 body {
-    background-image: url("/assets/images/egg-shell.png");
-    background-color: var(--paint-background);
+    background-image: var(--background-texture);
+    background-color: var(--douter-green);
     background-repeat: repeat;
     margin: 0;
 }
@@ -9,16 +9,16 @@ body {
     background: var(--custom-white);
     padding: 32px 54px 22px 40px;
     margin: 0;
-    box-shadow: var(--collage-shadow);
     position: absolute;
     width: 850px;
     left: calc(50% - 425px);
     top: 15%;
     bottom: 15%;
     overflow-y: auto;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.2);
 }
 *::selection {
-    background: var(--accent-color);
+    background: var(--accent-colour);
     color: var(--selection-color);
 }
 
@@ -30,7 +30,7 @@ h1 {
     margin: 0 0 18px 0;
 }
 p, li {
-    color: var(--body-color);
+    color: var(--soft-black);
     font-family: var(--body-font);
     font-size: var(--body-font-size);
     line-height: var(--body-line-height);
@@ -39,17 +39,16 @@ p, li {
     text-align: justify;
 }
 a, a:active, a:visited, a:hover {
-    color: var(--accent-color);
+    color: var(--accent-colour);
     text-decoration: none;
 }
 p:not(:last-child) {
-    margin-block-end: 17.6px;
+    margin-block-end: var(--body-font-size);
 }
 p:last-child {
     margin-block-end: 0;
 }
 ul {
-    padding: 0 var(--body-padding);
     margin-block-start: calc(var(--body-font-size) / 3);
     margin-block-end: var(--body-font-size);
 }
@@ -66,7 +65,6 @@ audio {
     height: 0;
     padding-bottom: calc(100% / 1.78); /* set the denominator to fix a constant aspect ratio */
     margin: 0;
-    box-shadow: var(--collage-shadow);
 }
 .youtube iframe {
     position: absolute;
@@ -74,20 +72,4 @@ audio {
     left: 0;
     width: 100%;
     height: 100%;
-}
-
-.content-404 {
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'Petit Formal Script' !important;
-    font-size: 32px;
-    word-spacing: 5px;
-}
-.content-404 a {
-    color: var(--body-color);
-}
-.content-404 img {
-    box-shadow: var(--collage-shadow);
 }
