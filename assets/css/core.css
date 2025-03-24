@@ -1,5 +1,6 @@
 /* Containers */
 body {
+    background-image: url("/assets/images/egg-shell.png");
     background-color: var(--paint-background);
     background-repeat: repeat;
     margin: 0;
@@ -25,6 +26,7 @@ body {
 h1 {
     font-family: var(--accent-font);
     font-weight: normal;
+    font-size: 24px;
     margin: 0 0 18px 0;
 }
 p, li {

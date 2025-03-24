@@ -12,7 +12,7 @@ title: \'Meditations\' Reduction # appears in HTML meta and tab title, not in co
 ---
 # Reduction of Marcus Aurelius's *Meditations*
 
-When I read the *Meditations* for the second or third time, I thought it would be useful to capture the major lessons in a format suitable for memorisation and recitation. There was a period when speaking this aloud was an important part of my daily routine, though I've long since lost the habit, partly because it's mostly second nature now, and partly because I've come to see stoicism as incomplete as an ethical framework (though it remains one of the very best foundations).
+When I read the *Meditations* for the second or third time, I thought it would be useful to capture their major lessons in a format suitable for memorisation and recitation. There was a period when speaking this aloud was an important part of my daily routine, though I've long since lost the habit, partly because it's mostly second nature now, partly because I've come to see stoicism as incomplete as an ethical framework.
 
 1. I live only in this fleeting moment of time, the rest of my life either already lived or lying in an unknowable future.
 2. The space of my existence is a small thing, lived on a small corner of the earth, where even the most enduring fame is swept into oblivion.
