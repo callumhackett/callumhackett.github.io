@@ -1,10 +1,9 @@
 :root {
     /* Backgrounds */
-    --main-background: url('/assets/images/morris.jpg');
-    --canvas-background-small: url('/assets/images/first-aid-kit.png');
-    --canvas-background-large: url('/assets/images/dark-tire.png');
+    --canvas-background: url('/assets/images/first-aid-kit.png');
 
     /* Foregrounds */
+    --paint-background: #636F68;
     --body-color: #080c39;
     --accent-color: #d16900;
     --custom-white: #fff8ed;
@@ -12,19 +11,12 @@
 
     /* Fonts */
     --accent-font: 'Sorts Mill Goudy', 'Garamond', serif;
-    --body-font: 'Jost', 'Helvetica', 'Arial', sans-serif;
+    --body-font: 'STIX Two Text', 'Georgia Pro', 'Georgia', serif;
     --index-link-size: 28px;
-    --body-font-size: 17px;
+    --body-font-size: 17.6px;
     --body-line-height: 1.25em;
     --body-font-weight: 400;
 
     /* Element Properties */
-    --index-spacing: 32px;
-    --index-column-width: 250px;
-    --index-row-height: 60px;
-    --index-grid-column-gap: 150px;
-    --index-grid-row-gap: var(--index-spacing);
-    --index-border-radius: 2px;
     --mobile-vertical-spacing: 2vh;
-    --collage-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
 }

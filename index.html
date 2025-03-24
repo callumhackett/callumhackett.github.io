@@ -2,38 +2,4 @@
 layout: page
 title: Home
 ---
-<div id="index-grid">
-    <div id="index-background"></div>
-    <div id="index-links">
-        <div class="index-link">
-            <button onclick="showContent('music-description')">Music</button>
-        </div>
-        <div class="index-link">
-            <button onclick="showContent('research-description')">Research</button>
-        </div>
-    </div>
-    <div id="index-content">
-        <div id="front-matter" class="switchable switched">
-            {%- include /content/front_matter.html -%}
-        </div>
-        <div id="music-description" class="switchable">
-            {%- include home_button.html -%}
-            {%- include /content/music_description.html -%}
-        </div>
-        <div id="research-description" class="switchable">
-            {%- include home_button.html -%}
-            {%- include /content/research_description.html -%}
-        </div>
-    </div>
-</div>
-
-<script>
-    function showContent(name) {
-        // Hide all paragraphs
-        document.querySelectorAll('.switchable').forEach(p => {
-            p.classList.remove('switched');
-        });
-        // Show the selected paragraph
-        document.getElementById(name).classList.add('switched');
-    }
-</script>
+Text.
