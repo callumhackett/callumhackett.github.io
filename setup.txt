@@ -1,22 +1,11 @@
-HTML files are constructed as is. Markdown files are constructed as follows:
-
-1. YAML configs at the top of the markdown file specify an HTML layout in "/_layouts"
-2. The layout specification captures the markdown content in a variable
-3. The variable from (2) is fed to "/_includes/main.html", which is the basis for all pages on the site
-
-Plugins
-
+Tips
 - Code blocks with the standard `{%` and `%}` surrounds create unwanted HTML whitespace. This is removed if you instead
 use `{%-` and `-%}`.
-
 - HTML blocks cannot be given directly to an include statement, but you can use a `capture` to assign a block to a
 variable and then pass the variable to the include statement.
-
 - Jekyll does not permit negatives in `if` statements. Instead, `unless` is an `if not` expression.
-
 - There are various filters for handling strings, such as `remove`, `replace` and `split`. Content should generally be
 called with the `smartify` filter, which turns straight quotes into curly quotes.
-
 - To add switchable content, use:
 
 <div class="switchable switched"></div>
@@ -31,16 +20,3 @@ called with the `smartify` filter, which turns straight quotes into curly quotes
         document.getElementById(name).classList.add('switched');
     }
 </script>
-
----
-# obligatory
-layout: 
-title: # appears in HTML meta and tab title, not in content
-
-# optional, no defaults
-# permalink: # custom page URL, begin with /
-
-# optional, overrides defaults
-# type: # defaults to website, otherwise choose one of: article, music, video
-# description: # appears in blog index, HTML meta and social media snippets
----

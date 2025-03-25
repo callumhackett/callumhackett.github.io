@@ -2,10 +2,10 @@
 layout: page
 title: Home
 ---
-I'm a philosopher and AI researcher focused on the cognitive foundations of natural language and the development of neurosymbolic models of intelligence.
+# Callum Hackett
 
-I'm currently head of Language Engineering at [UnlikelyAI](https://www.unlikely.ai/).
+I'm a philosopher and AI researcher primarily interested in the cognitive foundations of language and neurosymbolic models of intelligence. I'm also interested in problems of consciousness, ethics and the scientific method.
 
-Callum Hackett
-<br/>
+I'm currently head of Language Engineering at [UnlikelyAI](https://www.unlikely.ai/) in London. My team designs symbolic components to complement language models in the automation of decision-making tasks (typically in regulated industries requiring trusted explanations).
+
 callumjhackett@gmail.com

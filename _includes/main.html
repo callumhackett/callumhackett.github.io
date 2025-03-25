@@ -31,8 +31,11 @@
     </head>
 
     <body>
-        <div id="body-content">
-            {{ include.body-content }}
+        <div id="body-grid">
+            {%- include navigation.html -%}
+            <div id="body-content">
+                {{ include.body-content }}
+            </div>
         </div>
     </body>
 </html>
