@@ -3,18 +3,12 @@
 layout: page
 title: \'Meditations\' Reduction # appears in HTML meta and tab title, not in content
 
-# optional, no defaults
-# permalink: # custom page URL, begin with /
-
-# optional, overrides defaults
-# type: # defaults to website, otherwise choose one of: article, music, video
-# description: # appears in blog index, HTML meta and social media snippets
+# optional
+description: a summary of Marcus Aurelius's 'Meditations' in a format suitable for memorisation and recitation
 ---
-<a href="/notes.html"><img src="/assets/images/leaf_arrow.png" width="24px" /></a>
-
 # Reduction of Marcus Aurelius's *Meditations*
 
-When I read the *Meditations* for the second or third time, I thought it would be useful to summarise their major lessons in a format suitable for memorisation and recitation. There was a period when speaking this aloud was an important part of my daily routine, though I've long since lost the habit, partly because the lessons are mostly second nature now, partly because I've come to see stoicism as insufficient for a modern virtue ethics.
+When I read the *Meditations* for the second or third time, I thought it would be useful to summarise their major lessons in a format suitable for memorisation and recitation. There was a period when speaking this aloud was an important part of my daily routine, though I've long since lost the habit, partly because the lessons are mostly second nature now, partly because I've come to see stoicism as brilliant but incomplete.
 
 1. I live only in this fleeting moment of time, the rest of my life either already lived or lying in an unknowable future.
 2. The space of my existence is a small thing, lived on a small corner of the earth, where even the most enduring fame is swept into oblivion.
