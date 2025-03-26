@@ -1,5 +1,0 @@
-{%- capture body-content -%} <!-- creates a variable called body-content and binds the enclosed HTML to it, to be passed to the include -->
-    {{ content | smartify }} <!-- this is how main body content is called from an .md file; smartify ensures curly quotes -->
-{%- endcapture -%}
-
-{% include meta.html body-content=body-content %}
