@@ -91,9 +91,8 @@ audio {
 
 @media (max-width: 1019px) {
     #body-grid {
-        margin: calc(var(--p-size)*2);
+        margin: var(--p-size);
         grid-template-rows: auto auto;
-        max-width: 700px;
         padding: calc(var(--p-size)*2);
     }
     #navigation {
@@ -109,6 +108,7 @@ audio {
         background-size: 7px 1px;
         background-repeat: repeat-x;
         padding: calc(var(--p-size)*2) 0 0 0;
+        word-break: break-word;
     }
 }
 
