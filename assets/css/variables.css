@@ -17,8 +17,7 @@
     --p-font-weight: 400;
 
     /* Sizes */
-    --body-width: 900px;
-    --structural-spacing: 120px;
+    --max-content-width: 900px;
     --h1-size: 24px;
     --h2-size: 20px;
     --p-size: 16.8px;

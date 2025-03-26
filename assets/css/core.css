@@ -2,6 +2,9 @@ body {
     background-image: var(--background-texture);
     background-color: var(--green-paint);
     background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    margin: 4vh;
 }
 #body-grid {
     background: var(--warm-white);
@@ -92,43 +95,35 @@ audio {
 }
 
 @media (max-width: 899px) {
-    body {
-        margin: 4vw 0;
-    }
     #body-grid {
+        display: flex;
         flex-direction: column;
         width: 92vw;
-        position: absolute;
-        left: 4vw;
-        padding: 0 calc(var(--p-size)*2);
-        flex-wrap: wrap;
+        padding: 0 36px;
+        align-items: center;
     }
     #navigation {
-        justify-content: space-evenly;
-        padding: calc(var(--p-size)*2) 0;
-        row-gap: calc(var(--p-size));
-        column-gap: calc(var(--p-size));
+        padding: 36px 0;
+        row-gap: 18px;
+        column-gap: 18px;
     }
     #body-content {
         background-image: linear-gradient(to right, rgba(var(--soft-black), 0.5) 25%, rgba(0, 0, 0, 0) 0%);
         background-position: top;
         background-size: 7px 1px;
         background-repeat: repeat-x;
-        padding: calc(var(--p-size)*2) 0;
+        padding: 36px 0;
+        max-width: 650px;
     }
 }
 
 @media (min-width: 900px) {
-    body {
-        margin: 0;
-    }
     #body-grid {
+        width: var(--max-content-width);
         position: absolute;
-        width: var(--body-width);
-        left: calc(50% - calc(var(--body-width)/2));
         top: 15vh;
         flex-direction: row;
-        padding: calc(var(--p-size)*2);
+        padding: 36px;
     }
     #body-content {
         background-image: linear-gradient(rgba(var(--soft-black), 0.5) 25%, rgba(0, 0, 0,0) 0%);
@@ -136,12 +131,12 @@ audio {
         background-size: 1px 7px;
         background-repeat: repeat-y;
         overflow-y: auto;
-        max-height: calc(var(--body-width)*0.5);
-        padding: 0 calc(var(--p-size)*2);
+        max-height: 60vh;
+        padding: 0 36px;
     }
     #navigation {
         flex-direction: column;
         row-gap: 10px;
-        padding: 0 60px 0 0;
+        padding: 0 72px 0 0;
     }
 }
