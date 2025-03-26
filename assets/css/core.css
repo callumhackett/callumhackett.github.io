@@ -90,14 +90,18 @@ audio {
 }
 
 @media (max-width: 1019px) {
+    body {
+        margin: 120px;
+    }
     #body-grid {
-        margin: var(--p-size);
+        grid-template-columns: minmax(0, auto);
         grid-template-rows: auto auto;
         padding: calc(var(--p-size)*2);
     }
     #navigation {
         grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
         padding: 0 0 calc(var(--p-size)*2) 0;
+        overflow-x: auto;
     }
     #navigation a {
         padding: 0 calc(var(--p-size)*2) 0 0;
@@ -108,7 +112,6 @@ audio {
         background-size: 7px 1px;
         background-repeat: repeat-x;
         padding: calc(var(--p-size)*2) 0 0 0;
-        word-break: break-word;
     }
 }
 
