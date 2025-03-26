@@ -91,7 +91,7 @@ audio {
 
 @media (max-width: 1019px) {
     body {
-        margin: 120px;
+        margin: calc(var(--p-size));
     }
     #body-grid {
         grid-template-columns: minmax(0, auto);
@@ -101,7 +101,7 @@ audio {
     #navigation {
         grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
         padding: 0 0 calc(var(--p-size)*2) 0;
-        overflow-x: auto;
+        overflow-x: clip;
     }
     #navigation a {
         padding: 0 calc(var(--p-size)*2) 0 0;
