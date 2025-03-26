@@ -46,7 +46,6 @@ p, li {
     line-height: var(--p-line-height);
     font-weight: var(--p-font-weight);
     margin-block-start: 0 !important;
-    text-align: justify;
 }
 p:not(:last-child) {
     margin-block-end: var(--p-size);
@@ -138,5 +137,11 @@ audio {
         flex-direction: column;
         row-gap: 10px;
         padding: 0 72px 0 0;
+    }
+}
+
+@media (min-width: 600px) {
+    p {
+        text-align: justify;
     }
 }
