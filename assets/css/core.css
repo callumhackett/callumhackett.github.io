@@ -58,6 +58,7 @@ ul, ol {
 }
 li {
     margin-bottom: 2px !important;
+    text-align: justify;
 }
 a, a:active, a:visited, a:hover {
     color: var(--cave-blue);
