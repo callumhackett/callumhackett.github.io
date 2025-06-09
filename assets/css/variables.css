@@ -1,0 +1,25 @@
+:root {
+    /* Colours */
+    --background-texture: url('/assets/images/egg-shell.png');
+    --green-paint: #69776d;
+    --soft-black: 48, 48, 61;
+    --cave-blue: rgb(0, 94, 202);
+    --highlighter: rgb(254, 240, 130);
+    --warm-white: #fffaf3;
+    --selection-color: var(--warm-white);
+    --collage-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.15);
+
+    /* Fonts */
+    --accent-font: 'Sorts Mill Goudy', 'Garamond', serif;
+    --p-font: 'Georgia Pro', 'Georgia', 'Gelasio', serif;
+    --code-font: 'CommitMonoV143', monospace;
+    --code-font-feature-settings: 'cv03', 'cv08', 'cv10', 'ss03', 'ss04', 'ss05';
+    --p-font-weight: 400;
+
+    /* Sizes */
+    --max-content-width: 900px;
+    --h1-size: 24px;
+    --h2-size: 20px;
+    --p-size: 16.8px;
+    --p-line-height: 1.33em;
+}
