@@ -1,1 +1,0 @@
-This is the source of [my website](https://callumhackett.github.io/).
