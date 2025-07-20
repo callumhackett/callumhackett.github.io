@@ -3,7 +3,7 @@ repository: callumhackett/callumhackett.github.io
 
 # these are default site attributes
 name: Callum Hackett
-description: Callum Hackett is a philosopher and AI researcher primarily interested in the cognitive foundations of language and neurosymbolic models of intelligence. He is currently head of Language Engineering at UnlikelyAI.
+description: Callum Hackett is an AI engineer and researcher in linguistics and philosophy.
 author: Callum Hackett
 
 # these are page/post attribute defaults that can be overridden (note: they are not site attributes)
@@ -13,7 +13,7 @@ defaults:
       path: "" # applies everywhere
     values:
       type: website
-      description: Callum Hackett is a philosopher and AI researcher primarily interested in the cognitive foundations of language and neurosymbolic models of intelligence. He is currently head of Language Engineering at UnlikelyAI.
+      description: Callum Hackett is an AI engineer and researcher in linguistics and philosophy.
 
 plugins:
   - jekyll-feed
