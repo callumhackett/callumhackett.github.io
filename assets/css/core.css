@@ -26,8 +26,7 @@ body {
 }
 h1, h2 {
     font-family: var(--accent-font);
-    line-height: 1.5em;
-    margin-top: 0;
+    line-height: 1.3em;
 }
 h1 {
     font-weight: normal;
@@ -38,7 +37,7 @@ h2 {
     font-weight: normal;
     font-style: italic;
     font-size: var(--h2-size);
-    margin: 0;
+    margin: 0 0 calc(var(--p-size) / 4) 0;
 }
 p, li {
     color: rgb(var(--soft-black));
