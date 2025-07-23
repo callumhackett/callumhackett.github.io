@@ -1,5 +1,7 @@
 body {
-    background-image: var(--background-texture);
+    background-image: url('/assets/images/dovedale.jpg');
+    background-size: 100%;
+    background-position: 0px -200px;
     background-color: var(--green-paint);
     background-repeat: repeat;
     display: flex;
