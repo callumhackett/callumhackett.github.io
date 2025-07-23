@@ -1,6 +1,7 @@
 :root {
     /* Colours */
     --background-texture: url('/assets/images/egg-shell.png');
+    --black-green: hsl(80, 15%, 9%);
     --green-paint: hsl(212, 42.5%, 47.5%);
     --soft-black: 48, 48, 61;
     --cave-blue: rgb(0, 94, 202);

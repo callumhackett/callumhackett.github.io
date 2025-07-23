@@ -1,9 +1,7 @@
 body {
     background-image: url('/assets/images/dovedale.jpg');
-    background-size: 100%;
-    background-position: 0px -200px;
-    background-color: var(--green-paint);
-    background-repeat: repeat;
+    background-color: var(--black-green);
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     margin: 4vh;
@@ -104,6 +102,9 @@ audio {
 }
 
 @media (max-width: 899px) {
+    body {
+        background-size: cover;
+    }
     #body-grid {
         display: flex;
         flex-direction: column;
@@ -127,6 +128,9 @@ audio {
 }
 
 @media (min-width: 900px) {
+    body {
+        background-size: 100%;
+    }
     #body-grid {
         width: var(--max-content-width);
         position: absolute;
