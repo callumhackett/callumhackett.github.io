@@ -1,5 +1,5 @@
 body {
-    background-image: url('/assets/images/dovedale.jpg');
+    background-image: url('/assets/images/little_street.jpg');
     background-color: var(--black-green);
     background-repeat: no-repeat;
     display: flex;
@@ -149,7 +149,7 @@ audio {
     }
     #navigation {
         flex-direction: column;
-        row-gap: 10px;
+        row-gap: 12px;
         padding: 0 72px 0 0;
     }
 }
