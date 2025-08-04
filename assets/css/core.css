@@ -46,8 +46,8 @@ p, li {
     line-height: var(--p-line-height);
     font-weight: var(--p-font-weight);
     margin-block-start: 0 !important;
-    letter-spacing: 0;
-    word-spacing: -0.5px;
+    letter-spacing: var(--letter-spacing);
+    word-spacing: var(--word-spacing);
 }
 p:not(:last-child) {
     margin-block-end: var(--p-size);

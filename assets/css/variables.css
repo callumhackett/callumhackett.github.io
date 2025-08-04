@@ -12,15 +12,17 @@
 
     /* Fonts */
     --accent-font: 'Sorts Mill Goudy', 'Garamond', serif;
-    --p-font: 'STIX Two Text', 'Georgia Pro', 'Georgia', serif;
+    --p-font: 'Crimson Pro', 'Garamond', serif;
     --code-font: 'CommitMonoV143', monospace;
     --code-font-feature-settings: 'cv03', 'cv08', 'cv10', 'ss03', 'ss04', 'ss05';
     --p-font-weight: 400;
+    --letter-spacing: -0.2px;
+    --word-spacing: 0px;
 
     /* Sizes */
     --max-content-width: 900px;
     --h1-size: 24px;
     --h2-size: 20px;
-    --p-size: 17px;
-    --p-line-height: 1.3em;
+    --p-size: 19px;
+    --p-line-height: 1.2em;
 }
