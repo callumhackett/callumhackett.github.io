@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'NewCM';
+  src: url('/assets/fonts/NewCM10-Book.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NewCM';
+  src: url('/assets/fonts/NewCM10-BookItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+}
+
 :root {
     /* Colours */
     --background-texture: url('/assets/images/egg-shell.png');
@@ -15,8 +29,8 @@
     --p-font: 'STIX Two Text', 'Times New Roman', serif;
     --code-font: 'CommitMonoV143', monospace;
     --code-font-feature-settings: 'cv03', 'cv08', 'cv10', 'ss03', 'ss04', 'ss05';
-    --p-font-weight: 400;
-    --letter-spacing: 0.05px;
+    --p-font-weight: normal;
+    --letter-spacing: 0.02px;
     --word-spacing: 1px;
 
     /* Sizes */
