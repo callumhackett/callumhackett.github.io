@@ -30,8 +30,8 @@
     --code-font: 'CommitMonoV143', monospace;
     --code-font-feature-settings: 'cv03', 'cv08', 'cv10', 'ss03', 'ss04', 'ss05';
     --p-font-weight: normal;
-    --letter-spacing: 0.02px;
-    --word-spacing: 1px;
+    --letter-spacing: 0.04px;
+    --word-spacing: 0.75px;
 
     /* Sizes */
     --max-content-width: 900px;
