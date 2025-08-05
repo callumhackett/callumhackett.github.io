@@ -3,7 +3,7 @@ repository: callumhackett/callumhackett.github.io
 
 # these are default site attributes
 name: Callum Hackett
-description: Callum Hackett is an AI engineer and researcher in linguistics and philosophy.
+description: Callum Hackett is a researcher in linguistics, philosophy and AI interested in a scientific account of intelligent systems.
 author: Callum Hackett
 
 # these are page/post attribute defaults that can be overridden (note: they are not site attributes)
@@ -13,7 +13,7 @@ defaults:
       path: "" # applies everywhere
     values:
       type: website
-      description: Callum Hackett is an AI engineer and researcher in linguistics and philosophy.
+      description: Callum Hackett is a researcher in linguistics, philosophy and AI interested in a scientific account of intelligent systems.
 
 plugins:
   - jekyll-feed
