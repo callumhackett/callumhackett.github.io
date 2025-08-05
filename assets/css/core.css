@@ -79,6 +79,9 @@ blockquote {
     padding-left: calc(var(--p-size) * 1.33);
     margin: 0;
 }
+.abstract {
+    text-align: justify;
+}
 *::selection {
     background: var(--highlighter);
 }
@@ -151,11 +154,5 @@ audio {
         flex-direction: column;
         row-gap: 12px;
         padding: 0 72px 0 0;
-    }
-}
-
-@media (min-width: 500px) {
-    p {
-        text-align: justify;
     }
 }
