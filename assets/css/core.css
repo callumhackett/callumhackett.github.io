@@ -90,18 +90,21 @@ blockquote {
     padding-left: calc(var(--p-size));
     margin-left: 0;
 }
-img {
+figure {
+    margin: 0 0 var(--p-size) 0;
+}
+figure img {
     max-width: 100%;
 }
 .img-right {
     float: right;
     width: 40%;
 }
-img + em {
+figcaption {
     color: #888;
     font-style: italic;
     font-size: calc(var(--p-size) * 0.8);
-    margin: calc(var(--p-size) * -1) 0 var(--p-size) 0;
+    margin: 0;
     text-align: center;
 }
 .date {
