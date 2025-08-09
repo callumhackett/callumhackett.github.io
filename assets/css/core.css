@@ -2,6 +2,7 @@ body {
     background-image: url('/assets/images/little_street.jpg');
     background-color: var(--black-green);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     margin: 4vh;
@@ -81,6 +82,10 @@ ul {
     margin-block-start: calc(var(--p-size) / 3);
     margin-block-end: var(--p-size);
 }
+li::marker {
+  content: '➽';
+  font-size: 0.8em;
+}
 li {
     padding-left: 4px;
     margin-block-end: calc(var(--p-size) / 3);
@@ -94,17 +99,42 @@ figure {
     margin: 0 0 var(--p-size) 0;
 }
 figure img {
+    display: block;
     max-width: 100%;
+    margin: auto;
+    border-radius: 2px;
+}
+.diary-date {
+    font-family: var(--accent-font);
+    font-style: italic;
+    text-align: right;
+}
+.diary-summary {
+    clear: both;
+    margin: 0 0 calc(var(--p-size) * 2) 0;
+    max-height: 100px;
+    font-style: italic;
+}
+.diary-image {
+    float: right;
+    width: 40%;
+    margin: 0 0 calc(var(--p-size) * 2) calc(var(--p-size) * 2);
+    border-radius: 5px;
+    max-height: 200px;
+    object-fit: cover;
+    object-position: top;
 }
 .img-right {
     float: right;
     width: 40%;
+    margin-left: 20px;
 }
 figcaption {
-    color: #888;
+    color: #777;
+    font-family: var(--accent-font);
     font-style: italic;
-    font-size: calc(var(--p-size) * 0.8);
-    margin: 0;
+    font-size: calc(var(--p-size) * 0.85);
+    margin: 8px 0 0 0;
     text-align: center;
 }
 .date {
@@ -169,7 +199,7 @@ audio {
     #body-grid {
         width: var(--max-content-width);
         position: absolute;
-        top: 15vh;
+        top: 5vh;
         flex-direction: row;
         padding: 36px;
     }
@@ -179,8 +209,7 @@ audio {
         background-size: 1px 7px;
         background-repeat: repeat-y;
         overflow-y: auto;
-        max-height: 60vh;
-        padding: 0 36px;
+        padding: 0 18px 0 36px;
     }
     #navigation {
         flex-direction: column;
