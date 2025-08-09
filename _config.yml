@@ -1,5 +1,6 @@
 # necessary to use Jekyll with GitHub pages
 repository: callumhackett/callumhackett.github.io
+excerpt_separator: <!--more-->
 
 # default site attributes
 name: Callum Hackett

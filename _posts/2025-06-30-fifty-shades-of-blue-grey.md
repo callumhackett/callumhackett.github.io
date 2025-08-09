@@ -6,13 +6,15 @@ title: Fifty Shades of Blue-Grey
 description: On good and bad colour systems, colour perception and colour vocabulary
 featured-image: farbenkugel.webp
 ---
-# Fifty Shades of Blue Grey
-
 {% include image.html image-file="cabbage.webp" image-class="img-right" %}
 
 [Last time](/2025/06/21/sea-holly.html), the language of botany introduced me to the word _glaucous_. Generally defined as a dull or pale grey-blue or grey-green, it’s not a word you usually see outside of biology, where it’s used for all sorts of flowers, fruits and vegetables (think especially of the glistening appearance of wine grapes or unwashed red cabbage), as well as animals like the glaucous macaw and the glaucous gull (for its grey wings). Writing this, I realise that my living room is also glaucous, since I painted it a soft green that was impressionistically called _feathers of a dove_.
 
-‘Glaucous’ is particularly common in ornithology, in fact, as in 1886 Robert Ridgway published _A Nomenclature of Colors for Naturalists_, in which he promoted the use of the word for the precise description of birds. By the time of his 1912 _Color Standards and Color Nomenclature_, which had much bigger ambitions to standardise all colour terminology, he rather hysterically laid claim to having named 1,115 distinct colours, 20 of them glaucous shades. This was his stated motivation for his work:
+‘Glaucous’ is particularly common in ornithology, in fact, as in 1886 Robert Ridgway published _A Nomenclature of Colors for Naturalists_, in which he promoted the use of the word for the precise description of birds. By the time of his 1912 _Color Standards and Color Nomenclature_, which had much bigger ambitions to standardise all colour terminology, he rather hysterically laid claim to having named 1,115 distinct colours, 20 of them glaucous shades.
+
+<!--more-->
+
+This was his stated motivation for his work:
 
 > The terminology of Science, the Arts, and various Industries has been a most important factor in the development of their present high efficiency. Measurements, weights, mathematical and chemical formulae, and terms which clearly designate practically every variation of form and structure, have long been standardized; but the nomenclature of colors remains vague and, for practical purposes, meaningless, thereby seriously impeding progress in almost every branch of industry and research.
 
