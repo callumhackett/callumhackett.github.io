@@ -1,19 +1,19 @@
 # necessary to use Jekyll with GitHub pages
 repository: callumhackett/callumhackett.github.io
 
-# these are default site attributes
+# default site attributes
 name: Callum Hackett
-description: Callum Hackett is a researcher in linguistics, philosophy and AI interested in a scientific account of intelligent systems.
+description: Callum Hackett is a researcher in linguistics, philosophy and AI.
 author: Callum Hackett
 
-# these are page/post attribute defaults that can be overridden (note: they are not site attributes)
+# default page attributes
 defaults:
   -
     scope:
-      path: "" # applies everywhere
+      path: "" # i.e. applies everywhere
     values:
       type: website
-      description: Callum Hackett is a researcher in linguistics, philosophy and AI interested in a scientific account of intelligent systems.
+      description: Callum Hackett is a researcher in linguistics, philosophy and AI.
 
 plugins:
   - jekyll-feed
