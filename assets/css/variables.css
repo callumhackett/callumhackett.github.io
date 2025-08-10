@@ -3,21 +3,21 @@
     --soft-black: 48, 48, 61;
     --cave-blue: rgb(0, 94, 202);
     --highlighter: rgb(254, 240, 130);
-    --warm-white: #FAEFEF;
+    --warm-white: #f4efe3;
 
     /* Fonts */
     --accent-font: 'Sorts Mill Goudy', 'Garamond', serif;
-    --p-font: 'STIX Two Text', 'Times New Roman', serif;
+    --p-font: 'Source Serif 4', 'Times New Roman', serif;
     --code-font: 'CommitMonoV143', monospace;
     --code-font-feature-settings: 'cv03', 'cv08', 'cv10', 'ss03', 'ss04', 'ss05';
-    --p-font-weight: 425;
-    --letter-spacing: 0.04px;
+    --p-font-weight: 450;
+    --letter-spacing: -0.1px;
     --word-spacing: 1px;
 
     /* Sizes */
     --max-content-width: 950px;
     --h1-size: 24px;
     --h2-size: 20px;
-    --p-size: 18px;
-    --p-line-height: 1.2em;
+    --p-size: 17px;
+    --p-line-height: 1.25em;
 }

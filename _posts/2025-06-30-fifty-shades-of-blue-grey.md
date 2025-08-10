@@ -5,12 +5,11 @@ title: Fifty Shades of Blue-Grey
 # optional
 description: On good and bad colour systems, colour perception and colour vocabulary
 ---
-30 Jun 2025
-{:.post-date}
+{% include post_date.html %}
 
 {% include image.html image-file="cabbage.webp" image-class="img-right" %}
 
-[Last time](/2025/06/21/sea-holly.html), the language of botany introduced me to the word _glaucous_. Generally defined as a dull or pale grey-blue or grey-green, it’s not a word you usually see outside of biology, where it’s used for all sorts of flowers, fruits and vegetables (think especially of the glistening appearance of wine grapes or unwashed red cabbage), as well as animals like the glaucous macaw and the glaucous gull (for its grey wings). Writing this, I realise that my living room is also glaucous, since I painted it a soft green that was impressionistically called _feathers of a dove_.
+Previously, the language of botany introduced me to the word _glaucous_. Generally defined as a dull or pale grey-blue or grey-green, it’s not a word you usually see outside of biology, where it’s used for all sorts of flowers, fruits and vegetables (think especially of the glistening appearance of wine grapes or unwashed red cabbage), as well as animals like the glaucous macaw and the glaucous gull (for its grey wings). Writing this, I realise that my living room is also glaucous, since I painted it a soft green impressionistically called _feathers of a dove_.
 
 ‘Glaucous’ is particularly common in ornithology, in fact, as in 1886 Robert Ridgway published _A Nomenclature of Colors for Naturalists_, in which he promoted the use of the word for the precise description of birds. By the time of his 1912 _Color Standards and Color Nomenclature_, which had much bigger ambitions to standardise all colour terminology, he rather hysterically laid claim to having named 1,115 distinct colours, 20 of them glaucous shades.
 

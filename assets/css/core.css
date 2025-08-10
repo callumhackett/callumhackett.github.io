@@ -9,9 +9,13 @@ body {
    justify-content: center;
 }
 #body-grid {
-    background-color: var(--warm-white);
+    background-image: url('/assets/images/paper.png');
+    background-repeat: repeat;
     display: flex;
     box-sizing: border-box;
+}
+#body-content {
+    overflow-y: hidden !important;
 }
 #navigation {
     display: flex;
@@ -96,20 +100,20 @@ blockquote {
     padding: 0;
     margin: calc(var(--p-size) * 1.5) calc(var(--p-size) * 2);
 }
-.diary-date {
+.diary-date, .post-date {
     font-family: var(--accent-font);
     font-style: italic;
     font-size: 18px;
 }
 .post-date {
-    font-family: var(--accent-font);
-    font-style: italic;
-    font-size: 18px;
-    text-align: right;
+    text-align: center;
 }
 .diary-summary {
     clear: both;
     margin: 0 0 calc(var(--p-size) * 2) 0;
+}
+.diary-summary .post-date {
+    display: none;
 }
 figcaption {
     color: #777;
@@ -166,7 +170,7 @@ audio {
     height: 0;
     padding-bottom: calc(100% / 1.78); /* set the denominator to fix a constant aspect ratio */
     margin: 0 0 var(--p-size) 0 !important;
-    box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.15);
 }
 .youtube iframe {
     position: absolute;
@@ -206,7 +210,7 @@ audio {
         flex-direction: row;
         top: 0;
         padding: 62px 50px;
-        box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.125);
+        box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
     }
     #body-content {
         background-image: linear-gradient(rgba(var(--soft-black), 0.5) 25%, rgba(0, 0, 0,0) 0%);
