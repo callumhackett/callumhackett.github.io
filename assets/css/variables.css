@@ -1,12 +1,9 @@
 :root {
     /* Colours */
-    --black-green: hsl(80, 15%, 9%);
     --soft-black: 48, 48, 61;
     --cave-blue: rgb(0, 94, 202);
     --highlighter: rgb(254, 240, 130);
-    --warm-white: #fffaf3;
-    --selection-color: var(--warm-white);
-    --collage-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.15);
+    --warm-white: #FAEFEF;
 
     /* Fonts */
     --accent-font: 'Sorts Mill Goudy', 'Garamond', serif;
@@ -18,7 +15,7 @@
     --word-spacing: 1px;
 
     /* Sizes */
-    --max-content-width: 950px;
+    --max-content-width: 1000px;
     --h1-size: 24px;
     --h2-size: 20px;
     --p-size: 18px;
