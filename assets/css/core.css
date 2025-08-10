@@ -197,8 +197,8 @@ audio {
         max-width: 650px;
     }
     blockquote {
-        padding: 0 0 0 calc(var(--p-size));
-        margin: calc(var(--p-size) * 1.5) calc(var(--p-size) * 1.5);
+        padding: 0 0 0 calc(var(--p-size) * 0.75);
+        margin: calc(var(--p-size) * 1.5) 0;
     }
 }
 
