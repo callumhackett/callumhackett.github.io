@@ -31,7 +31,9 @@ body {
     margin-top: -18px !important;
 }
 .post-description {
-    font-style: italic;
+    font-size: 19px;
+    letter-spacing: -0.25px;
+    font-weight: 385;
 }
 #navigation a {
     color: rgb(var(--soft-black));
@@ -96,7 +98,7 @@ ul {
     margin-block-start: calc(var(--p-size) / 3);
     margin-block-end: var(--p-size);
 }
-li::marker {
+ul li::marker {
   content: '➽';
   font-size: 0.75em;
 }
@@ -121,6 +123,11 @@ li {
 }
 .diary-summary .post-date {
     display: none;
+}
+.review-list {
+    font-family: var(--accent-font);
+    font-style: italic;
+    font-size: var(--h2-size);
 }
 figcaption {
     color: #777;
@@ -243,7 +250,7 @@ audio {
 }
 
 @media (min-width: 500px) {
-    p, .abstract {
+    p, .abstract, li {
         text-align: justify;
     }
 }

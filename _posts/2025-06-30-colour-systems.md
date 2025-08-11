@@ -2,7 +2,8 @@
 layout: page
 title: Colour Systems
 permalink: colour-systems
-description: An account of various colour systems, some long abandoned, interspersed with remarks on problems of colour perception and colour language
+description: _An account of various_ Colour Systems, _some long abandoned, interspersed with remarks on problems of_ Perception _and_ Language
+tags: diary
 ---
 {% include post-date.html %}
 
@@ -40,11 +41,13 @@ This particular chart, with its clear separation of the constituent axes of colo
 
 To make a psychologically accurate colour solid, you would need to construct an asymmetrical, pimply ball that would only approximate a sphere, as our eyes don’t respond to light linearly across the visible spectrum. For example, when comparing a yellow and blue with equal _physical_ saturation and lightness (as measured by their spectral profiles), people will judge the yellow to be _perceptually_ lighter.
 
-Issues of colour perception are a particular obsession in the philosophy of consciousness, in my estimate to a distracting and unhelpful degree but the field has entertained me lately with questions about whether there’s any _necessity_ in the structure of the colour space. Imagine an organism which has only luminosity detection (no colour awareness), for example: we would imagine this as grayscale vision, with white and black as its two poles, but could biology in principle create a *red*scale (or *green*scale and so on)? Would red as an opposite to black be less biologically adaptive because it’s less contrastive? What *is* contrast, scientifically?
+Issues of colour perception are a particular obsession in the philosophy of consciousness, in my estimate to a distracting and unhelpful degree, but the field has entertained me lately with questions about whether there’s any _necessity_ in the structure of the colour space. Imagine an organism which has only luminosity detection (no colour awareness), for example: we would imagine this as grayscale vision, with white and black as its two poles, but could biology in principle create a *red*scale (or *green*scale and so on)? Would red as an opposite to black be less biologically adaptive because it’s less contrastive? What *is* contrast, scientifically?
 
 I suspect these are not sensible questions: I only think of white and red in the way I do because I already have both of them with their own mutual contrast. Given only a luminosity dimension, perhaps black and white do not have a _property_ of contrast which they hold to some degree, they just _are_ contrast. In that case, no, nature could not create redscale, but equally, ‘white’ is not really the right word for maximum brightness in a true grayscale.
 
-One thing worth remembering is that in all colour systems and philosophical discussions, colour words are used with a double meaning: ‘red’ is both the colour of specific objects with determinate shades (_this_ apple, _this_ rose, _this_ beetle) and also the hue that can take on many shades, which is an abstraction we’ve never seen (it’s what the apple, the rose and the beetle have in common, if indeed there is such a thing besides our propensity to describe them as 'red'). Likewise, there are arguably colours which are not expressible in the Munsell colour system because they cannot be represented without further dimensions like transparency and reflectiveness. There is no RGB profile that will give you a fully satisfying gold, brass or porcelain (I note that, as well as being colour terms, these are all materials, which is no coincidence, but I don’t think this undermines their status as colours — gold the substance is not simply yellow-brown). So it remains unclear to me whether we’ve even settled what colour _is_, for us to be able to talk about how it arises in the mind.
+One thing worth remembering is that in all colour systems and philosophical discussions, colour words are used with a double meaning: ‘red’ is both the colour of specific objects with determinate shades (_this_ apple, _this_ rose, _this_ beetle) and also the hue that can take on many shades, which is an abstraction we’ve never seen (it’s what the apple, the rose and the beetle have in common, if indeed there is such a thing besides our propensity to describe them as 'red').
+
+Likewise, there are arguably colours which are not expressible in the Munsell colour system because they cannot be represented without further dimensions like transparency and reflectiveness. There is no RGB profile that will give you a fully satisfying gold, brass or porcelain (I note that, as well as being colour terms, these are all materials, which is no coincidence, but I don’t think this undermines their status as colours — gold the substance is not simply yellow-brown). So it remains unclear to me whether we’ve even settled what colour _is_, for us to be able to talk about how it arises in the mind.
 
 {% include divider.html %}
 
@@ -66,3 +69,9 @@ One thing worth remembering is that in all colour systems and philosophical disc
 **viridian**, from Latin _viridis_, ‘green, fresh, lively’<br />
 
 {% include image.html image-file="whistler_lazuli.webp" caption="Left: ‘Nocturne in Black and Gold — The Falling Rocket’ (1875) by James McNeill Whistler<br />Right: Lapis lazuli under a microscope (240x magnification)" %}
+
+## Postscript
+
+Some time after writing this entry, I discovered [this incredible digitisation](https://c82.net/werner/){:target="_blank"} of yet another colour system, [*Werner's Nomenclature of Colours*](https://archive.org/details/gri_c00033125012743312){:target="_blank"}, which was first published in 1814 and was used by Charles Darwin on the HMS *Beagle*. Though more successful by that association, the work was fundamentally the same in conception as Ridgway's:
+
+> A nomenclature of colours, with proper coloured examples of the different tints, as a general standard to refer to in the description of any object, has been long wanted in arts and sciences. It is singular, that a thing so obviously useful, and in the description of objects of natural history and the arts, where colour is an object indispensably necessary, should have been so long overlooked ... How defective, therefore, must description be when the terms used are ambiguous; and where there is no regular standard to refer to.
