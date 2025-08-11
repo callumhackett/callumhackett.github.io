@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Diary
+permalink: diary
 ---
 <div>
     {% for post in site.posts %}

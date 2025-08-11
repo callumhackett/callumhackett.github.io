@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Papers
+permalink: papers
 ---
 ## [Justifications for a discontinuity theory of language evolution (2017)](https://bioling.psychopen.eu/index.php/bioling/article/view/9085/8289){:target="_blank"}
 
