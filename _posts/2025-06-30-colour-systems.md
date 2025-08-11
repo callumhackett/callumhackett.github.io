@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 30th June 2025
+title: Colour Systems
 permalink: colour-systems
 description: An account of various colour systems, some forgotten by history, interspersed with remarks on problems of colour perception and colour language
 ---
