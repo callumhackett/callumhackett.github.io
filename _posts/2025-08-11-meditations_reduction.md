@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Aurelius, the Meditations"
+title: Aurelius, the Meditations
 permalink: meditations-reduction
 description: A reduction of Marcus Aurelius's Meditations into a format suitable for memorisation and recitation
 tags: review
@@ -10,13 +10,13 @@ tags: review
 
 {% include post-description.html %}
 
-This is a fairly atypical review, as it is less a review than a dredging up of half-dead habits of thought that nonetheless seem worth sharing.
+This is an atypical review in that it is less a dialogue with a text than it is a dredging up of half-dead habits of thought that nonetheless seem worth sharing.
 
-When I read the *Meditations* for the second or third time, which was around ten years ago, I thought it would be useful to summarise their major lessons in a format suitable for memorsation and recitation. The numbered clauses below are the product of that activity. There was a time when their recitation was a daily ritual for me, and I would recommend it to some people in some circumstances, but I've long since stopped, partly because the lessons of Stoicism have become second nature but partly because I feel I have outgrown them.
+When I read the *Meditations* for the second or third time, which was around ten years ago now, I thought it would be useful to summarise their major lessons in a format suitable for memorsation and recitation. The numbered clauses below are the result of that activity. There was a time when their recitation was a daily ritual for me, and I would recommend it to some people in some circumstances, but I've long since stopped, partly because the lessons of stoicism have become second nature but partly because I feel I have outgrown them.
 
-Stoicism is in some ways an admirable philosophy --- any virtue ethics is certainly more respectable than such intellectual abortions as utilitarianism --- but the only notion of virtue I find myself inclined towards these days has more in common with the Daoist *wu wei* than with Greco-Roman codifications of duty.
+Stoicism is in some ways an admirable philosophy --- any virtue ethics is certainly more respectable than such abortions as utilitarianism --- but the only notion of virtue I find myself inclined towards these days has more in common with the Daoist *wu wei* than with Greco-Roman codifications of attitudes and duties.
 
-I don't call them codifications to suggest that they were merely technocratic fantasies --- of course they had the laudable goal of giving a proper ethical description of the human condition with which the individual person should live in harmony --- but what Daoist texts understand better is that that condition is in many ways unspeakable, or can only be spoken of in contradictions that gesture at the ineffable. That being the case, codification is a doomed project --- it is, per Nietzsche, the philosopher's original sin.
+Of course, like Daoist writers, the stoics had the laudable goal of giving a proper ethical description of the human condition with which the individual person should live in harmony, but what Daoists understood better is that that condition is in many ways unspeakable, or can only be gestured at by means of contradictions. That being the case, codification is a doomed project --- it is, per Nietzsche (who I also cite below), the philosopher's original sin.
 
 {% include divider.html %}
 

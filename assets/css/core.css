@@ -26,7 +26,7 @@ body {
 .initialised::first-letter {
     font-family: 'Euclid';
     float: left;
-    padding-top: 6px; /* Fine-tune vertical position */
+    padding-top: 6px;
     font-size: 11.5em;
     margin-left: -3px;
     color: rgb(154, 49, 44);
@@ -92,9 +92,6 @@ sup {
     position: relative;
     top: -0.5em;
     font-size: 0.67em;
-}
-ul, ol {
-    padding-left: var(--p-size) !important;
 }
 li {
     margin-bottom: 2px !important;
@@ -228,6 +225,9 @@ audio {
         padding: 0 0 0 calc(var(--p-size) * 0.75);
         margin: calc(var(--p-size) * 1.5) 0;
     }
+    ul, ol {
+        padding-left: 32px !important;
+    }
 }
 
 @media (min-width: 900px) {
@@ -255,7 +255,10 @@ audio {
     blockquote {
         padding: 0 calc(var(--p-size) * 1.5);
         margin: calc(var(--p-size) * 1.5) 0;
-}
+    }
+    ul, ol {
+        padding-left: var(--p-size) !important;
+    }
 }
 
 @media (min-width: 500px) {

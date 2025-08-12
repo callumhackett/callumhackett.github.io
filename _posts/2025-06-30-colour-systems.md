@@ -9,10 +9,10 @@ tags: diary
 
 {% include post-description.html %}
 
-[Previous observations on the language of botany](/sea-holly) introduced me to the word 'glaucous': generally defined as a dull or pale grey-blue or grey-green, it’s not a word you usually see outside of biology, where it’s used for all sorts of flowers, fruits and vegetables (think especially of the glistening appearance of wine grapes or unwashed red cabbage), as well as animals like the glaucous macaw and the glaucous gull (for its grey wings). Writing this, I realise that my living room is also glaucous, since I painted it a soft green impressionistically called _feathers of a dove_.
+[Previous observations on the language of botany](/sea-holly) introduced me to the word 'glaucous': generally defined as a dull or pale grey-blue or grey-green, the word is not usually seen outside of biology, where it describes all manner of flowers, fruits and vegetables (think especially of the glistening appearance of wine grapes or unwashed red cabbage), as well as animals like the glaucous macaw and the glaucous gull (for its grey wings). In the act of writing this, I also realise that my living room is glaucous, for I painted it a soft green which was impressionistically called _feathers of a dove_.
 {:.initialised}
 
-‘Glaucous’ is particularly common in ornithology, in fact, as in 1886 Robert Ridgway published _A Nomenclature of Colors for Naturalists_, in which he promoted the use of the word for the precise description of birds. By the time of his 1912 _Color Standards and Color Nomenclature_, which had much bigger ambitions to standardise all colour terminology, he rather hysterically laid claim to having named 1,115 distinct colours, 20 of them glaucous shades. This is how he stated the motivation for his work:
+‘Glaucous’ is particularly common in ornithology, in fact, as in 1886 Robert Ridgway published _A Nomenclature of Colors for Naturalists_, in which he promoted the use of the word for the precise description of birds. By the time of his 1912 _Color Standards and Color Nomenclature_, which had much larger ambitions to standardise all colour terminology, he rather hysterically laid claim to having named 1,115 distinct colours, 20 of them glaucous shades. This is how he stated the motivation for his work:
 
 <!--more-->
 
@@ -32,7 +32,7 @@ Ridgway’s project was doomed to failure because his approach made little pract
 
 >The incongruous and bizarre nature of our present color names must appear to any thoughtful person. Baby blue, peacock blue, Nile green, apple green, lemon yellow, straw yellow, rose pink, heliotrope, royal purple, Magenta, Solferino, plum, and automobile are popular terms, conveying different ideas to different persons and utterly failing to define colors. The terms used for a single hue, such as pea green, sea green, olive green, grass green, sage green, evergreen, invisible green, are not to be trusted in ordering a piece of cloth. They invite mistakes and disappointment.
 
-Munsell came up with a different kind of colour system that’s still in use today, which can be found everywhere from RGB colour pickers on computers to the science of colour perception, and it was so successful because it’s a _geometry_: rather than specifying colours by name, you specify them by their quantity of certain attributes (typically hue, chroma and value, or variations on these, such as hue, saturation and lightness).
+Thus Munsell devised a different colour system that’s still in use today, which can be found everywhere from RGB colour pickers on computers to the science of colour perception, and it was so successful because it’s a _geometry_: rather than specifying colours by name, they are specified them by their quantity of certain attributes (typically hue, chroma and value, or variations on these, such as hue, saturation and lightness).
 
 {% include image.html image-file="munsell.webp" %}
 
@@ -40,18 +40,18 @@ This particular chart, with its clear separation of the constituent axes of colo
 
 {% include image.html image-file="farbenkugel.webp" image-width="50%" caption="There were earlier attempts to colour solids but Runge’s was the first sphere" %}
 
-To make a psychologically accurate colour solid, you would need to construct an asymmetrical, pimply ball that would only approximate a sphere, as our eyes don’t respond to light linearly across the visible spectrum. For example, when comparing a yellow and blue with equal _physical_ saturation and lightness (as measured by their spectral profiles), people will judge the yellow to be _perceptually_ lighter.
+To make a psychologically accurate colour solid, one would need to construct an asymmetrical, pimply ball that would only approximate a sphere, as human eyes don’t respond to light linearly across the visible spectrum. For example, when comparing a yellow and blue with equal _physical_ saturation and lightness (as measured by their spectral profiles), people will judge the yellow to be _perceptually_ lighter.
 
 {% include divider.html %}
 
-Issues of colour perception are a particular obsession in the philosophy of consciousness, in my estimate to a distracting and unhelpful degree, but the field has entertained me lately with questions about whether there’s any _necessity_ in the structure of the colour space. Imagine an organism which has only luminosity detection (no colour awareness), for example: we would imagine this as grayscale vision, with white and black as its two poles, but could biology in principle create a *red*scale (or *green*scale and so on)? Would red as an opposite to black be less biologically adaptive because it’s less contrastive? What *is* contrast, scientifically?
+Issues of colour perception are a particular obsession in the philosophy of consciousness, in my estimate to a distracting and unhelpful degree, but the field has entertained me lately with questions about whether there’s any _necessity_ in the structure of the colour space. Imagine an organism which has only luminosity detection (no colour awareness), for example: we would imagine this as grayscale vision, with white and black as its two poles, but could biology in principle create a *red*scale (or *green*scale and so on) phenomenology? Would red as an opposite to black be somehow less biologically adaptive because it’s less contrastive? What *is* contrast, scientifically?
 {:.initialised}
 
 I suspect these are not sensible questions: I only think of white and red in the way I do because I already have both of them with their own mutual contrast. Given only a luminosity dimension, perhaps black and white do not have a _property_ of contrast which they hold to some degree, they just _are_ contrast. In that case, no, nature could not create redscale, but equally, ‘white’ is not really the right word for maximum brightness in a true grayscale.
 
 One thing worth remembering is that in all colour systems and philosophical discussions, colour words are used with a double meaning: ‘red’ is both the colour of specific objects with determinate shades (_this_ apple, _this_ rose, _this_ beetle) and also the hue that can take on many shades, which is an abstraction we’ve never seen (it’s what the apple, the rose and the beetle have in common, if indeed there is such a thing besides our propensity to describe them as 'red').
 
-Likewise, there are arguably colours which are not expressible in the Munsell colour system because they cannot be represented without further dimensions like transparency and reflectiveness. There is no RGB profile that will give you a fully satisfying gold, brass or porcelain (I note that, as well as being colour terms, these are all materials, which is no coincidence, but I don’t think this undermines their status as colours — gold the substance is not simply yellow-brown). So it remains unclear to me whether we’ve even settled what colour _is_, for us to be able to talk about how it arises in the mind.
+Likewise, there are arguably colours which are not expressible in the Munsell colour system because they cannot be represented without further dimensions like transparency and reflectiveness. There is no HCV or RGB profile that will give you a fully satisfying gold, brass or porcelain (I note that, as well as being colour terms, these are all materials, which is no coincidence, but I don’t believe this undermines their status as true colours — gold the substance is not simply yellow-brown). So it remains unclear to me whether we’ve even settled what colour _is_, for us to be able to talk about how it arises in the mind.
 
 {% include divider.html %}
 
