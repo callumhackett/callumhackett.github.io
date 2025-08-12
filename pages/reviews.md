@@ -8,7 +8,8 @@ permalink: reviews
     {% for post in sorted_posts %}
         {% if post.tags contains "review" %}
             <div class="review-list">
-                <a href="{{ post.url }}">{{ post.title }}</a>
+                <a href="{{ post.url }}">{{ post.title }}</a><br />
+                <p class="post-description">{{ post.description }}</p>
             </div>
         {% endif %}
     {% endfor %}

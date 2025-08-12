@@ -2,7 +2,7 @@
 layout: page
 title: Colour Systems
 permalink: colour-systems
-description: _An account of various_ Colour Systems, _some long abandoned, interspersed with remarks on problems of_ Perception _and_ Language
+description: An account of various_ Colour Systems, some long abandoned, interspersed with remarks on problems of Perception and Language
 tags: diary
 ---
 {% include post-date.html %}

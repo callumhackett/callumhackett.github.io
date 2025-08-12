@@ -2,7 +2,7 @@
 layout: page
 title: The Diary
 permalink: about-the-diary
-description: _A description of the purpose and ambition of the website_ Diary, _such as these can be remarked upon without undermining the very same_
+description: A description of the purpose and ambition of the website Diary, such as these can be remarked upon without undermining the very same
 tags: diary
 ---
 {% include post-date.html %}

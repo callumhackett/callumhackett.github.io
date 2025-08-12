@@ -31,7 +31,8 @@ body {
     margin-top: -18px !important;
 }
 .post-description {
-    font-size: 19px;
+    font-style: italic;
+    font-size: 18px;
     letter-spacing: -0.25px;
     font-weight: 385;
 }
@@ -99,11 +100,11 @@ ul {
     margin-block-end: var(--p-size);
 }
 ul li::marker {
-  content: '➽';
-  font-size: 0.75em;
+  content: '▧';
+  font-size: 0.975em;
 }
 li {
-    padding-left: 4px;
+    padding-left: 6px;
     margin-block-end: calc(var(--p-size) / 3);
 }
 .diary-date {
