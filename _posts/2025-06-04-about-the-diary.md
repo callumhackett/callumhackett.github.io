@@ -10,6 +10,7 @@ tags: diary
 {% include post-description.html %}
 
 The reader may share a feeling with me that it seems prudent to keep a diary, though, in my case, I have not been able to settle upon an approach for such a thing, for the most obvious subject --- myself --- holds little interest for me (which is not to say that I do not ruminate or introspect, for I do these in excess, but rather that I should not like to reify these habits by sitting down to them with pen and paper).
+{:.initialised}
 
 But the perceptive reader will recognise that I must have developed an answer to this conundrum, for here before them is a diary entry. However, I cannot tell them what the final purpose of this diary is, except cricumscriptively by relating to them how it was inspired by Freud's description of free association in [*The Interpretation of Dreams*](https://www.gutenberg.org/ebooks/66048){:target="_blank"} (1899):
 

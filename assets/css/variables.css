@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Euclid';
+  src: url('/assets/fonts/EuclidInitials.woff2') format('woff2');
+}
+
 :root {
     /* Colours */
     --soft-black: 48, 48, 61;

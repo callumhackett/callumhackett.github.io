@@ -2,7 +2,7 @@
 layout: page
 title: Colour Systems
 permalink: colour-systems
-description: An account of various_ Colour Systems, some long abandoned, interspersed with remarks on problems of Perception and Language
+description: An account of various Colour Systems, some long abandoned, interspersed with remarks on problems of Perception and Language
 tags: diary
 ---
 {% include post-date.html %}
@@ -10,6 +10,7 @@ tags: diary
 {% include post-description.html %}
 
 [Previous observations on the language of botany](/sea-holly) introduced me to the word 'glaucous': generally defined as a dull or pale grey-blue or grey-green, it’s not a word you usually see outside of biology, where it’s used for all sorts of flowers, fruits and vegetables (think especially of the glistening appearance of wine grapes or unwashed red cabbage), as well as animals like the glaucous macaw and the glaucous gull (for its grey wings). Writing this, I realise that my living room is also glaucous, since I painted it a soft green impressionistically called _feathers of a dove_.
+{:.initialised}
 
 ‘Glaucous’ is particularly common in ornithology, in fact, as in 1886 Robert Ridgway published _A Nomenclature of Colors for Naturalists_, in which he promoted the use of the word for the precise description of birds. By the time of his 1912 _Color Standards and Color Nomenclature_, which had much bigger ambitions to standardise all colour terminology, he rather hysterically laid claim to having named 1,115 distinct colours, 20 of them glaucous shades. This is how he stated the motivation for his work:
 
@@ -41,7 +42,10 @@ This particular chart, with its clear separation of the constituent axes of colo
 
 To make a psychologically accurate colour solid, you would need to construct an asymmetrical, pimply ball that would only approximate a sphere, as our eyes don’t respond to light linearly across the visible spectrum. For example, when comparing a yellow and blue with equal _physical_ saturation and lightness (as measured by their spectral profiles), people will judge the yellow to be _perceptually_ lighter.
 
+{% include divider.html %}
+
 Issues of colour perception are a particular obsession in the philosophy of consciousness, in my estimate to a distracting and unhelpful degree, but the field has entertained me lately with questions about whether there’s any _necessity_ in the structure of the colour space. Imagine an organism which has only luminosity detection (no colour awareness), for example: we would imagine this as grayscale vision, with white and black as its two poles, but could biology in principle create a *red*scale (or *green*scale and so on)? Would red as an opposite to black be less biologically adaptive because it’s less contrastive? What *is* contrast, scientifically?
+{:.initialised}
 
 I suspect these are not sensible questions: I only think of white and red in the way I do because I already have both of them with their own mutual contrast. Given only a luminosity dimension, perhaps black and white do not have a _property_ of contrast which they hold to some degree, they just _are_ contrast. In that case, no, nature could not create redscale, but equally, ‘white’ is not really the right word for maximum brightness in a true grayscale.
 

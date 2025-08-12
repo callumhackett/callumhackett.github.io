@@ -23,6 +23,14 @@ body {
 }
 
 /* Text */
+.initialised::first-letter {
+    font-family: 'Euclid';
+    float: left;
+    padding-top: 6px; /* Fine-tune vertical position */
+    font-size: 11.5em;
+    margin-left: -3px;
+    color: rgb(154, 49, 44);
+}
 .site-title {
     font-style: normal !important;
     color: rgb(var(--soft-black));
@@ -31,9 +39,9 @@ body {
     margin-top: -18px !important;
 }
 .post-description {
+    font-family: var(--accent-font);
     font-style: italic;
-    font-size: 18px;
-    letter-spacing: -0.25px;
+    font-size: 19px;
     font-weight: 385;
 }
 #navigation a {
