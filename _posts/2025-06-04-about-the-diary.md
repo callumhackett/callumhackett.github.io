@@ -2,7 +2,7 @@
 layout: page
 title: The Diary
 permalink: about-the-diary
-description: A description of the purpose and ambition of the website Diary, such as these can be remarked upon without undermining the very same
+description: A description of the purpose and themes of this Diary, such as these can be remarked upon without undermining the very same
 tags: diary
 ---
 {% include post-date.html %}
@@ -12,7 +12,7 @@ tags: diary
 The reader may share a feeling with me that it seems prudent to keep a diary, though, in my case, I have not been able to settle upon a theme for such a thing, for the most obvious one --- myself --- holds little interest for me (which is not to say that I do not ruminate or introspect, for I do these in excess, but rather that I should not like to reify these habits by sitting down to them with pen and paper).
 {:.initialised}
 
-But the perceptive reader will have concluded that I must have devised an answer to this conundrum, for here before them is a diary entry. However, I cannot reveal my answer except circumscriptively, by relating how it was inspired by Freud's description of free association in [*The Interpretation of Dreams*](https://www.gutenberg.org/ebooks/66048){:target="_blank"} (1899):
+But the perceptive reader will have already concluded that I must have devised an answer to this conundrum, for here before them is a diary entry. However, I cannot reveal my answer except circumscriptively, by relating how it was inspired by Freud's establishment of free association in [*The Interpretation of Dreams*](https://www.gutenberg.org/ebooks/66048){:target="_blank"} (1899):
 
 <!--more-->
 
@@ -22,13 +22,13 @@ Freud additionally observed that some of his patients struggled with these instr
 
 > The reason for your complaint lies in the constraint which your mind imposes upon your imagination. It is harmful to the creative work of the soul if the mind inspects too closely the ideas pouring in at the gates, as it were … In an artist, the mind withdraws its watchers from the gates, the ideas rush in pell-mell, and it is only then that the great heap is looked over. Critics are ashamed or afraid of the transitory madness which is found in all creators, hence your complaints about barrenness: you reject too soon and discriminate too severely.
 
-The reader who begins to recognise my purpose --- broadly, to use a diary as a conduit for creative activity --- will understand that there is little else I can say about it because to say more would be to make certain discriminations which would suffocate its potentials. Or, to put it another way, so long as one has this intention towards diary-keeping, it is futile to ask how best to achieve it, for any such analysis could only diminish that which it seeks to increase. The only practical course is to write without justification or design.
+The intuition we started with --- that diaries are surely useful things --- is, I think, an intuition that they can be conduits for creative activity, but then the reader will understand why there is little else to be said: to say more would be to make certain discriminations as to form and function, which would suffocate as yet unperceived possibilities. The only practical course of action is to write without justification or design, for any analysis of *how* to proceed can only diminish those effects which it seeks to increase.
 
 {% include divider.html %}
 
 # The Need to Win
 
-*from ['The Way of Chuang Tzu'](https://archive.org/details/wayofchuangtzu00mert/page/n7/mode/2up){:target="_blank"} by Thomas Merton*
+*from [The Way of Chuang Tzu](https://archive.org/details/wayofchuangtzu00mert/page/n7/mode/2up){:target="_blank"} by Thomas Merton*
 
 When an archer is shooting for nothing<br />
 He has all his skill.<br />

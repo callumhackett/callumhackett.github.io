@@ -8,15 +8,7 @@ tags: review
 # Marcus Aurelius, the Meditations
 {:.center-text}
 
-This is an atypical review in that it is less a dialogue with a text than it is a dredging up of half-dead habits of thought that nonetheless seem worth sharing.
-
-When I read the *Meditations* for the second or third time, which was around ten years ago now, I thought it would be useful to summarise their major lessons in a format suitable for memorsation and recitation. The numbered clauses below are the result of that activity. There was a time when their recitation was a daily ritual for me, and I would recommend it to some people in some circumstances, but I've long since stopped, partly because the lessons of stoicism have become second nature but partly because I feel I have outgrown them.
-
-Stoicism is in some ways an admirable philosophy --- any virtue ethics is certainly more respectable than such abortions as utilitarianism --- but the only notion of virtue I find myself inclined towards these days has more in common with the Daoist *wu wei* than with Greco-Roman codifications of attitudes and duties.
-
-Of course, like Daoist writers, the stoics had the laudable goal of giving a proper ethical description of the human condition with which the individual person should live in harmony, but what Daoists understood better is that that condition is in many ways unspeakable, or can only be gestured at by means of contradictions. That being the case, codification is a doomed project --- it is, per Nietzsche (who I also cite below), the philosopher's original sin.
-
-{% include divider.html %}
+When I read the *Meditations* for the second or third time, around ten years ago, I thought it would be useful to summarise their major lessons in a format suitable for recitation. The following numbered clauses are the result of that exercise, and they serve as a general introduction to the stoic philosophy which I comment on subsequently:
 
 1. I live only in this fleeting moment of time, the rest of my life either already lived or lying in an unknowable future.
 2. The space of my existence is a small thing, lived on a small corner of the earth, where even the most enduring fame is swept into oblivion.
@@ -47,6 +39,14 @@ Of course, like Daoist writers, the stoics had the laudable goal of giving a pro
 
 {% include divider.html %}
 
+There was a time when the recitation of these sayings was a daily ritual for me, and I would recommend it to some people in some circumstances, but I've long since stopped, partly because the lessons of stoicism have become second nature but partly because I feel I have outgrown them.
+
+Stoicism is in some ways an admirable philosophy --- any virtue ethics is certainly more respectable than such abortions as utilitarianism --- but the only notion of virtue I find myself inclined towards these days has more in common with the Taoist *wu wei* than with Greco-Roman codifications of attitudes and duties.
+
+Of course, like Taoist writers, the stoics had the laudable goal of giving a proper ethical description of the human condition with which the individual person should live in harmony, but what Taoists understood better is that that condition is in many ways unspeakable, or can only be gestured at by means of contradictions. That being the case, codification is a doomed project --- it is, per Nietzsche (who I also cite below), the philosopher's original sin.
+
+{% include divider.html %}
+
 # From [Beyond Good and Evil](https://standardebooks.org/ebooks/friedrich-nietzsche/beyond-good-and-evil/helen-zimmern){:target="_blank"}
 {:.center-text}
 
@@ -55,4 +55,4 @@ Of course, like Daoist writers, the stoics had the laudable goal of giving a pro
 <br/>
 You desire to live "according to Nature"? Oh, you noble Stoics, what fraudulent words! Imagine a being like Nature, boundlessly extravagant, boundlessly indifferent, without purpose or consideration, without pity or justice, at once fruitful and barren and uncertain; imagine indifference as a power ⁠— how could you live in accordance with such indifference? To live --- isn't this just to endeavour to be otherwise than this Nature? Is not living valuing, preferring, being unjust, having limits, endeavouring to be different? And if in fact your maxim, “living according to Nature,” means only the same as “living according to life” — how could you do otherwise? Why make a principle out of what you already are and must be?
 
-In reality, it is quite otherwise with you: while you pretend to read with rapture the canon of your law from Nature, you want something quite the contrary, you extraordinary stage-players and self-deluders! In your pride you wish to dictate your morals and ideals to Nature, to Nature herself, and to incorporate them therein; you insist that it shall be Nature “according to the Stoics,” and would like everything to be made after your own image, as a vast, eternal glorification and universalisation of Stoicism! With all your love for truth, you have forced yourselves so long, so persistently, and with such hypnotic rigidity to see Nature falsely, that is to say, Stoically, that you are no longer able to see it otherwise ⁠— and to crown all, some unfathomable arrogance gives you the lunatic hope that because you are able to tyrannize yourselves ⁠(Stoicism being self-tyranny) Nature will also allow herself to be tyrannized: for isn't the Stoic a part of Nature?
+In reality, it is quite otherwise with you: while you pretend to read with rapture the canon of your law from Nature, you want something quite the contrary, you extraordinary stage-players and self-deluders! In your pride you wish to dictate your morals and ideals to Nature, to Nature herself, and to incorporate them therein; you insist that it shall be Nature “according to the Stoics,” and would like everything to be made after your own image, as a vast, eternal glorification and universalisation of Stoicism! With all your love for truth, you have forced yourselves so long, so persistently, and with such hypnotic rigidity to see Nature falsely, that is to say, Stoically, that you are no longer able to see it otherwise ⁠— and to crown all, some unfathomable arrogance gives you the lunatic hope that because you are able to tyrannize yourselves ⁠(Stoicism being self-tyranny), Nature will also allow herself to be tyrannized: for isn't the Stoic a part of Nature?
