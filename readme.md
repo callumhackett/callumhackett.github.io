@@ -1,8 +1,8 @@
 This is the source of [Callum Hackett's website](https://callumhackett.github.io/), which was made using [Jekyll](https://jekyllrb.com/) for [GitHub Pages](https://docs.github.com/en/pages).
 
-The visual design is inspired by [the Arts & Crafts movement](https://en.wikipedia.org/wiki/Arts_and_Crafts_movement), which I think is not just visually appealing but also as philosophically relevant today as it was when it was rebelling against 19th century mechanisation.
+The visual design is inspired by [the Arts & Crafts movement](https://en.wikipedia.org/wiki/Arts_and_Crafts_movement), which I think is not just visually appealing but also as philosophically relevant today as it was when rebelling against 19th century mechanisation.
 
-The website background is a popular wallpaper by William Morris, the [Willow Bough](https://www.metmuseum.org/art/collection/search/384022).
+The website background is a popular wallpaper design by William Morris, the [Willow Bough](https://www.metmuseum.org/art/collection/search/384022).
 
 The title font is [Sorts Mill Goudy](https://fonts.google.com/specimen/Sorts+Mill+Goudy), based on the work of [Frederic Goudy](https://en.wikipedia.org/wiki/Frederic_Goudy), and the body font is [Source Serif 4](https://fonts.google.com/specimen/Source+Serif+4), more loosely based on the work of [Pierre-Simon Fournier](https://en.wikipedia.org/wiki/Pierre_Simon_Fournier). Source Serif communicates some of the humanist aesthetic I wanted for the website, though my ideal would be an open source version of [Plantin](https://en.wikipedia.org/wiki/Plantin_(typeface)), which I am sad does not exist.
 
