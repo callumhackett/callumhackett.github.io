@@ -195,7 +195,7 @@ audio {
 
 @media (max-width: 899px) {
     body {
-        margin: 6px;
+        margin: 10px;
     }
     #body-grid {
         display: flex;

@@ -15,3 +15,5 @@ callumjhackett@gmail.com
 ✹ I also have a hand in various other creative projects, like [the website diary](/about-the-diary), [paper reviews](/reviews), [dramatic readings](/moby-dick) and neoclassical electronica:
 
 {% include youtube.html video-id="-MoHFhtfB_Y" %}
+
+✹ If you like the design of the website, you can read about its inspirations [on GitHub](https://github.com/callumhackett/callumhackett.github.io){:target="_blank"}.
