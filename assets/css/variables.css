@@ -5,6 +5,7 @@
 
 :root {
     /* Colours */
+    --text-black: rgba(0, 0, 0, 0.8);
     --soft-black: 48, 48, 61;
     --cave-blue: rgb(0, 94, 202);
     --highlighter: rgb(254, 240, 130);

@@ -2,13 +2,11 @@
 layout: page
 title: Aurelius, the Meditations
 permalink: meditations-reduction
-description: A reduction of Marcus Aurelius's Meditations into a format suitable for memorisation and recitation
+description: A reduction of Marcus Aurelius’s Meditations into a format suitable for memorisation and recitation, with commentary on the limitations of stoic philosophy
 tags: review
 ---
 # Marcus Aurelius, the Meditations
 {:.center-text}
-
-{% include post-description.html %}
 
 This is an atypical review in that it is less a dialogue with a text than it is a dredging up of half-dead habits of thought that nonetheless seem worth sharing.
 

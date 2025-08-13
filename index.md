@@ -12,6 +12,6 @@ callumjhackett@gmail.com
 
 ✹ [I've published](/papers) on the biological and cognitive foundations of language, and I lead a team at [UnlikelyAI](https://www.unlikely.ai/){:target="_blank"} which is designing logical systems to improve the reliability of language models in regulated industries.
 
-✹ I also have a hand in various other creative projects, like [the website diary](/about-the-diary) and [reviews](/reviews), [dramatic readings](/moby-dick), and neoclassical electronica:
+✹ I also have a hand in various other creative projects, like [the website diary](/about-the-diary), [paper reviews](/reviews), [dramatic readings](/moby-dick) and neoclassical electronica:
 
 {% include youtube.html video-id="-MoHFhtfB_Y" %}
