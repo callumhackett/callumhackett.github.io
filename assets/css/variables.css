@@ -10,11 +10,11 @@
     --background-size: 20%;
 
     /* Colours */
-    --text-black: rgba(0, 0, 0, 0.8);
-    --soft-black: rgba(0, 0, 0, 0.5);
+    --text-black: rgba(0, 0, 0, 0.85);
+    --soft-black: rgba(0, 0, 0, 0.6);
     --initials-red: hsla(4, 90%, 30%, 0.8);
-    --cave-blue: hsla(212, 100%, 38%, 0.9);
-    --highlighter: hsla(50, 100%, 75%, 0.8);
+    --cave-blue: hsla(212, 100%, 38%, 0.95);
+    --highlighter: hsla(48, 100%, 75%, 0.85);
     --warm-white:	hsl(42, 44%, 92%);
     --box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
 

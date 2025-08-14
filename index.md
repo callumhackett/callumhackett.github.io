@@ -16,4 +16,4 @@ callumjhackett@gmail.com
 
 {% include youtube.html video-id="-MoHFhtfB_Y" %}
 
-✹ If you like the design of the website, you can read about its inspirations [on GitHub](https://github.com/callumhackett/callumhackett.github.io){:target="_blank"}.
+✹ If you like the design of the site, you can read about its inspirations [here](/design).
