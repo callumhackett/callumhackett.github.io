@@ -24,7 +24,7 @@ Freud observed that some of his patients struggled with this practice and he sug
 
 > The reason for your complaint lies in the constraint which your mind imposes upon your imagination. It is harmful to the creative work of the soul if the mind inspects too closely the ideas pouring in at the gates, as it were … In an artist, the mind withdraws its watchers from the gates, the ideas rush in pell-mell, and it is only then that the great heap is looked over. Critics are ashamed or afraid of the transitory madness which is found in all creators, hence your complaints about barrenness: you reject too soon and discriminate too severely.
 
-The intuition we started with --- that diaries are surely useful things --- is, I think, an intuition that they can be conduits for creative activity, but insofar as this is correct, there is nothing else that can be said, for to say any more would be to make certain discriminations about their form and function which would suffocate possibilities as yet unperceived. The only practical course of action is to write without justification or design, as any analysis of *how* to proceed can only degrade that which it seeks to refine.
+The intuition we started with --- that diaries are surely useful things --- is, I think, an intuition that they can be conduits for creative activity, but insofar as this is correct, there is nothing else that can be said, for to say any more would be to make certain discriminations about form and function which would suffocate possibilities as yet unperceived. The only practical course of action is to write without justification or design, as any analysis of *how* to proceed can only degrade that which it seeks to refine.
 
 {% include divider.html %}
 
