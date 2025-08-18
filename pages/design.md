@@ -3,7 +3,7 @@ layout: page
 title: Website Design
 permalink: design
 ---
-The visual design of the site is inspired by [the Arts & Crafts movement](https://en.wikipedia.org/wiki/Arts_and_Crafts_movement){:target="_blank"}, which not only has a glorious neo-Gothic aesthetic but also a humanism which is as philosophically relevant today as it was when rebelling against 19<sup>th</sup> century mass production techniques.
+The visual design of the site is inspired by [the Arts & Crafts movement](https://en.wikipedia.org/wiki/Arts_and_Crafts_movement){:target="_blank"}, which not only has a glorious neo-Gothic aesthetic but also a humanism which is as relevant today as it was when rebelling against 19<sup>th</sup> century mass production techniques.
 
 The background is a popular wallpaper motif by [William Morris](https://en.wikipedia.org/wiki/William_Morris){:target="_blank"}: the [Willow Bough](https://www.metmuseum.org/art/collection/search/384022){:target="_blank"}.
 
