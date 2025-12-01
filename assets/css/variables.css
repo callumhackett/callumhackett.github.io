@@ -1,44 +1,31 @@
-@font-face {
-  font-family: 'Euclid';
-  src: url('/assets/fonts/EuclidInitials.woff2') format('woff2');
-}
-
 :root {
-    /* Assets */
-    --morris-image: url('/assets/images/morris.png');
-    --paper-image: url('/assets/images/paper.png');
-    --background-size: 20%;
-
     /* Colours */
-    --text-black: rgba(0, 0, 0, 0.85);
-    --soft-black: rgba(0, 0, 0, 0.6);
-    --initials-red: hsla(4, 90%, 30%, 0.8);
-    --cave-blue: hsla(212, 100%, 38%, 0.95);
-    --highlighter: hsla(48, 100%, 75%, 0.85);
-    --warm-white:	hsl(42, 44%, 92%);
-    --box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+    --text-black: rgba(0, 0, 0, 0.9);
+    --lapis-blue: hsl(229, 63%, 43%);
+    --computer-grey: hsl(229, 22.5%, 95%);
 
     /* Font Families */
-    --accent-font: 'Sorts Mill Goudy', 'Garamond', serif;
-    --p-font: 'Source Serif 4', 'Times New Roman', serif;
+    --accent-font: 'Rubik', 'Helvetica', sans-serif;
+    --p-font: 'Rubik', 'Helvetica', sans-serif;
     --code-font: 'CommitMonoV143', monospace;
     --code-font-feature-settings: 'cv03', 'cv08', 'cv10', 'ss03', 'ss04', 'ss05';
 
     /* Font Styles */
-    --h1-size: 24px;
-    --h2-size: 20px;
+    --h1-size: 22px;
+    --h2-size: 18px;
     --description-size: 17px;
-    --p-size: 17px;
-    --caption-size: 15px;
+    --p-size: 16px;
+    --caption-size: 14px;
     --headings-line-height: 1.2em;
     --p-line-height: 1.25em;
-    --p-weight: 450;
-    --description-weight: 390;
-    --p-spacing: -0.1px;
-    --description-spacing: -0.2px;
-    --word-spacing: 1px;
+    --p-weight: 400;
+    --description-weight: 400;
+    --p-spacing: 0px;
+    --description-spacing: 0px;
+    --word-spacing: 0px;
 
     /* Other */
-    --max-content-width: 950px;
-    --border-radius: 2px;
+    --max-content-width: 920px;
+    --border-radius: 4px;
+    --border: 2px solid var(--text-black);
 }

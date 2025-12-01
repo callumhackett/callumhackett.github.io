@@ -5,15 +5,8 @@ title: Home
 # Callum Hackett
 {:.site-title}
 
-callumjhackett@gmail.com
-{:.email}
+I'm a researcher in linguistics, philosophy and AI interested in a scientific account of intelligent systems, be they natural or man-made. I also dabble in problems of consciousness and the scientific method.
 
-✹ I'm a researcher in linguistics, philosophy and AI interested in a scientific account of intelligent systems, be they natural or man-made. I also dabble in related problems of consciousness and the scientific method.
+On the research landscape, you can find me at the intersection of [pragmatism](https://en.wikipedia.org/wiki/Pragmatism), [enactivism](https://en.wikipedia.org/wiki/Enactivism) and [quietism](https://en.wikipedia.org/wiki/Quietism_(philosophy)). For me, intelligence is an explanatory tool, not an algorithm, and what it explains is embodied behaviour, not mental properties.
 
-✹ [I've published](/papers) on the biological and cognitive foundations of language, and I lead a team at [UnlikelyAI](https://www.unlikely.ai/){:target="_blank"} which is designing logical systems to improve the reliability of language models in regulated industries.
-
-✹ I also have a hand in various other creative projects, like [the website diary](/about-the-diary), [paper reviews](/reviews), [dramatic readings](/moby-dick) and neoclassical electronica:
-
-{% include youtube.html video-id="-MoHFhtfB_Y" %}
-
-✹ If you like the design of the site, you can read about its inspirations [here](/design).
+[I've published](/papers) on the biological and cognitive foundations of language, and I currently lead R&D at [UnlikelyAI](https://lab.unlikely.ai/){:target="_blank"}, where my team is designing trustworthy AI systems that are suitable for regulated industries.
