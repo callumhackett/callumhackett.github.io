@@ -156,7 +156,7 @@ audio {
     }
     #navigation {
         display: flex;
-        padding: 36px 24px 24px 24px;
+        padding: 36px 24px 42px 24px;
         row-gap: 18px;
         column-gap: 24px;
         align-items: center;
