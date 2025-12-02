@@ -13,16 +13,16 @@
     /* Font Styles */
     --h1-size: 22px;
     --h2-size: 18px;
-    --description-size: 17px;
     --p-size: 16px;
+    --description-size: 16px;
     --caption-size: 14px;
-    --headings-line-height: 1.2em;
-    --p-line-height: 1.25em;
+    --headings-line-height: 1.3em;
+    --p-line-height: 1.3em;
     --p-weight: 400;
     --description-weight: 400;
-    --p-spacing: 0px;
+    --p-spacing: 0.1px;
     --description-spacing: 0px;
-    --word-spacing: 0px;
+    --word-spacing: -0.5px;
 
     /* Other */
     --max-content-width: 920px;

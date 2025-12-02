@@ -13,10 +13,14 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
+hr {
+    border: 1px solid var(--text-black);
+    margin: calc(2*var(--p-size)) 0;
+    padding: 0;
+}
 
 /* Text */
 .site-title {
-    font-style: normal !important;
     color: var(--text-black);
 }
 #navigation a {
@@ -38,7 +42,6 @@ h1 {
 h2 {
     font-weight: normal;
     font-size: var(--h2-size);
-    margin: 0 0 calc(var(--p-size) / 4) 0;
 }
 p, li {
     color: var(--text-black);
@@ -188,7 +191,7 @@ audio {
         margin: 0;
     }
     body {
-        transform: translateY(-6%);
+        transform: translateY(-2%);
     }
     #body-grid {
         width: var(--max-content-width);
