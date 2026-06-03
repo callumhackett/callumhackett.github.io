@@ -7,6 +7,10 @@ name: Callum Hackett
 description: Callum Hackett is a researcher in linguistics, philosophy and AI.
 author: Callum Hackett
 
+markdown: kramdown
+kramdown:
+  smart_quotes: ["apos", "apos", "quot", "quot"]
+
 # default page attributes
 defaults:
   -

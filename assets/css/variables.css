@@ -5,24 +5,27 @@
     --computer-grey: hsl(229, 22.5%, 95%);
 
     /* Font Families */
-    --accent-font: 'Rubik', 'Helvetica', sans-serif;
-    --p-font: 'Rubik', 'Helvetica', sans-serif;
+    --accent-font: 'National Park', 'Helvetica', sans-serif;
+    --p-font: 'National Park', 'Helvetica', sans-serif;
     --code-font: 'CommitMonoV143', monospace;
     --code-font-feature-settings: 'cv03', 'cv08', 'cv10', 'ss03', 'ss04', 'ss05';
 
     /* Font Styles */
-    --h1-size: 22px;
-    --h2-size: 18px;
-    --p-size: 16px;
+    --h1-size: 26px;
+    --h2-size: 20px;
+    --p-size: 17px;
     --description-size: 16px;
     --caption-size: 14px;
     --headings-line-height: 1.3em;
     --p-line-height: 1.3em;
-    --p-weight: 400;
-    --description-weight: 400;
-    --p-spacing: 0.1px;
+    --title-weight: 550;
+    --p-weight: 467;
+    --description-weight: 467;
+    --link-weight: 433;
+    --p-spacing: 0px;
     --description-spacing: 0px;
-    --word-spacing: -0.5px;
+    --title-spacing: -0.5px;
+    --word-spacing: 0px;
 
     /* Other */
     --max-content-width: 920px;

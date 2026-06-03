@@ -28,14 +28,16 @@ hr {
     font-family: var(--accent-font);
     font-size: var(--h2-size);
     line-height: 0;
+    font-weight: var(--link-weight);
 }
 h1, h2 {
     font-family: var(--accent-font);
     line-height: var(--headings-line-height);
+    letter-spacing: var(--title-spacing);
     word-spacing: var(--word-spacing);
 }
 h1 {
-    font-weight: normal;
+    font-weight: var(--title-weight);
     font-size: var(--h1-size);
     margin: 0 0 var(--p-size) 0;
 }
