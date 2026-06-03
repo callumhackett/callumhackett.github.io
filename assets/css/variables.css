@@ -16,12 +16,15 @@
     --p-size: 17px;
     --description-size: 16px;
     --caption-size: 14px;
+
     --headings-line-height: 1.3em;
     --p-line-height: 1.3em;
+
     --title-weight: 550;
     --p-weight: 467;
     --description-weight: 467;
     --link-weight: 433;
+    
     --p-spacing: 0px;
     --description-spacing: 0px;
     --title-spacing: -0.5px;
