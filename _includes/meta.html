@@ -32,8 +32,12 @@
 
     <body>
         <div id="body-grid">
-            <div class="cell">{{ include.body-content }}</div>
-            <div class="cell"><img src="/assets/images/profile.png" style="border-radius: 6px;"/></div>
+            <div id="grid-header"><h1>Callum Hackett<span class="blink">█</span></h1></div> 
+            <div id="grid-centre">
+                <div class="grid-cell text-cell"><div class="content">{{ include.body-content }}</div></div>
+                <div class="grid-cell img-cell"><img src="/assets/images/profile.png" style="border-radius: 6px;"/></div>
+            </div>
+            <div id="grid-footer"><p>hello@callumhackett.com</p></div>
         </div>
     </body>
 </html>
