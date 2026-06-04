@@ -32,10 +32,8 @@
 
     <body>
         <div id="body-grid">
-            {%- include navigation.html -%}
-            <div id="body-content">
-                {{ include.body-content }}
-            </div>
+            <div class="cell">{{ include.body-content }}</div>
+            <div class="cell"><img src="/assets/images/3_edit.png" style="border-radius: 6px;"/></div>
         </div>
     </body>
 </html>

@@ -7,11 +7,7 @@ body {
 }
 #body-grid {
     display: flex;
-    border: var(--border);
-}
-#navigation {
-    display: flex;
-    flex-wrap: wrap;
+    align-items: center;
 }
 hr {
     border: 1px solid var(--text-black);
@@ -199,8 +195,13 @@ audio {
         width: var(--max-content-width);
         flex-direction: row;
     }
-    #body-content {
-        padding: 60px;
+    .cell {
+        flex: 1;
+        padding: 0 50px;
+    }
+    .cell img {
+        height: 400px;
+        margin-top: 50px;
     }
     #navigation {
         flex-direction: column;
