@@ -13,7 +13,6 @@ body {
 /* Main Layout */
 #main-grid {
     display: inline-block;
-    box-sizing: border-box;
 }
 #grid-header, #grid-footer {
     box-sizing: border-box;
@@ -33,17 +32,17 @@ body {
 .grid-cell {
     height: 350px;
     flex-shrink: 0;
+    overflow-y: auto;
 }
 .grid-cell.text-cell {
     display: flex;
     border: var(--border);
-    width: 400px;
+    width: 375px;
     box-sizing: border-box;
     padding: var(--spacing);
 }
 .grid-cell.text-cell img {
     align-items: center;
-    margin-bottom: 10px;
 }
 .grid-cell.img-cell img {
     height: 100%;
