@@ -1,6 +1,7 @@
 :root {
     /* Colours */
     --computer-grey: hsl(229, 22.5%, 95%);
+    --text-blue: rgb(0, 0, 235);
 
     /* Font Families */
     --accent-font: 'National Park', 'Helvetica', sans-serif;
@@ -24,8 +25,9 @@
     --word-spacing: 0px;
 
     /* Layout */
+    --border: 2px solid blue;
     --cell-width: 300px;
     --cell-height: 500px;
-    --grid-gap: 28px;
+    --spacing: 28px;
     --border-radius: 0px;
 }

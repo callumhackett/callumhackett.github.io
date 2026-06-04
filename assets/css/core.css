@@ -1,6 +1,64 @@
 /* Structural elements */
+html, body {
+    height: 100%;
+    margin: 0;
+}
 body {
-   background-color: var(--computer-grey);
+    background-color: var(--computer-grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main Layout */
+#main-grid {
+    display: inline-block;
+    box-sizing: border-box;
+}
+#grid-header, #grid-footer {
+    box-sizing: border-box;
+    width: 100%;
+}
+#grid-header {
+    color: var(--text-blue);
+    margin: 0 0 var(--spacing) 0;
+}
+#grid-footer {
+    margin: var(--spacing) 0 0 0;
+}
+#grid-centre {
+    display: flex;
+    gap: var(--spacing);
+}
+.grid-cell {
+    height: 350px;
+    flex-shrink: 0;
+}
+.grid-cell.text-cell {
+    display: flex;
+    border: var(--border);
+    width: 400px;
+    box-sizing: border-box;
+    padding: var(--spacing);
+}
+.grid-cell.text-cell img {
+    align-items: center;
+    margin-bottom: 10px;
+}
+.grid-cell.img-cell img {
+    height: 100%;
+    width: auto;
+    display: block;
+    border-radius: 1.5px;
+}
+#substack-cell {
+    background: rgb(233, 209, 203);
+    border: none;
+    width: 250px;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    border-radius: 1.5px;
 }
 
 /* Text */
@@ -16,11 +74,13 @@ h1 {
     margin: 0;
 }
 h2 {
-    font-weight: normal;
+    color: var(--text-blue);
+    font-weight: var(--title-weight);
     font-size: var(--h2-size);
+    margin: 0 0 var(--p-size) 0;
 }
 p, li {
-    color: var(--text-black);
+    color: var(--text-blue);
     font-family: var(--p-font);
     font-size: var(--p-size);
     line-height: var(--p-line-height);
@@ -35,15 +95,11 @@ p:not(:last-child) {
 p:last-child {
     margin-block-end: 0;
 }
-.center-text {
-    text-align: center;
-}
 li {
     margin-bottom: 3px !important;
 }
 a, a:active, a:visited, a:hover {
-    color: var(--lapis-blue);
-    text-decoration: none;
+    color: var(--text-blue);
 }
 ul {
     margin-block-start: calc(var(--p-size) / 3);
@@ -55,7 +111,7 @@ li {
     margin-block-end: calc(var(--p-size) / 3);
 }
 *::selection {
-    background: var(--lapis-blue);
+    background: var(--text-blue);
     color: var(--computer-grey);
 }
 
@@ -78,111 +134,11 @@ audio {
     width: 100%;
     height: 100%;
 }
-
 .blink {
   animation: blink 1s step-end infinite;
 }
-
 @keyframes blink {
   50% {
     opacity: 0;
   }
-}
-
-@media (max-width: 899px) {
-    body {
-        margin: 10px;
-    }
-    #body-grid {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .site-title {
-        text-align: center;
-    }
-    #navigation {
-        display: flex;
-        padding: 36px 24px 42px 24px;
-        row-gap: 18px;
-        column-gap: 24px;
-        align-items: center;
-        justify-content: center;
-        border-bottom: var(--border);
-    }
-    #navigation img {
-        display: none;
-    }
-    #body-content {
-        padding: 36px 24px 24px 24px;
-        max-width: 650px;
-    }
-    blockquote {
-        padding: 0 0 0 calc(var(--p-size) * 1);
-        margin: calc(var(--p-size) * 1.5) 0;
-    }
-    ul, ol {
-        padding-left: var(--p-size) !important;
-    }
-    ol {
-        list-style-position: inside;
-    }
-    li {
-        padding-left: 0px;
-    }
-}
-
-@media (min-width: 900px) {
-    html, body {
-        height: 100%;
-        margin: 0;
-    }
-    body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    #body-grid {
-        display: inline-block;
-    }
-    #grid-header, #grid-footer {
-        box-sizing: border-box;
-        width: 100%;
-    }
-    #grid-header {
-        background: blue;
-        color: white;
-        border-radius: 6px;
-        padding: 12px;
-    }
-    #grid-centre {
-        display: flex;
-        gap: var(--grid-gap);
-        padding: var(--grid-gap) 0;
-    }
-    .grid-cell {
-        height: 500px;
-    }
-    .grid-cell.text-cell {
-        border-radius: 6px;
-        display: flex;
-        width: 400px;
-        box-sizing: border-box;
-        padding: 24px;
-        align-items: center;
-    }
-    .grid-cell.img-cell img {
-        height: 100%;
-        width: auto;
-        display: block;
-    }
-    ul, ol {
-        padding-left: var(--p-size) !important;
-    }
-}
-
-@media (min-width: 500px) {
-    p, .abstract, li {
-        text-align: justify;
-    }
 }

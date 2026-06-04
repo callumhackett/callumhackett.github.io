@@ -21,5 +21,4 @@ defaults:
       description: Callum Hackett is a researcher in linguistics, philosophy and AI.
 
 plugins:
-  - jekyll-feed
   - jekyll-sitemap
