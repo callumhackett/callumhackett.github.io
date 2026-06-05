@@ -5,6 +5,7 @@ html, body {
 }
 body {
     background-color: var(--computer-grey);
+background: radial-gradient(125% 125% at 50% 10%, var(--computer-grey) 30%, rgb(216, 216, 244) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
