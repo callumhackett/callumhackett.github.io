@@ -30,14 +30,14 @@ body {
     gap: var(--spacing);
 }
 .grid-cell {
-    height: 350px;
+    height: 425px;
     flex-shrink: 0;
     overflow-y: auto;
 }
 .grid-cell.text-cell {
     display: flex;
     border: var(--border);
-    width: 375px;
+    width: 300px;
     box-sizing: border-box;
     padding: var(--spacing);
 }
