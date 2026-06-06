@@ -4,8 +4,10 @@ html, body {
     margin: 0;
 }
 body {
-    background-color: var(--computer-grey);
-    background: radial-gradient(125% 125% at 50% 10%, var(--computer-grey) 40%, rgb(216, 216, 244) 100%);
+    background: url('/assets/images/pioneer.png'), linear-gradient(55deg, hsl(240, 100%, 96%) 0%, var(--computer-grey) 33%);
+    background-size: auto 30vh, 100%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: left var(--spacing) bottom var(--spacing), top;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +19,6 @@ body {
 }
 #grid-header, #grid-footer {
     box-sizing: border-box;
-    width: 100%;
 }
 #grid-header {
     color: var(--text-blue);
@@ -31,7 +32,7 @@ body {
     gap: var(--spacing);
 }
 .grid-cell {
-    height: 425px;
+    height: var(--cell-height);
     flex-shrink: 0;
     overflow-y: auto;
 }
@@ -43,28 +44,10 @@ body {
     padding: var(--spacing);
     box-shadow: 4px 4px 0px var(--text-blue);
 }
-.grid-cell.text-cell img {
-    align-items: center;
-}
 .grid-cell.img-cell img {
     height: 100%;
     width: auto;
     display: block;
-    border-radius: 1.5px;
-}
-#substack-cell {
-    background: rgb(233, 209, 203);
-    border: none;
-    width: 250px;
-    text-align: center;
-    align-items: center;
-    justify-items: center;
-    border-radius: 1.5px;
-}
-#substack-cell a {
-    color: black;
-    text-decoration: none;
-    line-height: 1.2em;
 }
 
 /* Text */

@@ -4,7 +4,7 @@ excerpt_separator: <!--more-->
 
 # default site attributes
 name: Callum Hackett
-description: Callum Hackett is a researcher in linguistics, philosophy and AI.
+description: Callum Hackett is a researcher in human and artificial intelligence.
 author: Callum Hackett
 
 markdown: kramdown
@@ -18,7 +18,7 @@ defaults:
       path: "" # i.e. applies everywhere
     values:
       type: website
-      description: Callum Hackett is a researcher in linguistics, philosophy and AI.
+      description: Callum Hackett is a researcher in human and artificial intelligence.
 
 plugins:
   - jekyll-sitemap

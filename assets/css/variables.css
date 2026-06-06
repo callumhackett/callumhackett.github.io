@@ -1,7 +1,7 @@
 :root {
     /* Colours */
-    --computer-grey: hsl(229, 22.5%, 98%);
-    --text-blue: rgb(0, 0, 235);
+    --computer-grey: hsl(240, 22.5%, 97%);
+    --text-blue: hsl(240, 100%, 45%);
 
     /* Font Families */
     --accent-font: 'National Park', 'Helvetica', sans-serif;
@@ -27,7 +27,7 @@
     /* Layout */
     --border: 2px solid blue;
     --cell-width: 300px;
-    --cell-height: 500px;
+    --cell-height: 375px;
     --spacing: 28px;
     --border-radius: 0px;
 }
