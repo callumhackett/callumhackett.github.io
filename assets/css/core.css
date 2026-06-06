@@ -4,7 +4,7 @@ html, body {
     margin: 0;
 }
 body {
-    background: url('/assets/images/pioneer.png'), linear-gradient(55deg, hsl(240, 100%, 96%) 0%, var(--computer-grey) 33%);
+    background: url('/assets/images/pioneer.png'), radial-gradient(125% 125% at 50% 10%, var(--computer-grey) 40%, hsl(240, 100%, 95%) 100%);
     background-size: auto 30vh, 100%;
     background-repeat: no-repeat, no-repeat;
     background-position: left var(--spacing) bottom var(--spacing), top;
