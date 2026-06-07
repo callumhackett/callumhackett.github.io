@@ -1,21 +1,21 @@
 /* Structural elements */
 html, body {
-    background-color: var(--computer-grey);
+    background-color: rgb(var(--bg-whatever));
     height: 100%;
     margin: 0;
 }
 body {
     background: linear-gradient(
   to bottom,
-  rgba(246, 246, 249, 1) 5%,
-  rgba(246, 246, 249, 0.9) 15%,
-  rgba(246, 246, 249, 0.9) 30%,
-  rgba(246, 246, 249, 0.2) 35%,
-  rgba(246, 246, 249, 0) 50%,
-  rgba(246, 246, 249, 0.2) 65%,
-  rgba(246, 246, 249, 0.9) 70%,
-  rgba(246, 246, 249, 0.9) 85%,
-  rgba(246, 246, 249, 1) 95%
+  rgba(var(--bg-whatever), 1) 5%,
+  rgba(var(--bg-whatever), 0.85) 15%,
+  rgba(var(--bg-whatever), 0.85) 30%,
+  rgba(var(--bg-whatever), 0.2) 35%,
+  rgba(var(--bg-whatever), 0) 50%,
+  rgba(var(--bg-whatever), 0.2) 65%,
+  rgba(var(--bg-whatever), 0.85) 70%,
+  rgba(var(--bg-whatever), 0.85) 85%,
+  rgba(var(--bg-whatever), 1) 95%
 ), url('/assets/images/plaque.png');
     background-size: 100%, auto 90vh;
     background-repeat: no-repeat, no-repeat;
@@ -57,10 +57,14 @@ body {
     padding: var(--spacing);
     box-shadow: 4px 4px 0px var(--text-blue);
 }
+.grid-cell.img-cell {
+    box-shadow: 4px 4px 0px rgb(36, 29, 28);
+}
 .grid-cell.img-cell img {
     height: 100%;
     width: auto;
     display: block;
+    
 }
 
 /* Text */
