@@ -7,7 +7,6 @@
         background-position: left 50px center, left 20px bottom 12px, top;
     }
 }
-
 @media (max-width: 999px) {
     body {
         background: radial-gradient(125% 125% at 33% 20%, rgba(255, 255, 255, 0) 40%, #0000ff1a 100%);
