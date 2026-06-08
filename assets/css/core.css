@@ -1,17 +1,33 @@
 /* Structural elements */
+@media (min-width: 1000px) {
+    body {
+        background: url('/assets/images/star.png'), url('/assets/images/people.png'), radial-gradient(125% 125% at 33% 20%, rgba(255, 255, 255, 0) 40%, #0000ff1a 100%);
+        background-size: auto 90vh, auto 20vh, 100%;
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-position: left 50px center, left 20px bottom 12px, top;
+    }
+}
+
+@media (max-width: 999px) {
+    body {
+        background: radial-gradient(125% 125% at 33% 20%, rgba(255, 255, 255, 0) 40%, #0000ff1a 100%);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+}
+
 html, body {
-    background-color: rgb(var(--bg-whatever));
-    height: 100%;
+    background-color: var(--computer-grey);
+    min-height: 100vh;
     margin: 0;
 }
 body {
-    background: url('/assets/images/star.png'), radial-gradient(125% 125% at 33% 20%, rgba(255, 255, 255, 0) 40%, #0000ff11 100%);
-    background-size: auto 90vh, 100%;
-    background-repeat: no-repeat, no-repeat;
-    background-position: left 40px center, top;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 16px;
+    box-sizing: border-box;
 }
 
 /* Main Layout */
@@ -19,7 +35,10 @@ body {
     display: inline-block;
 }
 #grid-header, #grid-footer {
+    display: flex;
     box-sizing: border-box;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 #grid-header {
     color: var(--text-blue);
@@ -31,6 +50,8 @@ body {
 #grid-centre {
     display: flex;
     gap: var(--spacing);
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .grid-cell {
     height: var(--cell-height);

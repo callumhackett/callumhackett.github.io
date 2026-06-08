@@ -1,8 +1,8 @@
 :root {
     /* Colours */
-    --computer-grey: hsl(240, 50%, 97%);
-    --text-blue: hsl(240, 100%, 45%);
-    --bg-whatever: 153, 206, 255;
+    --computer-grey: hsl(240, 50%, 95%);
+    --text-blue: hsl(240, 80%, 50%);
+    --bg-whatever: 194, 194, 255;
 
     /* Font Families */
     --accent-font: 'National Park', 'Helvetica', sans-serif;
