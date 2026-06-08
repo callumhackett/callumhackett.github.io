@@ -2,6 +2,8 @@
     /* Colours */
     --computer-grey: hsl(240, 50%, 95%);
     --text-blue: hsl(240, 90%, 45%);
+    --sunny: hsl(43, 80%, 70%);
+    --link-color: hsl(13, 100%, 38%);
 
     /* Font Families */
     --accent-font: 'National Park', 'Helvetica', sans-serif;

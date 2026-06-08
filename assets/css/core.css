@@ -1,7 +1,7 @@
 /* Structural elements */
 @media (min-width: 1000px) {
     body {
-        background: url('/assets/images/star.png'), url('/assets/images/people.png'), radial-gradient(125% 125% at 33% 20%, rgba(255, 255, 255, 0) 40%, #0000ff1a 100%);
+        background: url('/assets/images/star.png'), url('/assets/images/people.png'), radial-gradient(125% 125% at 33% 20%, rgba(255, 255, 255, 0) 40%, #ff800058 100%);
         background-size: auto 90vh, auto 22.5vh, 100%;
         background-repeat: no-repeat, no-repeat, no-repeat;
         background-position: left 50px center, left 20px bottom 12px, top;
@@ -17,7 +17,7 @@
 }
 
 html, body {
-    background-color: var(--computer-grey);
+    background-color: var(--sunny);
     min-height: 100vh;
     margin: 0;
 }
@@ -39,6 +39,9 @@ body {
     justify-content: center;
     flex-wrap: wrap;
 }
+#grid-header a, #grid-footer a {
+    color: var(--text-blue);
+}
 #grid-header {
     color: var(--text-blue);
     margin: 0 0 var(--spacing) 0;
@@ -59,7 +62,7 @@ body {
 }
 .grid-cell.text-cell {
     display: flex;
-    background: rgb(251, 249, 248);
+    background: hsl(43, 80%, 97%);
     border: var(--border);
     width: 300px;
     box-sizing: border-box;
@@ -114,7 +117,7 @@ li {
     margin-bottom: 3px !important;
 }
 a, a:active, a:visited, a:hover {
-    color: var(--text-blue);
+    color: var(--link-color);
 }
 ul {
     margin-block-start: calc(var(--p-size) / 3);
