@@ -1,7 +1,7 @@
 /* Structural elements */
 @media (min-width: 1000px) {
     body {
-        background: url('/assets/images/star.png'), url('/assets/images/people.png'), radial-gradient(125% 125% at 33% 20%, rgba(255, 255, 255, 0) 40%, #ff800058 100%);
+        background: url('/assets/images/star.png'), url('/assets/images/people.png'), radial-gradient(125% 125% at 33% 20%, rgba(255, 255, 255, 0) 40%, #ff80006a 100%);
         background-size: auto 90vh, auto 22.5vh, 100%;
         background-repeat: no-repeat, no-repeat, no-repeat;
         background-position: left 50px center, left 20px bottom 12px, top;
