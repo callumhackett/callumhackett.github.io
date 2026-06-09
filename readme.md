@@ -1,1 +1,1 @@
-This is the source of [Callum Hackett's website](https://callumhackett.github.io/), which was made using [Jekyll](https://jekyllrb.com/) and [GitHub Pages](https://docs.github.com/en/pages).
+This is the source of [Callum Hackett's website](callumhackett.com), which was made using [Jekyll](https://jekyllrb.com/) and [GitHub Pages](https://docs.github.com/en/pages).
