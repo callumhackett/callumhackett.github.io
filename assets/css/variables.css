@@ -3,14 +3,14 @@
     --computer-grey: hsl(240, 50%, 95%);
     --text-blue: hsl(240, 85%, 43%);
     --sunny: hsl(43, 75%, 72%);
-    --link-color: hsl(13, 100%, 38%);
+    --link-color: hsl(18, 100%, 38%);
 
     /* Font Families */
     --accent-font: 'National Park', 'Helvetica', sans-serif;
     --p-font: 'National Park', 'Helvetica', sans-serif;
 
     /* Font Styles */
-    --h1-size: 26px;
+    --h1-size: 29px;
     --h2-size: 20px;
     --p-size: 17px;
 
