@@ -1,17 +1,37 @@
-@media (min-width: 1000px) {
+/* Size-Depedent Settings */
+@media (min-width: 700px) {
     body {
-        background: radial-gradient(125% 125% at 33% 20%, rgba(255, 255, 255, 0) 40%, #00000055 100%), url('/assets/images/torso.png'), url('/assets/images/robot.png'), url('/assets/images/bg.png');
-        background-size: 100%, 20%, 20%, auto;
+        background: var(--bg-gradient), var(--torso-img), var(--robot-img), var(--bg-texture);
+        background-size: 100%, auto 50vh, auto 50vh, auto;
         background-repeat: no-repeat, no-repeat, no-repeat, repeat;
         background-position: top, 7.5% center, 92.5% center, top;
+        align-items: center;
+        padding: var(--content-padding);
+    }
+    #main {
+        padding: var(--content-padding);
+        max-height: 75vh;
+    }
+    h1 {
+        margin: calc(var(--h1-size)/-2) 0 0 0;
+    }
+    p, li {
+        text-align: justify;
     }
 }
-@media (max-width: 999px) {
+@media (max-width: 699px) {
     body {
-        background: radial-gradient(125% 125% at 33% 20%, rgba(255, 255, 255, 0) 40%, #00000055 100%), url('/assets/images/bg.png');
+        background: var(--bg-gradient), var(--bg-texture);
         background-size: 100%, auto;
         background-repeat: no-repeat, repeat;
         background-position: top, top;
+        padding: 0;
+    }
+    #main {
+        padding: 6vw;
+    }
+    h1 {
+        margin: 8px 0px 0px 0px;
     }
 }
 
@@ -23,9 +43,7 @@ html, body {
 body {
     display: flex;
     justify-content: center;
-    align-items: center;
     box-sizing: border-box;
-    padding: var(--content-padding);
 }
 
 /* Main Layout */
@@ -37,11 +55,7 @@ body {
     background-color: var(--content-bg-color);
     background-blend-mode: lighten;
     box-sizing: border-box;
-    padding: 25px var(--content-padding) var(--content-padding) var(--content-padding);
-}
-#main img {
-    display: block;
-    margin: 0 auto;
+    overflow-y: auto;
 }
 #footer {
     padding: var(--p-size);
@@ -58,15 +72,14 @@ h1, h2 {
     font-family: var(--accent-font);
     line-height: var(--headings-line-height);
     letter-spacing: var(--title-spacing);
-    word-spacing: var(--word-spacing);
 }
 h1 {
     color: var(--accent-color);
     font-weight: var(--title-weight);
     font-size: var(--h1-size);
-    margin: 0;
     text-align: center;
-    padding: var(--p-size) 0 calc(var(--p-size)*2) 0;
+    padding: 0 0 calc(var(--p-size)*2) 0;
+    word-spacing: var(--word-spacing);
 }
 h2 {
     color: var(--accent-color);
@@ -82,7 +95,6 @@ p, li {
     font-weight: var(--p-weight);
     margin-block-start: 0 !important;
     letter-spacing: var(--p-spacing);
-    text-align: justify;
 }
 p:not(:last-child) {
     margin-block-end: var(--p-size);
