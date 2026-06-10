@@ -1,9 +1,10 @@
 :root {
     /* Colours */
-    --computer-grey: hsl(240, 50%, 95%);
-    --text-blue: hsl(240, 83%, 96%);
-    --sunny: hsl(43, 5%, 33%);
-    --link-color: hsl(18, 87%, 40%);
+    --bg-color: hsl(48, 5%, 35%);
+    --font-color: white;
+    --link-color: pink;
+    --content-bg-color: rgba(41, 40, 35, 0.8);
+    --content-shadow: 4px 4px 0px black;
 
     /* Font Families */
     --accent-font: 'National Park', 'Helvetica', sans-serif;
@@ -25,8 +26,7 @@
     --word-spacing: 0px;
 
     /* Layout */
-    --border: 2px solid blue;
-    --cell-width: 300px;
-    --cell-height: 375px;
-    --spacing: 28px;
+    --body-padding: 20px;
+    --content-width: 650px;
+    --content-padding: 67px;
 }
