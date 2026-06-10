@@ -22,12 +22,11 @@
     --title-weight: 600;
     --p-weight: 400;
     
-    --p-spacing: 0px;
+    --p-spacing: -0.25px;
     --title-spacing: -0.5px;
     --word-spacing: 5px;
 
     /* Layout */
-    --body-padding: 20px;
     --content-width: 650px;
     --content-padding: 4vw;
 }
