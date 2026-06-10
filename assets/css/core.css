@@ -1,6 +1,6 @@
 @media (min-width: 1000px) {
     body {
-        background: radial-gradient(125% 125% at 33% 20%, rgba(255, 255, 255, 0) 40%, #00000066 100%), url('/assets/images/torso.png'), url('/assets/images/robot.png'), url('/assets/images/bg.png');
+        background: radial-gradient(125% 125% at 33% 20%, rgba(255, 255, 255, 0) 40%, #00000055 100%), url('/assets/images/torso.png'), url('/assets/images/robot.png'), url('/assets/images/bg.png');
         background-size: 100%, 20%, 20%, auto;
         background-repeat: no-repeat, no-repeat, no-repeat, repeat;
         background-position: top, 7.5% center, 92.5% center, top;
@@ -8,10 +8,10 @@
 }
 @media (max-width: 999px) {
     body {
-        background: radial-gradient(125% 125% at 33% 20%, rgba(255, 255, 255, 0) 40%, #0000ff1a 100%);
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-position: top;
+        background: radial-gradient(125% 125% at 33% 20%, rgba(255, 255, 255, 0) 40%, #00000055 100%), url('/assets/images/bg.png');
+        background-size: 100%, auto;
+        background-repeat: no-repeat, repeat;
+        background-position: top, top;
     }
 }
 
@@ -29,17 +29,27 @@ body {
 }
 
 /* Main Layout */
+#content {
+    box-shadow: var(--content-shadow);
+}
 #main {
     max-width: var(--content-width);
     background-color: var(--content-bg-color);
     background-blend-mode: lighten;
     box-sizing: border-box;
     padding: 25px var(--content-padding) var(--content-padding) var(--content-padding);
-    box-shadow: var(--content-shadow);
 }
 #main img {
     display: block;
     margin: 0 auto;
+}
+#footer {
+    padding: var(--p-size);
+    box-sizing: border-box;
+    background: var(--footer-bg-color);
+}
+#footer p {
+    text-align: center;
 }
 
 /* Text */

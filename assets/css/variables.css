@@ -2,31 +2,32 @@
     /* Colours */
     --bg-color: hsl(48, 5%, 35%);
     --font-color: hsl(32, 100%, 96%);
-    --accent-color: hsl(32, 75%, 74%);
+    --accent-color: hsl(32, 85%, 74%);
     --content-bg-color: rgba(40, 40, 35, 0.8);
+    --footer-bg-color: rgba(60, 60, 54, 0.8);
     --content-shadow: 3px 3px 0px black;
 
     /* Font Families */
-    --accent-font: 'National Park', 'Helvetica', sans-serif;
-    --p-font: 'National Park', 'Helvetica', sans-serif;
+    --accent-font: 'Solway', 'Helvetica', sans-serif;
+    --p-font: 'Solway', 'Helvetica', sans-serif;
 
     /* Font Styles */
-    --h1-size: 29px;
-    --h2-size: 20px;
+    --h1-size: 28px;
+    --h2-size: 22px;
     --p-size: 18px;
 
     --headings-line-height: 1em;
     --p-line-height: 1.3em;
 
-    --title-weight: 550;
-    --p-weight: 467;
+    --title-weight: 600;
+    --p-weight: 400;
     
     --p-spacing: 0px;
     --title-spacing: -0.5px;
-    --word-spacing: 0px;
+    --word-spacing: 5px;
 
     /* Layout */
     --body-padding: 20px;
     --content-width: 650px;
-    --content-padding: 67px;
+    --content-padding: 4vw;
 }
