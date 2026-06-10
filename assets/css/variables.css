@@ -1,10 +1,10 @@
 :root {
     /* Colours */
     --bg-color: hsl(48, 5%, 35%);
-    --font-color: white;
-    --link-color: pink;
-    --content-bg-color: rgba(41, 40, 35, 0.8);
-    --content-shadow: 4px 4px 0px black;
+    --font-color: hsl(32, 100%, 96%);
+    --accent-color: hsl(32, 75%, 74%);
+    --content-bg-color: rgba(40, 40, 35, 0.8);
+    --content-shadow: 3px 3px 0px black;
 
     /* Font Families */
     --accent-font: 'National Park', 'Helvetica', sans-serif;
