@@ -1,8 +1,8 @@
 :root {
     /* Colours */
     --computer-grey: hsl(240, 50%, 95%);
-    --text-blue: hsl(240, 83%, 43%);
-    --sunny: hsl(43, 75%, 73%);
+    --text-blue: hsl(240, 83%, 96%);
+    --sunny: hsl(43, 5%, 33%);
     --link-color: hsl(18, 87%, 40%);
 
     /* Font Families */
@@ -12,7 +12,7 @@
     /* Font Styles */
     --h1-size: 29px;
     --h2-size: 20px;
-    --p-size: 17px;
+    --p-size: 18px;
 
     --headings-line-height: 1em;
     --p-line-height: 1.3em;

@@ -1,10 +1,10 @@
 /* Structural elements */
 @media (min-width: 1000px) {
     body {
-        background: url('/assets/images/star.png'), url('/assets/images/people.png'), radial-gradient(125% 125% at 33% 20%, rgba(255, 255, 255, 0) 40%, #ff80005a 100%);
-        background-size: auto 90vh, auto 22.5vh, 100%;
-        background-repeat: no-repeat, no-repeat, no-repeat;
-        background-position: left 50px center, left 20px bottom 12px, top;
+        background: radial-gradient(125% 125% at 33% 20%, rgba(255, 255, 255, 0) 40%, #00000066 100%), url('/assets/images/eye_trans.png'), url('/assets/images/sq2.png');
+        background-size: 100%, auto 80vh, auto;
+        background-repeat: no-repeat, no-repeat, repeat;
+        background-position: top, left center, top;
     }
 }
 @media (max-width: 999px) {
@@ -25,11 +25,25 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px;
     box-sizing: border-box;
 }
 
 /* Main Layout */
+#main {
+    max-width: 675px;
+    background-color: rgba(41, 40, 35, 0.8);
+    background-blend-mode: lighten;
+    box-sizing: border-box;
+    padding: 25px 75px 75px 75px;
+    box-shadow: 4px 4px 0px black;
+}
+
+#main img {
+    display: block;
+    margin: 0 auto;
+}
+
+
 #main-grid {
     display: inline-block;
 }
