@@ -1,6 +1,6 @@
 :root {
     /* Files */
-    --bg-texture: url('/assets/images/bg.png');
+    --bg-texture: url('/assets/images/board.png');
     --torso-img: url('/assets/images/torso.png');
     --robot-img: url('/assets/images/robot.png');
 
