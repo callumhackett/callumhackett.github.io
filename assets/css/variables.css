@@ -1,6 +1,6 @@
 :root {
     /* Files */
-    --bg-texture: url('/assets/images/board.png');
+    --bg-texture: url('/assets/images/felt.png');
     --torso-img: url('/assets/images/torso.png');
     --robot-img: url('/assets/images/robot.png');
 
@@ -8,7 +8,7 @@
     --bg-color: hsl(48, 5%, 35%);
     --bg-gradient: radial-gradient(125% 125% at 33% 20%, transparent 40%, #00000066 100%);
     --content-bg-color: rgba(40, 40, 35, 0.9);
-    --footer-bg-color: rgba(60, 60, 54, 0.8);
+    --footer-bg-color: rgba(60, 60, 54, 0.9);
 
     --font-color: hsl(32, 100%, 96%);
     --accent-color: hsl(34, 85%, 74%);

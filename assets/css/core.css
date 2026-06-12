@@ -2,7 +2,7 @@
 @media (min-width: 700px) {
     body {
         background: var(--bg-gradient), var(--torso-img), var(--robot-img), var(--bg-texture);
-        background-size: 100%, auto 50vh, auto 50vh, auto;
+        background-size: 100%, auto 50vh, auto 50vh, 512px;
         background-repeat: no-repeat, no-repeat, no-repeat, repeat;
         background-position: top, 7.5% center, 92.5% center, top;
         align-items: center;
