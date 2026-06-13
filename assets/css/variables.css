@@ -16,12 +16,12 @@
     --content-shadow: 3px 3px 0px rgba(17, 17, 15, 0.8);
 
     /* Fonts */
-    --accent-font: 'Solway', 'Helvetica', sans-serif;
-    --p-font: 'Solway', 'Helvetica', sans-serif;
+    --accent-font: 'Besley', serif;
+    --p-font: 'Sorts Mill Goudy', serif;
 
     --h1-size: 28px;
     --h2-size: 22px;
-    --p-size: 18px;
+    --p-size: 19px;
 
     --headings-line-height: 1em;
     --p-line-height: 1.3em;
