@@ -1,14 +1,13 @@
 :root {
     /* Files */
-    --bg-texture: url('/assets/images/felt.png');
     --torso-img: url('/assets/images/torso.png');
     --robot-img: url('/assets/images/robot.png');
 
     /* Colours */
-    --bg-color: hsl(48, 5%, 35%);
+    --bg-color: rgba(39, 39, 40, 1);
     --bg-gradient: radial-gradient(125% 125% at 33% 20%, transparent 40%, #00000066 100%);
-    --content-bg-color: rgba(40, 40, 35, 1);
-    --footer-bg-color: rgba(60, 60, 54, 1);
+    --content-bg-color: rgba(39, 39, 40, 1);
+    --footer-bg-color: rgba(46, 46, 47, 1);
     --font-color: hsl(32, 100%, 96%);
     --accent-color: hsl(34, 85%, 74%);
 
@@ -21,7 +20,7 @@
 
     --h1-size: 36px;
     --h2-size: 24px;
-    --p-size: 19px;
+    --p-size: 20.5px;
     --footer-size: 16px;
 
     --headings-line-height: 1em;
@@ -31,10 +30,11 @@
     --p-weight: 400;
     
     --p-spacing: -0.05px;
+    --p-word-spacing: 0px;
     --title-spacing: 0px;
     --word-spacing: 0px;
 
     /* Layout */
-    --content-width: 699px;
+    --content-width: 650px;
     --content-padding: 69px;
 }

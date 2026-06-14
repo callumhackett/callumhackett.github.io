@@ -1,40 +1,11 @@
 /* Size-Depedent Settings */
-@media (min-width: 700px) {
-    body {
-        background: var(--bg-gradient), var(--torso-img), var(--robot-img), var(--bg-texture);
-        background-size: 100%, auto 50vh, auto 50vh, 512px;
-        background-repeat: no-repeat, no-repeat, no-repeat, repeat;
-        background-position: top, 7.5% center, 92.5% center, top;
-        align-items: center;
-        padding: var(--content-padding);
-    }
-    #main {
-        padding: var(--content-padding);
-        max-height: 75vh;
-    }
-    h1 {
-        margin: calc(var(--h1-size)/-2) 0 0 0;
-    }
+@media (min-width: 500px) {
     p, li {
         text-align: justify;
     }
 }
-@media (max-width: 699px) {
-    body {
-        background: var(--bg-gradient), var(--bg-texture);
-        background-size: 100%, auto;
-        background-repeat: no-repeat, repeat;
-        background-position: top, top;
-        padding: 0;
-    }
-    #main {
-        padding: 6vw;
-    }
-    h1 {
-        margin: 8px 0px 0px 0px;
-    }
-}
 
+/* Main Layout */
 html, body {
     background-color: var(--bg-color);
     min-height: 100vh;
@@ -42,28 +13,25 @@ html, body {
 }
 body {
     display: flex;
+    align-items: center;
     justify-content: center;
-    box-sizing: border-box;
-}
-
-/* Main Layout */
-#content {
-    box-shadow: var(--content-shadow);
 }
 #main {
+    padding: 30px 30px 80px 30px;
     max-width: var(--content-width);
-    background-color: var(--content-bg-color);
-    background-blend-mode: lighten;
-    box-sizing: border-box;
-    overflow-y: auto;
 }
 #footer {
-    padding: var(--p-size);
-    box-sizing: border-box;
+    display: flex;
     background: var(--footer-bg-color);
+    width: 100%;
+    position: absolute;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
 }
 #footer p {
-    text-align: center;
     font-family: var(--footer-font);
     font-size: var(--footer-size);
 }
@@ -82,6 +50,7 @@ h1 {
     text-align: center;
     padding: 0 0 calc(var(--p-size)*2) 0;
     word-spacing: var(--word-spacing);
+    margin: 0;
 }
 h2 {
     color: var(--accent-color);
@@ -97,6 +66,7 @@ p, li {
     font-weight: var(--p-weight);
     margin-block-start: 0 !important;
     letter-spacing: var(--p-spacing);
+    word-spacing: var(--p-word-spacing);
 }
 p:not(:last-child) {
     margin-block-end: var(--p-size);
@@ -121,7 +91,7 @@ li {
 }
 *::selection {
     background: var(--accent-color);
-    color: black;
+    color: var(--bg-color);
 }
 
 /* Media */
