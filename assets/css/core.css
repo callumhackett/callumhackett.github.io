@@ -64,6 +64,8 @@ body {
 }
 #footer p {
     text-align: center;
+    font-family: var(--footer-font);
+    font-size: var(--footer-size);
 }
 
 /* Text */

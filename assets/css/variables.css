@@ -7,21 +7,22 @@
     /* Colours */
     --bg-color: hsl(48, 5%, 35%);
     --bg-gradient: radial-gradient(125% 125% at 33% 20%, transparent 40%, #00000066 100%);
-    --content-bg-color: rgba(40, 40, 35, 0.9);
-    --footer-bg-color: rgba(60, 60, 54, 0.9);
-
+    --content-bg-color: rgba(40, 40, 35, 1);
+    --footer-bg-color: rgba(60, 60, 54, 1);
     --font-color: hsl(32, 100%, 96%);
     --accent-color: hsl(34, 85%, 74%);
 
-    --content-shadow: 3px 3px 0px rgba(17, 17, 15, 0.8);
+    --content-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
 
     /* Fonts */
-    --accent-font: 'Besley', serif;
-    --p-font: 'Sorts Mill Goudy', serif;
+    --accent-font: 'Goudy Bookletter 1911', 'Georgia', serif;
+    --p-font: 'Libertinus Serif', 'Sorts Mill Goudy', 'Georgia', serif;
+    --footer-font: 'National Park', 'Helvetica', 'Arial', sans-serif;
 
-    --h1-size: 28px;
-    --h2-size: 22px;
+    --h1-size: 36px;
+    --h2-size: 24px;
     --p-size: 19px;
+    --footer-size: 16px;
 
     --headings-line-height: 1em;
     --p-line-height: 1.3em;
@@ -29,9 +30,9 @@
     --title-weight: 600;
     --p-weight: 400;
     
-    --p-spacing: -0.25px;
-    --title-spacing: -0.5px;
-    --word-spacing: 5px;
+    --p-spacing: -0.05px;
+    --title-spacing: 0px;
+    --word-spacing: 0px;
 
     /* Layout */
     --content-width: 699px;
