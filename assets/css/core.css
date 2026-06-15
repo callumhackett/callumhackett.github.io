@@ -31,20 +31,20 @@ body {
     align-items: center;
     justify-content: center;
 }
-#footer p {
+#footer p, #footer a {
     font-family: var(--footer-font);
     font-size: var(--footer-size);
+    color: rgba(0, 0, 0, 0.45);
 }
 
 /* Text */
 h1, h2 {
-    color: var(--font-color);
     font-family: var(--accent-font);
     line-height: var(--headings-line-height);
     letter-spacing: var(--title-spacing);
 }
 h1 {
-    color: var(--accent-color);
+    color: var(--font-color);
     font-weight: var(--title-weight);
     font-size: var(--h1-size);
     text-align: center;
@@ -53,7 +53,7 @@ h1 {
     margin: 0;
 }
 h2 {
-    color: var(--accent-color);
+    color: var(--font-color);
     font-weight: var(--title-weight);
     font-size: var(--h2-size);
     margin: calc(var(--p-size)*2) 0 var(--p-size) 0;

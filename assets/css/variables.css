@@ -4,34 +4,33 @@
     --robot-img: url('/assets/images/robot.png');
 
     /* Colours */
-    --bg-color: rgba(39, 39, 40, 1);
+    --bg-color: hsl(12, 60.8%, 90%);
     --bg-gradient: radial-gradient(125% 125% at 33% 20%, transparent 40%, #00000066 100%);
-    --content-bg-color: rgba(39, 39, 40, 1);
-    --footer-bg-color: rgba(46, 46, 47, 1);
-    --font-color: hsl(32, 100%, 96%);
-    --accent-color: hsl(34, 85%, 74%);
+    --footer-bg-color: hsl(12, 47.4%, 85.1%);
+    --font-color: hsla(12, 0%, 0%, 0.75);
+    --accent-color: hsl(4, 81.8%, 49.6%);
 
     --content-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
 
     /* Fonts */
     --accent-font: 'Goudy Bookletter 1911', 'Georgia', serif;
-    --p-font: 'Libertinus Serif', 'Sorts Mill Goudy', 'Georgia', serif;
+    --p-font: 'Crimson Pro', 'Georgia', serif;
     --footer-font: 'National Park', 'Helvetica', 'Arial', sans-serif;
 
     --h1-size: 36px;
-    --h2-size: 24px;
-    --p-size: 20.5px;
+    --h2-size: 22px;
+    --p-size: 20px;
     --footer-size: 16px;
 
     --headings-line-height: 1em;
     --p-line-height: 1.3em;
 
     --title-weight: 600;
-    --p-weight: 400;
+    --p-weight: 430;
     
-    --p-spacing: -0.05px;
+    --p-spacing: 0px;
     --p-word-spacing: 0px;
-    --title-spacing: 0px;
+    --title-spacing: -0.3px;
     --word-spacing: 0px;
 
     /* Layout */
