@@ -14,27 +14,36 @@ html, body {
 body {
     display: flex;
     align-items: center;
-    justify-content: center;
+    flex-direction: column;
+}
+#title {
+    width: 100vw;
+    border-top: 1px solid hsl(12, 27.4%, 80.1%);
+    border-bottom: 1px solid hsl(12, 27.4%, 80.1%);
+    padding: 30px 0px;
+    margin: 30px 0px 45px 0px;
 }
 #main {
-    padding: 30px 30px 80px 30px;
+    padding: 0px 30px 45px 30px;
     max-width: var(--content-width);
+    flex: 1;
 }
 #footer {
     display: flex;
-    background: var(--footer-bg-color);
+    background: var(--secondary-bg-color);
     width: 100%;
-    position: absolute;
-    position: fixed;
-    bottom: 0;
+    justify-content: center;
     height: 50px;
     align-items: center;
-    justify-content: center;
+}
+#main img {
+    border-radius: 3px;
 }
 #footer p, #footer a {
     font-family: var(--footer-font);
     font-size: var(--footer-size);
     color: rgba(0, 0, 0, 0.45);
+    letter-spacing: var(--footer-spacing);
 }
 
 /* Text */
@@ -48,7 +57,6 @@ h1 {
     font-weight: var(--title-weight);
     font-size: var(--h1-size);
     text-align: center;
-    padding: 0 0 calc(var(--p-size)*2) 0;
     word-spacing: var(--word-spacing);
     margin: 0;
 }
