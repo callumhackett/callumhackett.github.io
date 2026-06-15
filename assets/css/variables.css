@@ -1,40 +1,33 @@
 :root {
-    /* Files */
-    --torso-img: url('/assets/images/torso.png');
-    --robot-img: url('/assets/images/robot.png');
-
     /* Colours */
     --bg-color: hsl(12, 60.8%, 90%);
-    --bg-gradient: radial-gradient(125% 125% at 33% 20%, transparent 40%, #00000066 100%);
-    --secondary-bg-color: hsl(12, 47.4%, 85.1%);
     --font-color: hsla(12, 0%, 0%, 0.75);
     --accent-color: hsl(4, 81.8%, 49.6%);
-
-    --content-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
 
     /* Fonts */
     --accent-font: 'Goudy Bookletter 1911', 'Georgia', serif;
     --p-font: 'Source Serif 4', 'Georgia', serif;
-    --footer-font: 'Courier Prime', 'National Park', 'Helvetica', 'Arial', sans-serif;
+    --footer-font: 'Courier Prime', 'Courier', 'Helvetica', 'Arial', sans-serif;
 
     --h1-size: 36px;
     --h2-size: 22px;
+    --intro-size: 20px;
     --p-size: 18px;
     --footer-size: 15px;
 
     --headings-line-height: 1em;
     --p-line-height: 1.4em;
 
-    --title-weight: 600;
-    --p-weight: 440;
+    --title-weight: bold;
+    --intro-weight: 480;
+    --p-weight: 450;
     
     --p-spacing: -0.1px;
     --p-word-spacing: 1px;
     --footer-spacing: -0.3px;
     --title-spacing: -0.2px;
-    --word-spacing: 0px;
+    --title-word-spacing: 0px;
 
     /* Layout */
     --content-width: 650px;
-    --content-padding: 69px;
 }
