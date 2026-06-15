@@ -14,22 +14,22 @@
 
     /* Fonts */
     --accent-font: 'Goudy Bookletter 1911', 'Georgia', serif;
-    --p-font: 'Crimson Pro', 'Georgia', serif;
+    --p-font: 'Source Serif 4', 'Georgia', serif;
     --footer-font: 'Courier Prime', 'National Park', 'Helvetica', 'Arial', sans-serif;
 
     --h1-size: 36px;
     --h2-size: 22px;
-    --p-size: 20.5px;
+    --p-size: 18px;
     --footer-size: 15px;
 
     --headings-line-height: 1em;
-    --p-line-height: 1.25em;
+    --p-line-height: 1.4em;
 
     --title-weight: 600;
-    --p-weight: 430;
+    --p-weight: 440;
     
-    --p-spacing: 0px;
-    --p-word-spacing: 0px;
+    --p-spacing: -0.1px;
+    --p-word-spacing: 1px;
     --footer-spacing: -0.3px;
     --title-spacing: -0.2px;
     --word-spacing: 0px;
