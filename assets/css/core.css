@@ -27,16 +27,20 @@ body {
 #intro p {
     font-size: var(--intro-size);
     font-weight: var(--intro-weight);
+    line-height: var(--intro-line-height);
+    color: var(--intro-color);
     margin-bottom: 0;
+    letter-spacing: var(--intro-spacing);
 }
 #intro img {
     float: right;
     width: 30%;
-    height: 190px;
+    height: 183px;
     object-fit: cover;
     object-position: center top;
     border-radius: 3px;
     margin: 1px 0px 5px 25px;
+    box-shadow: 4px 4px 0px hsla(12, 50%, 15%, 0.2);
 }
 #main {
     padding: 0px 30px 45px 30px;
@@ -58,6 +62,10 @@ body {
     font-size: var(--footer-size);
     color: rgba(255, 255, 255, 0.85);
     letter-spacing: var(--footer-spacing);
+}
+#dao {
+    position: absolute;
+    right: 15px;
 }
 
 /* Text */

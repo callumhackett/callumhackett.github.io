@@ -2,6 +2,7 @@
     /* Colours */
     --bg-color: hsl(12, 60.8%, 90%);
     --font-color: hsla(12, 0%, 0%, 0.75);
+    --intro-color: hsla(12, 0%, 0%, 0.72);
     --accent-color: hsl(4, 81.8%, 49.6%);
 
     /* Fonts */
@@ -11,21 +12,23 @@
 
     --h1-size: 36px;
     --h2-size: 22px;
-    --intro-size: 20px;
+    --intro-size: 19.8px;
     --p-size: 18px;
     --footer-size: 15px;
 
     --headings-line-height: 1em;
+    --intro-line-height: 1.35em;
     --p-line-height: 1.4em;
 
     --title-weight: bold;
-    --intro-weight: 480;
+    --intro-weight:490;
     --p-weight: 450;
     
+    --intro-spacing: -0.2px;
     --p-spacing: -0.1px;
     --p-word-spacing: 1px;
     --footer-spacing: -0.3px;
-    --title-spacing: -0.2px;
+    --title-spacing: 0px;
     --title-word-spacing: 0px;
 
     /* Layout */
