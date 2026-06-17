@@ -44,7 +44,7 @@ body {
     box-shadow: 4px 4px 0px hsla(12, 50%, 15%, 0.2);
 }
 #main {
-    padding: 0px 30px 45px 30px;
+    padding: 0px 30px 60px 30px;
     max-width: var(--content-width);
     flex: 1;
 }
@@ -67,6 +67,10 @@ body {
 #dao {
     position: absolute;
     right: 15px;
+}
+#newsletter-embed {
+    display: block;
+    margin: 0 auto;
 }
 
 /* Text */
