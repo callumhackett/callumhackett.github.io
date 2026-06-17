@@ -18,6 +18,7 @@
     #subscribe-button {
         display: block;
         margin: 24px auto 0 auto;
+        width: 108px;
     }
 }
 
@@ -37,8 +38,8 @@ body {
     margin-top: 5vh;
 }
 #pearl {
-    width: 60px;
-    margin: 60px;
+    width: calc(var(--content-padding) * 2);
+    margin: calc(var(--content-padding) * 2);
 }
 #intro p {
     font-size: var(--intro-size);
@@ -56,11 +57,11 @@ body {
     object-fit: cover;
     object-position: center top;
     border-radius: 3px;
-    margin: 2px 0px 5px 25px;
+    margin: 2px 0px 5px var(--intro-size);
     box-shadow: 4px 4px 0px hsla(12, 50%, 15%, 0.2);
 }
 #main {
-    padding: 0px 30px 60px 30px;
+    padding: 0px var(--content-padding) calc(var(--content-padding) * 2) var(--content-padding);
     max-width: var(--content-width);
     flex: 1;
 }
@@ -69,10 +70,10 @@ body {
     background: var(--accent-color);
     width: 100%;
     justify-content: center;
-    min-height: 50px;
+    min-height: calc(var(--content-padding) * 2);
     align-items: center;
     box-sizing: border-box;
-    padding: 12px 28px;
+    padding: 12px var(--content-padding);
     position: relative;
 }
 #footer p, #footer a {
@@ -100,12 +101,13 @@ h1 {
     text-align: center;
     word-spacing: var(--word-spacing);
     margin: 0;
+    padding: 0 var(--content-padding);
 }
 h2 {
     color: var(--font-color);
     font-weight: var(--title-weight);
     font-size: var(--h2-size);
-    margin: calc(var(--p-size)*2) 0 var(--p-size) 0;
+    margin: calc(var(--p-size) * 2) 0 var(--p-size) 0;
     clear: both;
 }
 p, li {
