@@ -38,7 +38,7 @@ body {
 }
 #pearl {
     width: 60px;
-    margin: 50px;
+    margin: 60px;
 }
 #intro p {
     font-size: var(--intro-size);
@@ -73,6 +73,7 @@ body {
     align-items: center;
     box-sizing: border-box;
     padding: 12px 12px;
+    position: relative;
 }
 #footer p, #footer a {
     font-family: var(--footer-font);
