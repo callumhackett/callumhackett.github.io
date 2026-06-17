@@ -3,6 +3,22 @@
     p, li {
         text-align: justify;
     }
+    #newsletter-embed {
+        display: block;
+        margin: 0 auto;
+    }
+    #subscribe-button {
+        display: none;
+    }
+}
+@media (max-width: 499px) {
+    #newsletter-embed {
+        display: none;
+    }
+    #subscribe-button {
+        display: block;
+        margin: 24px auto 0 auto;
+    }
 }
 
 /* Main Layout */
@@ -67,10 +83,6 @@ body {
 #dao {
     position: absolute;
     right: 15px;
-}
-#newsletter-embed {
-    display: block;
-    margin: 0 auto;
 }
 
 /* Text */
