@@ -35,7 +35,8 @@ body {
 }
 #title {
     width: 100vw;
-    margin-top: 5vh;
+    max-width: var(--content-width);
+    margin-top: calc(var(--content-padding) * 2);
 }
 #pearl {
     width: calc(var(--content-padding) * 2);
@@ -65,7 +66,13 @@ body {
     max-width: var(--content-width);
     flex: 1;
 }
-#footer {
+#youtube {
+    width: 100%;
+    height: 56.2vw;
+    max-height: calc(var(--content-width) / 1.778);
+    margin: 10px 0 0;
+}
+#header {
     display: flex;
     background: var(--accent-color);
     width: 100%;
@@ -76,11 +83,11 @@ body {
     padding: 12px var(--content-padding);
     position: relative;
 }
-#footer p, #footer a {
-    font-family: var(--footer-font);
-    font-size: var(--footer-size);
+#header p, #header a {
+    font-family: var(--header-font);
+    font-size: var(--header-size);
     color: rgba(255, 255, 255, 0.85);
-    letter-spacing: var(--footer-spacing);
+    letter-spacing: var(--header-spacing);
 }
 #dao {
     position: absolute;
