@@ -58,8 +58,8 @@ body {
     object-fit: cover;
     object-position: center top;
     border-radius: 3px;
-    margin: 2px 0px 5px var(--intro-size);
-    box-shadow: 4px 4px 0px hsla(12, 50%, 15%, 0.2);
+    margin: 2px 0px 5px calc(var(--intro-size)*1.25);
+    box-shadow: 4px 4px 0px hsla(12, 50%, 15%, 0.15);
 }
 #main {
     padding: 0px var(--content-padding) calc(var(--content-padding) * 2) var(--content-padding);
@@ -72,7 +72,7 @@ body {
     max-height: calc(var(--content-width) / 1.778);
     margin: 10px 0 0;
 }
-#header {
+#footer {
     display: flex;
     background: var(--accent-color);
     width: 100%;
@@ -83,7 +83,7 @@ body {
     padding: 12px var(--content-padding);
     position: relative;
 }
-#header p, #header a {
+#footer p, #footer a {
     font-family: var(--header-font);
     font-size: var(--header-size);
     color: rgba(255, 255, 255, 0.85);
