@@ -1,6 +1,6 @@
 :root {
     /* Colours */
-    --bg-color: hsl(12, 60.8%, 90%);
+    --bg-color: #E0CCC8;
     --font-color: hsla(12, 0%, 0%, 0.75);
     --intro-color: hsla(12, 0%, 0%, 0.72);
     --accent-color: hsl(4, 81.8%, 49.6%);
