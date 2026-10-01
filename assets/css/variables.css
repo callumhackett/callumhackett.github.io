@@ -1,9 +1,9 @@
 :root {
     /* Colours */
-    --bg-color: #E3D5D5;
-    --font-color: hsla(12, 0%, 0%, 0.75);
-    --intro-color: hsla(12, 0%, 0%, 0.72);
-    --accent-color: hsl(4, 81.8%, 49.6%);
+    --bg-color: #141313;
+    --font-color: #fff;
+    --intro-color: #fff;
+    --accent-color: hsl(350, 100%, 42%);
 
     /* Fonts */
     --accent-font: 'Goudy Bookletter 1911', 'Georgia', serif;
