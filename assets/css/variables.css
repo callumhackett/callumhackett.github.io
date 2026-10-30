@@ -1,8 +1,8 @@
 :root {
     /* Colours */
-    --bg-color: #3232AD;
-    --font-color: #fff;
-    --intro-color: #fff;
+    --bg-color: #3531A8;
+    --font-color: #dffffc;
+    --intro-color: #dffffc;
     --accent-color: #00FFEA;
 
     /* Fonts */
@@ -27,7 +27,7 @@
     --intro-spacing: -0.2px;
     --p-spacing: -0.1px;
     --p-word-spacing: 1px;
-    --header-spacing: -0.3px;
+    --header-spacing: 1.5px;
     --title-spacing: 0.5px;
     --title-word-spacing: 0px;
 

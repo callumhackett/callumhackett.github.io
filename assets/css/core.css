@@ -22,8 +22,8 @@ body {
     margin-top: calc(var(--content-padding) * 2);
 }
 #pearl {
-    width: 60px;
-    margin: calc(var(--content-padding) * 2);
+    width: 55px;
+    margin: 40px;
 }
 #intro p {
     font-size: var(--intro-size);
