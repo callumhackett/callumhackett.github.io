@@ -3,23 +3,6 @@
     p, li {
         text-align: justify;
     }
-    #newsletter-embed {
-        display: block;
-        margin: 0 auto;
-    }
-    #subscribe-button {
-        display: none;
-    }
-}
-@media (max-width: 499px) {
-    #newsletter-embed {
-        display: none;
-    }
-    #subscribe-button {
-        display: block;
-        margin: 24px auto 0 auto;
-        width: 108px;
-    }
 }
 
 /* Main Layout */
@@ -39,7 +22,7 @@ body {
     margin-top: calc(var(--content-padding) * 2);
 }
 #pearl {
-    width: calc(var(--content-padding) * 2);
+    width: 60px;
     margin: calc(var(--content-padding) * 2);
 }
 #intro p {
@@ -59,7 +42,7 @@ body {
     object-position: center top;
     border-radius: 3px;
     margin: 2px 0px 5px calc(var(--intro-size)*1.25);
-    box-shadow: 4px 4px 0px hsla(12, 50%, 15%, 0.15);
+    box-shadow: 4px 4px 0px hsla(12, 50%, 15%, 0.1);
 }
 #main {
     padding: 0px var(--content-padding) calc(var(--content-padding) * 2) var(--content-padding);
@@ -86,7 +69,7 @@ body {
 #footer p, #footer a {
     font-family: var(--header-font);
     font-size: var(--header-size);
-    color: rgba(255, 255, 255, 0.85);
+    color: var(--bg-color);
     letter-spacing: var(--header-spacing);
 }
 #dao {
@@ -138,6 +121,8 @@ li {
 }
 a, a:active, a:visited, a:hover {
     color: var(--accent-color);
+    text-decoration: none;
+    font-weight: bold;
 }
 ul {
     margin-block-start: calc(var(--p-size) / 3);
