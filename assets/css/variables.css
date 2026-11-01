@@ -6,11 +6,11 @@
     --accent-color: #00FFEA;
 
     /* Fonts */
-    --accent-font: 'Zilla Slab', 'Source Serif 4', 'Georgia', serif;
+    --accent-font: 'Special Gothic Expanded One', 'Zilla Slab', 'Source Serif 4', 'Georgia', serif;
     --p-font: 'Zilla Slab', 'Source Serif 4', 'Georgia', serif;
     --header-font: 'Courier Prime', 'Courier', 'Helvetica', 'Arial', sans-serif;
 
-    --h1-size: 38px;
+    --h1-size: 48px;
     --h2-size: 26px;
     --intro-size: 21px;
     --p-size: 19px;
@@ -34,5 +34,5 @@
 
     /* Layout */
     --content-width: 650px;
-    --content-padding: 25px;
+    --content-padding: 30px;
 }
