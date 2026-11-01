@@ -8,10 +8,10 @@
 /* Main Layout */
 html, body {
     background-color: var(--bg-color);
-    background-image: url('/assets/images/nagai-left.png'), url('/assets/images/nagai-right.png');
-    background-size: auto 75%, auto 40%;
-    background-repeat: no-repeat, no-repeat;
-    background-position: bottom -3px left 150px, bottom 0px right;
+    background-image: url('/assets/images/nagai-left.png'), url('/assets/images/nagai-right.png'), linear-gradient(60deg, #3531A8 0%, #3A32AB 100%);
+    background-size: auto 75%, auto 40%, auto;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: bottom -3px left 150px, bottom 0px right, top;
     background-attachment: fixed;
     min-height: 100vh;
     margin: 0;
@@ -24,7 +24,7 @@ body {
 #title {
     width: 100vw;
     max-width: var(--content-width);
-    margin: calc(var(--content-padding) * 2) 0 calc(var(--content-padding) * 2) 0;
+    margin: calc(var(--content-padding) * 2) 0 calc(var(--content-padding)) 0;
     text-transform: uppercase;
     text-shadow: 0 0 1px var(--accent-color),0 0 4px var(--accent-color);
 }
@@ -95,7 +95,6 @@ h1, h2 {
     font-family: var(--accent-font);
     line-height: var(--headings-line-height);
     text-transform: uppercase;
-    text-shadow: 0 0 1px var(--accent-color),0 0 2px var(--accent-color);
 }
 h1 {
     color: var(--accent-color);
@@ -106,6 +105,7 @@ h1 {
     margin: 0;
     padding: 0 var(--content-padding);
     letter-spacing: var(--title-spacing);
+    text-shadow: 0 0 1px var(--accent-color),0 0 3.5px var(--accent-color);
 }
 h2 {
     color: var(--accent-color);
@@ -114,6 +114,7 @@ h2 {
     margin: calc(var(--p-size) * 2) 0 var(--p-size) 0;
     clear: both;
     letter-spacing: var(--header-spacing);
+    text-shadow: 0 0 1px var(--accent-color),0 0 2.5px var(--accent-color);
 }
 p, li {
     color: var(--font-color);
