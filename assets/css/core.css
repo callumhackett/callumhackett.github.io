@@ -8,10 +8,10 @@
 /* Main Layout */
 html, body {
     background-color: var(--bg-color);
-    background-image: url('/assets/images/plane.png'), url('/assets/images/nagai-left.png'), url('/assets/images/nagai-right.png'), linear-gradient(135deg, #2d3ba3 0%, #342ea1 100%);
-    background-size: 3%, auto 67%, auto 40%, auto;
-    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-    background-position: 20% 15%, bottom -3px left 150px, bottom 0px right, top;
+    background-image:  url('/assets/images/plane.png'), url('/assets/images/nagai-left.png'), url('/assets/images/nagai-right.png');
+    background-size: 3%, auto 67%, auto 40%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: 20% 15%, bottom -3px left 150px, bottom 0px right;
     background-attachment: fixed;
     min-height: 100vh;
     margin: 0;
@@ -20,6 +20,16 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: url('/assets/images/texture.png');
+    background-size: cover;
+    pointer-events: none;
+    opacity: 0.035;
+    z-index: 999999;
 }
 #title {
     width: 100vw;
