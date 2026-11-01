@@ -6,14 +6,14 @@
     --accent-color: #00FFEA;
 
     /* Fonts */
-    --accent-font: 'Yuji Syuku', 'Source Serif 4', 'Georgia', serif;
-    --p-font: 'Yuji Syuku', 'Source Serif 4', 'Georgia', serif;
+    --accent-font: 'Zilla Slab', 'Source Serif 4', 'Georgia', serif;
+    --p-font: 'Zilla Slab', 'Source Serif 4', 'Georgia', serif;
     --header-font: 'Courier Prime', 'Courier', 'Helvetica', 'Arial', sans-serif;
 
     --h1-size: 38px;
     --h2-size: 26px;
-    --intro-size: 20.5px;
-    --p-size: 19.5px;
+    --intro-size: 21px;
+    --p-size: 19px;
     --header-size: 16px;
 
     --headings-line-height: 1em;
@@ -24,12 +24,12 @@
     --intro-weight: 400;
     --p-weight: 400;
     
-    --intro-spacing: -2.5px;
-    --p-spacing: -2.5px;
-    --p-word-spacing: 3.5px;
+    --intro-spacing: 0px;
+    --p-spacing: 0px;
+    --p-word-spacing: 1px;
     --footer-spacing: 3px;
-    --header-spacing: -4px;
-    --title-spacing: -5px;
+    --header-spacing: 0.5px;
+    --title-spacing: 0.5px;
     --title-word-spacing: 5px;
 
     /* Layout */
