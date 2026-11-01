@@ -11,7 +11,8 @@ html, body {
     background-image: url('/assets/images/nagai-left.png'), url('/assets/images/nagai-right.png');
     background-size: auto 75%, auto 40%;
     background-repeat: no-repeat, no-repeat;
-    background-position: bottom 50px left 150px, bottom 65px right;
+    background-position: bottom -3px left 150px, bottom 0px right;
+    background-attachment: fixed;
     min-height: 100vh;
     margin: 0;
 }
@@ -23,7 +24,7 @@ body {
 #title {
     width: 100vw;
     max-width: var(--content-width);
-    margin-top: calc(var(--content-padding) * 2);
+    margin: calc(var(--content-padding) * 2) 0 calc(var(--content-padding) * 2) 0;
     text-transform: uppercase;
     text-shadow: 0 0 1px var(--accent-color),0 0 4px var(--accent-color);
 }
@@ -54,7 +55,7 @@ body {
     padding: var(--content-padding) var(--content-padding) var(--content-padding) var(--content-padding);
     max-width: var(--content-width);
     border: 10px solid #00FFEA;
-    border-radius: 1px;
+    border-radius: 2px;
     box-shadow: 0 0 1px var(--accent-color),0 0 3px var(--accent-color), inset 3px 3px 6px -5px var(--accent-color),inset -3px -3px 6px -5px var(--accent-color);
     background-color: var(--bg-color);
 }
@@ -69,7 +70,6 @@ body {
 }
 #footer {
     display: flex;
-    background: var(--accent-color);
     width: 100%;
     justify-content: center;
     min-height: calc(var(--content-padding) * 2);
@@ -81,7 +81,7 @@ body {
 #footer p, #footer a {
     font-family: var(--header-font);
     font-size: var(--header-size);
-    color: var(--bg-color);
+    color: var(--accent-color);
     letter-spacing: var(--footer-spacing);
 }
 #dao {
