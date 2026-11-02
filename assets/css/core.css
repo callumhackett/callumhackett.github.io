@@ -10,7 +10,7 @@
     background-image:  url('/assets/images/plane.png'), url('/assets/images/trees.png'), url('/assets/images/nagai-right.png');
     background-size: 3%, auto 60%, auto 35%;
     background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: 20% 15%, bottom -3px left 200px, bottom 0px right;
+    background-position: 17.5% 15%, bottom -3px left 5%, bottom 0px right;
     background-attachment: fixed;
 }
 }
@@ -30,8 +30,15 @@ body::after {
     content: "";
     position: fixed;
     inset: 0;
-    background: radial-gradient(circle farthest-corner at 100% 0%, #267e92ff 100%, #2a293dff 100%), radial-gradient(circle farthest-corner at 0% 100%, #cfbabaff 0%, #e5d36cff 88%), radial-gradient(circle farthest-side at 0% 0%, #494b50ff 52%, #705c6cff 100%);background-blend-mode: difference;
-    opacity: 0.08;
+    background: radial-gradient(
+  circle farthest-corner at top left, rgba(246, 255, 165, 0.6) 0%, rgba(225, 255, 255,0) 70%),
+    radial-gradient(
+    circle farthest-side at top right, rgb(126, 0, 25) 0%, rgba(181, 176, 177,0) 15%),
+radial-gradient(circle farthest-corner at bottom right, rgba(135, 0, 90, 0.7) 0%, rgba(204, 104, 119, 0) 70%),
+    radial-gradient(
+    circle farthest-corner at top right, rgb(0, 89, 114) 0%, rgba(155, 221, 240,0) 50%),
+  radial-gradient(ellipse at bottom center, rgb(125, 54, 0) 0%, rgba(254, 43, 0, 0) 80%);
+    opacity: 0.03;
     pointer-events: none;
     z-index: 999999;
 }
@@ -138,7 +145,7 @@ p, li {
     margin-block-start: 0 !important;
     letter-spacing: var(--p-spacing);
     word-spacing: var(--p-word-spacing);
-    text-shadow: 0 0 2px rgba(255, 255, 255, 0.33);
+    text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.25), 0px 0px 3px rgba(255, 255, 255, 0.15);
 }
 p:not(:last-child) {
     margin-block-end: var(--p-size);
