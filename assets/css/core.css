@@ -5,14 +5,19 @@
     }
 }
 
+@media (min-width: 800px) {
+    html, body {
+    background-image:  url('/assets/images/plane.png'), url('/assets/images/trees.png'), url('/assets/images/nagai-right.png');
+    background-size: 3%, auto 60%, auto 35%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: 20% 15%, bottom -3px left 200px, bottom 0px right;
+    background-attachment: fixed;
+}
+}
+
 /* Main Layout */
 html, body {
     background-color: var(--bg-color);
-    background-image:  url('/assets/images/plane.png'), url('/assets/images/nagai-left.png'), url('/assets/images/nagai-right.png');
-    background-size: 3%, auto 67%, auto 40%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: 20% 15%, bottom -3px left 150px, bottom 0px right;
-    background-attachment: fixed;
     min-height: 100vh;
     margin: 0;
 }
@@ -25,10 +30,9 @@ body::after {
     content: "";
     position: fixed;
     inset: 0;
-    background: url('/assets/images/texture.jpg');
-    background-size: cover;
+    background: radial-gradient(circle farthest-corner at 100% 0%, #267e92ff 100%, #2a293dff 100%), radial-gradient(circle farthest-corner at 0% 100%, #cfbabaff 0%, #e5d36cff 88%), radial-gradient(circle farthest-side at 0% 0%, #494b50ff 52%, #705c6cff 100%);background-blend-mode: difference;
+    opacity: 0.08;
     pointer-events: none;
-    opacity: 0.04;
     z-index: 999999;
 }
 #title {
