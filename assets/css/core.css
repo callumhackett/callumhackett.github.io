@@ -5,6 +5,12 @@
     }
 }
 
+@media (max-width: 799px) {
+    #title {
+    margin: var(--content-padding) 0 var(--content-padding) 0;
+}
+}
+
 @media (min-width: 800px) {
     html, body {
     background-image:  url('/assets/images/plane.png'), url('/assets/images/trees.png'), url('/assets/images/nagai-right.png');
@@ -12,6 +18,9 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: 17.5% 15%, bottom -3px left 5%, bottom 0px right;
     background-attachment: fixed;
+}
+#title {
+    margin: calc(var(--content-padding) * 2) 0 var(--content-padding) 0;
 }
 }
 
@@ -45,7 +54,6 @@ radial-gradient(circle farthest-corner at bottom right, rgba(135, 0, 90, 0.7) 0%
 #title {
     width: 100vw;
     max-width: var(--content-width);
-    margin: calc(var(--content-padding) * 2) 0 calc(var(--content-padding)) 0;
     text-transform: uppercase;
 }
 #pearl {
