@@ -13,9 +13,9 @@
 
 @media (min-width: 800px) {
     html, body {
-    background-image:  url('/assets/images/plane.png'), url('/assets/images/trees.png'), url('/assets/images/nagai-right.png');
-    background-size: 3%, auto 60%, auto 35%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-image:  url('/assets/images/plane.png'), url('/assets/images/trees.png'), url('/assets/images/nagai-right.png'), linear-gradient(0deg ,#4a46cb 0%, #3f3abc 8%, #3531A8 67%);
+    background-size: 3%, auto 60%, auto 35%, auto;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
     background-position: 17.5% 15%, bottom -3px left 5%, bottom 0px right;
     background-attachment: fixed;
 }
@@ -85,7 +85,6 @@ radial-gradient(circle farthest-corner at bottom right, rgba(135, 0, 90, 0.7) 0%
     border: 10px solid #00FFEA;
     border-radius: 2px;
     box-shadow: 0 0 1px var(--accent-color),0 0 3px var(--accent-color), inset 3px 3px 6px -5px var(--accent-color),inset -3px -3px 6px -5px var(--accent-color);
-    background-color: var(--bg-color);
 }
 #body-padding {
     flex: 1;
@@ -111,11 +110,6 @@ radial-gradient(circle farthest-corner at bottom right, rgba(135, 0, 90, 0.7) 0%
     font-size: var(--header-size);
     color: var(--accent-color);
     letter-spacing: var(--footer-spacing);
-}
-#dao {
-    position: absolute;
-    right: 15px;
-    top: 35%;
 }
 
 /* Text */
